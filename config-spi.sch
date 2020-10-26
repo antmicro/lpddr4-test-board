@@ -1,0 +1,1226 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	11725 4800 11000 4800
+Text GLabel 11000 4800 0    50   Input ~ 0
+V_P
+Wire Wire Line
+	11725 4900 11000 4900
+Text GLabel 11000 4900 0    50   Input ~ 0
+V_N
+$Comp
+L lpddr4-test-board:R_4k7_0402 R36
+U 1 1 5FD6A21E
+P 11575 4600
+F 0 "R36" H 11350 4650 60  0000 C CNN
+F 1 "R_4k7_0402" H 11575 4450 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 11775 4800 60  0001 L CNN
+F 3 "" H 11575 4600 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 11775 5000 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 11775 4900 60  0001 L CNN "MPN"
+F 6 "4k7" H 11575 4600 50  0000 C CNN "Val"
+	1    11575 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11425 4600 11000 4600
+Text GLabel 11000 4600 0    50   Input ~ 0
+VCC3V3
+Text GLabel 11000 3400 0    50   Input ~ 0
+TMS
+Wire Wire Line
+	11725 3400 11000 3400
+Text GLabel 11000 3500 0    50   Input ~ 0
+TCK
+Wire Wire Line
+	11725 3500 11000 3500
+Text GLabel 11000 3900 0    50   Input ~ 0
+MODE1
+Text GLabel 11000 4000 0    50   Input ~ 0
+MODE2
+Text GLabel 11000 3700 0    50   Input ~ 0
+QSPI_SCK
+Text GLabel 9275 4200 0    50   Input ~ 0
+DONE
+$Comp
+L lpddr4-test-board:R_1k_0402 R25
+U 1 1 5FE78FD1
+P 12425 7700
+F 0 "R25" V 12300 7750 60  0000 L CNN
+F 1 "R_1k_0402" H 12425 7550 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 12625 7900 60  0001 L CNN
+F 3 "" H 12425 7700 50  0001 C CNN
+F 4 "BOURNS" H 12625 8100 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 12625 8000 60  0001 L CNN "MPN"
+F 6 "1k" V 12525 7750 50  0000 L CNN "Val"
+	1    12425 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:R_1k_0402 R35
+U 1 1 5FE79A7D
+P 13975 7600
+F 0 "R35" V 13850 7650 60  0000 L CNN
+F 1 "R_1k_0402" H 13975 7450 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 14175 7800 60  0001 L CNN
+F 3 "" H 13975 7600 50  0001 C CNN
+F 4 "BOURNS" H 14175 8000 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 14175 7900 60  0001 L CNN "MPN"
+F 6 "1k" V 14075 7650 50  0000 L CNN "Val"
+	1    13975 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12425 7850 12425 7975
+Wire Wire Line
+	12425 7975 12325 7975
+Text GLabel 12325 7975 0    50   Input ~ 0
+MODE0
+$Comp
+L lpddr4-test-board:R_1k_0402 R29
+U 1 1 5FE7D450
+P 12425 8500
+F 0 "R29" V 12300 8550 60  0000 L CNN
+F 1 "R_1k_0402" H 12425 8350 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 12625 8700 60  0001 L CNN
+F 3 "" H 12425 8500 50  0001 C CNN
+F 4 "BOURNS" H 12625 8900 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1001GLF" H 12625 8800 60  0001 L CNN "MPN"
+F 6 "1k" V 12525 8550 50  0000 L CNN "Val"
+	1    12425 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12425 8350 12425 8200
+Wire Wire Line
+	12425 8200 12325 8200
+Text GLabel 12325 8200 0    50   Input ~ 0
+MODE1
+$Comp
+L lpddr4-test-board:MC-HVT1-S02-G JP1
+U 1 1 5FE81A09
+P 13750 7950
+F 0 "JP1" V 13625 7875 50  0000 C CNN
+F 1 "MC-HVT1-S02-G" V 13975 7675 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_1x2_P1.27mm_Drill.7mm" H 13950 8250 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2605295.pdf" H 13950 8350 60  0001 L CNN
+F 4 "MC-HVT1-S02-G" H 13950 8450 60  0001 L CNN "MPN"
+F 5 "Multicomp" H 13950 8550 60  0001 L CNN "Manufacturer"
+	1    13750 7950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13900 7950 13975 7950
+Wire Wire Line
+	13975 7750 13975 7950
+Connection ~ 13975 7950
+Wire Wire Line
+	13975 7950 14450 7950
+Wire Wire Line
+	13900 8050 14450 8050
+Text GLabel 14450 7950 2    50   Input ~ 0
+MODE2
+Wire Wire Line
+	9500 10100 9825 10100
+Wire Wire Line
+	9500 10400 9850 10400
+Text GLabel 9500 10100 0    50   Input ~ 0
+XADC_V_P
+Text GLabel 9500 10400 0    50   Input ~ 0
+XADC_V_N
+Text GLabel 10950 10100 2    50   Input ~ 0
+V_P
+Text GLabel 10950 10400 2    50   Input ~ 0
+V_N
+$Comp
+L lpddr4-test-board:R_140R_0402 R18
+U 1 1 611C8786
+P 9975 10100
+F 0 "R18" H 9925 10200 60  0000 C CNN
+F 1 "R_140R_0402" H 9975 9950 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10175 10300 60  0001 L CNN
+F 3 "" H 9975 10100 50  0001 C CNN
+F 4 "MULTICOMP PRO" H 10175 10500 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X1400FTL" H 10175 10400 60  0001 L CNN "MPN"
+F 6 "140R" H 10175 10050 50  0000 C CNN "Val"
+	1    9975 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_140R_0402 R19
+U 1 1 611C9205
+P 10000 10400
+F 0 "R19" H 9950 10500 60  0000 C CNN
+F 1 "R_140R_0402" H 10000 10250 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10200 10600 60  0001 L CNN
+F 3 "" H 10000 10400 50  0001 C CNN
+F 4 "MULTICOMP PRO" H 10200 10800 60  0001 L CNN "Manufacturer"
+F 5 "MCMR04X1400FTL" H 10200 10700 60  0001 L CNN "MPN"
+F 6 "140R" H 10200 10350 50  0000 C CNN "Val"
+	1    10000 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:C_1n_0402 C9
+U 1 1 61217549
+P 10425 10250
+F 0 "C9" H 10450 10350 60  0000 L CNN
+F 1 "C_1n_0402" H 10425 10100 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10625 10450 60  0001 L CNN
+F 3 "" H 10425 10250 50  0001 C CNN
+F 4 "YAGEO" H 10625 10650 60  0001 L CNN "Manufacturer"
+F 5 "CC0402KRX7R9BB102" H 10625 10550 60  0001 L CNN "MPN"
+F 6 "1n" H 10450 10150 50  0000 L CNN "Val"
+	1    10425 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 10100 10425 10100
+Wire Wire Line
+	10150 10400 10425 10400
+Connection ~ 10425 10100
+Connection ~ 10425 10400
+Wire Wire Line
+	10425 10100 10950 10100
+Wire Wire Line
+	10425 10400 10950 10400
+$Comp
+L lpddr4-test-board:GND #PWR0108
+U 1 1 61234591
+P 14450 8150
+F 0 "#PWR0108" H 14450 7900 50  0001 C CNN
+F 1 "GND" H 14455 7977 50  0000 C CNN
+F 2 "" H 14450 8150 50  0001 C CNN
+F 3 "" H 14450 8150 50  0001 C CNN
+	1    14450 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 8150 14450 8050
+$Comp
+L lpddr4-test-board:GND #PWR0109
+U 1 1 61254806
+P 12425 8825
+F 0 "#PWR0109" H 12425 8575 50  0001 C CNN
+F 1 "GND" H 12430 8652 50  0000 C CNN
+F 2 "" H 12425 8825 50  0001 C CNN
+F 3 "" H 12425 8825 50  0001 C CNN
+	1    12425 8825
+	1    0    0    -1  
+$EndComp
+Text GLabel 13975 7300 1    50   Input ~ 0
+VCC3v3
+$Comp
+L lpddr4-test-board:61300611121 J1
+U 1 1 615511E2
+P 2125 8750
+F 0 "J1" V 2025 8725 50  0000 C CNN
+F 1 "61300611121" V 2750 8750 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:61300611121" H 2325 8950 60  0001 L CNN
+F 3 "" H 2325 9050 60  0001 L CNN
+F 4 "61300611121" H 2325 9250 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 2325 9850 60  0001 L CNN "Manufacturer"
+F 6 "DNP" V 2400 8550 50  0000 C CNN "Populate"
+	1    2125 8750
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R38
+U 1 1 615539C9
+P 4275 8750
+F 0 "R38" H 4050 8800 60  0000 C CNN
+F 1 "R_100R_0402" H 4275 8600 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4475 8950 60  0001 L CNN
+F 3 "" H 4275 8750 50  0001 C CNN
+F 4 "BOURNS" H 4475 9150 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 4475 9050 60  0001 L CNN "MPN"
+F 6 "100R" H 4475 8700 50  0000 C CNN "Val"
+	1    4275 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R39
+U 1 1 61554551
+P 4275 8850
+F 0 "R39" H 4050 8900 60  0000 C CNN
+F 1 "R_100R_0402" H 4275 8700 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9050 60  0001 L CNN
+F 3 "" H 4275 8850 50  0001 C CNN
+F 4 "BOURNS" H 4475 9250 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 4475 9150 60  0001 L CNN "MPN"
+F 6 "100R" H 4475 8800 50  0000 C CNN "Val"
+	1    4275 8850
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R40
+U 1 1 61554976
+P 4275 8950
+F 0 "R40" H 4050 9000 60  0000 C CNN
+F 1 "R_100R_0402" H 4275 8800 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9150 60  0001 L CNN
+F 3 "" H 4275 8950 50  0001 C CNN
+F 4 "BOURNS" H 4475 9350 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 4475 9250 60  0001 L CNN "MPN"
+F 6 "100R" H 4475 8900 50  0000 C CNN "Val"
+	1    4275 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R41
+U 1 1 61554CDF
+P 4275 9050
+F 0 "R41" H 4050 9100 60  0000 C CNN
+F 1 "R_100R_0402" H 4275 8900 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9250 60  0001 L CNN
+F 3 "" H 4275 9050 50  0001 C CNN
+F 4 "BOURNS" H 4475 9450 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 4475 9350 60  0001 L CNN "MPN"
+F 6 "100R" H 4475 9000 50  0000 C CNN "Val"
+	1    4275 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:GND #PWR0110
+U 1 1 61577A20
+P 2725 9375
+F 0 "#PWR0110" H 2725 9125 50  0001 C CNN
+F 1 "GND" H 2730 9202 50  0000 C CNN
+F 2 "" H 2725 9375 50  0001 C CNN
+F 3 "" H 2725 9375 50  0001 C CNN
+	1    2725 9375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 9250 2325 9250
+Text GLabel 2325 9250 2    50   Input ~ 0
+VCC3v3
+Wire Wire Line
+	2275 9150 2725 9150
+Wire Wire Line
+	2725 9150 2725 9375
+Text GLabel 2475 8625 1    50   Input ~ 0
+TMS_JTAG
+Text GLabel 2650 8625 1    50   Input ~ 0
+TDI_JTAG
+Text GLabel 2825 8625 1    50   Input ~ 0
+TDO_JTAG
+Text GLabel 3025 8625 1    50   Input ~ 0
+TCK_JTAG
+Text GLabel 5000 8750 2    50   Input ~ 0
+TMS
+Text GLabel 5000 8850 2    50   Input ~ 0
+TDI_FPGA
+Text GLabel 5000 8950 2    50   Input ~ 0
+TDO_FPGA
+Text GLabel 5000 9050 2    50   Input ~ 0
+TCK
+Wire Wire Line
+	4425 8750 5000 8750
+Wire Wire Line
+	4425 8850 5000 8850
+Wire Wire Line
+	4425 8950 5000 8950
+Wire Wire Line
+	4425 9050 5000 9050
+Text Notes 3025 8000 0    118  ~ 24
+JTAG Connector\n
+$Comp
+L lpddr4-test-board:MMSZ5231B-7-F Z1
+U 1 1 6160C478
+P 3125 9325
+F 0 "Z1" V 3250 9300 60  0000 R CNN
+F 1 "MMSZ5231B-7-F" H 3150 9425 60  0001 R CNN
+F 2 "lpddr4-test-board-footprints:SOD-123" H 3325 9525 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3325 9625 60  0001 L CNN
+F 4 "MMSZ5231B-7-F" H 3325 9825 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 3325 10425 60  0001 L CNN "Manufacturer"
+	1    3125 9325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpddr4-test-board:MMSZ5231B-7-F Z2
+U 1 1 6160DAB9
+P 3325 9325
+F 0 "Z2" V 3450 9300 60  0000 R CNN
+F 1 "MMSZ5231B-7-F" H 3350 9425 60  0001 R CNN
+F 2 "lpddr4-test-board-footprints:SOD-123" H 3525 9525 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3525 9625 60  0001 L CNN
+F 4 "MMSZ5231B-7-F" H 3525 9825 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 3525 10425 60  0001 L CNN "Manufacturer"
+	1    3325 9325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L lpddr4-test-board:MMSZ5231B-7-F Z3
+U 1 1 6160E0C6
+P 3525 9325
+F 0 "Z3" V 3650 9300 60  0000 R CNN
+F 1 "MMSZ5231B-7-F" H 3550 9425 60  0001 R CNN
+F 2 "lpddr4-test-board-footprints:SOD-123" H 3725 9525 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3725 9625 60  0001 L CNN
+F 4 "MMSZ5231B-7-F" H 3725 9825 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 3725 10425 60  0001 L CNN "Manufacturer"
+	1    3525 9325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2275 8750 2475 8750
+Wire Wire Line
+	2275 8850 2650 8850
+Wire Wire Line
+	2275 8950 2825 8950
+Wire Wire Line
+	2275 9050 3025 9050
+$Comp
+L lpddr4-test-board:MMSZ5231B-7-F Z4
+U 1 1 6163A4DF
+P 3725 9325
+F 0 "Z4" V 3850 9300 60  0000 R CNN
+F 1 "MMSZ5231B-7-F" H 3750 9425 60  0001 R CNN
+F 2 "lpddr4-test-board-footprints:SOD-123" H 3925 9525 60  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3925 9625 60  0001 L CNN
+F 4 "MMSZ5231B-7-F" H 3925 9825 60  0001 L CNN "MPN"
+F 5 "Diodes Incorporated" H 3925 10425 60  0001 L CNN "Manufacturer"
+	1    3725 9325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3125 9525 3125 9625
+Wire Wire Line
+	3125 9625 3325 9625
+Wire Wire Line
+	3725 9625 3725 9525
+Wire Wire Line
+	3525 9525 3525 9625
+Connection ~ 3525 9625
+Wire Wire Line
+	3525 9625 3725 9625
+Wire Wire Line
+	3325 9525 3325 9625
+Connection ~ 3325 9625
+Wire Wire Line
+	3325 9625 3525 9625
+$Comp
+L lpddr4-test-board:GND #PWR0111
+U 1 1 616699CB
+P 3725 9700
+F 0 "#PWR0111" H 3725 9450 50  0001 C CNN
+F 1 "GND" H 3730 9527 50  0000 C CNN
+F 2 "" H 3725 9700 50  0001 C CNN
+F 3 "" H 3725 9700 50  0001 C CNN
+	1    3725 9700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 9625 3725 9700
+Connection ~ 3725 9625
+Wire Wire Line
+	3125 9125 3125 8750
+Connection ~ 3125 8750
+Wire Wire Line
+	3125 8750 4125 8750
+Wire Wire Line
+	3325 9125 3325 8850
+Connection ~ 3325 8850
+Wire Wire Line
+	3325 8850 4125 8850
+Wire Wire Line
+	3525 9125 3525 8950
+Connection ~ 3525 8950
+Wire Wire Line
+	3525 8950 4125 8950
+Wire Wire Line
+	3725 9125 3725 9050
+Connection ~ 3725 9050
+Wire Wire Line
+	3725 9050 4125 9050
+Wire Wire Line
+	2475 8625 2475 8750
+Connection ~ 2475 8750
+Wire Wire Line
+	2475 8750 3125 8750
+Wire Wire Line
+	2650 8625 2650 8850
+Connection ~ 2650 8850
+Wire Wire Line
+	2650 8850 3325 8850
+Wire Wire Line
+	2825 8625 2825 8950
+Connection ~ 2825 8950
+Wire Wire Line
+	2825 8950 3525 8950
+Wire Wire Line
+	3025 8625 3025 9050
+Connection ~ 3025 9050
+Wire Wire Line
+	3025 9050 3725 9050
+Text GLabel 11000 3200 0    50   Input ~ 0
+TDI_FPGA
+Text GLabel 11000 3300 0    50   Input ~ 0
+TDO_FPGA
+Wire Wire Line
+	11725 3300 11000 3300
+Wire Wire Line
+	11725 3200 11000 3200
+$Comp
+L lpddr4-test-board:R_100R_0402 R32
+U 1 1 60F9F4C9
+P 10200 4750
+F 0 "R32" V 10075 4800 60  0000 L CNN
+F 1 "R_100R_0402" H 10200 4600 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10400 4950 60  0001 L CNN
+F 3 "" H 10200 4750 50  0001 C CNN
+F 4 "BOURNS" H 10400 5150 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 10400 5050 60  0001 L CNN "MPN"
+F 6 "100R" V 10253 4820 50  0000 L CNN "Val"
+	1    10200 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:LG_L29K-G2J1-24-Z D1
+U 1 1 60F9F4D1
+P 10200 5125
+F 0 "D1" V 10025 5225 60  0000 L CNN
+F 1 "LG_L29K-G2J1-24-Z" H 9675 5025 60  0000 L CNN
+F 2 "lpddr4-test-board-footprints:LED_0603" H 10400 5325 60  0001 L CNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" H 10400 5425 60  0001 L CNN
+F 4 "LG L29K-G2J1-24-Z" H 10400 5625 60  0001 L CNN "MPN"
+F 5 "OSRAM Opto Semiconductors Inc." H 10400 6225 60  0001 L CNN "Manufacturer"
+	1    10200 5125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10200 4900 10200 4925
+$Comp
+L lpddr4-test-board:B3U-1000P S2
+U 1 1 60F9F4E1
+P 9850 4850
+F 0 "S2" V 9600 4850 60  0000 L CNN
+F 1 "B3U-1000P" H 9700 4750 60  0000 L CNN
+F 2 "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P" H 10050 5050 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 10050 5150 60  0001 L CNN
+F 4 "B3U-1000P" H 10050 5350 60  0001 L CNN "MPN"
+F 5 "Omron Electronics Inc-EMC Div" H 10050 5950 60  0001 L CNN "Manufacturer"
+	1    9850 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:GND #PWR0116
+U 1 1 61016CAB
+P 10200 5400
+F 0 "#PWR0116" H 10200 5150 50  0001 C CNN
+F 1 "GND" H 10205 5227 50  0000 C CNN
+F 2 "" H 10200 5400 50  0001 C CNN
+F 3 "" H 10200 5400 50  0001 C CNN
+	1    10200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 5225 10200 5400
+Wire Wire Line
+	9850 5050 9850 5400
+$Comp
+L lpddr4-test-board:GND #PWR0117
+U 1 1 610B7A4B
+P 9850 5400
+F 0 "#PWR0117" H 9850 5150 50  0001 C CNN
+F 1 "GND" H 9855 5227 50  0000 C CNN
+F 2 "" H 9850 5400 50  0001 C CNN
+F 3 "" H 9850 5400 50  0001 C CNN
+	1    9850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_200R_0402 R30
+U 1 1 610CAE14
+P 9850 3875
+F 0 "R30" V 9725 3925 60  0000 L CNN
+F 1 "R_200R_0402" H 9850 3725 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10050 4075 60  0001 L CNN
+F 3 "" H 9850 3875 50  0001 C CNN
+F 4 "YAGEO" H 10050 4275 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200RL" H 10050 4175 60  0001 L CNN "MPN"
+F 6 "200R" V 9900 3925 50  0000 L CNN "Val"
+	1    9850 3875
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:R_4k7_0402 R31
+U 1 1 610D0867
+P 10200 3875
+F 0 "R31" V 10075 3925 60  0000 L CNN
+F 1 "R_4k7_0402" H 10200 3725 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10400 4075 60  0001 L CNN
+F 3 "" H 10200 3875 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10400 4275 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 10400 4175 60  0001 L CNN "MPN"
+F 6 "4k7" V 10253 3945 50  0000 L CNN "Val"
+	1    10200 3875
+	0    1    1    0   
+$EndComp
+Text GLabel 9850 3425 1    50   Input ~ 0
+VCC3v3
+$Comp
+L lpddr4-test-board:XC7K70T-FBG484 U1
+U 6 1 61A5DF86
+P 13225 4000
+F 0 "U1" H 14050 5425 50  0000 R CNN
+F 1 "XC7K70T-FBG484" H 14425 2325 50  0000 R CNN
+F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 13225 4000 50  0001 C CNN
+F 3 "" H 13225 4000 50  0000 C CNN
+	6    13225 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	11725 4000 11000 4000
+Wire Wire Line
+	11725 3900 11000 3900
+Wire Wire Line
+	11725 3800 11000 3800
+Text GLabel 11000 3800 0    50   Input ~ 0
+MODE0
+Wire Wire Line
+	10200 4600 10200 4200
+Wire Wire Line
+	9275 4200 10200 4200
+Connection ~ 10200 4200
+Wire Wire Line
+	10200 4200 11725 4200
+Text GLabel 9275 4400 0    50   Input ~ 0
+PROG
+Wire Wire Line
+	9850 4650 9850 4400
+Connection ~ 9850 4400
+Wire Wire Line
+	9850 4400 9275 4400
+Text GLabel 9225 4300 0    50   Input ~ 0
+INIT
+Text GLabel 11000 5200 0    50   Input ~ 0
+XADCGND
+Wire Wire Line
+	11725 5200 11000 5200
+Text GLabel 11000 5100 0    50   Input ~ 0
+XADCVREF
+Wire Wire Line
+	11725 5100 11000 5100
+Wire Wire Line
+	11725 5400 11600 5400
+Wire Wire Line
+	11600 5400 11600 5500
+Wire Wire Line
+	11725 5500 11600 5500
+Connection ~ 11600 5500
+Wire Wire Line
+	11600 5500 11600 5725
+$Comp
+L lpddr4-test-board:GND #PWR0118
+U 1 1 61E5EC21
+P 11600 5725
+F 0 "#PWR0118" H 11600 5475 50  0001 C CNN
+F 1 "GND" H 11605 5552 50  0000 C CNN
+F 2 "" H 11600 5725 50  0001 C CNN
+F 3 "" H 11600 5725 50  0001 C CNN
+	1    11600 5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:C_10n_0402 C?
+U 1 1 61E688A4
+P 9125 5250
+AR Path="/600295C1/61E688A4" Ref="C?"  Part="1" 
+AR Path="/5FD53C7D/61E688A4" Ref="C11"  Part="1" 
+F 0 "C11" H 9150 5350 60  0000 L CNN
+F 1 "C_10n_0402" H 9125 5100 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 9325 5450 60  0001 L CNN
+F 3 "" H 9125 5250 50  0001 C CNN
+F 4 "AVX" H 9325 5650 60  0001 L CNN "Manufacturer"
+F 5 "04025G103ZAT2A" H 9325 5550 60  0001 L CNN "MPN"
+F 6 "10n" H 9150 5150 50  0000 L CNN "Val"
+	1    9125 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9125 5100 1    50   Input ~ 0
+XADCVREF
+Text GLabel 9125 5400 3    50   Input ~ 0
+XADCGND
+Wire Wire Line
+	10200 4025 10200 4200
+Wire Wire Line
+	9850 4025 9850 4400
+Wire Wire Line
+	9850 3425 9850 3575
+Wire Wire Line
+	10200 3725 10200 3575
+Wire Wire Line
+	10200 3575 9850 3575
+Wire Wire Line
+	9850 4400 11725 4400
+Connection ~ 9850 3575
+Wire Wire Line
+	9850 3575 9850 3725
+$Comp
+L lpddr4-test-board:R_4k7_0402 R28
+U 1 1 61FD9E6C
+P 9525 3875
+F 0 "R28" V 9400 3925 60  0000 L CNN
+F 1 "R_4k7_0402" H 9525 3725 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9725 4075 60  0001 L CNN
+F 3 "" H 9525 3875 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 9725 4275 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 9725 4175 60  0001 L CNN "MPN"
+F 6 "4k7" V 9578 3945 50  0000 L CNN "Val"
+	1    9525 3875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9525 4025 9525 4300
+Wire Wire Line
+	9225 4300 9525 4300
+Connection ~ 9525 4300
+Wire Wire Line
+	9525 4300 11725 4300
+Wire Wire Line
+	9525 3725 9525 3575
+Wire Wire Line
+	9525 3575 9850 3575
+Text GLabel 12125 2100 1    50   Input ~ 0
+VCC3v3
+Wire Wire Line
+	12125 2100 12125 2400
+Wire Wire Line
+	12225 2400 12125 2400
+Connection ~ 12125 2400
+Text GLabel 11075 2100 1    50   Input ~ 0
+VCC3v3
+$Comp
+L lpddr4-test-board:C_47u_0603 C12
+U 1 1 622BD281
+P 11075 2350
+F 0 "C12" H 11075 2450 60  0000 L CNN
+F 1 "C_47u_0603" H 11075 2200 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 11275 2550 60  0001 L CNN
+F 3 "" H 11075 2350 50  0001 C CNN
+F 4 "MURATA" H 11275 2750 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 11275 2650 60  0001 L CNN "MPN"
+F 6 "47u" H 11100 2250 50  0000 L CNN "Val"
+	1    11075 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:C_470n_0402 C13
+U 1 1 622BE20A
+P 11400 2350
+F 0 "C13" H 11425 2450 60  0000 L CNN
+F 1 "C_470n_0402" H 11400 2200 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 11600 2550 60  0001 L CNN
+F 3 "" H 11400 2350 50  0001 C CNN
+F 4 "TDK" H 11600 2750 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 11600 2650 60  0001 L CNN "MPN"
+F 6 "470n" H 11425 2250 50  0000 L CNN "Val"
+	1    11400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11075 2100 11075 2150
+Wire Wire Line
+	11075 2150 11400 2150
+Wire Wire Line
+	11400 2150 11400 2200
+Connection ~ 11075 2150
+Wire Wire Line
+	11075 2150 11075 2200
+$Comp
+L lpddr4-test-board:GND #PWR0120
+U 1 1 6230D58F
+P 11075 2725
+F 0 "#PWR0120" H 11075 2475 50  0001 C CNN
+F 1 "GND" H 11080 2552 50  0000 C CNN
+F 2 "" H 11075 2725 50  0001 C CNN
+F 3 "" H 11075 2725 50  0001 C CNN
+	1    11075 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11400 2500 11400 2550
+Wire Wire Line
+	11400 2550 11075 2550
+Wire Wire Line
+	11075 2550 11075 2500
+Wire Wire Line
+	11075 2550 11075 2725
+Connection ~ 11075 2550
+Wire Wire Line
+	13975 7300 13975 7450
+Text GLabel 12425 7325 1    50   Input ~ 0
+VCC3v3
+Wire Wire Line
+	12425 7325 12425 7550
+Wire Wire Line
+	12425 8650 12425 8825
+Text GLabel 2375 4450 1    50   Input ~ 0
+VCC3V3
+Text GLabel 1425 4425 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	1425 4725 1425 4775
+$Comp
+L lpddr4-test-board:GND #PWR0132
+U 1 1 674B98A5
+P 1425 4775
+F 0 "#PWR0132" H 1425 4525 50  0001 C CNN
+F 1 "GND" H 1430 4602 50  0000 C CNN
+F 2 "" H 1425 4775 50  0001 C CNN
+F 3 "" H 1425 4775 50  0001 C CNN
+	1    1425 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:C_100n_0402_6V3 C5
+U 1 1 674B989F
+P 1425 4575
+F 0 "C5" H 1300 4675 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 1425 4425 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 1625 4775 60  0001 L CNN
+F 3 "" H 1425 4575 50  0001 C CNN
+F 4 "Walsin" H 1625 4975 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 1625 4875 60  0001 L CNN "MPN"
+F 6 "100n" H 1225 4475 50  0000 L CNN "Val"
+	1    1425 4575
+	-1   0    0    -1  
+$EndComp
+Text Notes 3650 2875 0    118  ~ 24
+SPI flash
+Text GLabel 1725 4425 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	4975 5850 4975 5950
+$Comp
+L lpddr4-test-board:GND #PWR0119
+U 1 1 621B7B7C
+P 4975 5950
+F 0 "#PWR0119" H 4975 5700 50  0001 C CNN
+F 1 "GND" H 4980 5777 50  0000 C CNN
+F 2 "" H 4975 5950 50  0001 C CNN
+F 3 "" H 4975 5950 50  0001 C CNN
+	1    4975 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5275 3800 5275 4075
+Wire Wire Line
+	5525 3800 5275 3800
+Wire Wire Line
+	5525 4075 5525 3800
+Text GLabel 5525 3700 1    50   Input ~ 0
+VCC3v3
+Wire Wire Line
+	5525 4375 5525 5100
+$Comp
+L lpddr4-test-board:R_100R_0402 R34
+U 1 1 5FDE6061
+P 4975 5700
+F 0 "R34" V 4850 5750 60  0000 L CNN
+F 1 "R_100R_0402" H 4975 5550 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5175 5900 60  0001 L CNN
+F 3 "" H 4975 5700 50  0001 C CNN
+F 4 "BOURNS" H 5175 6100 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 5175 6000 60  0001 L CNN "MPN"
+F 6 "100R" V 5028 5770 50  0000 L CNN "Val"
+F 7 "DNP" V 4950 5850 50  0000 C CNN "Populate"
+	1    4975 5700
+	0    1    1    0   
+$EndComp
+Text GLabel 6450 4800 2    50   Input ~ 0
+QSPI_SCK
+Wire Wire Line
+	1725 4725 1725 4775
+Wire Wire Line
+	6425 5300 6250 5300
+Text GLabel 6425 5300 2    50   Input ~ 0
+QSPI_DQ0
+Wire Wire Line
+	5275 5000 5275 4375
+$Comp
+L lpddr4-test-board:GND #PWR0106
+U 1 1 6007F86E
+P 1725 4775
+F 0 "#PWR0106" H 1725 4525 50  0001 C CNN
+F 1 "GND" H 1730 4602 50  0000 C CNN
+F 2 "" H 1725 4775 50  0001 C CNN
+F 3 "" H 1725 4775 50  0001 C CNN
+	1    1725 4775
+	1    0    0    -1  
+$EndComp
+Connection ~ 4775 4700
+Wire Wire Line
+	4775 4700 4775 4375
+$Comp
+L lpddr4-test-board:S25FL128SAGNFI000 U3
+U 1 1 5FEAD4EA
+P 3875 4700
+F 0 "U3" H 4925 4850 60  0000 C CNN
+F 1 "S25FL128SAGNFI000" H 4525 3500 60  0000 C CNN
+F 2 "lpddr4-test-board-footprints:S25FL128SAGNFI000" H 4875 4940 60  0001 C CNN
+F 3 "" H 3875 4700 60  0000 C CNN
+	1    3875 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3875 4700 4775 4700
+Wire Wire Line
+	2475 5700 2375 5700
+Wire Wire Line
+	2475 4700 2375 4700
+$Comp
+L lpddr4-test-board:GND #PWR0104
+U 1 1 5FF9BC61
+P 2375 5900
+F 0 "#PWR0104" H 2375 5650 50  0001 C CNN
+F 1 "GND" H 2380 5727 50  0000 C CNN
+F 2 "" H 2375 5900 50  0001 C CNN
+F 3 "" H 2375 5900 50  0001 C CNN
+	1    2375 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2375 5700 2375 5900
+Wire Wire Line
+	2375 4700 2375 4450
+$Comp
+L lpddr4-test-board:R_4k7_0402 R20
+U 1 1 5FFB5BEA
+P 4775 4225
+F 0 "R20" V 4625 4100 60  0000 L CNN
+F 1 "R_4k7_0402" H 4775 4075 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4975 4425 60  0001 L CNN
+F 3 "" H 4775 4225 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 4975 4625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ472X" H 4975 4525 60  0001 L CNN "MPN"
+F 6 "4k7" V 4925 4075 50  0000 L CNN "Val"
+	1    4775 4225
+	0    -1   1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:C_100n_0402_6V3 C10
+U 1 1 5FFACD4D
+P 1725 4575
+F 0 "C10" H 1600 4675 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 1725 4425 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 1925 4775 60  0001 L CNN
+F 3 "" H 1725 4575 50  0001 C CNN
+F 4 "Walsin" H 1925 4975 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 1925 4875 60  0001 L CNN "MPN"
+F 6 "100n" H 1525 4475 50  0000 L CNN "Val"
+	1    1725 4575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 5000 6225 5000
+Wire Wire Line
+	6225 5100 6425 5100
+Wire Wire Line
+	6250 5400 6425 5400
+$Comp
+L lpddr4-test-board:R_100R_0402 R22
+U 1 1 5FEA88E6
+P 6100 5400
+F 0 "R22" H 5800 5450 60  0000 L CNN
+F 1 "R_100R_0402" H 6100 5250 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 6300 5600 60  0001 L CNN
+F 3 "" H 6100 5400 50  0001 C CNN
+F 4 "BOURNS" H 6300 5800 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 6300 5700 60  0001 L CNN "MPN"
+F 6 "100R" H 6200 5325 50  0000 L CNN "Val"
+	1    6100 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R23
+U 1 1 5FEA7CAC
+P 6075 5100
+F 0 "R23" H 5775 5150 60  0000 L CNN
+F 1 "R_100R_0402" H 6075 4950 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 6275 5300 60  0001 L CNN
+F 3 "" H 6075 5100 50  0001 C CNN
+F 4 "BOURNS" H 6275 5500 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 6275 5400 60  0001 L CNN "MPN"
+F 6 "100R" H 6175 5025 50  0000 L CNN "Val"
+	1    6075 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R24
+U 1 1 5FE73EA0
+P 6075 5000
+F 0 "R24" H 5775 5050 60  0000 L CNN
+F 1 "R_100R_0402" H 6075 4850 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 6275 5200 60  0001 L CNN
+F 3 "" H 6075 5000 50  0001 C CNN
+F 4 "BOURNS" H 6275 5400 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 6275 5300 60  0001 L CNN "MPN"
+F 6 "100R" H 6175 4950 50  0000 L CNN "Val"
+	1    6075 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_100R_0402 R21
+U 1 1 5FE32668
+P 6100 5300
+F 0 "R21" H 5800 5350 60  0000 L CNN
+F 1 "R_100R_0402" H 6100 5150 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 6300 5500 60  0001 L CNN
+F 3 "" H 6100 5300 50  0001 C CNN
+F 4 "BOURNS" H 6300 5700 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 6300 5600 60  0001 L CNN "MPN"
+F 6 "100R" H 6200 5250 50  0000 L CNN "Val"
+	1    6100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_1k8_0603 R26
+U 1 1 5FDAFECB
+P 5275 4225
+F 0 "R26" V 5125 4250 60  0000 L CNN
+F 1 "R_1k8_0603" H 5275 4075 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 5475 4425 60  0001 L CNN
+F 3 "" H 5275 4225 50  0001 C CNN
+F 4 "VISHAY" H 5475 4625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW06031K80FKEA" H 5475 4525 60  0001 L CNN "MPN"
+F 6 "1k8" V 5425 4250 50  0000 L CNN "Val"
+	1    5275 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:R_1k8_0603 R27
+U 1 1 5FDAF86B
+P 5525 4225
+F 0 "R27" V 5375 4250 60  0000 L CNN
+F 1 "R_1k8_0603" H 5525 4075 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 5725 4425 60  0001 L CNN
+F 3 "" H 5525 4225 50  0001 C CNN
+F 4 "VISHAY" H 5725 4625 60  0001 L CNN "Manufacturer"
+F 5 "CRCW06031K80FKEA" H 5725 4525 60  0001 L CNN "MPN"
+F 6 "1k8" V 5675 4250 50  0000 L CNN "Val"
+	1    5525 4225
+	0    1    1    0   
+$EndComp
+Text GLabel 6425 5000 2    50   Input ~ 0
+QSPI_DQ3
+Text GLabel 6425 5100 2    50   Input ~ 0
+QSPI_DQ2
+Text GLabel 6450 4700 2    50   Input ~ 0
+QSPI_CS
+Text GLabel 6425 5400 2    50   Input ~ 0
+QSPI_DQ1
+Text Notes 12700 1200 0    118  ~ 24
+FPGA
+Wire Wire Line
+	4775 4700 6450 4700
+$Comp
+L lpddr4-test-board:R_100R_0402 R33
+U 1 1 614804F9
+P 4975 4225
+F 0 "R33" V 4825 4250 60  0000 L CNN
+F 1 "R_100R_0402" H 4975 4075 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5175 4425 60  0001 L CNN
+F 3 "" H 4975 4225 50  0001 C CNN
+F 4 "BOURNS" H 5175 4625 60  0001 L CNN "Manufacturer"
+F 5 "CR0402-FX-1000GLF" H 5175 4525 60  0001 L CNN "MPN"
+F 6 "100R" V 5125 4250 50  0000 L CNN "Val"
+F 7 "DNP" V 4950 4375 50  0000 C CNN "Populate"
+	1    4975 4225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5525 3700 5525 3800
+Wire Wire Line
+	4975 4375 4975 4800
+Wire Wire Line
+	3875 4800 4975 4800
+Connection ~ 4975 4800
+Wire Wire Line
+	4975 4800 4975 5550
+Wire Wire Line
+	4975 4800 6450 4800
+Wire Wire Line
+	3875 5100 5525 5100
+Wire Wire Line
+	3875 5300 5950 5300
+Wire Wire Line
+	3875 5000 5275 5000
+Wire Wire Line
+	3875 5400 5950 5400
+Connection ~ 5525 5100
+Wire Wire Line
+	5525 5100 5925 5100
+Connection ~ 5275 5000
+Wire Wire Line
+	5275 5000 5925 5000
+Wire Wire Line
+	4775 4075 4775 3800
+Wire Wire Line
+	4775 3800 4975 3800
+Connection ~ 5275 3800
+Connection ~ 5525 3800
+Wire Wire Line
+	4975 4075 4975 3800
+Connection ~ 4975 3800
+Wire Wire Line
+	4975 3800 5275 3800
+Wire Wire Line
+	11000 3700 11725 3700
+$Comp
+L lpddr4-test-board:R_200R_0402 R?
+U 1 1 6AC30A74
+P 7350 8825
+F 0 "R?" H 7150 8875 60  0000 C CNN
+F 1 "R_200R_0402" H 7350 8675 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 7550 9025 60  0001 L CNN
+F 3 "" H 7350 8825 50  0001 C CNN
+F 4 "YAGEO" H 7550 9225 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200RL" H 7550 9125 60  0001 L CNN "MPN"
+F 6 "200R" H 7550 8775 50  0000 C CNN "Val"
+	1    7350 8825
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_200R_0402 R?
+U 1 1 6AC310E1
+P 7350 8725
+F 0 "R?" H 7150 8775 60  0000 C CNN
+F 1 "R_200R_0402" H 7350 8575 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 7550 8925 60  0001 L CNN
+F 3 "" H 7350 8725 50  0001 C CNN
+F 4 "YAGEO" H 7550 9125 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200RL" H 7550 9025 60  0001 L CNN "MPN"
+F 6 "200R" H 7550 8675 50  0000 C CNN "Val"
+	1    7350 8725
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_200R_0402 R?
+U 1 1 6AC32AC8
+P 7350 8925
+F 0 "R?" H 7150 8975 60  0000 C CNN
+F 1 "R_200R_0402" H 7350 8775 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 7550 9125 60  0001 L CNN
+F 3 "" H 7350 8925 50  0001 C CNN
+F 4 "YAGEO" H 7550 9325 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200RL" H 7550 9225 60  0001 L CNN "MPN"
+F 6 "200R" H 7550 8875 50  0000 C CNN "Val"
+	1    7350 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:R_200R_0402 R?
+U 1 1 6AC32F63
+P 7350 9025
+F 0 "R?" H 7150 9075 60  0000 C CNN
+F 1 "R_200R_0402" H 7350 8875 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 7550 9225 60  0001 L CNN
+F 3 "" H 7350 9025 50  0001 C CNN
+F 4 "YAGEO" H 7550 9425 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200RL" H 7550 9325 60  0001 L CNN "MPN"
+F 6 "200R" H 7550 8975 50  0000 C CNN "Val"
+	1    7350 9025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 8725 7200 8725
+Wire Wire Line
+	6975 8925 7200 8925
+Wire Wire Line
+	6975 9025 7200 9025
+Wire Wire Line
+	6975 8825 7200 8825
+$Comp
+L lpddr4-test-board:61300411121 J?
+U 1 1 6AC614B6
+P 9525 8875
+F 0 "J?" V 9400 8850 50  0000 C CNN
+F 1 "61300411121" V 9950 8875 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 9725 9075 60  0001 L CNN
+F 3 "" H 9725 9175 60  0001 L CNN
+F 4 "61300411121" H 9725 9375 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 9725 9975 60  0001 L CNN "Manufacturer"
+	1    9525 8875
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:61300611121 J?
+U 1 1 6AC62996
+P 6825 8725
+F 0 "J?" V 6700 8700 50  0000 C CNN
+F 1 "61300611121" V 7425 8700 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:61300611121" H 7025 8925 60  0001 L CNN
+F 3 "" H 7025 9025 60  0001 L CNN
+F 4 "61300611121" H 7025 9225 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 7025 9825 60  0001 L CNN "Manufacturer"
+	1    6825 8725
+	0    1    1    0   
+$EndComp
+NoConn ~ 6975 9125
+Text GLabel 10050 8875 2    50   Input ~ 0
+XADC_V_P
+Text GLabel 10050 8975 2    50   Input ~ 0
+XADC_V_N
+Text GLabel 10050 9075 2    50   Input ~ 0
+XADCGND
+Text GLabel 10050 9175 2    50   Input ~ 0
+XADCVREF
+Wire Wire Line
+	9675 8875 10050 8875
+Wire Wire Line
+	9675 8975 10050 8975
+Wire Wire Line
+	9675 9075 10050 9075
+Wire Wire Line
+	10050 9175 9675 9175
+Wire Wire Line
+	7500 8725 7875 8725
+Wire Wire Line
+	7500 8825 7875 8825
+Wire Wire Line
+	7875 8925 7500 8925
+Wire Wire Line
+	7875 9025 7500 9025
+Text GLabel 7875 8825 2    50   Input ~ 0
+CK_MOSI
+Text GLabel 7875 8925 2    50   Input ~ 0
+CK_MISO
+Text GLabel 7875 9025 2    50   Input ~ 0
+CK_SCK
+Text GLabel 7875 8725 2    50   Input ~ 0
+CK_SS
+Wire Wire Line
+	7250 9225 7250 9400
+Wire Wire Line
+	6975 9225 7250 9225
+$Comp
+L lpddr4-test-board:GND #PWR?
+U 1 1 6B7BF2C0
+P 7250 9400
+F 0 "#PWR?" H 7250 9150 50  0001 C CNN
+F 1 "GND" H 7255 9227 50  0000 C CNN
+F 2 "" H 7250 9400 50  0001 C CNN
+F 3 "" H 7250 9400 50  0001 C CNN
+	1    7250 9400
+	1    0    0    -1  
+$EndComp
+Text Notes 7200 8275 0    118  ~ 24
+SPI
+$EndSCHEMATC
