@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 8
-Title ""
+Title "LPDDR4 Test Board"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -211,8 +211,6 @@ Wire Wire Line
 	8150 9550 9025 9550
 Wire Wire Line
 	8150 9750 9025 9750
-Wire Wire Line
-	9325 9750 9675 9750
 $Comp
 L lpddr4-test-board:R_100R_0402 R6
 U 1 1 6020E894
@@ -229,8 +227,6 @@ F 6 "100R" H 9375 10000 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	8150 10050 9025 10050
-Wire Wire Line
-	9325 10050 9675 10050
 $Comp
 L lpddr4-test-board:R_100R_0402 R7
 U 1 1 602264FE
@@ -345,12 +341,6 @@ Wire Wire Line
 Connection ~ 9650 9000
 Wire Wire Line
 	9650 9000 10200 9000
-Connection ~ 9675 9750
-Wire Wire Line
-	9675 9750 10200 9750
-Connection ~ 9675 10050
-Wire Wire Line
-	9675 10050 10200 10050
 $Comp
 L lpddr4-test-board:GND #PWR0103
 U 1 1 60A83D37
@@ -701,7 +691,7 @@ Wire Wire Line
 Wire Wire Line
 	11975 2225 12100 2225
 Text Notes 11475 1000 0    98   ~ 20
-LPDDR4
+LPDDR4-TESTBED
 Wire Wire Line
 	15000 2325 15250 2325
 Wire Wire Line
@@ -932,14 +922,6 @@ Wire Wire Line
 	14750 1200 14750 1050
 Connection ~ 14600 1200
 Text GLabel 4600 1125 1    50   Input ~ 0
-VCC3V3
-Text GLabel 8400 1100 1    50   Input ~ 0
-VCC3V3
-Text GLabel 10075 1100 1    50   Input ~ 0
-VCC3V3
-Text GLabel 13150 1050 1    50   Input ~ 0
-VCC3V3
-Text GLabel 14750 1050 1    50   Input ~ 0
 VCC3V3
 Wire Notes Line
 	11175 525  11175 7975
@@ -1527,7 +1509,7 @@ Wire Wire Line
 Wire Notes Line
 	6350 7950 6350 500 
 Text Notes 6625 925  0    98   ~ 20
-SODIMM PINS
+SODIMM-SPECIFIC
 Text Notes 1675 850  0    98   ~ 20
 INTERFACES
 Wire Wire Line
@@ -1993,4 +1975,12 @@ Wire Wire Line
 	10725 4175 10675 4175
 Wire Wire Line
 	10250 4175 10375 4175
+Wire Wire Line
+	9325 9750 10200 9750
+Wire Wire Line
+	9325 10050 10200 10050
+Text Notes 9575 1075 2    50   ~ 0
+TODO: Assign power rails
+Text Notes 14275 1000 2    50   ~ 0
+TODO: Assign power rails
 $EndSCHEMATC

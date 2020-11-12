@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 8
-Title ""
+Sheet 6 8
+Title "LPDDR4 Test Board"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3075,11 +3075,6 @@ Wire Wire Line
 Wire Wire Line
 	14325 7900 14125 7900
 Wire Wire Line
-	12600 7800 12700 7800
-Connection ~ 12600 7800
-Wire Wire Line
-	12375 7800 12600 7800
-Wire Wire Line
 	12600 8200 13075 8200
 Wire Wire Line
 	12225 8000 12300 8000
@@ -3107,4 +3102,8 @@ F 3 "" H 11950 3000 60  0001 L CNN
 	1    11750 2700
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	12375 7800 12700 7800
+Text Notes 12425 4975 0    59   ~ 12
+TODO: consider switching into Ti LPDDR PMIC
 $EndSCHEMATC

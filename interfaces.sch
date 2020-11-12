@@ -4,9 +4,9 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 8
-Title ""
+Title "LPDDR4 Test Board"
 Date ""
-Rev ""
+Rev "1.0.0"
 Comp ""
 Comment1 ""
 Comment2 ""
