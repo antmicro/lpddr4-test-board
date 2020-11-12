@@ -30,36 +30,36 @@ Wire Wire Line
 Wire Wire Line
 	4800 7100 5300 7100
 Wire Wire Line
-	10250 2275 10750 2275
-Text GLabel 10750 2275 2    50   Input ~ 0
+	1900 3600 1400 3600
+Text GLabel 1400 3600 0    50   Input ~ 0
 AD1_P
 Wire Wire Line
-	10250 2375 10750 2375
-Text GLabel 10750 2375 2    50   Input ~ 0
+	1900 3500 1400 3500
+Text GLabel 1400 3500 0    50   Input ~ 0
 AD1_N
 Wire Wire Line
-	10250 2475 10750 2475
-Text GLabel 10750 2475 2    50   Input ~ 0
+	1900 3400 1400 3400
+Text GLabel 1400 3400 0    50   Input ~ 0
 AD9_P
 Wire Wire Line
-	10250 2575 10750 2575
-Text GLabel 10750 2575 2    50   Input ~ 0
+	1900 3300 1400 3300
+Text GLabel 1400 3300 0    50   Input ~ 0
 AD9_N
 Wire Wire Line
-	10250 2675 10750 2675
-Text GLabel 10750 2675 2    50   Input ~ 0
+	1900 3200 1400 3200
+Text GLabel 1400 3200 0    50   Input ~ 0
 AD2_P
 Wire Wire Line
-	10250 2775 10750 2775
-Text GLabel 10750 2775 2    50   Input ~ 0
+	1900 3100 1400 3100
+Text GLabel 1400 3100 0    50   Input ~ 0
 AD2_N
 Wire Wire Line
-	10250 2875 10750 2875
-Text GLabel 10750 2875 2    50   Input ~ 0
+	1900 3000 1400 3000
+Text GLabel 1400 3000 0    50   Input ~ 0
 AD10_P
 Wire Wire Line
-	10250 2975 10750 2975
-Text GLabel 10750 2975 2    50   Input ~ 0
+	1900 2900 1400 2900
+Text GLabel 1400 2900 0    50   Input ~ 0
 AD10_N
 Wire Wire Line
 	4800 3200 5450 3200
@@ -1585,48 +1585,8 @@ Wire Wire Line
 	1850 3800 1850 3900
 Wire Wire Line
 	1900 3700 1850 3700
-Connection ~ 1850 3700
 Wire Wire Line
 	1850 3700 1850 3800
-Wire Wire Line
-	1900 3600 1850 3600
-Connection ~ 1850 3600
-Wire Wire Line
-	1850 3600 1850 3700
-Wire Wire Line
-	1900 3500 1850 3500
-Connection ~ 1850 3500
-Wire Wire Line
-	1850 3500 1850 3600
-Wire Wire Line
-	1900 3400 1850 3400
-Connection ~ 1850 3400
-Wire Wire Line
-	1850 3400 1850 3500
-Wire Wire Line
-	1900 3300 1850 3300
-Wire Wire Line
-	1900 3200 1850 3200
-Wire Wire Line
-	1900 3100 1850 3100
-Wire Wire Line
-	1850 3000 1900 3000
-Wire Wire Line
-	1850 2900 1900 2900
-Wire Wire Line
-	1850 2900 1850 3000
-Connection ~ 1850 3000
-Wire Wire Line
-	1850 3000 1850 3100
-Connection ~ 1850 3100
-Wire Wire Line
-	1850 3100 1850 3200
-Connection ~ 1850 3200
-Wire Wire Line
-	1850 3200 1850 3300
-Connection ~ 1850 3300
-Wire Wire Line
-	1850 3300 1850 3400
 Wire Wire Line
 	1850 4700 1850 4800
 Wire Wire Line
@@ -1661,22 +1621,8 @@ Wire Wire Line
 	1850 6000 1850 6100
 Wire Wire Line
 	1900 5900 1850 5900
-Connection ~ 1850 5900
 Wire Wire Line
 	1850 5900 1850 6000
-Wire Wire Line
-	1900 5800 1850 5800
-Connection ~ 1850 5800
-Wire Wire Line
-	1850 5800 1850 5900
-Wire Wire Line
-	1900 5700 1850 5700
-Wire Wire Line
-	1900 5600 1850 5600
-Wire Wire Line
-	1900 5500 1850 5500
-Wire Wire Line
-	1850 5400 1900 5400
 Wire Wire Line
 	1850 5300 1900 5300
 Wire Wire Line
@@ -1706,21 +1652,6 @@ Wire Wire Line
 Connection ~ 1850 5200
 Wire Wire Line
 	1850 5200 1850 5300
-Connection ~ 1850 5300
-Wire Wire Line
-	1850 5300 1850 5400
-Connection ~ 1850 5400
-Wire Wire Line
-	1850 5400 1850 5500
-Connection ~ 1850 5500
-Wire Wire Line
-	1850 5500 1850 5600
-Connection ~ 1850 5600
-Wire Wire Line
-	1850 5600 1850 5700
-Connection ~ 1850 5700
-Wire Wire Line
-	1850 5700 1850 5800
 Wire Wire Line
 	1850 6600 1850 6700
 Wire Wire Line
@@ -1932,55 +1863,127 @@ Wire Wire Line
 Text GLabel 1525 2700 0    50   Input ~ 0
 USR_LED5
 Wire Wire Line
-	1850 2900 1850 2800
-Wire Wire Line
 	1850 2800 1900 2800
-Connection ~ 1850 2900
-Text GLabel 10725 4175 2    50   Input ~ 0
-CK_RST
-Text GLabel 10725 4375 2    50   Input ~ 0
-CK_MOSI
-Text GLabel 10725 4475 2    50   Input ~ 0
-CK_MISO
-Text GLabel 10725 4575 2    50   Input ~ 0
-CK_SCK
-Text GLabel 10725 4275 2    50   Input ~ 0
-CK_SS
 Connection ~ 10300 4075
 Wire Wire Line
-	10300 4075 10300 7475
-Wire Wire Line
-	10250 4275 10725 4275
-Wire Wire Line
-	10250 4375 10725 4375
-Wire Wire Line
-	10250 4475 10725 4475
-Wire Wire Line
-	10250 4575 10725 4575
-$Comp
-L lpddr4-test-board:R_200R_0402 R?
-U 1 1 6B4FB04F
-P 10525 4175
-F 0 "R?" H 10350 4225 60  0000 C CNN
-F 1 "R_200R_0402" H 10525 4025 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 10725 4375 60  0001 L CNN
-F 3 "" H 10525 4175 50  0001 C CNN
-F 4 "YAGEO" H 10725 4575 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200RL" H 10725 4475 60  0001 L CNN "MPN"
-F 6 "200R" H 10525 4175 50  0000 C CNN "Val"
-	1    10525 4175
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10725 4175 10675 4175
-Wire Wire Line
-	10250 4175 10375 4175
+	10300 4075 10300 4175
 Wire Wire Line
 	9325 9750 10200 9750
 Wire Wire Line
 	9325 10050 10200 10050
-Text Notes 9575 1075 2    50   ~ 0
-TODO: Assign power rails
-Text Notes 14275 1000 2    50   ~ 0
-TODO: Assign power rails
+Text GLabel 14750 1050 1    50   Input ~ 0
+DDRVCC
+Text GLabel 13150 1050 1    50   Input ~ 0
+DDRVCC
+Text GLabel 8400 1100 1    50   Input ~ 0
+DDRVCC
+Text GLabel 10075 1100 1    50   Input ~ 0
+DDRVCC
+Wire Wire Line
+	1900 5400 1775 5400
+Wire Wire Line
+	1425 5400 1475 5400
+$Comp
+L lpddr4-test-board:R_200R_0402 R?
+U 1 1 6B4FB04F
+P 1625 5400
+F 0 "R?" H 1475 5450 60  0000 C CNN
+F 1 "R_200R_0402" H 1625 5250 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 1825 5600 60  0001 L CNN
+F 3 "" H 1625 5400 50  0001 C CNN
+F 4 "YAGEO" H 1825 5800 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200RL" H 1825 5700 60  0001 L CNN "MPN"
+F 6 "200R" H 1625 5400 50  0000 C CNN "Val"
+	1    1625 5400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5800 1425 5800
+Wire Wire Line
+	1900 5700 1425 5700
+Wire Wire Line
+	1900 5600 1425 5600
+Wire Wire Line
+	1900 5500 1425 5500
+Text GLabel 1425 5500 0    50   Input ~ 0
+CK_SS
+Text GLabel 1425 5800 0    50   Input ~ 0
+CK_SCK
+Text GLabel 1425 5700 0    50   Input ~ 0
+CK_MISO
+Text GLabel 1425 5600 0    50   Input ~ 0
+CK_MOSI
+Text GLabel 1425 5400 0    50   Input ~ 0
+CK_RST
+Wire Wire Line
+	1850 2800 1850 3700
+Connection ~ 1850 3700
+Wire Wire Line
+	10250 2875 10300 2875
+Connection ~ 10300 2875
+Wire Wire Line
+	10300 2875 10300 2975
+Wire Wire Line
+	10250 2775 10300 2775
+Connection ~ 10300 2775
+Wire Wire Line
+	10300 2775 10300 2875
+Wire Wire Line
+	10250 2675 10300 2675
+Connection ~ 10300 2675
+Wire Wire Line
+	10300 2675 10300 2775
+Wire Wire Line
+	10250 2575 10300 2575
+Connection ~ 10300 2575
+Wire Wire Line
+	10300 2575 10300 2675
+Wire Wire Line
+	10250 2475 10300 2475
+Wire Wire Line
+	10250 2375 10300 2375
+Wire Wire Line
+	10250 2275 10300 2275
+Wire Wire Line
+	10300 2275 10300 2375
+Connection ~ 10300 2375
+Wire Wire Line
+	10300 2375 10300 2475
+Connection ~ 10300 2475
+Wire Wire Line
+	10300 2475 10300 2575
+Wire Wire Line
+	10250 2975 10300 2975
+Wire Wire Line
+	10300 2975 10300 3075
+Connection ~ 10300 3075
+Wire Wire Line
+	10250 4575 10300 4575
+Connection ~ 10300 4575
+Wire Wire Line
+	10250 4475 10300 4475
+Connection ~ 10300 4475
+Wire Wire Line
+	10300 4475 10300 4575
+Wire Wire Line
+	10250 4375 10300 4375
+Connection ~ 10300 4375
+Wire Wire Line
+	10300 4375 10300 4475
+Wire Wire Line
+	10250 4275 10300 4275
+Connection ~ 10300 4275
+Wire Wire Line
+	10300 4275 10300 4375
+Wire Wire Line
+	10250 4175 10300 4175
+Connection ~ 10300 4175
+Wire Wire Line
+	10300 4175 10300 4275
+Wire Wire Line
+	10300 4575 10300 7475
+Text Notes 875  5825 1    50   ~ 0
+spi-config.sch
+Text Notes 950  2700 1    50   ~ 0
+interfaces.sch
 $EndSCHEMATC
