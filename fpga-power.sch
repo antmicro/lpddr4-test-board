@@ -1032,4 +1032,14 @@ Wire Notes Line
 	6750 4800 4825 4800
 Text Notes 4975 5000 0    50   ~ 0
 Place close to FPGA banks power supply
+Text Notes 7400 2650 1    50   ~ 0
+VCCAUX max: 2.0V
+Text Notes 6825 3350 2    50   ~ 0
+VCCADC max: 2.0V
+Text Notes 6825 3450 2    50   ~ 0
+VCCBATT max: 2.0V
+Text Notes 6825 3550 2    50   ~ 0
+VCCBRAM max: 1.1V
+Text Notes 9750 1925 3    50   ~ 0
+VCCINT max: 1.1V
 $EndSCHEMATC

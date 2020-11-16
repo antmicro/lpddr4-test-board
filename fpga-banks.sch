@@ -1986,4 +1986,10 @@ Text Notes 875  5825 1    50   ~ 0
 spi-config.sch
 Text Notes 950  2700 1    50   ~ 0
 interfaces.sch
+Text Notes 3225 1125 0    50   ~ 0
+VCCO (HR banks) max: 3.6V
+Text Notes 13400 1050 0    50   ~ 0
+VCCO (HP banks) max: 2.0V
+Text Notes 8700 1125 0    50   ~ 0
+VCCO (HR banks) max: 3.6V
 $EndSCHEMATC
