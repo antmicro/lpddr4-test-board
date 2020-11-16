@@ -1,4 +1,4 @@
-(module BGA484C100P22X22_2300X2300X244N (layer F.Cu) (tedit 5FB2865A)
+(module BGA484C100P22X22_2300X2300X244N (layer F.Cu) (tedit 5FB282F8)
   (fp_text reference REF** (at -9.525 -13.335) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.015)))
   )
