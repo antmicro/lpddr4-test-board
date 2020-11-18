@@ -39,12 +39,8 @@ Wire Wire Line
 	11425 4600 11000 4600
 Text GLabel 11000 4600 0    50   Input ~ 0
 VCC3V3
-Text GLabel 11000 3400 0    50   Input ~ 0
-TMS
 Wire Wire Line
 	11725 3400 11000 3400
-Text GLabel 11000 3500 0    50   Input ~ 0
-TCK
 Wire Wire Line
 	11725 3500 11000 3500
 Text GLabel 11000 3900 0    50   Input ~ 0
@@ -223,255 +219,8 @@ F 3 "" H 12425 8825 50  0001 C CNN
 $EndComp
 Text GLabel 13975 7300 1    50   Input ~ 0
 VCC3v3
-$Comp
-L lpddr4-test-board:61300611121 J1
-U 1 1 615511E2
-P 2125 8750
-F 0 "J1" V 2025 8725 50  0000 C CNN
-F 1 "61300611121" V 2750 8750 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:61300611121" H 2325 8950 60  0001 L CNN
-F 3 "" H 2325 9050 60  0001 L CNN
-F 4 "61300611121" H 2325 9250 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 2325 9850 60  0001 L CNN "Manufacturer"
-F 6 "DNP" V 2400 8550 50  0000 C CNN "Populate"
-	1    2125 8750
-	0    1    1    0   
-$EndComp
-$Comp
-L lpddr4-test-board:R_100R_0402 R38
-U 1 1 615539C9
-P 4275 8750
-F 0 "R38" H 4050 8800 60  0000 C CNN
-F 1 "R_100R_0402" H 4275 8600 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 4475 8950 60  0001 L CNN
-F 3 "" H 4275 8750 50  0001 C CNN
-F 4 "BOURNS" H 4475 9150 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 4475 9050 60  0001 L CNN "MPN"
-F 6 "100R" H 4475 8700 50  0000 C CNN "Val"
-	1    4275 8750
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_100R_0402 R39
-U 1 1 61554551
-P 4275 8850
-F 0 "R39" H 4050 8900 60  0000 C CNN
-F 1 "R_100R_0402" H 4275 8700 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9050 60  0001 L CNN
-F 3 "" H 4275 8850 50  0001 C CNN
-F 4 "BOURNS" H 4475 9250 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 4475 9150 60  0001 L CNN "MPN"
-F 6 "100R" H 4475 8800 50  0000 C CNN "Val"
-	1    4275 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_100R_0402 R40
-U 1 1 61554976
-P 4275 8950
-F 0 "R40" H 4050 9000 60  0000 C CNN
-F 1 "R_100R_0402" H 4275 8800 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9150 60  0001 L CNN
-F 3 "" H 4275 8950 50  0001 C CNN
-F 4 "BOURNS" H 4475 9350 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 4475 9250 60  0001 L CNN "MPN"
-F 6 "100R" H 4475 8900 50  0000 C CNN "Val"
-	1    4275 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_100R_0402 R41
-U 1 1 61554CDF
-P 4275 9050
-F 0 "R41" H 4050 9100 60  0000 C CNN
-F 1 "R_100R_0402" H 4275 8900 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9250 60  0001 L CNN
-F 3 "" H 4275 9050 50  0001 C CNN
-F 4 "BOURNS" H 4475 9450 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 4475 9350 60  0001 L CNN "MPN"
-F 6 "100R" H 4475 9000 50  0000 C CNN "Val"
-	1    4275 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:GND #PWR0110
-U 1 1 61577A20
-P 2725 9375
-F 0 "#PWR0110" H 2725 9125 50  0001 C CNN
-F 1 "GND" H 2730 9202 50  0000 C CNN
-F 2 "" H 2725 9375 50  0001 C CNN
-F 3 "" H 2725 9375 50  0001 C CNN
-	1    2725 9375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2275 9250 2325 9250
-Text GLabel 2325 9250 2    50   Input ~ 0
-VCC3v3
-Wire Wire Line
-	2275 9150 2725 9150
-Wire Wire Line
-	2725 9150 2725 9375
-Text GLabel 2475 8625 1    50   Input ~ 0
-TMS_JTAG
-Text GLabel 2650 8625 1    50   Input ~ 0
-TDI_JTAG
-Text GLabel 2825 8625 1    50   Input ~ 0
-TDO_JTAG
-Text GLabel 3025 8625 1    50   Input ~ 0
-TCK_JTAG
-Text GLabel 5000 8750 2    50   Input ~ 0
-TMS
-Text GLabel 5000 8850 2    50   Input ~ 0
-TDI_FPGA
-Text GLabel 5000 8950 2    50   Input ~ 0
-TDO_FPGA
-Text GLabel 5000 9050 2    50   Input ~ 0
-TCK
-Wire Wire Line
-	4425 8750 5000 8750
-Wire Wire Line
-	4425 8850 5000 8850
-Wire Wire Line
-	4425 8950 5000 8950
-Wire Wire Line
-	4425 9050 5000 9050
-Text Notes 3025 8000 0    118  ~ 24
+Text Notes 2650 7150 0    118  ~ 24
 JTAG Connector\n
-$Comp
-L lpddr4-test-board:MMSZ5231B-7-F Z1
-U 1 1 6160C478
-P 3125 9325
-F 0 "Z1" V 3250 9300 60  0000 R CNN
-F 1 "MMSZ5231B-7-F" H 3150 9425 60  0001 R CNN
-F 2 "lpddr4-test-board-footprints:SOD-123" H 3325 9525 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3325 9625 60  0001 L CNN
-F 4 "MMSZ5231B-7-F" H 3325 9825 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 3325 10425 60  0001 L CNN "Manufacturer"
-	1    3125 9325
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lpddr4-test-board:MMSZ5231B-7-F Z2
-U 1 1 6160DAB9
-P 3325 9325
-F 0 "Z2" V 3450 9300 60  0000 R CNN
-F 1 "MMSZ5231B-7-F" H 3350 9425 60  0001 R CNN
-F 2 "lpddr4-test-board-footprints:SOD-123" H 3525 9525 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3525 9625 60  0001 L CNN
-F 4 "MMSZ5231B-7-F" H 3525 9825 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 3525 10425 60  0001 L CNN "Manufacturer"
-	1    3325 9325
-	0    -1   -1   0   
-$EndComp
-$Comp
-L lpddr4-test-board:MMSZ5231B-7-F Z3
-U 1 1 6160E0C6
-P 3525 9325
-F 0 "Z3" V 3650 9300 60  0000 R CNN
-F 1 "MMSZ5231B-7-F" H 3550 9425 60  0001 R CNN
-F 2 "lpddr4-test-board-footprints:SOD-123" H 3725 9525 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3725 9625 60  0001 L CNN
-F 4 "MMSZ5231B-7-F" H 3725 9825 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 3725 10425 60  0001 L CNN "Manufacturer"
-	1    3525 9325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2275 8750 2475 8750
-Wire Wire Line
-	2275 8850 2650 8850
-Wire Wire Line
-	2275 8950 2825 8950
-Wire Wire Line
-	2275 9050 3025 9050
-$Comp
-L lpddr4-test-board:MMSZ5231B-7-F Z4
-U 1 1 6163A4DF
-P 3725 9325
-F 0 "Z4" V 3850 9300 60  0000 R CNN
-F 1 "MMSZ5231B-7-F" H 3750 9425 60  0001 R CNN
-F 2 "lpddr4-test-board-footprints:SOD-123" H 3925 9525 60  0001 L CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds18010.pdf" H 3925 9625 60  0001 L CNN
-F 4 "MMSZ5231B-7-F" H 3925 9825 60  0001 L CNN "MPN"
-F 5 "Diodes Incorporated" H 3925 10425 60  0001 L CNN "Manufacturer"
-	1    3725 9325
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3125 9525 3125 9625
-Wire Wire Line
-	3125 9625 3325 9625
-Wire Wire Line
-	3725 9625 3725 9525
-Wire Wire Line
-	3525 9525 3525 9625
-Connection ~ 3525 9625
-Wire Wire Line
-	3525 9625 3725 9625
-Wire Wire Line
-	3325 9525 3325 9625
-Connection ~ 3325 9625
-Wire Wire Line
-	3325 9625 3525 9625
-$Comp
-L lpddr4-test-board:GND #PWR0111
-U 1 1 616699CB
-P 3725 9700
-F 0 "#PWR0111" H 3725 9450 50  0001 C CNN
-F 1 "GND" H 3730 9527 50  0000 C CNN
-F 2 "" H 3725 9700 50  0001 C CNN
-F 3 "" H 3725 9700 50  0001 C CNN
-	1    3725 9700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3725 9625 3725 9700
-Connection ~ 3725 9625
-Wire Wire Line
-	3125 9125 3125 8750
-Connection ~ 3125 8750
-Wire Wire Line
-	3125 8750 4125 8750
-Wire Wire Line
-	3325 9125 3325 8850
-Connection ~ 3325 8850
-Wire Wire Line
-	3325 8850 4125 8850
-Wire Wire Line
-	3525 9125 3525 8950
-Connection ~ 3525 8950
-Wire Wire Line
-	3525 8950 4125 8950
-Wire Wire Line
-	3725 9125 3725 9050
-Connection ~ 3725 9050
-Wire Wire Line
-	3725 9050 4125 9050
-Wire Wire Line
-	2475 8625 2475 8750
-Connection ~ 2475 8750
-Wire Wire Line
-	2475 8750 3125 8750
-Wire Wire Line
-	2650 8625 2650 8850
-Connection ~ 2650 8850
-Wire Wire Line
-	2650 8850 3325 8850
-Wire Wire Line
-	2825 8625 2825 8950
-Connection ~ 2825 8950
-Wire Wire Line
-	2825 8950 3525 8950
-Wire Wire Line
-	3025 8625 3025 9050
-Connection ~ 3025 9050
-Wire Wire Line
-	3025 9050 3725 9050
-Text GLabel 11000 3200 0    50   Input ~ 0
-TDI_FPGA
-Text GLabel 11000 3300 0    50   Input ~ 0
-TDO_FPGA
 Wire Wire Line
 	11725 3300 11000 3300
 Wire Wire Line
@@ -1150,14 +899,14 @@ Wire Wire Line
 $Comp
 L lpddr4-test-board:61300411121 J?
 U 1 1 6AC614B6
-P 9525 8875
-F 0 "J?" V 9400 8850 50  0000 C CNN
-F 1 "61300411121" V 9950 8875 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 9725 9075 60  0001 L CNN
-F 3 "" H 9725 9175 60  0001 L CNN
-F 4 "61300411121" H 9725 9375 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 9725 9975 60  0001 L CNN "Manufacturer"
-	1    9525 8875
+P 9425 8700
+F 0 "J?" V 9300 8675 50  0000 C CNN
+F 1 "61300411121" V 9850 8700 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 9625 8900 60  0001 L CNN
+F 3 "" H 9625 9000 60  0001 L CNN
+F 4 "61300411121" H 9625 9200 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 9625 9800 60  0001 L CNN "Manufacturer"
+	1    9425 8700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1174,22 +923,22 @@ F 5 "Wurth Electronics Inc." H 7025 9825 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 NoConn ~ 6975 9125
-Text GLabel 10050 8875 2    50   Input ~ 0
+Text GLabel 9950 8700 2    50   Input ~ 0
 XADC_V_P
-Text GLabel 10050 8975 2    50   Input ~ 0
+Text GLabel 9950 8800 2    50   Input ~ 0
 XADC_V_N
-Text GLabel 10050 9075 2    50   Input ~ 0
+Text GLabel 9950 8900 2    50   Input ~ 0
 XADCGND
-Text GLabel 10050 9175 2    50   Input ~ 0
+Text GLabel 9950 9000 2    50   Input ~ 0
 XADCVREF
 Wire Wire Line
-	9675 8875 10050 8875
+	9575 8700 9950 8700
 Wire Wire Line
-	9675 8975 10050 8975
+	9575 8800 9950 8800
 Wire Wire Line
-	9675 9075 10050 9075
+	9575 8900 9950 8900
 Wire Wire Line
-	10050 9175 9675 9175
+	9950 9000 9575 9000
 Wire Wire Line
 	7500 8725 7875 8725
 Wire Wire Line
@@ -1223,4 +972,175 @@ F 3 "" H 7250 9400 50  0001 C CNN
 $EndComp
 Text Notes 7200 8275 0    118  ~ 24
 SPI
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:0878311420 J?
+U 1 1 5FB8277B
+P 2675 8325
+F 0 "J?" H 2675 8850 50  0000 C CNN
+F 1 "0878311420" H 2675 8759 50  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" H 2875 8525 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 2875 8625 60  0001 L CNN
+F 4 "0878311420" H 2875 8825 60  0001 L CNN "MPN"
+F 5 "Molex" H 2875 9425 60  0001 L CNN "Manufacturer"
+	1    2675 8325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 8025 3050 8025
+Wire Wire Line
+	3050 8025 3050 7850
+Text GLabel 3050 7850 1    50   Input ~ 0
+VCC3v3
+Text GLabel 4000 8125 2    50   Input ~ 0
+TMS_JTAG
+Text GLabel 4000 8425 2    50   Input ~ 0
+TDI_JTAG
+Text GLabel 4000 8325 2    50   Input ~ 0
+TDO_JTAG
+Text GLabel 4000 8225 2    50   Input ~ 0
+TCK_JTAG
+Text GLabel 4650 8625 2    50   Input ~ 0
+SRST_RDYN
+Wire Wire Line
+	2475 8025 2350 8025
+Wire Wire Line
+	2350 8025 2350 8125
+Wire Wire Line
+	2475 8125 2350 8125
+Connection ~ 2350 8125
+Wire Wire Line
+	2475 8225 2350 8225
+Wire Wire Line
+	2350 8125 2350 8225
+Connection ~ 2350 8225
+Wire Wire Line
+	2350 8225 2350 8325
+Wire Wire Line
+	2475 8325 2350 8325
+Connection ~ 2350 8325
+Wire Wire Line
+	2350 8325 2350 8425
+Wire Wire Line
+	2475 8425 2350 8425
+Connection ~ 2350 8425
+Wire Wire Line
+	2350 8425 2350 8525
+Wire Wire Line
+	2475 8525 2350 8525
+Connection ~ 2350 8525
+Wire Wire Line
+	2350 8525 2350 8625
+Wire Wire Line
+	2475 8625 2350 8625
+Connection ~ 2350 8625
+Wire Wire Line
+	2350 8625 2350 8800
+$Comp
+L lpddr4-test-board:GND #PWR?
+U 1 1 5FCE9A21
+P 2350 8800
+F 0 "#PWR?" H 2350 8550 50  0001 C CNN
+F 1 "GND" H 2355 8627 50  0000 C CNN
+F 2 "" H 2350 8800 50  0001 C CNN
+F 3 "" H 2350 8800 50  0001 C CNN
+	1    2350 8800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2875 8525
+$Comp
+L antmicroTVSDiodes:TPD6E05U06 D?
+U 1 1 5FCF46CA
+P 3225 9175
+F 0 "D?" V 3445 8497 50  0000 R CNN
+F 1 "TPD6E05U06" V 3354 8497 50  0000 R CNN
+F 2 "antmicro-footprints:TPD6E05U06" H 4425 9425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 4725 9525 50  0001 C CNN
+F 4 "TPD6E05U06RVZR" V 3263 8497 50  0000 R CNN "MPN"
+F 5 "Texas Instruments" V 3172 8497 50  0000 R CNN "Manufacturer"
+	1    3225 9175
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2875 8125 3275 8125
+Wire Wire Line
+	2875 8225 3375 8225
+Wire Wire Line
+	2875 8325 3475 8325
+Wire Wire Line
+	2875 8425 3575 8425
+Wire Wire Line
+	2875 8625 3175 8625
+Wire Wire Line
+	3175 8925 3175 8625
+Connection ~ 3175 8625
+Wire Wire Line
+	3175 8625 4525 8625
+Wire Wire Line
+	3275 8925 3275 8125
+Connection ~ 3275 8125
+Wire Wire Line
+	3275 8125 4000 8125
+Wire Wire Line
+	3375 8925 3375 8225
+Connection ~ 3375 8225
+Wire Wire Line
+	3375 8225 4000 8225
+Wire Wire Line
+	3475 8925 3475 8325
+Connection ~ 3475 8325
+Wire Wire Line
+	3475 8325 4000 8325
+Wire Wire Line
+	3575 8925 3575 8425
+Connection ~ 3575 8425
+Wire Wire Line
+	3575 8425 4000 8425
+Wire Wire Line
+	3675 8925 3675 8825
+Wire Wire Line
+	3675 8825 3775 8825
+Wire Wire Line
+	3775 8925 3775 8825
+Connection ~ 3775 8825
+Wire Wire Line
+	3775 8825 4025 8825
+$Comp
+L lpddr4-test-board:GND #PWR?
+U 1 1 5FD74251
+P 4025 8825
+F 0 "#PWR?" H 4025 8575 50  0001 C CNN
+F 1 "GND" H 4030 8652 50  0000 C CNN
+F 2 "" H 4025 8825 50  0001 C CNN
+F 3 "" H 4025 8825 50  0001 C CNN
+	1    4025 8825
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11000 3400 0    50   Input ~ 0
+TMS_JTAG
+Text GLabel 11000 3200 0    50   Input ~ 0
+TDI_JTAG
+Text GLabel 11000 3300 0    50   Input ~ 0
+TDO_JTAG
+Text GLabel 11000 3500 0    50   Input ~ 0
+TCK_JTAG
+$Comp
+L lpddr4-test-board:TP_SMD1MM TP?
+U 1 1 5FF93CB2
+P 4525 8725
+AR Path="/60225B0C/5FF93CB2" Ref="TP?"  Part="1" 
+AR Path="/5FD53C7D/5FF93CB2" Ref="TP?"  Part="1" 
+F 0 "TP?" V 4430 8772 50  0000 C CNN
+F 1 "TP_SMD1MM" H 4525 8625 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 4725 8925 60  0001 L CNN
+F 3 "" H 4725 9025 60  0001 L CNN
+	1    4525 8725
+	1    0    0    -1  
+$EndComp
+Connection ~ 4525 8625
+Wire Wire Line
+	4525 8625 4650 8625
+Text Notes 4675 8550 0    50   ~ 0
+TODO: check this pin connection to FPGA
+Text Notes 2675 7250 0    50   ~ 0
+Compatible with Xilinx Platform Cable
 $EndSCHEMATC
