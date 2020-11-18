@@ -853,20 +853,6 @@ AVCC3V3
 Text GLabel 4825 9700 1    50   Input ~ 0
 AVCC3V3
 $Comp
-L lpddr4-test-board:R_0R005_1206 R125
-U 1 1 60599ADE
-P 14375 3500
-F 0 "R125" V 14330 3570 60  0000 L CNN
-F 1 "R_0R005_1206" H 14375 3350 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:1206-res" H 14575 3700 60  0001 L CNN
-F 3 "" H 14375 3500 50  0001 C CNN
-F 4 "WELWYN" H 14575 3900 60  0001 L CNN "Manufacturer"
-F 5 "LRF1206-R005JW" H 14575 3800 60  0001 L CNN "MPN"
-F 6 "0R005" V 14428 3570 50  0000 L CNN "Val"
-	1    14375 3500
-	0    1    1    0   
-$EndComp
-$Comp
 L lpddr4-test-board:DC_SOCKET J3
 U 1 1 607A5F4D
 P 11375 2250
@@ -1306,7 +1292,7 @@ Text GLabel 4350 3250 0    50   Input ~ 0
 VDDQEN
 Wire Wire Line
 	4350 3250 4400 3250
-Text GLabel 6750 2350 2    50   Input ~ 0
+Text GLabel 7175 2350 2    50   Input ~ 0
 VDD1V8
 Wire Wire Line
 	5500 2500 6225 2500
@@ -1375,7 +1361,7 @@ Wire Wire Line
 	5500 2800 6225 2800
 Wire Wire Line
 	6225 2800 6225 2650
-Text GLabel 6750 2800 2    50   Input ~ 0
+Text GLabel 7175 2800 2    50   Input ~ 0
 VDD1V1
 Text GLabel 8250 2300 1    50   Input ~ 0
 VDD1V1
@@ -1518,7 +1504,7 @@ Wire Wire Line
 	6625 2950 6625 2800
 Wire Wire Line
 	6625 2800 6750 2800
-Text GLabel 6750 3100 2    50   Input ~ 0
+Text GLabel 7175 3100 2    50   Input ~ 0
 VDD0V6
 Wire Wire Line
 	5500 3100 6075 3100
@@ -1748,12 +1734,12 @@ Text Notes 2400 2125 0    50   ~ 0
 VIN 4.5V to 18V
 Text Notes 2400 2225 0    50   ~ 0
 VCC5V0 4.5V to 5.5V
-Text Notes 6750 2275 0    50   ~ 0
+Text Notes 7025 2275 0    50   ~ 0
 VDD1V8 1.8V 1A
-Text Notes 6775 2725 0    50   ~ 0
+Text Notes 7050 2725 0    50   ~ 0
 VDD1V1 1.1V 8A
-Text Notes 6775 3025 0    50   ~ 0
-VDD1V1 0.6V 1.5A
+Text Notes 7050 3025 0    50   ~ 0
+VDD0V6 0.6V 1.5A
 $Comp
 L lpddr4-test-board:TPS62823DLCT U?
 U 1 1 6014DA7E
@@ -1771,10 +1757,10 @@ Wire Wire Line
 	14375 3200 14375 3350
 Wire Wire Line
 	14375 3650 14375 3900
-Text GLabel 11650 6375 1    50   Input ~ 0
+Text GLabel 11650 6250 1    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	11650 6375 11650 6550
+	11650 6250 11650 6550
 Wire Wire Line
 	11650 6550 11975 6550
 Wire Wire Line
@@ -1785,20 +1771,20 @@ Wire Wire Line
 Wire Wire Line
 	11650 6700 11650 6550
 Connection ~ 11650 6550
-Text GLabel 11225 6375 1    50   Input ~ 0
+Text GLabel 11225 6250 1    50   Input ~ 0
 VCC5V0
 $Comp
 L lpddr4-test-board:C_2u2_0402 C?
 U 1 1 601A51FF
-P 11225 6525
-F 0 "C?" H 11340 6570 60  0000 L CNN
-F 1 "C_2u2_0402" H 11225 6375 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-cap" H 11425 6725 60  0001 L CNN
-F 3 "" H 11225 6525 50  0001 C CNN
-F 4 "TDK" H 11425 6925 60  0001 L CNN "Manufacturer"
-F 5 "C1005X5R1A225K050BC" H 11425 6825 60  0001 L CNN "MPN"
-F 6 "2u2" H 11340 6472 50  0000 L CNN "Val"
-	1    11225 6525
+P 11225 6475
+F 0 "C?" H 11340 6520 60  0000 L CNN
+F 1 "C_2u2_0402" H 11225 6325 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 11425 6675 60  0001 L CNN
+F 3 "" H 11225 6475 50  0001 C CNN
+F 4 "TDK" H 11425 6875 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1A225K050BC" H 11425 6775 60  0001 L CNN "MPN"
+F 6 "2u2" H 11340 6422 50  0000 L CNN "Val"
+	1    11225 6475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1860,29 +1846,29 @@ $EndComp
 $Comp
 L lpddr4-test-board:GND #PWR?
 U 1 1 601F9B65
-P 14275 6675
-F 0 "#PWR?" H 14275 6425 50  0001 C CNN
-F 1 "GND" H 14280 6502 50  0000 C CNN
-F 2 "" H 14275 6675 50  0001 C CNN
-F 3 "" H 14275 6675 50  0001 C CNN
-	1    14275 6675
+P 14250 6675
+F 0 "#PWR?" H 14250 6425 50  0001 C CNN
+F 1 "GND" H 14255 6502 50  0000 C CNN
+F 2 "" H 14250 6675 50  0001 C CNN
+F 3 "" H 14250 6675 50  0001 C CNN
+	1    14250 6675
 	1    0    0    -1  
 $EndComp
 $Comp
 L lpddr4-test-board:C_10u_0402 C?
 U 1 1 601F8FE9
-P 14275 6525
-F 0 "C?" H 14390 6570 60  0000 L CNN
-F 1 "C_10u_0402" H 14275 6375 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-cap" H 14475 6725 60  0001 L CNN
-F 3 "" H 14275 6525 50  0001 C CNN
-F 4 "MURATA" H 14475 6925 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 14475 6825 60  0001 L CNN "MPN"
-F 6 "10u" H 14390 6472 50  0000 L CNN "Val"
-	1    14275 6525
+P 14250 6475
+F 0 "C?" H 14365 6520 60  0000 L CNN
+F 1 "C_10u_0402" H 14250 6325 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 14450 6675 60  0001 L CNN
+F 3 "" H 14250 6475 50  0001 C CNN
+F 4 "MURATA" H 14450 6875 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 14450 6775 60  0001 L CNN "MPN"
+F 6 "10u" H 14365 6422 50  0000 L CNN "Val"
+	1    14250 6475
 	1    0    0    -1  
 $EndComp
-Text GLabel 14275 6375 1    50   Input ~ 0
+Text GLabel 14250 6250 1    50   Input ~ 0
 VCC3V3
 $Comp
 L lpddr4-test-board:GND #PWR?
@@ -1945,10 +1931,8 @@ F 6 "100p" H 13515 6647 50  0000 L CNN "Val"
 	1    13400 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 13775 6375 1    50   Input ~ 0
+Text GLabel 13775 6250 1    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	13775 6550 13775 6375
 Wire Wire Line
 	13300 6550 13400 6550
 Wire Wire Line
@@ -1990,4 +1974,153 @@ F 5 "IHLP1212AEERR47M11" H 6425 2800 50  0001 C CNN "MPN"
 $EndComp
 Connection ~ 6225 2800
 Connection ~ 6625 2800
+$Comp
+L antmicroResistorsmisc:R_0R_1206 R?
+U 1 1 6020F9C4
+P 14375 3500
+F 0 "R?" V 14330 3570 60  0000 L CNN
+F 1 "R_0R_1206" H 14375 3350 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 14575 3700 60  0001 L CNN
+F 3 "" H 14375 3500 50  0001 C CNN
+F 4 "MULTICOMP" H 14575 3900 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 14575 3800 60  0001 L CNN "MPN"
+F 6 "0R" V 14428 3570 50  0000 L CNN "Val"
+	1    14375 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 14825 3200 1    50   Input ~ 0
+VCC5V0
+$Comp
+L lpddr4-test-board:TP_SMD1MM TP?
+U 1 1 60212554
+P 14825 3300
+F 0 "TP?" V 14730 3347 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14825 3200 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 15025 3500 60  0001 L CNN
+F 3 "" H 15025 3600 60  0001 L CNN
+	1    14825 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R_1206 R?
+U 1 1 6021B240
+P 13775 6400
+F 0 "R?" V 13730 6470 60  0000 L CNN
+F 1 "R_0R_1206" H 13775 6250 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 13975 6600 60  0001 L CNN
+F 3 "" H 13775 6400 50  0001 C CNN
+F 4 "MULTICOMP" H 13975 6800 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 13975 6700 60  0001 L CNN "MPN"
+F 6 "0R" V 13828 6470 50  0000 L CNN "Val"
+	1    13775 6400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11225 6250 11225 6325
+Wire Wire Line
+	11225 6625 11225 6675
+Wire Wire Line
+	14250 6250 14250 6325
+Wire Wire Line
+	14250 6625 14250 6675
+Text GLabel 14650 6250 1    50   Input ~ 0
+VCC3V3
+$Comp
+L lpddr4-test-board:TP_SMD1MM TP?
+U 1 1 6026C4D0
+P 14650 6350
+F 0 "TP?" V 14555 6397 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14650 6250 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 14850 6550 60  0001 L CNN
+F 3 "" H 14850 6650 60  0001 L CNN
+	1    14650 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R_1206 R?
+U 1 1 60283299
+P 6900 2350
+F 0 "R?" H 6900 2137 60  0000 C CNN
+F 1 "R_0R_1206" H 6900 2200 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 7100 2550 60  0001 L CNN
+F 3 "" H 6900 2350 50  0001 C CNN
+F 4 "MULTICOMP" H 7100 2750 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 7100 2650 60  0001 L CNN "MPN"
+F 6 "0R" H 6900 2235 50  0000 C CNN "Val"
+	1    6900 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R_1206 R?
+U 1 1 60285989
+P 6900 2800
+F 0 "R?" H 6900 2587 60  0000 C CNN
+F 1 "R_0R_1206" H 6900 2650 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 7100 3000 60  0001 L CNN
+F 3 "" H 6900 2800 50  0001 C CNN
+F 4 "MULTICOMP" H 7100 3200 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 7100 3100 60  0001 L CNN "MPN"
+F 6 "0R" H 6900 2685 50  0000 C CNN "Val"
+	1    6900 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R_1206 R?
+U 1 1 60285DF8
+P 6900 3100
+F 0 "R?" H 6900 2887 60  0000 C CNN
+F 1 "R_0R_1206" H 6900 2950 60  0001 C CNN
+F 2 "antmicro-footprints:1206-res" H 7100 3300 60  0001 L CNN
+F 3 "" H 6900 3100 50  0001 C CNN
+F 4 "MULTICOMP" H 7100 3500 60  0001 L CNN "Manufacturer"
+F 5 "MCMR12X000_PTL" H 7100 3400 60  0001 L CNN "MPN"
+F 6 "0R" H 6900 2985 50  0000 C CNN "Val"
+	1    6900 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7175 2350 7050 2350
+Wire Wire Line
+	7175 2800 7050 2800
+Wire Wire Line
+	7175 3100 7050 3100
+Text GLabel 6800 3650 1    50   Input ~ 0
+VDD1V8
+Text GLabel 7025 3650 1    50   Input ~ 0
+VDD1V1
+Text GLabel 7250 3650 1    50   Input ~ 0
+VDD0V6
+$Comp
+L lpddr4-test-board:TP_SMD1MM TP?
+U 1 1 602C0646
+P 6800 3750
+F 0 "TP?" V 6705 3797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 6800 3650 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 7000 3950 60  0001 L CNN
+F 3 "" H 7000 4050 60  0001 L CNN
+	1    6800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:TP_SMD1MM TP?
+U 1 1 602C252D
+P 7025 3750
+F 0 "TP?" V 6930 3797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 7025 3650 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 7225 3950 60  0001 L CNN
+F 3 "" H 7225 4050 60  0001 L CNN
+	1    7025 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:TP_SMD1MM TP?
+U 1 1 602C27EC
+P 7250 3750
+F 0 "TP?" V 7155 3797 50  0000 C CNN
+F 1 "TP_SMD1MM" H 7250 3650 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 7450 3950 60  0001 L CNN
+F 3 "" H 7450 4050 60  0001 L CNN
+	1    7250 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

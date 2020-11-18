@@ -541,11 +541,7 @@ Wire Wire Line
 Wire Wire Line
 	12475 8300 12475 8500
 Wire Wire Line
-	3850 7900 3650 7900
-Wire Wire Line
 	3850 8200 3650 8200
-Wire Wire Line
-	3850 8500 3650 8500
 Wire Wire Line
 	3850 8800 3650 8800
 Wire Wire Line
@@ -563,7 +559,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 8200 4850 8200
 Wire Wire Line
-	5050 8500 4850 8500
+	5200 8500 5050 8500
 Wire Wire Line
 	5050 8800 4850 8800
 Wire Wire Line
@@ -576,30 +572,6 @@ Wire Wire Line
 	12475 3600 12375 3600
 Wire Wire Line
 	12475 3900 12375 3900
-Wire Wire Line
-	3650 8800 3650 8500
-Connection ~ 3650 8200
-Wire Wire Line
-	3650 8200 3650 7900
-Connection ~ 3650 8500
-Wire Wire Line
-	3650 8500 3650 8200
-Wire Wire Line
-	5050 8800 5050 8500
-Connection ~ 5050 8200
-Connection ~ 5050 8500
-Wire Wire Line
-	5050 8500 5050 8200
-Wire Wire Line
-	5050 8200 5050 7900
-Wire Wire Line
-	5050 7900 4850 7900
-Wire Wire Line
-	3650 7900 3500 7900
-Connection ~ 3650 7900
-Wire Wire Line
-	5050 7900 5200 7900
-Connection ~ 5050 7900
 Wire Wire Line
 	11275 2700 11275 3000
 Connection ~ 11275 3000
@@ -631,14 +603,10 @@ Connection ~ 11275 2700
 Wire Wire Line
 	12475 2700 12625 2700
 Connection ~ 12475 2700
-Text GLabel 11125 2700 0    50   Input ~ 0
-VDD
-Text GLabel 12625 2700 2    50   Input ~ 0
-VDD
 Text GLabel 3500 7900 0    50   Input ~ 0
-VDD
+VDDQ
 Text GLabel 5200 7900 2    50   Input ~ 0
-VDD
+VDDQ
 Wire Wire Line
 	11375 8700 11125 8700
 Text GLabel 11125 8700 0    50   Input ~ 0
@@ -1233,4 +1201,95 @@ Text GLabel 5550 2900 2    50   Input ~ 0
 DM0_n\DBI0_n
 Text Notes 7375 1325 0    118  ~ 24
 SODIMM connector
+Wire Wire Line
+	3500 7900 3650 7900
+Wire Wire Line
+	4850 7900 5050 7900
+Wire Wire Line
+	3650 8200 3650 7900
+Connection ~ 3650 7900
+Wire Wire Line
+	3650 7900 3850 7900
+Wire Wire Line
+	5050 8200 5050 7900
+Connection ~ 5050 7900
+Wire Wire Line
+	5050 7900 5200 7900
+Wire Wire Line
+	3500 8500 3650 8500
+Wire Wire Line
+	3650 8800 3650 8500
+Connection ~ 3650 8500
+Wire Wire Line
+	3650 8500 3850 8500
+Wire Wire Line
+	5050 8800 5050 8500
+Connection ~ 5050 8500
+Wire Wire Line
+	5050 8500 4850 8500
+Text GLabel 5200 8500 2    50   Input ~ 0
+VDD1V8
+Text GLabel 4675 10200 2    50   Input ~ 0
+VDD1V1
+Text GLabel 4675 10375 2    50   Input ~ 0
+VDD0V6
+Text Notes 5725 8525 0    50   ~ 0
+VDD1
+Text GLabel 3500 8500 0    50   Input ~ 0
+VDD1V8
+Text Notes 2775 8525 0    50   ~ 0
+VDD1
+Text GLabel 11125 2700 0    50   Input ~ 0
+VDD1V1
+Text GLabel 12625 2700 2    50   Input ~ 0
+VDD1V1
+Text Notes 10400 2750 0    50   ~ 0
+VDD2\n
+Text Notes 13250 2750 0    50   ~ 0
+VDD2\n
+Text GLabel 4050 10200 0    50   Input ~ 0
+VDDQ
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 606BFB95
+P 4400 10200
+F 0 "R?" H 4400 10275 60  0000 C CNN
+F 1 "R_0R_0402" H 4400 10050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4600 10400 60  0001 L CNN
+F 3 "" H 4400 10200 50  0001 C CNN
+F 4 "PANASONIC" H 4600 10600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4600 10500 60  0001 L CNN "MPN"
+F 6 "0R" H 4400 10200 50  0000 C CNN "Val"
+	1    4400 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_0R_0402 R?
+U 1 1 606C1C63
+P 4400 10375
+F 0 "R?" H 4400 10450 60  0000 C CNN
+F 1 "R_0R_0402" H 4400 10225 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 4600 10575 60  0001 L CNN
+F 3 "" H 4400 10375 50  0001 C CNN
+F 4 "PANASONIC" H 4600 10775 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 4600 10675 60  0001 L CNN "MPN"
+F 6 "0R" H 4400 10375 50  0000 C CNN "Val"
+	1    4400 10375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 10375 4675 10375
+Wire Wire Line
+	4550 10200 4675 10200
+Wire Wire Line
+	4250 10375 4150 10375
+Wire Wire Line
+	4150 10375 4150 10200
+Wire Wire Line
+	4150 10200 4250 10200
+Wire Wire Line
+	4050 10200 4150 10200
+Connection ~ 4150 10200
+Text Notes 3075 9925 0    118  ~ 24
+LPDDR4/LPDDR4x supply control
 $EndSCHEMATC

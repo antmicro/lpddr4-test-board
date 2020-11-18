@@ -260,20 +260,6 @@ $EndComp
 Wire Wire Line
 	8150 10600 9025 10600
 $Comp
-L lpddr4-test-board:C_820p_0603 C3
-U 1 1 60459737
-P 9675 9900
-F 0 "C3" H 9700 10000 60  0000 L CNN
-F 1 "C_820p_0603" H 9675 9750 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0603-res" H 9875 10100 60  0001 L CNN
-F 3 "" H 9675 9900 50  0001 C CNN
-F 4 "KEMET" H 9875 10300 60  0001 L CNN "Manufacturer"
-F 5 "C0603C821J5RACTU" H 9875 10200 60  0001 L CNN "MPN"
-F 6 "820p" H 9700 9800 50  0000 L CNN "Val"
-	1    9675 9900
-	1    0    0    -1  
-$EndComp
-$Comp
 L lpddr4-test-board:C_910p_0402 C1
 U 1 1 6045F2AB
 P 9650 8850
@@ -1868,17 +1854,13 @@ Connection ~ 10300 4075
 Wire Wire Line
 	10300 4075 10300 4175
 Wire Wire Line
-	9325 9750 10200 9750
+	9325 9750 9675 9750
 Wire Wire Line
-	9325 10050 10200 10050
+	9325 10050 9675 10050
 Text GLabel 14750 1050 1    50   Input ~ 0
-DDRVCC
+VDDQ
 Text GLabel 13150 1050 1    50   Input ~ 0
-DDRVCC
-Text GLabel 8400 1100 1    50   Input ~ 0
-DDRVCC
-Text GLabel 10075 1100 1    50   Input ~ 0
-DDRVCC
+VDDQ
 Wire Wire Line
 	1900 5400 1775 5400
 Wire Wire Line
@@ -1992,4 +1974,28 @@ Text Notes 13400 1050 0    50   ~ 0
 VCCO (HP banks) max: 2.0V
 Text Notes 8700 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
+Text GLabel 8400 1100 1    50   Input ~ 0
+VCC3V3
+Text GLabel 10075 1100 1    50   Input ~ 0
+VCC3V3
+$Comp
+L antmicroCapacitors0603:C_820p_0603 C?
+U 1 1 604141EE
+P 9675 9900
+F 0 "C?" H 9790 9945 60  0000 L CNN
+F 1 "C_820p_0603" H 9675 9750 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 9875 10100 60  0001 L CNN
+F 3 "" H 9675 9900 50  0001 C CNN
+F 4 "KEMET" H 9875 10300 60  0001 L CNN "Manufacturer"
+F 5 "C0603C821J5RACTU" H 9875 10200 60  0001 L CNN "MPN"
+F 6 "820p" H 9790 9847 50  0000 L CNN "Val"
+	1    9675 9900
+	1    0    0    -1  
+$EndComp
+Connection ~ 9675 9750
+Wire Wire Line
+	9675 9750 10200 9750
+Connection ~ 9675 10050
+Wire Wire Line
+	9675 10050 10200 10050
 $EndSCHEMATC
