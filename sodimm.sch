@@ -369,10 +369,10 @@ VDD2\n
 Text GLabel 4975 9650 0    50   Input ~ 0
 VDDQ
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R55
 U 1 1 606BFB95
 P 5325 9650
-F 0 "R?" H 5325 9725 60  0000 C CNN
+F 0 "R55" H 5325 9725 60  0000 C CNN
 F 1 "R_0R_0402" H 5325 9500 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5525 9850 60  0001 L CNN
 F 3 "" H 5325 9650 50  0001 C CNN
@@ -383,10 +383,10 @@ F 6 "0R" H 5325 9650 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R?
+L antmicroResistors0402:R_0R_0402 R56
 U 1 1 606C1C63
 P 5325 9825
-F 0 "R?" H 5325 9900 60  0000 C CNN
+F 0 "R56" H 5325 9900 60  0000 C CNN
 F 1 "R_0R_0402" H 5325 9675 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5525 10025 60  0001 L CNN
 F 3 "" H 5325 9825 50  0001 C CNN
@@ -484,10 +484,10 @@ Wire Wire Line
 Wire Wire Line
 	5275 3300 5275 3600
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0179
 U 1 1 60D2B1F7
 P 5275 7525
-F 0 "#PWR?" H 5275 7275 50  0001 C CNN
+F 0 "#PWR0179" H 5275 7275 50  0001 C CNN
 F 1 "GND" H 5280 7352 50  0000 C CNN
 F 2 "" H 5275 7525 50  0001 C CNN
 F 3 "" H 5275 7525 50  0001 C CNN
@@ -495,10 +495,10 @@ F 3 "" H 5275 7525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-slot-2-2013289-2 J?
+L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-slot-2-2013289-2 J9
 U 1 1 60D77CED
 P 4350 5100
-F 0 "J?" H 4350 7267 50  0000 C CNN
+F 0 "J9" H 4350 7267 50  0000 C CNN
 F 1 "ddr3-sodimm-slot-2-2013289-2" H 4350 7176 50  0000 C CNN
 F 2 "antmicro-footprints:TE_2-2013289-2" H 4350 5100 50  0001 L BNN
 F 3 "" H 4350 5100 50  0001 L BNN
@@ -509,10 +509,10 @@ F 6 "C" H 4350 5100 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-slot-2-2013289-2 J?
+L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-slot-2-2013289-2 J9
 U 2 1 60D7BA8A
 P 11175 5775
-F 0 "J?" H 11175 9442 50  0000 C CNN
+F 0 "J9" H 11175 9442 50  0000 C CNN
 F 1 "ddr3-sodimm-slot-2-2013289-2" H 11175 9351 50  0000 C CNN
 F 2 "antmicro-footprints:TE_2-2013289-2" H 11175 5775 50  0001 L BNN
 F 3 "" H 11175 5775 50  0001 L BNN
@@ -846,10 +846,10 @@ Connection ~ 13325 4675
 Text Notes 13650 4575 0    50   ~ 0
 VDD1
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0180
 U 1 1 65590887
 P 10250 9400
-F 0 "#PWR?" H 10250 9150 50  0001 C CNN
+F 0 "#PWR0180" H 10250 9150 50  0001 C CNN
 F 1 "GND" H 10255 9227 50  0000 C CNN
 F 2 "" H 10250 9400 50  0001 C CNN
 F 3 "" H 10250 9400 50  0001 C CNN
@@ -857,10 +857,10 @@ F 3 "" H 10250 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0200
 U 1 1 655A29FD
 P 12100 9400
-F 0 "#PWR?" H 12100 9150 50  0001 C CNN
+F 0 "#PWR0200" H 12100 9150 50  0001 C CNN
 F 1 "GND" H 12105 9227 50  0000 C CNN
 F 2 "" H 12100 9400 50  0001 C CNN
 F 3 "" H 12100 9400 50  0001 C CNN

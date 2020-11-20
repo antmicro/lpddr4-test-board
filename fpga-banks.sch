@@ -504,89 +504,87 @@ Text GLabel 11975 2325 0    50   Input ~ 0
 DM0_n\DBI0_n
 Text GLabel 11975 4025 0    50   Input ~ 0
 DQS1_c
-Text GLabel 15250 2325 2    50   Input ~ 0
+Text GLabel 15250 3525 2    50   Input ~ 0
 DM2_n\DBI2_n
-Text GLabel 15250 4125 2    50   Input ~ 0
+Text GLabel 15250 2525 2    50   Input ~ 0
 DQ27
-Text GLabel 15250 4525 2    50   Input ~ 0
+Text GLabel 15250 3325 2    50   Input ~ 0
 DQ31
-Text GLabel 15250 3925 2    50   Input ~ 0
+Text GLabel 15250 2725 2    50   Input ~ 0
 DQS3_t
-Text GLabel 15250 4025 2    50   Input ~ 0
+Text GLabel 15250 2825 2    50   Input ~ 0
 DQS3_c
-Text GLabel 15250 3625 2    50   Input ~ 0
-DQ24
-Text GLabel 15250 4225 2    50   Input ~ 0
-DQ28
-Text GLabel 15250 2625 2    50   Input ~ 0
-DQ18
-Text GLabel 15250 3225 2    50   Input ~ 0
-DQ22
 Text GLabel 15250 2425 2    50   Input ~ 0
+DQ24
+Text GLabel 15250 3225 2    50   Input ~ 0
+DQ28
+Text GLabel 15250 3825 2    50   Input ~ 0
+DQ18
+Text GLabel 15250 4125 2    50   Input ~ 0
+DQ22
+Text GLabel 15250 4225 2    50   Input ~ 0
 DQ16
-Text GLabel 15250 3025 2    50   Input ~ 0
+Text GLabel 15250 4425 2    50   Input ~ 0
 DQ20
-Text GLabel 11975 4125 0    50   Input ~ 0
+Text GLabel 11975 3825 0    50   Input ~ 0
 DQ11
-Text GLabel 11975 4425 0    50   Input ~ 0
+Text GLabel 11975 4125 0    50   Input ~ 0
 DQ14
 Text GLabel 11975 3925 0    50   Input ~ 0
 DQS1_t
 Text GLabel 11975 3625 0    50   Input ~ 0
 DQ8
-Text GLabel 11975 4225 0    50   Input ~ 0
-DQ12
-Text GLabel 11975 2625 0    50   Input ~ 0
-DQ2
-Text GLabel 11975 3225 0    50   Input ~ 0
-DQ6
-Text GLabel 11975 2425 0    50   Input ~ 0
-DQ0
-Text GLabel 11975 3025 0    50   Input ~ 0
-DQ4
-Text GLabel 15250 4325 2    50   Input ~ 0
-DQ29
-Text GLabel 15250 2925 2    50   Input ~ 0
-DQ19
-Text GLabel 15250 3825 2    50   Input ~ 0
-DQ26
-Text GLabel 15250 4425 2    50   Input ~ 0
-DQ30
-Text GLabel 15250 3525 2    50   Input ~ 0
-DM3_n\DBI3_n
-Text GLabel 15250 3725 2    50   Input ~ 0
-DQ25
-Text GLabel 15250 3325 2    50   Input ~ 0
-DQ23
-Text GLabel 15250 2725 2    50   Input ~ 0
-DQS2_t
-Text GLabel 15250 2825 2    50   Input ~ 0
-DQS2_c
-Text GLabel 15250 2525 2    50   Input ~ 0
-DQ17
-Text GLabel 15250 3125 2    50   Input ~ 0
-DQ21
-Text GLabel 11975 3825 0    50   Input ~ 0
-DQ10
 Text GLabel 11975 4525 0    50   Input ~ 0
+DQ12
+Text GLabel 11975 2425 0    50   Input ~ 0
+DQ2
+Text GLabel 11975 3125 0    50   Input ~ 0
+DQ6
+Text GLabel 11975 2525 0    50   Input ~ 0
+DQ0
+Text GLabel 11975 2925 0    50   Input ~ 0
+DQ4
+Text GLabel 15250 3125 2    50   Input ~ 0
+DQ29
+Text GLabel 15250 3725 2    50   Input ~ 0
+DQ19
+Text GLabel 15250 3025 2    50   Input ~ 0
+DQ26
+Text GLabel 15250 2925 2    50   Input ~ 0
+DQ30
+Text GLabel 15250 2325 2    50   Input ~ 0
+DM3_n\DBI3_n
+Text GLabel 15250 2625 2    50   Input ~ 0
+DQ25
+Text GLabel 15250 3625 2    50   Input ~ 0
+DQ23
+Text GLabel 15250 3925 2    50   Input ~ 0
+DQS2_t
+Text GLabel 15250 4025 2    50   Input ~ 0
+DQS2_c
+Text GLabel 15250 4325 2    50   Input ~ 0
+DQ17
+Text GLabel 15250 4525 2    50   Input ~ 0
+DQ21
+Text GLabel 11975 3725 0    50   Input ~ 0
+DQ10
+Text GLabel 11975 4225 0    50   Input ~ 0
 DQ15
 Text GLabel 11975 3525 0    50   Input ~ 0
 DM1_n\DBI_n
-Text GLabel 11975 3725 0    50   Input ~ 0
-DQ9
 Text GLabel 11975 4325 0    50   Input ~ 0
+DQ9
+Text GLabel 11975 4425 0    50   Input ~ 0
 DQ13
-Text GLabel 11975 2925 0    50   Input ~ 0
-DQ3
-Text GLabel 11975 3325 0    50   Input ~ 0
+Text GLabel 11975 3225 0    50   Input ~ 0
 DQ7
 Text GLabel 11975 2725 0    50   Input ~ 0
 DQS0_t
 Text GLabel 11975 2825 0    50   Input ~ 0
 DQS0_c
-Text GLabel 11975 2525 0    50   Input ~ 0
+Text GLabel 11975 2625 0    50   Input ~ 0
 DQ1
-Text GLabel 11975 3125 0    50   Input ~ 0
+Text GLabel 11975 3025 0    50   Input ~ 0
 DQ5
 Wire Wire Line
 	11975 2325 12100 2325
@@ -793,58 +791,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 1275 4600 1125
 Connection ~ 4450 1275
-Wire Wire Line
-	7750 1475 7750 1250
-Wire Wire Line
-	7750 1250 7850 1250
-Wire Wire Line
-	7850 1475 7850 1250
-Connection ~ 7850 1250
-Wire Wire Line
-	7850 1250 7950 1250
-Wire Wire Line
-	7950 1475 7950 1250
-Connection ~ 7950 1250
-Wire Wire Line
-	7950 1250 8050 1250
-Wire Wire Line
-	8050 1475 8050 1250
-Connection ~ 8050 1250
-Wire Wire Line
-	8050 1250 8150 1250
-Wire Wire Line
-	8150 1475 8150 1250
-Connection ~ 8150 1250
-Wire Wire Line
-	8150 1250 8250 1250
-Wire Wire Line
-	8250 1475 8250 1250
-Wire Wire Line
-	8250 1250 8400 1250
-Wire Wire Line
-	8400 1250 8400 1100
-Connection ~ 8250 1250
-Wire Wire Line
-	9600 1475 9600 1250
-Wire Wire Line
-	9600 1250 9700 1250
-Wire Wire Line
-	9700 1475 9700 1250
-Connection ~ 9700 1250
-Wire Wire Line
-	9700 1250 9800 1250
-Wire Wire Line
-	9800 1475 9800 1250
-Connection ~ 9800 1250
-Wire Wire Line
-	9800 1250 9900 1250
-Wire Wire Line
-	9900 1475 9900 1250
-Connection ~ 9900 1250
-Wire Wire Line
-	10075 1250 10075 1100
-Wire Wire Line
-	9900 1250 10075 1250
 Wire Wire Line
 	12500 1425 12500 1200
 Wire Wire Line
@@ -1181,226 +1127,6 @@ Text GLabel 5300 2300 2    50   Input ~ 0
 GCLK100
 Text GLabel 5450 3300 2    50   Input ~ 0
 CD_DAT3
-Text GLabel 7225 6775 0    50   Input ~ 0
-CB5\NC
-Text GLabel 7225 6175 0    50   Input ~ 0
-CB1\NC
-Text GLabel 7225 6275 0    50   Input ~ 0
-CB2\NC
-Text GLabel 7225 6575 0    50   Input ~ 0
-CB3\NC
-Text GLabel 7225 5075 0    50   Input ~ 0
-DQ58
-Text GLabel 7225 6675 0    50   Input ~ 0
-CB4\NC
-Text GLabel 7225 6075 0    50   Input ~ 0
-CB0\NC
-Text GLabel 7225 6875 0    50   Input ~ 0
-CB6\NC
-Text GLabel 7225 6975 0    50   Input ~ 0
-CB7\NC
-Text GLabel 7225 5975 0    50   Input ~ 0
-DM8_n\DBI_n\NC
-Text GLabel 7225 5375 0    50   Input ~ 0
-DQ59
-Text GLabel 7225 5775 0    50   Input ~ 0
-DQ63
-Text GLabel 7225 4975 0    50   Input ~ 0
-DQ57
-Text GLabel 7225 5475 0    50   Input ~ 0
-DQ60
-Text GLabel 7225 3875 0    50   Input ~ 0
-DQ50
-Text GLabel 7225 4475 0    50   Input ~ 0
-DQ54
-Text GLabel 7225 3575 0    50   Input ~ 0
-DM6_n\DBI6_n
-Text GLabel 7225 3675 0    50   Input ~ 0
-DQ48
-Text GLabel 7225 4375 0    50   Input ~ 0
-DQ53
-Text GLabel 7225 2975 0    50   Input ~ 0
-DQ43
-Text GLabel 7225 3375 0    50   Input ~ 0
-DQ47
-Text GLabel 7225 2775 0    50   Input ~ 0
-DQS5_t
-Text GLabel 7225 2875 0    50   Input ~ 0
-DQS5_c
-Text GLabel 7225 2575 0    50   Input ~ 0
-DQ41
-Text GLabel 7225 3175 0    50   Input ~ 0
-DQ45
-Text GLabel 10375 5275 2    50   Input ~ 0
-DQ35
-Text GLabel 10375 5675 2    50   Input ~ 0
-DQ39
-Text GLabel 10375 4675 2    50   Input ~ 0
-DM4_n\DBI4_n
-Text GLabel 10375 4775 2    50   Input ~ 0
-DQ32
-Text GLabel 10375 5375 2    50   Input ~ 0
-DQ36
-Text GLabel 7225 5675 0    50   Input ~ 0
-DQ62
-Text GLabel 7225 4775 0    50   Input ~ 0
-DM7_n\DBI_n
-Text GLabel 7225 4875 0    50   Input ~ 0
-DQ56
-Text GLabel 7225 5575 0    50   Input ~ 0
-DQ61
-Text GLabel 7225 4175 0    50   Input ~ 0
-DQ51
-Text GLabel 7225 4575 0    50   Input ~ 0
-DQ55
-Text GLabel 7225 3975 0    50   Input ~ 0
-DQS6_t
-Text GLabel 7225 4075 0    50   Input ~ 0
-DQS6_c
-Text GLabel 7225 3775 0    50   Input ~ 0
-DQ49
-Text GLabel 7225 4275 0    50   Input ~ 0
-DQ52
-Text GLabel 7225 2675 0    50   Input ~ 0
-DQ42
-Text GLabel 7225 3275 0    50   Input ~ 0
-DQ46
-Text GLabel 7225 2375 0    50   Input ~ 0
-DM5_n\DBI5_n
-Text GLabel 7225 2475 0    50   Input ~ 0
-DQ40
-Text GLabel 7225 3075 0    50   Input ~ 0
-DQ44
-Text GLabel 10375 4975 2    50   Input ~ 0
-DQ34
-Text GLabel 10375 5575 2    50   Input ~ 0
-DQ38
-Text GLabel 10375 5075 2    50   Input ~ 0
-DQS4_t
-Text GLabel 10375 5175 2    50   Input ~ 0
-DQS4_c
-Text GLabel 10375 4875 2    50   Input ~ 0
-DQ33
-Text GLabel 10375 5475 2    50   Input ~ 0
-DQ37
-Text GLabel 7225 5275 0    50   Input ~ 0
-DQS7_c
-Text GLabel 7225 5175 0    50   Input ~ 0
-DQS7_t
-Text GLabel 7225 6375 0    50   Input ~ 0
-DQS8_t\NC
-Text GLabel 7225 6475 0    50   Input ~ 0
-DQS8_c\NC
-Wire Wire Line
-	7225 2475 7350 2475
-Wire Wire Line
-	7225 2575 7350 2575
-Wire Wire Line
-	7225 2675 7350 2675
-Wire Wire Line
-	7225 2775 7350 2775
-Wire Wire Line
-	7225 2875 7350 2875
-Wire Wire Line
-	7225 2975 7350 2975
-Wire Wire Line
-	7225 3075 7350 3075
-Wire Wire Line
-	7225 3175 7350 3175
-Wire Wire Line
-	7225 3275 7350 3275
-Wire Wire Line
-	7225 3375 7350 3375
-Wire Wire Line
-	7225 3675 7350 3675
-Wire Wire Line
-	7225 3775 7350 3775
-Wire Wire Line
-	7225 3875 7350 3875
-Wire Wire Line
-	7225 3975 7350 3975
-Wire Wire Line
-	7225 4075 7350 4075
-Wire Wire Line
-	7225 4175 7350 4175
-Wire Wire Line
-	7225 4275 7350 4275
-Wire Wire Line
-	7225 4375 7350 4375
-Wire Wire Line
-	7225 4475 7350 4475
-Wire Wire Line
-	7225 4575 7350 4575
-Wire Wire Line
-	7225 2375 7350 2375
-Wire Wire Line
-	7225 4875 7350 4875
-Wire Wire Line
-	7225 4975 7350 4975
-Wire Wire Line
-	7225 5075 7350 5075
-Wire Wire Line
-	7225 5175 7350 5175
-Wire Wire Line
-	7225 5275 7350 5275
-Wire Wire Line
-	7225 5375 7350 5375
-Wire Wire Line
-	7225 5475 7350 5475
-Wire Wire Line
-	7225 5575 7350 5575
-Wire Wire Line
-	7225 5675 7350 5675
-Wire Wire Line
-	7225 5775 7350 5775
-Wire Wire Line
-	7225 6175 7350 6175
-Wire Wire Line
-	7225 6275 7350 6275
-Wire Wire Line
-	7225 6375 7350 6375
-Wire Wire Line
-	7225 6475 7350 6475
-Wire Wire Line
-	7225 6575 7350 6575
-Wire Wire Line
-	7225 6675 7350 6675
-Wire Wire Line
-	7225 6775 7350 6775
-Wire Wire Line
-	7225 6875 7350 6875
-Wire Wire Line
-	7225 6975 7350 6975
-Wire Wire Line
-	10250 4675 10375 4675
-Wire Wire Line
-	10250 4775 10375 4775
-Wire Wire Line
-	10250 4875 10375 4875
-Wire Wire Line
-	10250 4975 10375 4975
-Wire Wire Line
-	10250 5075 10375 5075
-Wire Wire Line
-	10250 5175 10375 5175
-Wire Wire Line
-	10250 5275 10375 5275
-Wire Wire Line
-	10250 5375 10375 5375
-Wire Wire Line
-	10250 5475 10375 5475
-Wire Wire Line
-	10250 5575 10375 5575
-Wire Wire Line
-	10250 5675 10375 5675
-Wire Wire Line
-	7225 4775 7350 4775
-Wire Wire Line
-	7225 3575 7350 3575
-Wire Wire Line
-	7225 6075 7350 6075
-Wire Wire Line
-	7225 5975 7350 5975
 Wire Wire Line
 	7350 2275 7250 2275
 Wire Wire Line
@@ -1711,10 +1437,10 @@ Connection ~ 15075 3425
 Wire Wire Line
 	15075 3425 15075 4625
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0105
 U 1 1 686D88A2
 P 15075 7475
-F 0 "#PWR?" H 15075 7225 50  0001 C CNN
+F 0 "#PWR0105" H 15075 7225 50  0001 C CNN
 F 1 "GND" H 15080 7302 50  0000 C CNN
 F 2 "" H 15075 7475 50  0001 C CNN
 F 3 "" H 15075 7475 50  0001 C CNN
@@ -1726,10 +1452,10 @@ Wire Wire Line
 Wire Wire Line
 	12025 3425 12025 4625
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0108
 U 1 1 6878E8FD
 P 12025 7425
-F 0 "#PWR?" H 12025 7175 50  0001 C CNN
+F 0 "#PWR0108" H 12025 7175 50  0001 C CNN
 F 1 "GND" H 12030 7252 50  0000 C CNN
 F 2 "" H 12025 7425 50  0001 C CNN
 F 3 "" H 12025 7425 50  0001 C CNN
@@ -1800,8 +1526,8 @@ L lpddr4-test-board:R_49R9_0402 R?
 U 1 1 69FB6CA6
 P 5075 2900
 AR Path="/5FD53C7D/69FB6CA6" Ref="R?"  Part="1" 
-AR Path="/5F96C515/69FB6CA6" Ref="R?"  Part="1" 
-F 0 "R?" H 4850 2950 60  0000 C CNN
+AR Path="/5F96C515/69FB6CA6" Ref="R10"  Part="1" 
+F 0 "R10" H 4850 2950 60  0000 C CNN
 F 1 "R_49R9_0402" H 5075 2750 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 5275 3100 60  0001 L CNN
 F 3 "" H 5075 2900 50  0001 C CNN
@@ -1866,10 +1592,10 @@ Wire Wire Line
 Wire Wire Line
 	1425 5400 1475 5400
 $Comp
-L lpddr4-test-board:R_200R_0402 R?
+L lpddr4-test-board:R_200R_0402 R9
 U 1 1 6B4FB04F
 P 1625 5400
-F 0 "R?" H 1475 5450 60  0000 C CNN
+F 0 "R9" H 1475 5450 60  0000 C CNN
 F 1 "R_200R_0402" H 1625 5250 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 1825 5600 60  0001 L CNN
 F 3 "" H 1625 5400 50  0001 C CNN
@@ -1974,15 +1700,11 @@ Text Notes 13400 1050 0    50   ~ 0
 VCCO (HP banks) max: 2.0V
 Text Notes 8700 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
-Text GLabel 8400 1100 1    50   Input ~ 0
-VCC3V3
-Text GLabel 10075 1100 1    50   Input ~ 0
-VCC3V3
 $Comp
-L antmicroCapacitors0603:C_820p_0603 C?
+L antmicroCapacitors0603:C_820p_0603 C3
 U 1 1 604141EE
 P 9675 9900
-F 0 "C?" H 9790 9945 60  0000 L CNN
+F 0 "C3" H 9790 9945 60  0000 L CNN
 F 1 "C_820p_0603" H 9675 9750 60  0001 C CNN
 F 2 "antmicro-footprints:0603-res" H 9875 10100 60  0001 L CNN
 F 3 "" H 9675 9900 50  0001 C CNN
@@ -1998,4 +1720,282 @@ Wire Wire Line
 Connection ~ 9675 10050
 Wire Wire Line
 	9675 10050 10200 10050
+Wire Wire Line
+	17550 1950 17675 1950
+Wire Wire Line
+	17550 1850 17675 1850
+Wire Wire Line
+	17550 1750 17675 1750
+Wire Wire Line
+	17550 1650 17675 1650
+Wire Wire Line
+	17550 1550 17675 1550
+Wire Wire Line
+	17550 1450 17675 1450
+Wire Wire Line
+	17550 1350 17675 1350
+Wire Wire Line
+	17550 1250 17675 1250
+Wire Wire Line
+	17550 1150 17675 1150
+Wire Wire Line
+	17550 1050 17675 1050
+Wire Wire Line
+	17550 950  17675 950 
+Text GLabel 17675 1750 2    50   Input ~ 0
+DQ37
+Text GLabel 17675 1150 2    50   Input ~ 0
+DQ33
+Text GLabel 17675 1450 2    50   Input ~ 0
+DQS4_c
+Text GLabel 17675 1350 2    50   Input ~ 0
+DQS4_t
+Text GLabel 17675 1850 2    50   Input ~ 0
+DQ38
+Text GLabel 17675 1250 2    50   Input ~ 0
+DQ34
+Text GLabel 17675 1650 2    50   Input ~ 0
+DQ36
+Text GLabel 17675 1050 2    50   Input ~ 0
+DQ32
+Text GLabel 17675 950  2    50   Input ~ 0
+DM4_n\DBI4_n
+Text GLabel 17675 1950 2    50   Input ~ 0
+DQ39
+Text GLabel 17675 1550 2    50   Input ~ 0
+DQ35
+Text GLabel 10075 1100 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	10075 1250 10075 1100
+Wire Wire Line
+	9900 1250 10075 1250
+Wire Wire Line
+	9900 1475 9900 1250
+Connection ~ 9900 1250
+Wire Wire Line
+	9800 1250 9900 1250
+Wire Wire Line
+	9800 1475 9800 1250
+Connection ~ 9800 1250
+Wire Wire Line
+	9700 1250 9800 1250
+Wire Wire Line
+	9700 1475 9700 1250
+Connection ~ 9700 1250
+Wire Wire Line
+	9600 1250 9700 1250
+Wire Wire Line
+	9600 1475 9600 1250
+Text GLabel 8400 1100 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	8400 1250 8400 1100
+Wire Wire Line
+	8250 1250 8400 1250
+Wire Wire Line
+	8250 1475 8250 1250
+Connection ~ 8250 1250
+Wire Wire Line
+	8150 1250 8250 1250
+Wire Wire Line
+	8150 1475 8150 1250
+Connection ~ 8150 1250
+Wire Wire Line
+	8050 1250 8150 1250
+Wire Wire Line
+	8050 1475 8050 1250
+Connection ~ 8050 1250
+Wire Wire Line
+	7950 1250 8050 1250
+Wire Wire Line
+	7950 1475 7950 1250
+Connection ~ 7950 1250
+Wire Wire Line
+	7850 1250 7950 1250
+Wire Wire Line
+	7850 1475 7850 1250
+Connection ~ 7850 1250
+Wire Wire Line
+	7750 1250 7850 1250
+Wire Wire Line
+	7750 1475 7750 1250
+Text GLabel 11975 3325 0    50   Input ~ 0
+DQ3
+Wire Wire Line
+	7225 5975 7350 5975
+Wire Wire Line
+	7225 6075 7350 6075
+Wire Wire Line
+	7225 3575 7350 3575
+Wire Wire Line
+	7225 4775 7350 4775
+Wire Wire Line
+	7225 6975 7350 6975
+Wire Wire Line
+	7225 6875 7350 6875
+Wire Wire Line
+	7225 6775 7350 6775
+Wire Wire Line
+	7225 6675 7350 6675
+Wire Wire Line
+	7225 6575 7350 6575
+Wire Wire Line
+	7225 6475 7350 6475
+Wire Wire Line
+	7225 6375 7350 6375
+Wire Wire Line
+	7225 6275 7350 6275
+Wire Wire Line
+	7225 6175 7350 6175
+Wire Wire Line
+	7225 5775 7350 5775
+Wire Wire Line
+	7225 5675 7350 5675
+Wire Wire Line
+	7225 5575 7350 5575
+Wire Wire Line
+	7225 5475 7350 5475
+Wire Wire Line
+	7225 5375 7350 5375
+Wire Wire Line
+	7225 5275 7350 5275
+Wire Wire Line
+	7225 5175 7350 5175
+Wire Wire Line
+	7225 5075 7350 5075
+Wire Wire Line
+	7225 4975 7350 4975
+Wire Wire Line
+	7225 4875 7350 4875
+Wire Wire Line
+	7225 2375 7350 2375
+Wire Wire Line
+	7225 4575 7350 4575
+Wire Wire Line
+	7225 4475 7350 4475
+Wire Wire Line
+	7225 4375 7350 4375
+Wire Wire Line
+	7225 4275 7350 4275
+Wire Wire Line
+	7225 4175 7350 4175
+Wire Wire Line
+	7225 4075 7350 4075
+Wire Wire Line
+	7225 3975 7350 3975
+Wire Wire Line
+	7225 3875 7350 3875
+Wire Wire Line
+	7225 3775 7350 3775
+Wire Wire Line
+	7225 3675 7350 3675
+Wire Wire Line
+	7225 3375 7350 3375
+Wire Wire Line
+	7225 3275 7350 3275
+Wire Wire Line
+	7225 3175 7350 3175
+Wire Wire Line
+	7225 3075 7350 3075
+Wire Wire Line
+	7225 2975 7350 2975
+Wire Wire Line
+	7225 2875 7350 2875
+Wire Wire Line
+	7225 2775 7350 2775
+Wire Wire Line
+	7225 2675 7350 2675
+Wire Wire Line
+	7225 2575 7350 2575
+Wire Wire Line
+	7225 2475 7350 2475
+Text GLabel 7225 6475 0    50   Input ~ 0
+DQS8_c\NC
+Text GLabel 7225 6375 0    50   Input ~ 0
+DQS8_t\NC
+Text GLabel 7225 5175 0    50   Input ~ 0
+DQS7_t
+Text GLabel 7225 5275 0    50   Input ~ 0
+DQS7_c
+Text GLabel 7225 3075 0    50   Input ~ 0
+DQ44
+Text GLabel 7225 2475 0    50   Input ~ 0
+DQ40
+Text GLabel 7225 2375 0    50   Input ~ 0
+DM5_n\DBI5_n
+Text GLabel 7225 3275 0    50   Input ~ 0
+DQ46
+Text GLabel 7225 2675 0    50   Input ~ 0
+DQ42
+Text GLabel 7225 4275 0    50   Input ~ 0
+DQ52
+Text GLabel 7225 3775 0    50   Input ~ 0
+DQ49
+Text GLabel 7225 4075 0    50   Input ~ 0
+DQS6_c
+Text GLabel 7225 3975 0    50   Input ~ 0
+DQS6_t
+Text GLabel 7225 4575 0    50   Input ~ 0
+DQ55
+Text GLabel 7225 4175 0    50   Input ~ 0
+DQ51
+Text GLabel 7225 5575 0    50   Input ~ 0
+DQ61
+Text GLabel 7225 4875 0    50   Input ~ 0
+DQ56
+Text GLabel 7225 4775 0    50   Input ~ 0
+DM7_n\DBI_n
+Text GLabel 7225 5675 0    50   Input ~ 0
+DQ62
+Text GLabel 7225 3175 0    50   Input ~ 0
+DQ45
+Text GLabel 7225 2575 0    50   Input ~ 0
+DQ41
+Text GLabel 7225 2875 0    50   Input ~ 0
+DQS5_c
+Text GLabel 7225 2775 0    50   Input ~ 0
+DQS5_t
+Text GLabel 7225 3375 0    50   Input ~ 0
+DQ47
+Text GLabel 7225 2975 0    50   Input ~ 0
+DQ43
+Text GLabel 7225 4375 0    50   Input ~ 0
+DQ53
+Text GLabel 7225 3675 0    50   Input ~ 0
+DQ48
+Text GLabel 7225 3575 0    50   Input ~ 0
+DM6_n\DBI6_n
+Text GLabel 7225 4475 0    50   Input ~ 0
+DQ54
+Text GLabel 7225 3875 0    50   Input ~ 0
+DQ50
+Text GLabel 7225 5475 0    50   Input ~ 0
+DQ60
+Text GLabel 7225 4975 0    50   Input ~ 0
+DQ57
+Text GLabel 7225 5775 0    50   Input ~ 0
+DQ63
+Text GLabel 7225 5375 0    50   Input ~ 0
+DQ59
+Text GLabel 7225 5975 0    50   Input ~ 0
+DM8_n\DBI_n\NC
+Text GLabel 7225 6975 0    50   Input ~ 0
+CB7\NC
+Text GLabel 7225 6875 0    50   Input ~ 0
+CB6\NC
+Text GLabel 7225 6075 0    50   Input ~ 0
+CB0\NC
+Text GLabel 7225 6675 0    50   Input ~ 0
+CB4\NC
+Text GLabel 7225 5075 0    50   Input ~ 0
+DQ58
+Text GLabel 7225 6575 0    50   Input ~ 0
+CB3\NC
+Text GLabel 7225 6275 0    50   Input ~ 0
+CB2\NC
+Text GLabel 7225 6175 0    50   Input ~ 0
+CB1\NC
+Text GLabel 7225 6775 0    50   Input ~ 0
+CB5\NC
 $EndSCHEMATC
