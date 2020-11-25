@@ -24,12 +24,10 @@ F 3 "" H 3425 7500 50  0001 C CNN
 	1    3425 7500
 	1    0    0    -1  
 $EndComp
-Text GLabel 16950 6875 0    50   Input ~ 0
+Text GLabel 5725 5300 2    50   Input ~ 0
 VDDQ
-Text GLabel 17000 6675 0    50   Input ~ 0
+Text GLabel 3000 5300 0    50   Input ~ 0
 VDDQ
-Text GLabel 17075 5000 0    50   Input ~ 0
-VDDSPD
 Wire Wire Line
 	11875 6275 12575 6275
 Wire Wire Line
@@ -76,12 +74,6 @@ Wire Wire Line
 	11875 7375 12575 7375
 Wire Wire Line
 	10475 2875 9775 2875
-Wire Wire Line
-	17450 5825 16750 5825
-Wire Wire Line
-	17450 5725 16750 5725
-Wire Wire Line
-	17450 5525 16750 5525
 Text GLabel 9775 5575 0    50   Input ~ 0
 DQ5
 Text GLabel 12575 5875 2    50   Input ~ 0
@@ -127,13 +119,7 @@ DQ29
 Text GLabel 12575 7375 2    50   Input ~ 0
 CKE0_A
 Text GLabel 9775 2875 0    50   Input ~ 0
-A12
-Text GLabel 16750 5825 0    50   Input ~ 0
-A9
-Text GLabel 16750 5725 0    50   Input ~ 0
-A8
-Text GLabel 16750 5525 0    50   Input ~ 0
-A6
+CA2_B
 Wire Wire Line
 	10475 7275 9775 7275
 Wire Wire Line
@@ -142,36 +128,16 @@ Wire Wire Line
 	11875 5075 12575 5075
 Wire Wire Line
 	11875 2775 12575 2775
-Wire Wire Line
-	17600 7750 16900 7750
-Wire Wire Line
-	17375 7050 17075 7050
-Wire Wire Line
-	16475 8550 17175 8550
 Text GLabel 9775 7275 0    50   Input ~ 0
-A1
+CA1_A
 Text GLabel 12575 4975 2    50   Input ~ 0
 CK0_P
 Text GLabel 12575 5075 2    50   Input ~ 0
 CK0_N
-Text GLabel 16875 3925 2    50   Input ~ 0
-PARITY
 Text GLabel 12575 7275 2    50   Input ~ 0
 CS0_n
-Text GLabel 12575 2775 2    50   Input ~ 0
-WE_n\A14
-Text GLabel 16900 7750 0    50   Input ~ 0
-ODT0
 Text GLabel 12575 3075 2    50   Input ~ 0
 CS0_N_B
-Text GLabel 17075 7050 0    50   Input ~ 0
-ODT1\NC
-Text GLabel 16900 4375 2    50   Input ~ 0
-C1\CS3_n\NC
-Text GLabel 17175 8550 2    50   Input ~ 0
-SCL
-Text GLabel 17075 5100 0    50   Input ~ 0
-VPP
 Wire Wire Line
 	9775 5475 10475 5475
 Wire Wire Line
@@ -215,21 +181,15 @@ Wire Wire Line
 Wire Wire Line
 	12575 3275 11875 3275
 Wire Wire Line
-	17400 7925 16700 7925
-Wire Wire Line
 	12575 2975 11875 2975
 Wire Wire Line
 	9775 3075 10475 3075
-Wire Wire Line
-	16750 5625 17450 5625
 Wire Wire Line
 	12575 7675 11875 7675
 Wire Wire Line
 	12575 7575 11875 7575
 Wire Wire Line
 	9775 7475 10475 7475
-Wire Wire Line
-	17175 8350 16475 8350
 Wire Wire Line
 	12575 5275 11875 5275
 Wire Wire Line
@@ -239,17 +199,9 @@ Wire Wire Line
 Wire Wire Line
 	9775 3175 10475 3175
 Wire Wire Line
-	17075 7600 17275 7600
-Wire Wire Line
 	12575 2675 11875 2675
 Wire Wire Line
 	9775 2775 10475 2775
-Wire Wire Line
-	17175 8450 16475 8450
-Wire Wire Line
-	16725 8050 17425 8050
-Wire Wire Line
-	16725 8250 17425 8250
 Text GLabel 12575 5975 2    50   Input ~ 0
 DQ0
 Text GLabel 12575 6175 2    50   Input ~ 0
@@ -286,56 +238,30 @@ Text GLabel 9775 3675 0    50   Input ~ 0
 DQ31
 Text GLabel 12575 3275 2    50   Input ~ 0
 DQ27
-Text GLabel 17400 7925 2    50   Input ~ 0
+Text GLabel 12575 7875 2    50   Input ~ 0
 RESET_n
-Text GLabel 16900 4625 2    50   Input ~ 0
-ACT_n
-Text GLabel 16900 4725 2    50   Input ~ 0
-ALERT_n
 Text GLabel 9775 3075 0    50   Input ~ 0
-A11
-Text GLabel 16750 5625 0    50   Input ~ 0
-A7
+CA1_B
 Text GLabel 12575 7675 2    50   Input ~ 0
-A5
+CA5_A
 Text GLabel 12575 7575 2    50   Input ~ 0
-A4
+CA4_A
 Text GLabel 9775 7475 0    50   Input ~ 0
-A2
-Text GLabel 17175 8350 2    50   Input ~ 0
-EVENT_n\NF
-Text GLabel 12575 5275 2    50   Input ~ 0
-CK1_P
+CA2_A
 Text GLabel 12575 5375 2    50   Input ~ 0
+CK1_P
+Text GLabel 12575 5275 2    50   Input ~ 0
 CK1_N
 Text GLabel 9775 7175 0    50   Input ~ 0
-A0
+CA0_A
 Text GLabel 9775 3175 0    50   Input ~ 0
-A10\AP
-Text GLabel 17075 7600 0    50   Input ~ 0
-RAS_n\A16
-Text GLabel 12575 2675 2    50   Input ~ 0
-CAS_n\A15
+CA0_B
 Text GLabel 9775 2775 0    50   Input ~ 0
-A13
-Text GLabel 16900 4275 2    50   Input ~ 0
-C0\CS2_n\NC
-Text GLabel 16775 5200 2    50   Input ~ 0
-VREFCA
-Text GLabel 16900 4025 2    50   Input ~ 0
-SA2
-Text GLabel 17175 8450 2    50   Input ~ 0
-SDA
-Text GLabel 16725 8050 0    50   Input ~ 0
-SA0
-Text GLabel 16925 5300 2    50   Input ~ 0
-VTT
-Text GLabel 16725 8250 0    50   Input ~ 0
-SA1
+CA3_B
 Wire Wire Line
 	10475 7575 9775 7575
 Text GLabel 9775 7575 0    50   Input ~ 0
-A3
+CA3_A
 Text GLabel 12575 2975 2    50   Input ~ 0
 CKE0_B
 Text GLabel 9775 4275 0    50   Input ~ 0
@@ -344,21 +270,21 @@ Text GLabel 9775 6075 0    50   Input ~ 0
 DM0_n\DBI0_n
 Text Notes 7375 1325 0    118  ~ 24
 SODIMM connector
-Text GLabel 16725 7175 0    50   Input ~ 0
+Text GLabel 3000 5175 0    50   Input ~ 0
 VDD1V8
 Text GLabel 4550 9625 2    50   Input ~ 0
 VDD1V1
 Text GLabel 4550 9800 2    50   Input ~ 0
 VDD0V6
-Text Notes 16700 6250 0    50   ~ 0
+Text Notes 6025 5075 2    50   ~ 0
 VDD1
-Text GLabel 17000 6375 0    50   Input ~ 0
+Text GLabel 5725 5175 2    50   Input ~ 0
 VDD1V8
-Text GLabel 2400 2975 0    50   Input ~ 0
+Text GLabel 3100 2625 0    50   Input ~ 0
 VDD1V1
-Text GLabel 6000 3025 2    50   Input ~ 0
+Text GLabel 5575 2600 2    50   Input ~ 0
 VDD1V1
-Text Notes 2125 2825 0    50   ~ 0
+Text Notes 2825 2475 0    50   ~ 0
 VDD2\n
 Text GLabel 3925 9625 0    50   Input ~ 0
 VDDQ
@@ -582,90 +508,38 @@ Connection ~ 5275 7000
 Wire Wire Line
 	5275 7000 5275 7525
 Wire Wire Line
-	2400 2975 2400 3650
-Connection ~ 2400 3950
+	3100 2625 3100 3300
+Connection ~ 3100 3600
 Wire Wire Line
-	2400 3950 2400 4250
+	3650 3800 3100 3800
 Wire Wire Line
-	2400 3950 2600 3950
+	3650 4300 3100 4300
 Wire Wire Line
-	2600 4250 2400 4250
-Connection ~ 2400 4250
+	3650 4100 3100 4100
 Wire Wire Line
-	2400 4250 2400 4550
+	3650 4000 3100 4000
+Connection ~ 3100 3300
 Wire Wire Line
-	17000 6675 17375 6675
+	3100 3300 3100 3500
 Wire Wire Line
-	17375 6375 17000 6375
+	5575 3500 5050 3500
 Wire Wire Line
-	2600 5450 2400 5450
+	5050 3700 5575 3700
 Wire Wire Line
-	2600 5150 2400 5150
-Connection ~ 2400 5150
+	5050 4100 5575 4100
 Wire Wire Line
-	2400 5150 2400 5450
+	5050 4000 5575 4000
 Wire Wire Line
-	2600 4850 2400 4850
-Connection ~ 2400 4850
+	5050 3800 5575 3800
 Wire Wire Line
-	2400 4850 2400 5150
-Wire Wire Line
-	2600 4550 2400 4550
-Connection ~ 2400 4550
-Wire Wire Line
-	2400 4550 2400 4850
-Wire Wire Line
-	2600 3650 2400 3650
-Connection ~ 2400 3650
-Wire Wire Line
-	2400 3650 2400 3950
-Wire Wire Line
-	6000 3025 6000 3700
-Connection ~ 6000 4000
-Wire Wire Line
-	6000 4000 6000 4300
-Wire Wire Line
-	6000 4000 5800 4000
-Wire Wire Line
-	5800 4300 6000 4300
-Connection ~ 6000 4300
-Wire Wire Line
-	6000 4300 6000 4600
-Wire Wire Line
-	16950 6875 17375 6875
-Wire Wire Line
-	17375 7175 16950 7175
-Wire Wire Line
-	17425 7475 16950 7475
-Wire Wire Line
-	16950 7475 16950 7175
-Wire Wire Line
-	5800 5200 6000 5200
-Wire Wire Line
-	5800 4900 6000 4900
-Connection ~ 6000 4900
-Wire Wire Line
-	6000 4900 6000 5200
-Wire Wire Line
-	5800 4600 6000 4600
-Connection ~ 6000 4600
-Wire Wire Line
-	6000 4600 6000 4900
-Wire Wire Line
-	5800 3700 6000 3700
-Connection ~ 6000 3700
-Wire Wire Line
-	6000 3700 6000 4000
+	5050 3400 5575 3400
 Wire Wire Line
 	11875 5475 12100 5475
 Wire Wire Line
 	10475 5175 10250 5175
-Text Notes 6125 2900 0    50   ~ 0
+Text Notes 5700 2475 0    50   ~ 0
 VDD2\n
-Wire Wire Line
-	16950 7175 16725 7175
-Connection ~ 16950 7175
-Text Notes 16625 7325 2    50   ~ 0
+Text Notes 2875 5100 2    50   ~ 0
 VDD1
 $Comp
 L lpddr4-test-board:GND #PWR0180
@@ -689,10 +563,6 @@ F 3 "" H 12100 9400 50  0001 C CNN
 	1    12100 9400
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	16150 3375 17800 3375
-Text Notes 16150 3550 0    50   ~ 0
-TODO: Decide what about this signals\n(not included in lpddr4 pinout doc)
 Text GLabel 12575 6475 2    50   Input ~ 0
 DQS1_N
 Text GLabel 12575 3575 2    50   Input ~ 0
@@ -707,8 +577,6 @@ Wire Wire Line
 	12575 3075 11875 3075
 Wire Notes Line
 	17825 8800 16200 8800
-Wire Notes Line
-	17800 3375 17825 8825
 Text Notes 3725 2325 0    50   ~ 0
 TODO: Decide where to put VCC
 Wire Wire Line
@@ -893,4 +761,90 @@ Wire Wire Line
 Connection ~ 12100 7775
 Wire Wire Line
 	12100 7775 12100 9400
+Text GLabel 9775 7875 0    50   Input ~ 0
+ODT1\NC
+Text GLabel 9775 7775 0    50   Input ~ 0
+ODT0
+Text GLabel 12575 2675 2    50   Input ~ 0
+CA5_B
+Text GLabel 12575 2775 2    50   Input ~ 0
+CA4_B
+Wire Wire Line
+	12575 7875 11875 7875
+Wire Wire Line
+	9775 7775 10475 7775
+Wire Wire Line
+	10475 7875 9775 7875
+Wire Wire Line
+	3100 3300 3650 3300
+Wire Wire Line
+	3100 3500 3650 3500
+Connection ~ 3100 3500
+Wire Wire Line
+	3100 3500 3100 3600
+Wire Wire Line
+	3100 3600 3650 3600
+Connection ~ 3100 3800
+Wire Wire Line
+	3100 3800 3100 4000
+Wire Wire Line
+	3100 3600 3100 3800
+Connection ~ 3100 4000
+Wire Wire Line
+	3100 4000 3100 4100
+Connection ~ 3100 4100
+Wire Wire Line
+	3100 4100 3100 4300
+Connection ~ 3100 4300
+Wire Wire Line
+	3100 4300 3100 4400
+Connection ~ 3100 4400
+Wire Wire Line
+	3100 4400 3100 4600
+Wire Wire Line
+	3100 4400 3650 4400
+Wire Wire Line
+	5575 2600 5575 3400
+Connection ~ 5575 3400
+Wire Wire Line
+	5575 3400 5575 3500
+Connection ~ 5575 3500
+Wire Wire Line
+	5575 3500 5575 3700
+Connection ~ 5575 3700
+Wire Wire Line
+	5575 3700 5575 3800
+Connection ~ 5575 3800
+Wire Wire Line
+	5575 3800 5575 4000
+Connection ~ 5575 4000
+Wire Wire Line
+	5575 4000 5575 4100
+Connection ~ 5575 4100
+Wire Wire Line
+	5575 4100 5575 4300
+Wire Wire Line
+	5050 4300 5575 4300
+Connection ~ 5575 4300
+Wire Wire Line
+	5575 4300 5575 4400
+Wire Wire Line
+	5575 4400 5050 4400
+Connection ~ 5575 4400
+Wire Wire Line
+	5575 4400 5575 4600
+Wire Wire Line
+	5050 4600 5575 4600
+Connection ~ 5575 4600
+Wire Wire Line
+	5575 4600 5575 4700
+Wire Wire Line
+	5575 4700 5050 4700
+Wire Wire Line
+	3650 4600 3100 4600
+Connection ~ 3100 4600
+Wire Wire Line
+	3100 4600 3100 4700
+Wire Wire Line
+	3650 4700 3100 4700
 $EndSCHEMATC

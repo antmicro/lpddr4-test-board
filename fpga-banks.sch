@@ -393,89 +393,37 @@ TMDS_D2_P
 Text GLabel 5300 6900 2    50   Input ~ 0
 TMDS_D2_N
 Text GLabel 11975 4725 0    50   Input ~ 0
-CKE0
-Text GLabel 11975 6625 0    50   Input ~ 0
-BG1
-Text GLabel 11975 6525 0    50   Input ~ 0
-BG0
-Text GLabel 15125 5425 2    50   Input ~ 0
-A12
-Text GLabel 15125 5125 2    50   Input ~ 0
-A9
-Text GLabel 15125 5025 2    50   Input ~ 0
-A8
-Text GLabel 15125 4825 2    50   Input ~ 0
-A6
-Text GLabel 11975 5325 0    50   Input ~ 0
-A1
+CKE0_A
+Text GLabel 11975 4825 0    50   Input ~ 0
+CA0_A
 Text GLabel 11975 6325 0    50   Input ~ 0
-CK0_t
+CK0_P
 Text GLabel 11975 6425 0    50   Input ~ 0
-CK0_c
-Text GLabel 11975 5125 0    50   Input ~ 0
-PARITY
-Text GLabel 11975 6225 0    50   Input ~ 0
-BA1
-Text GLabel 11975 7125 0    50   Input ~ 0
+CK0_N
+Text GLabel 11975 5625 0    50   Input ~ 0
 CS0_n
-Text GLabel 15125 5625 2    50   Input ~ 0
-WE_n\A14
 Text GLabel 11975 6025 0    50   Input ~ 0
 ODT0
-Text GLabel 15125 7125 2    50   Input ~ 0
+Text GLabel 15125 5625 2    50   Input ~ 0
 CS1_n\NC
 Text GLabel 15125 6025 2    50   Input ~ 0
 ODT1\NC
-Text GLabel 15125 6225 2    50   Input ~ 0
-C1\CS3_n\NC
-Text GLabel 15125 6725 2    50   Input ~ 0
-SCL
-Text GLabel 11975 5025 0    50   Input ~ 0
-ACT_n
-Text GLabel 11975 4925 0    50   Input ~ 0
-ALERT_n
-Text GLabel 15125 5325 2    50   Input ~ 0
-A11
-Text GLabel 15125 4925 2    50   Input ~ 0
-A7
-Text GLabel 11975 5725 0    50   Input ~ 0
-A5
-Text GLabel 11975 5625 0    50   Input ~ 0
-A4
-Text GLabel 11975 5425 0    50   Input ~ 0
-A2
-Text GLabel 11975 4825 0    50   Input ~ 0
-EVENT_n\NF
-Text GLabel 15125 6325 2    50   Input ~ 0
-CK1_t\NF
-Text GLabel 15125 6425 2    50   Input ~ 0
-CK1_c\NF
 Text GLabel 11975 5225 0    50   Input ~ 0
-A0
-Text GLabel 15125 5225 2    50   Input ~ 0
-A10\AP
-Text GLabel 11975 6125 0    50   Input ~ 0
-BA0
-Text GLabel 15125 5925 2    50   Input ~ 0
-RAS_n\A16
-Text GLabel 15125 5725 2    50   Input ~ 0
-CAS_n\A15
-Text GLabel 15125 5525 2    50   Input ~ 0
-A13
-Text GLabel 15125 6125 2    50   Input ~ 0
-C0\CS2_n\NC
-Text GLabel 15125 7025 2    50   Input ~ 0
-SA2
-Text GLabel 15125 6625 2    50   Input ~ 0
-SDA
-Text GLabel 15125 6825 2    50   Input ~ 0
-SA0
-Text GLabel 15125 6925 2    50   Input ~ 0
-SA1
-Text GLabel 11975 5525 0    50   Input ~ 0
-A3
+CA4_A
+Text GLabel 11975 5125 0    50   Input ~ 0
+CA3_A
+Text GLabel 11975 4925 0    50   Input ~ 0
+CA1_A
+Text GLabel 15125 6325 2    50   Input ~ 0
+CK1_P
+Text GLabel 15125 6425 2    50   Input ~ 0
+CK1_N
+Text GLabel 15125 5025 2    50   Input ~ 0
+CA4_B
+Text GLabel 11975 5025 0    50   Input ~ 0
+CA2_A
 Text GLabel 15125 4725 2    50   Input ~ 0
-CKE1\NC
+CKE0_B
 $Comp
 L lpddr4-test-board:XC7K70T-FBG484 U1
 U 1 1 5FB5167E
@@ -890,12 +838,12 @@ Wire Wire Line
 $Comp
 L lpddr4-test-board:GND #PWR0107
 U 1 1 639065D0
-P 10300 7475
-F 0 "#PWR0107" H 10300 7225 50  0001 C CNN
-F 1 "GND" H 10305 7302 50  0000 C CNN
-F 2 "" H 10300 7475 50  0001 C CNN
-F 3 "" H 10300 7475 50  0001 C CNN
-	1    10300 7475
+P 10250 7450
+F 0 "#PWR0107" H 10250 7200 50  0001 C CNN
+F 1 "GND" H 10255 7277 50  0000 C CNN
+F 2 "" H 10250 7450 50  0001 C CNN
+F 3 "" H 10250 7450 50  0001 C CNN
+	1    10250 7450
 	1    0    0    -1  
 $EndComp
 Text GLabel 5450 3800 2    50   Input ~ 0
@@ -1186,41 +1134,6 @@ Wire Wire Line
 Connection ~ 9675 10050
 Wire Wire Line
 	9675 10050 10200 10050
-NoConn ~ 10250 5675
-NoConn ~ 10250 5575
-NoConn ~ 10250 5475
-NoConn ~ 10250 5375
-NoConn ~ 10250 5275
-NoConn ~ 10250 5175
-NoConn ~ 10250 5075
-NoConn ~ 10250 4975
-NoConn ~ 10250 4875
-NoConn ~ 10250 4775
-NoConn ~ 10250 4675
-NoConn ~ 10250 4475
-NoConn ~ 10250 4575
-NoConn ~ 10250 4375
-NoConn ~ 10250 4275
-NoConn ~ 10250 4175
-NoConn ~ 10250 4075
-NoConn ~ 10250 3975
-NoConn ~ 10250 3875
-NoConn ~ 10250 3775
-NoConn ~ 10250 3675
-NoConn ~ 10250 3575
-NoConn ~ 10250 3475
-NoConn ~ 10250 3375
-NoConn ~ 10250 3275
-NoConn ~ 10250 3175
-NoConn ~ 10250 3075
-NoConn ~ 10250 2975
-NoConn ~ 10250 2875
-NoConn ~ 10250 2775
-NoConn ~ 10250 2675
-NoConn ~ 10250 2575
-NoConn ~ 10250 2475
-NoConn ~ 10250 2375
-NoConn ~ 10250 2275
 NoConn ~ 1850 2800
 NoConn ~ 1900 3700
 NoConn ~ 1900 3800
@@ -1259,66 +1172,6 @@ NoConn ~ 4800 6200
 NoConn ~ 4800 6300
 NoConn ~ 4800 7200
 NoConn ~ 1900 5300
-NoConn ~ 7350 7175
-NoConn ~ 7350 7075
-NoConn ~ 7350 6975
-NoConn ~ 7350 6875
-NoConn ~ 7350 6775
-NoConn ~ 7350 6675
-NoConn ~ 7350 6575
-NoConn ~ 7350 6475
-NoConn ~ 7350 6375
-NoConn ~ 7350 6275
-NoConn ~ 7350 6175
-NoConn ~ 7350 6075
-NoConn ~ 7350 5975
-NoConn ~ 7350 5875
-NoConn ~ 7350 5775
-NoConn ~ 7350 5675
-NoConn ~ 7350 5575
-NoConn ~ 7350 5475
-NoConn ~ 7350 5375
-NoConn ~ 7350 5275
-NoConn ~ 7350 5175
-NoConn ~ 7350 5075
-NoConn ~ 7350 4975
-NoConn ~ 7350 4875
-NoConn ~ 7350 4775
-NoConn ~ 7350 4675
-NoConn ~ 7350 4575
-NoConn ~ 7350 4475
-NoConn ~ 7350 4375
-NoConn ~ 7350 4275
-NoConn ~ 7350 4175
-NoConn ~ 7350 4075
-NoConn ~ 7350 3975
-NoConn ~ 7350 3875
-NoConn ~ 7350 3775
-NoConn ~ 7350 3675
-NoConn ~ 7350 3575
-NoConn ~ 7350 3475
-NoConn ~ 7350 3375
-NoConn ~ 7350 3275
-NoConn ~ 7350 3175
-NoConn ~ 7350 3075
-NoConn ~ 7350 2975
-NoConn ~ 7350 2875
-NoConn ~ 7350 2775
-NoConn ~ 7350 2675
-NoConn ~ 7350 2575
-NoConn ~ 7350 2475
-NoConn ~ 7350 2375
-NoConn ~ 7350 2275
-NoConn ~ 9600 1475
-NoConn ~ 9700 1475
-NoConn ~ 9800 1475
-NoConn ~ 9900 1475
-NoConn ~ 8250 1475
-NoConn ~ 8150 1475
-NoConn ~ 8050 1475
-NoConn ~ 7950 1475
-NoConn ~ 7850 1475
-NoConn ~ 7750 1475
 Wire Wire Line
 	12100 4525 11850 4525
 Wire Wire Line
@@ -1344,9 +1197,9 @@ Wire Wire Line
 Text GLabel 11850 4225 0    50   Input ~ 0
 DQ21
 Text GLabel 11850 4025 0    50   Input ~ 0
-DQS2_c
+DQS2_N
 Text GLabel 11850 3925 0    50   Input ~ 0
-DQS2_t
+DQS2_P
 Text GLabel 11850 3725 0    50   Input ~ 0
 DQ19
 Text GLabel 11850 3825 0    50   Input ~ 0
@@ -1380,17 +1233,17 @@ Wire Wire Line
 Wire Wire Line
 	15125 3525 15000 3525
 Text GLabel 15125 4025 2    50   Input ~ 0
-DQS0_c
+DQS0_N
 Text GLabel 15125 3925 2    50   Input ~ 0
-DQS0_t
+DQS0_P
 Text GLabel 15125 3525 2    50   Input ~ 0
 DM0_n\DBI0_n
 Text GLabel 11975 2225 0    50   Input ~ 0
 RESET_n
 Text GLabel 15125 2825 2    50   Input ~ 0
-DQS1_c
+DQS1_N
 Text GLabel 15125 2725 2    50   Input ~ 0
-DQS1_t
+DQS1_P
 Text GLabel 15125 2325 2    50   Input ~ 0
 DM1_n\DBI_n
 Wire Wire Line
@@ -1415,28 +1268,20 @@ Wire Wire Line
 	15125 3225 15000 3225
 Wire Wire Line
 	15125 3325 15000 3325
-Text GLabel 11850 2925 0    50   Input ~ 0
-DQ27
 Text GLabel 11850 2525 0    50   Input ~ 0
 DQ31
 Text GLabel 11850 2725 0    50   Input ~ 0
-DQS3_t
+DQS3_P
 Text GLabel 11850 2825 0    50   Input ~ 0
-DQS3_c
-Text GLabel 11850 3125 0    50   Input ~ 0
-DQ24
+DQS3_N
 Text GLabel 11850 2425 0    50   Input ~ 0
 DQ28
 Text GLabel 11850 3325 0    50   Input ~ 0
 DQ29
-Text GLabel 11850 3025 0    50   Input ~ 0
-DQ26
 Text GLabel 11850 2625 0    50   Input ~ 0
 DQ30
 Text GLabel 11850 2325 0    50   Input ~ 0
 DM3_n\DBI3_n
-Text GLabel 11850 3225 0    50   Input ~ 0
-DQ25
 Wire Wire Line
 	12100 2325 11850 2325
 Wire Wire Line
@@ -1467,11 +1312,11 @@ Text GLabel 11850 3625 0    50   Input ~ 0
 DQ16
 Text GLabel 11850 4325 0    50   Input ~ 0
 DQ17
-Text GLabel 15125 4425 2    50   Input ~ 0
-DQ3
 Text GLabel 15125 4525 2    50   Input ~ 0
-DQ2
+DQ3
 Text GLabel 15125 4225 2    50   Input ~ 0
+DQ2
+Text GLabel 15125 4425 2    50   Input ~ 0
 DQ4
 Text GLabel 15125 4325 2    50   Input ~ 0
 DQ5
@@ -1499,4 +1344,312 @@ Text GLabel 15125 2925 2    50   Input ~ 0
 DQ9
 Text GLabel 15125 3325 2    50   Input ~ 0
 DQ8
+Text GLabel 11975 5325 0    50   Input ~ 0
+CA5_A
+Text GLabel 15125 5325 2    50   Input ~ 0
+CA5_B
+Text GLabel 11850 3025 0    50   Input ~ 0
+DQ24
+Text GLabel 11850 2925 0    50   Input ~ 0
+DQ25
+Text GLabel 11850 3125 0    50   Input ~ 0
+DQ27
+Text GLabel 11850 3225 0    50   Input ~ 0
+DQ26
+Wire Wire Line
+	7350 7175 7350 7075
+Wire Wire Line
+	7350 1475 7750 1475
+Wire Wire Line
+	10250 1475 10250 2275
+Connection ~ 7350 2275
+Wire Wire Line
+	7350 2275 7350 1475
+Connection ~ 7350 2375
+Wire Wire Line
+	7350 2375 7350 2275
+Connection ~ 7350 2475
+Wire Wire Line
+	7350 2475 7350 2375
+Connection ~ 7350 2575
+Wire Wire Line
+	7350 2575 7350 2475
+Connection ~ 7350 2675
+Wire Wire Line
+	7350 2675 7350 2575
+Connection ~ 7350 2775
+Wire Wire Line
+	7350 2775 7350 2675
+Connection ~ 7350 2875
+Wire Wire Line
+	7350 2875 7350 2775
+Connection ~ 7350 2975
+Wire Wire Line
+	7350 2975 7350 2875
+Connection ~ 7350 3075
+Wire Wire Line
+	7350 3075 7350 2975
+Connection ~ 7350 3175
+Wire Wire Line
+	7350 3175 7350 3075
+Connection ~ 7350 3275
+Wire Wire Line
+	7350 3275 7350 3175
+Connection ~ 7350 3375
+Wire Wire Line
+	7350 3375 7350 3275
+Connection ~ 7350 3475
+Wire Wire Line
+	7350 3475 7350 3375
+Connection ~ 7350 3575
+Wire Wire Line
+	7350 3575 7350 3475
+Connection ~ 7350 3675
+Wire Wire Line
+	7350 3675 7350 3575
+Connection ~ 7350 3775
+Wire Wire Line
+	7350 3775 7350 3675
+Connection ~ 7350 3875
+Wire Wire Line
+	7350 3875 7350 3775
+Connection ~ 7350 3975
+Wire Wire Line
+	7350 3975 7350 3875
+Connection ~ 7350 4075
+Wire Wire Line
+	7350 4075 7350 3975
+Connection ~ 7350 4175
+Wire Wire Line
+	7350 4175 7350 4075
+Connection ~ 7350 4275
+Wire Wire Line
+	7350 4275 7350 4175
+Connection ~ 7350 4375
+Wire Wire Line
+	7350 4375 7350 4275
+Connection ~ 7350 4475
+Wire Wire Line
+	7350 4475 7350 4375
+Connection ~ 7350 4575
+Wire Wire Line
+	7350 4575 7350 4475
+Connection ~ 7350 4675
+Wire Wire Line
+	7350 4675 7350 4575
+Connection ~ 7350 4775
+Wire Wire Line
+	7350 4775 7350 4675
+Connection ~ 7350 4875
+Wire Wire Line
+	7350 4875 7350 4775
+Connection ~ 7350 4975
+Wire Wire Line
+	7350 4975 7350 4875
+Connection ~ 7350 5075
+Wire Wire Line
+	7350 5075 7350 4975
+Connection ~ 7350 5175
+Wire Wire Line
+	7350 5175 7350 5075
+Connection ~ 7350 5275
+Wire Wire Line
+	7350 5275 7350 5175
+Connection ~ 7350 5375
+Wire Wire Line
+	7350 5375 7350 5275
+Connection ~ 7350 5475
+Wire Wire Line
+	7350 5475 7350 5375
+Connection ~ 7350 5575
+Wire Wire Line
+	7350 5575 7350 5475
+Connection ~ 7350 5675
+Wire Wire Line
+	7350 5675 7350 5575
+Connection ~ 7350 5775
+Wire Wire Line
+	7350 5775 7350 5675
+Connection ~ 7350 5875
+Wire Wire Line
+	7350 5875 7350 5775
+Connection ~ 7350 5975
+Wire Wire Line
+	7350 5975 7350 5875
+Connection ~ 7350 6075
+Wire Wire Line
+	7350 6075 7350 5975
+Connection ~ 7350 6175
+Wire Wire Line
+	7350 6175 7350 6075
+Connection ~ 7350 6275
+Wire Wire Line
+	7350 6275 7350 6175
+Connection ~ 7350 6375
+Wire Wire Line
+	7350 6375 7350 6275
+Connection ~ 7350 6475
+Wire Wire Line
+	7350 6475 7350 6375
+Connection ~ 7350 6575
+Wire Wire Line
+	7350 6575 7350 6475
+Connection ~ 7350 6675
+Wire Wire Line
+	7350 6675 7350 6575
+Connection ~ 7350 6775
+Wire Wire Line
+	7350 6775 7350 6675
+Connection ~ 7350 6875
+Wire Wire Line
+	7350 6875 7350 6775
+Connection ~ 7350 6975
+Wire Wire Line
+	7350 6975 7350 6875
+Connection ~ 7350 7075
+Wire Wire Line
+	7350 7075 7350 6975
+Connection ~ 7750 1475
+Wire Wire Line
+	7750 1475 7850 1475
+Connection ~ 7850 1475
+Wire Wire Line
+	7850 1475 7950 1475
+Connection ~ 7950 1475
+Wire Wire Line
+	7950 1475 8050 1475
+Connection ~ 8050 1475
+Wire Wire Line
+	8050 1475 8150 1475
+Connection ~ 8150 1475
+Wire Wire Line
+	8150 1475 8250 1475
+Connection ~ 8250 1475
+Wire Wire Line
+	8250 1475 9600 1475
+Connection ~ 9600 1475
+Wire Wire Line
+	9600 1475 9700 1475
+Connection ~ 9700 1475
+Wire Wire Line
+	9700 1475 9800 1475
+Connection ~ 9800 1475
+Wire Wire Line
+	9800 1475 9900 1475
+Connection ~ 9900 1475
+Wire Wire Line
+	9900 1475 10250 1475
+Connection ~ 10250 2275
+Wire Wire Line
+	10250 2275 10250 2375
+Connection ~ 10250 2375
+Wire Wire Line
+	10250 2375 10250 2475
+Connection ~ 10250 2475
+Wire Wire Line
+	10250 2475 10250 2575
+Connection ~ 10250 2575
+Wire Wire Line
+	10250 2575 10250 2675
+Connection ~ 10250 2675
+Wire Wire Line
+	10250 2675 10250 2775
+Connection ~ 10250 2775
+Wire Wire Line
+	10250 2775 10250 2875
+Connection ~ 10250 2875
+Wire Wire Line
+	10250 2875 10250 2975
+Connection ~ 10250 2975
+Wire Wire Line
+	10250 2975 10250 3075
+Connection ~ 10250 3075
+Wire Wire Line
+	10250 3075 10250 3175
+Connection ~ 10250 3175
+Wire Wire Line
+	10250 3175 10250 3275
+Connection ~ 10250 3275
+Wire Wire Line
+	10250 3275 10250 3375
+Connection ~ 10250 3375
+Wire Wire Line
+	10250 3375 10250 3475
+Connection ~ 10250 3475
+Wire Wire Line
+	10250 3475 10250 3575
+Connection ~ 10250 3575
+Wire Wire Line
+	10250 3575 10250 3675
+Connection ~ 10250 3675
+Wire Wire Line
+	10250 3675 10250 3775
+Connection ~ 10250 3775
+Wire Wire Line
+	10250 3775 10250 3875
+Connection ~ 10250 3875
+Wire Wire Line
+	10250 3875 10250 3975
+Connection ~ 10250 3975
+Wire Wire Line
+	10250 3975 10250 4075
+Connection ~ 10250 4075
+Wire Wire Line
+	10250 4075 10250 4175
+Connection ~ 10250 4175
+Wire Wire Line
+	10250 4175 10250 4275
+Connection ~ 10250 4275
+Wire Wire Line
+	10250 4275 10250 4375
+Connection ~ 10250 4375
+Wire Wire Line
+	10250 4375 10250 4475
+Connection ~ 10250 4475
+Wire Wire Line
+	10250 4475 10250 4575
+Connection ~ 10250 4575
+Wire Wire Line
+	10250 4575 10250 4675
+Connection ~ 10250 4675
+Wire Wire Line
+	10250 4675 10250 4775
+Connection ~ 10250 4775
+Wire Wire Line
+	10250 4775 10250 4875
+Connection ~ 10250 4875
+Wire Wire Line
+	10250 4875 10250 4975
+Connection ~ 10250 4975
+Wire Wire Line
+	10250 4975 10250 5075
+Connection ~ 10250 5075
+Wire Wire Line
+	10250 5075 10250 5175
+Connection ~ 10250 5175
+Wire Wire Line
+	10250 5175 10250 5275
+Connection ~ 10250 5275
+Wire Wire Line
+	10250 5275 10250 5375
+Connection ~ 10250 5375
+Wire Wire Line
+	10250 5375 10250 5475
+Connection ~ 10250 5475
+Wire Wire Line
+	10250 5475 10250 5575
+Connection ~ 10250 5575
+Wire Wire Line
+	10250 5575 10250 5675
+Connection ~ 10250 5675
+Wire Wire Line
+	10250 5675 10250 7450
+Text GLabel 15125 4925 2    50   Input ~ 0
+CA3_B
+Text GLabel 15125 4825 2    50   Input ~ 0
+CA2_B
+Text GLabel 15125 5225 2    50   Input ~ 0
+CA1_B
+Text GLabel 15125 5125 2    50   Input ~ 0
+CA0_B
 $EndSCHEMATC
