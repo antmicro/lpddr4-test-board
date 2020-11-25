@@ -135,7 +135,7 @@ CK0_P
 Text GLabel 12575 5075 2    50   Input ~ 0
 CK0_N
 Text GLabel 12575 7275 2    50   Input ~ 0
-CS0_n
+CS0_N_A
 Text GLabel 12575 3075 2    50   Input ~ 0
 CS0_N_B
 Wire Wire Line
@@ -762,7 +762,7 @@ Connection ~ 12100 7775
 Wire Wire Line
 	12100 7775 12100 9400
 Text GLabel 9775 7875 0    50   Input ~ 0
-ODT1\NC
+ODT1
 Text GLabel 9775 7775 0    50   Input ~ 0
 ODT0
 Text GLabel 12575 2675 2    50   Input ~ 0
