@@ -907,25 +907,15 @@ Wire Wire Line
 	5125 3400 4800 3400
 Text Notes 5950 2950 1    50   ~ 0
 config-spi.sch
-Wire Wire Line
-	1700 1425 1325 1425
-Text GLabel 1325 1425 0    50   Input ~ 0
+Text GLabel 10550 4475 2    50   Input ~ 0
 USR_LED1
-Wire Wire Line
-	1700 1525 1325 1525
-Text GLabel 1325 1525 0    50   Input ~ 0
+Text GLabel 10500 5675 2    50   Input ~ 0
 USR_LED2
-Wire Wire Line
-	1700 1625 1325 1625
-Text GLabel 1325 1625 0    50   Input ~ 0
+Text GLabel 10525 5275 2    50   Input ~ 0
 USR_LED3
-Wire Wire Line
-	1700 1725 1325 1725
-Text GLabel 1325 1725 0    50   Input ~ 0
+Text GLabel 10525 5375 2    50   Input ~ 0
 USR_LED4
-Wire Wire Line
-	1700 1825 1325 1825
-Text GLabel 1325 1825 0    50   Input ~ 0
+Text GLabel 10525 5175 2    50   Input ~ 0
 USR_LED5
 Wire Wire Line
 	1850 2800 1900 2800
@@ -1421,4 +1411,16 @@ Wire Wire Line
 	7325 5875 6975 5875
 Wire Wire Line
 	6975 5775 7325 5775
+Text Notes 5775 5675 2    50   ~ 0
+CSI_B used for config
+Wire Wire Line
+	10550 4475 10225 4475
+Wire Wire Line
+	10225 5675 10500 5675
+Wire Wire Line
+	10225 5175 10525 5175
+Wire Wire Line
+	10225 5275 10525 5275
+Wire Wire Line
+	10225 5375 10525 5375
 $EndSCHEMATC
