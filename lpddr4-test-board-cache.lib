@@ -1,6 +1,73 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroRectangularConnectorsHeadersMalePins_62000311121
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_62000311121 J 0 40 Y Y 1 F N
+F0 "J" -100 50 50 H V R CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_62000311121" 50 -200 50 H I C CNN
+F2 "antmicro-footprints:62000311121" 100 250 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "62000421121" 200 500 60 H I L CNN "MPN"
+F5 "Wurth Elektronik" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 150 50 -150 1 1 0 f
+S -10 -95 10 -115 1 1 0 F
+S -10 5 10 -15 1 1 0 F
+S -10 105 10 85 1 1 0 F
+X ~ 1 150 100 100 L 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+X ~ 3 150 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_0R_0402
+#
+DEF antmicroResistors0402_R_0R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_0R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
+F6 "0R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroResistors0402_R_330R_0402
+#
+DEF antmicroResistors0402_R_330R_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_330R_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
+F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
+F6 "330R" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroTestPoints_test
+#
+DEF antmicroTestPoints_test U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "antmicroTestPoints_test" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -50 100 22 1 1 0 N
+X ~ 1 -50 200 75 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTransistorsFETsMOSFETsSingle_BSS138APW
 #
 DEF antmicroTransistorsFETsMOSFETsSingle_BSS138APW Q 0 0 Y Y 1 F N
@@ -215,32 +282,6 @@ X ~ 1 0 150 100 D 50 50 1 1 P
 X ~ 2 100 150 100 D 50 50 1 1 P
 X ~ 3 200 150 100 D 50 50 1 1 P
 X ~ 4 300 150 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_61300611121
-#
-DEF lpddr4-test-board_61300611121 J 0 40 Y Y 1 F N
-F0 "J" -200 100 50 H V L CNN
-F1 "lpddr4-test-board_61300611121" 100 -100 50 H V C CNN
-F2 "lpddr4-test-board-footprints:61300611121" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "61300611121" 200 500 60 H I L CNN "MPN"
-F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -50 50 550 -50 0 1 0 f
-S -10 5 10 -15 1 1 0 F
-S 90 5 110 -15 1 1 0 F
-S 190 5 210 -15 1 1 0 F
-S 290 5 310 -15 1 1 0 F
-S 390 5 410 -15 1 1 0 F
-S 490 5 510 -15 1 1 0 F
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 100 150 100 D 50 50 1 1 P
-X ~ 3 200 150 100 D 50 50 1 1 P
-X ~ 4 300 150 100 D 50 50 1 1 P
-X ~ 5 400 150 100 D 50 50 1 1 P
-X ~ 6 500 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1134,27 +1175,6 @@ X ~ 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lpddr4-test-board_LG_L29K-G2J1-24-Z
-#
-DEF lpddr4-test-board_LG_L29K-G2J1-24-Z D 0 0 Y Y 1 F N
-F0 "D" -200 150 60 H V C CNN
-F1 "lpddr4-test-board_LG_L29K-G2J1-24-Z" 0 -150 60 H V C CNN
-F2 "lpddr4-test-board-footprints:LED_0603" 200 200 60 H I L CNN
-F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-2493945/LG%20L29K.pdf" 200 300 60 H I L CNN
-F4 "LG L29K-G2J1-24-Z" 200 500 60 H I L CNN "MPN"
-F5 "OSRAM Opto Semiconductors Inc." 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-P 2 0 1 0 -25 150 -75 100 N
-P 2 0 1 0 0 50 0 -50 N
-P 2 0 1 0 25 125 -25 75 N
-P 3 0 1 0 -50 150 -25 150 -25 125 N
-P 3 0 1 0 0 125 25 125 25 100 N
-P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # lpddr4-test-board_MPZ2012S601AT000
 #
 DEF lpddr4-test-board_MPZ2012S601AT000 FB 0 40 Y Y 1 F N
@@ -1404,23 +1424,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW06031K80FKEA" 200 300 60 H I L CNN "MPN"
 F6 "1k8" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_R_1k_0402
-#
-DEF lpddr4-test-board_R_1k_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_R_1k_0402" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
-F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
-F6 "1k" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P

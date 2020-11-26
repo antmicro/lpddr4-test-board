@@ -45,14 +45,6 @@ Wire Wire Line
 	1900 2900 1400 2900
 Text GLabel 1400 2900 0    50   Input ~ 0
 AD10_N
-Wire Wire Line
-	4800 3200 5450 3200
-Wire Wire Line
-	4800 3100 5450 3100
-Text GLabel 5450 3100 2    50   Input ~ 0
-UART_TXD_IN
-Text GLabel 5450 3200 2    50   Input ~ 0
-UART_RXD_OUT
 Text GLabel 8150 8700 0    50   Input ~ 0
 VSNS5V0_P
 Text GLabel 8150 9000 0    50   Input ~ 0
@@ -708,10 +700,6 @@ F 6 "200R" H 5650 9325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4100 5375 4100
-Wire Wire Line
-	4800 4000 5375 4000
-Wire Wire Line
 	4800 2300 5300 2300
 Text Notes 6475 4200 1    50   ~ 0
 ethernet.sch
@@ -856,15 +844,15 @@ Connection ~ 12025 4625
 Wire Wire Line
 	12025 4625 12025 5825
 Text GLabel 5300 2900 2    50   Input ~ 0
-QSPI_SCK
+EMCCLK
 Text GLabel 5300 2400 2    50   Input ~ 0
 QSPI_DQ0
 Text GLabel 5300 2700 2    50   Input ~ 0
 QSPI_DQ3
 Text GLabel 5300 2600 2    50   Input ~ 0
 QSPI_DQ2
-Text GLabel 5300 3000 2    50   Input ~ 0
-QSPI_CS
+Text GLabel 5300 3400 2    50   Input ~ 0
+FCS_B
 Text GLabel 5300 2500 2    50   Input ~ 0
 QSPI_DQ1
 Wire Wire Line
@@ -879,32 +867,6 @@ Text GLabel 5300 2800 2    50   Input ~ 0
 PUDC_B
 Wire Wire Line
 	4800 2800 5300 2800
-$Comp
-L lpddr4-test-board:R_49R9_0402 R?
-U 1 1 69FB6CA6
-P 5075 2900
-AR Path="/5FD53C7D/69FB6CA6" Ref="R?"  Part="1" 
-AR Path="/5F96C515/69FB6CA6" Ref="R10"  Part="1" 
-F 0 "R10" H 4850 2950 60  0000 C CNN
-F 1 "R_49R9_0402" H 5075 2750 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 5275 3100 60  0001 L CNN
-F 3 "" H 5075 2900 50  0001 C CNN
-F 4 "VISHAY" H 5275 3300 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040249R9FKED" H 5275 3200 60  0001 L CNN "MPN"
-F 6 "49R9" H 5075 2900 50  0000 C CNN "Val"
-	1    5075 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2900 4925 2900
-Wire Wire Line
-	5225 2900 5300 2900
-Wire Wire Line
-	5125 3400 5125 3000
-Wire Wire Line
-	5125 3000 5300 3000
-Wire Wire Line
-	5125 3400 4800 3400
 Text Notes 5950 2950 1    50   ~ 0
 config-spi.sch
 Text GLabel 10550 4475 2    50   Input ~ 0
@@ -923,44 +885,6 @@ Text GLabel 14750 1050 1    50   Input ~ 0
 VDDQ
 Text GLabel 13150 1050 1    50   Input ~ 0
 VDDQ
-Wire Wire Line
-	1900 5400 1775 5400
-Wire Wire Line
-	1425 5400 1475 5400
-$Comp
-L lpddr4-test-board:R_200R_0402 R9
-U 1 1 6B4FB04F
-P 1625 5400
-F 0 "R9" H 1475 5450 60  0000 C CNN
-F 1 "R_200R_0402" H 1625 5250 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 1825 5600 60  0001 L CNN
-F 3 "" H 1625 5400 50  0001 C CNN
-F 4 "YAGEO" H 1825 5800 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200RL" H 1825 5700 60  0001 L CNN "MPN"
-F 6 "200R" H 1625 5400 50  0000 C CNN "Val"
-	1    1625 5400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 5800 1425 5800
-Wire Wire Line
-	1900 5700 1425 5700
-Wire Wire Line
-	1900 5600 1425 5600
-Wire Wire Line
-	1900 5500 1425 5500
-Text GLabel 1425 5500 0    50   Input ~ 0
-CK_SS
-Text GLabel 1425 5800 0    50   Input ~ 0
-CK_SCK
-Text GLabel 1425 5700 0    50   Input ~ 0
-CK_MISO
-Text GLabel 1425 5600 0    50   Input ~ 0
-CK_MOSI
-Text GLabel 1425 5400 0    50   Input ~ 0
-CK_RST
-Text Notes 875  5825 1    50   ~ 0
-spi-config.sch
 Text Notes 750  1825 1    50   ~ 0
 interfaces.sch
 Text Notes 3225 1125 0    50   ~ 0
@@ -1011,9 +935,6 @@ NoConn ~ 1900 6600
 NoConn ~ 1900 6700
 NoConn ~ 1900 6800
 NoConn ~ 1900 6900
-NoConn ~ 1900 7000
-NoConn ~ 1900 7100
-NoConn ~ 1900 7200
 NoConn ~ 4800 3000
 NoConn ~ 4800 3900
 NoConn ~ 4800 6200
@@ -1392,10 +1313,6 @@ Wire Wire Line
 	4800 7000 5150 7000
 Wire Wire Line
 	4800 7100 5150 7100
-Wire Wire Line
-	1450 2500 1900 2500
-Wire Wire Line
-	1450 2600 1900 2600
 NoConn ~ 1900 2400
 Wire Wire Line
 	6925 6475 7325 6475
@@ -1423,4 +1340,11 @@ Wire Wire Line
 	10225 5275 10525 5275
 Wire Wire Line
 	10225 5375 10525 5375
+Wire Wire Line
+	4800 3400 5300 3400
+Wire Wire Line
+	4800 2900 5300 2900
+NoConn ~ 1900 7000
+NoConn ~ 1900 7100
+NoConn ~ 1900 7200
 $EndSCHEMATC
