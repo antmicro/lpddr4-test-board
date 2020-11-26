@@ -743,17 +743,6 @@ Wire Wire Line
 	4800 3300 5450 3300
 Text Notes 6475 4200 1    50   ~ 0
 ethernet.sch
-$Comp
-L lpddr4-test-board:GND #PWR0107
-U 1 1 639065D0
-P 10350 7475
-F 0 "#PWR0107" H 10350 7225 50  0001 C CNN
-F 1 "GND" H 10355 7302 50  0000 C CNN
-F 2 "" H 10350 7475 50  0001 C CNN
-F 3 "" H 10350 7475 50  0001 C CNN
-	1    10350 7475
-	1    0    0    -1  
-$EndComp
 Text GLabel 5450 3800 2    50   Input ~ 0
 DAT1
 Text GLabel 5450 3700 2    50   Input ~ 0
@@ -1291,183 +1280,6 @@ NoConn ~ 15125 6925
 NoConn ~ 15125 7025
 NoConn ~ 15125 7125
 Wire Wire Line
-	10225 2275 10350 2275
-Wire Wire Line
-	10225 2375 10350 2375
-Wire Wire Line
-	10350 2475 10225 2475
-Wire Wire Line
-	10225 2575 10350 2575
-Wire Wire Line
-	10350 2675 10225 2675
-Wire Wire Line
-	10225 2775 10350 2775
-Wire Wire Line
-	10350 2875 10225 2875
-Wire Wire Line
-	10225 2975 10350 2975
-Wire Wire Line
-	10350 3075 10225 3075
-Wire Wire Line
-	10225 3175 10350 3175
-Wire Wire Line
-	10350 3275 10225 3275
-Wire Wire Line
-	10225 3375 10350 3375
-Wire Wire Line
-	10350 3475 10225 3475
-Wire Wire Line
-	10225 3575 10350 3575
-Wire Wire Line
-	10350 3675 10225 3675
-Wire Wire Line
-	10225 3775 10350 3775
-Wire Wire Line
-	10350 3875 10225 3875
-Wire Wire Line
-	10225 3975 10350 3975
-Wire Wire Line
-	10350 4075 10225 4075
-Wire Wire Line
-	10225 4175 10350 4175
-Wire Wire Line
-	10350 4275 10225 4275
-Wire Wire Line
-	10225 4375 10350 4375
-Wire Wire Line
-	10350 4475 10225 4475
-Wire Wire Line
-	10225 4575 10350 4575
-Wire Wire Line
-	10350 4675 10225 4675
-Wire Wire Line
-	10225 4775 10350 4775
-Wire Wire Line
-	10350 4875 10225 4875
-Wire Wire Line
-	10225 4975 10350 4975
-Wire Wire Line
-	10350 5075 10225 5075
-Wire Wire Line
-	10225 5175 10350 5175
-Wire Wire Line
-	10350 5275 10225 5275
-Wire Wire Line
-	10225 5375 10350 5375
-Wire Wire Line
-	10350 5475 10225 5475
-Wire Wire Line
-	10225 5575 10350 5575
-Wire Wire Line
-	10350 5675 10225 5675
-Wire Wire Line
-	10350 1350 10350 2275
-Connection ~ 10350 2275
-Wire Wire Line
-	10350 2275 10350 2375
-Connection ~ 10350 2375
-Wire Wire Line
-	10350 2375 10350 2475
-Connection ~ 10350 2475
-Wire Wire Line
-	10350 2475 10350 2575
-Connection ~ 10350 2575
-Wire Wire Line
-	10350 2575 10350 2675
-Connection ~ 10350 2675
-Wire Wire Line
-	10350 2675 10350 2775
-Connection ~ 10350 2775
-Wire Wire Line
-	10350 2775 10350 2875
-Connection ~ 10350 2875
-Wire Wire Line
-	10350 2875 10350 2975
-Connection ~ 10350 2975
-Wire Wire Line
-	10350 2975 10350 3075
-Connection ~ 10350 3075
-Wire Wire Line
-	10350 3075 10350 3175
-Connection ~ 10350 3175
-Wire Wire Line
-	10350 3175 10350 3275
-Connection ~ 10350 3275
-Wire Wire Line
-	10350 3275 10350 3375
-Connection ~ 10350 3375
-Wire Wire Line
-	10350 3375 10350 3475
-Connection ~ 10350 3475
-Wire Wire Line
-	10350 3475 10350 3575
-Connection ~ 10350 3575
-Wire Wire Line
-	10350 3575 10350 3675
-Connection ~ 10350 3675
-Wire Wire Line
-	10350 3675 10350 3775
-Connection ~ 10350 3775
-Wire Wire Line
-	10350 3775 10350 3875
-Connection ~ 10350 3875
-Wire Wire Line
-	10350 3875 10350 3975
-Connection ~ 10350 3975
-Wire Wire Line
-	10350 3975 10350 4075
-Connection ~ 10350 4075
-Wire Wire Line
-	10350 4075 10350 4175
-Connection ~ 10350 4175
-Wire Wire Line
-	10350 4175 10350 4275
-Connection ~ 10350 4275
-Wire Wire Line
-	10350 4275 10350 4375
-Connection ~ 10350 4375
-Wire Wire Line
-	10350 4375 10350 4475
-Connection ~ 10350 4475
-Wire Wire Line
-	10350 4475 10350 4575
-Connection ~ 10350 4575
-Wire Wire Line
-	10350 4575 10350 4675
-Connection ~ 10350 4675
-Wire Wire Line
-	10350 4675 10350 4775
-Connection ~ 10350 4775
-Wire Wire Line
-	10350 4775 10350 4875
-Connection ~ 10350 4875
-Wire Wire Line
-	10350 4875 10350 4975
-Connection ~ 10350 4975
-Wire Wire Line
-	10350 4975 10350 5075
-Connection ~ 10350 5075
-Wire Wire Line
-	10350 5075 10350 5175
-Connection ~ 10350 5175
-Wire Wire Line
-	10350 5175 10350 5275
-Connection ~ 10350 5275
-Wire Wire Line
-	10350 5275 10350 5375
-Connection ~ 10350 5375
-Wire Wire Line
-	10350 5375 10350 5475
-Connection ~ 10350 5475
-Wire Wire Line
-	10350 5475 10350 5575
-Connection ~ 10350 5575
-Wire Wire Line
-	10350 5575 10350 5675
-Connection ~ 10350 5675
-Wire Wire Line
-	10350 5675 10350 7475
-Wire Wire Line
 	7725 1475 7725 1350
 Wire Wire Line
 	7825 1475 7825 1350
@@ -1507,11 +1319,6 @@ Connection ~ 9675 1350
 Wire Wire Line
 	9675 1350 9775 1350
 Connection ~ 9775 1350
-Wire Wire Line
-	9775 1350 9875 1350
-Connection ~ 9875 1350
-Wire Wire Line
-	9875 1350 10350 1350
 NoConn ~ 11975 6125
 NoConn ~ 11975 6225
 Text GLabel 11975 5725 0    50   Input ~ 0
@@ -1599,4 +1406,13 @@ Wire Wire Line
 	6975 6975 7325 6975
 Wire Wire Line
 	7000 6275 7325 6275
+Text GLabel 9875 1200 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	9875 1200 9875 1350
+Connection ~ 9875 1350
+Wire Wire Line
+	9850 1350 9875 1350
+Wire Wire Line
+	9775 1350 9875 1350
 $EndSCHEMATC
