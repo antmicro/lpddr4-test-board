@@ -1407,20 +1407,6 @@ Wire Wire Line
 	12700 6375 12700 6250
 Text GLabel 13300 6150 1    50   Input ~ 0
 VCC3V3
-Text GLabel 11125 6975 0    50   Input ~ 0
-DAT2
-Text GLabel 11125 7075 0    50   Input ~ 0
-CD_DAT3
-Text GLabel 11125 7175 0    50   Input ~ 0
-MOSI_CMD
-Text GLabel 11125 7375 0    50   Input ~ 0
-SCK
-Text GLabel 11125 7575 0    50   Input ~ 0
-MISO_DAT0
-Text GLabel 11125 7675 0    50   Input ~ 0
-DAT1
-Text GLabel 11125 7775 0    50   Input ~ 0
-CD
 Text Notes 3775 1450 0    118  ~ 24
 Debug UART
 Text Notes 11925 1375 0    118  ~ 24
@@ -1531,19 +1517,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 5900 7800 6000
 $Comp
-L lpddr4-test-board:BSS138AKA Q2
-U 1 1 5FF5BCFF
-P 7900 8825
-F 0 "Q2" V 8175 8875 60  0000 L CNN
-F 1 "BSS138AKA" V 8050 8475 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:SOT-23-3" H 8100 9025 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8100 9125 60  0001 L CNN
-F 4 "BSS138AKAR" H 8100 9325 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 8100 9925 60  0001 L CNN "Manufacturer"
-	1    7900 8825
-	0    -1   -1   0   
-$EndComp
-$Comp
 L lpddr4-test-board:GND #PWR0167
 U 1 1 5FF5DE33
 P 8350 8825
@@ -1593,19 +1566,6 @@ Wire Wire Line
 	6900 8825 7000 8825
 Wire Wire Line
 	8000 9125 7000 9125
-$Comp
-L lpddr4-test-board:BSS138AKA Q4
-U 1 1 6002240B
-P 7925 9600
-F 0 "Q4" V 8200 9650 60  0000 L CNN
-F 1 "BSS138AKA" V 8075 9250 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:SOT-23-3" H 8125 9800 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8125 9900 60  0001 L CNN
-F 4 "BSS138AKAR" H 8125 10100 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 8125 10700 60  0001 L CNN "Manufacturer"
-	1    7925 9600
-	0    -1   -1   0   
-$EndComp
 $Comp
 L lpddr4-test-board:GND #PWR0168
 U 1 1 60022411
@@ -1657,19 +1617,6 @@ Wire Wire Line
 Wire Wire Line
 	8025 9900 7025 9900
 $Comp
-L lpddr4-test-board:BSS138AKA Q5
-U 1 1 600304B1
-P 10075 8825
-F 0 "Q5" V 10350 8875 60  0000 L CNN
-F 1 "BSS138AKA" V 10225 8475 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:SOT-23-3" H 10275 9025 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 10275 9125 60  0001 L CNN
-F 4 "BSS138AKAR" H 10275 9325 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 10275 9925 60  0001 L CNN "Manufacturer"
-	1    10075 8825
-	0    -1   -1   0   
-$EndComp
-$Comp
 L lpddr4-test-board:GND #PWR0169
 U 1 1 600304B7
 P 10525 8825
@@ -1720,19 +1667,6 @@ Wire Wire Line
 Wire Wire Line
 	10175 9125 9175 9125
 $Comp
-L lpddr4-test-board:BSS138AKA Q6
-U 1 1 6003D8CD
-P 10075 9600
-F 0 "Q6" V 10350 9650 60  0000 L CNN
-F 1 "BSS138AKA" V 10225 9250 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:SOT-23-3" H 10275 9800 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 10275 9900 60  0001 L CNN
-F 4 "BSS138AKAR" H 10275 10100 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 10275 10700 60  0001 L CNN "Manufacturer"
-	1    10075 9600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L lpddr4-test-board:GND #PWR0170
 U 1 1 6003D8D3
 P 10525 9600
@@ -1782,19 +1716,6 @@ Wire Wire Line
 	9075 9600 9175 9600
 Wire Wire Line
 	10175 9900 9175 9900
-$Comp
-L lpddr4-test-board:BSS138AKA Q3
-U 1 1 60050B08
-P 7900 10375
-F 0 "Q3" V 8175 10425 60  0000 L CNN
-F 1 "BSS138AKA" V 8050 10025 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:SOT-23-3" H 8100 10575 60  0001 L CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8100 10675 60  0001 L CNN
-F 4 "BSS138AKAR" H 8100 10875 60  0001 L CNN "MPN"
-F 5 "ON Semiconductor" H 8100 11475 60  0001 L CNN "Manufacturer"
-	1    7900 10375
-	0    -1   -1   0   
-$EndComp
 $Comp
 L lpddr4-test-board:GND #PWR0171
 U 1 1 60050B0E
@@ -1857,4 +1778,83 @@ Text GLabel 9175 9900 0    50   Input ~ 0
 USR_LED5
 Text Notes 8000 8125 0    118  ~ 24
 User LEDs
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q2
+U 1 1 6090FD8D
+P 7900 8825
+F 0 "Q2" V 8167 8825 60  0000 C CNN
+F 1 "BSS138APW" V 8061 8825 60  0000 C CNN
+F 2 "antmicro-footprints:SC70-3" H 8100 9025 60  0001 L CNN
+F 3 "" H 8100 9125 60  0001 L CNN
+F 4 "BSS138PW" H 8100 9325 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8100 9925 60  0001 L CNN "Manufacturer"
+	1    7900 8825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q4
+U 1 1 6091F8AC
+P 7925 9600
+F 0 "Q4" V 8192 9600 60  0000 C CNN
+F 1 "BSS138APW" V 8086 9600 60  0000 C CNN
+F 2 "antmicro-footprints:SC70-3" H 8125 9800 60  0001 L CNN
+F 3 "" H 8125 9900 60  0001 L CNN
+F 4 "BSS138PW" H 8125 10100 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8125 10700 60  0001 L CNN "Manufacturer"
+	1    7925 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q5
+U 1 1 6092108D
+P 10075 8825
+F 0 "Q5" V 10342 8825 60  0000 C CNN
+F 1 "BSS138APW" V 10236 8825 60  0000 C CNN
+F 2 "antmicro-footprints:SC70-3" H 10275 9025 60  0001 L CNN
+F 3 "" H 10275 9125 60  0001 L CNN
+F 4 "BSS138PW" H 10275 9325 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 10275 9925 60  0001 L CNN "Manufacturer"
+	1    10075 8825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q6
+U 1 1 60922535
+P 10075 9600
+F 0 "Q6" V 10342 9600 60  0000 C CNN
+F 1 "BSS138APW" V 10236 9600 60  0000 C CNN
+F 2 "antmicro-footprints:SC70-3" H 10275 9800 60  0001 L CNN
+F 3 "" H 10275 9900 60  0001 L CNN
+F 4 "BSS138PW" H 10275 10100 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 10275 10700 60  0001 L CNN "Manufacturer"
+	1    10075 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q3
+U 1 1 60923B88
+P 7900 10375
+F 0 "Q3" V 8167 10375 60  0000 C CNN
+F 1 "BSS138APW" V 8061 10375 60  0000 C CNN
+F 2 "antmicro-footprints:SC70-3" H 8100 10575 60  0001 L CNN
+F 3 "" H 8100 10675 60  0001 L CNN
+F 4 "BSS138PW" H 8100 10875 60  0001 L CNN "MPN"
+F 5 "ON Semiconductor" H 8100 11475 60  0001 L CNN "Manufacturer"
+	1    7900 10375
+	0    -1   -1   0   
+$EndComp
+Text GLabel 11125 7775 0    50   Input ~ 0
+SD_CD
+Text GLabel 11125 6975 0    50   Input ~ 0
+SD_DAT2
+Text GLabel 11125 7675 0    50   Input ~ 0
+SD_DAT1
+Text GLabel 11125 7375 0    50   Input ~ 0
+SD_CLK
+Text GLabel 11125 7575 0    50   Input ~ 0
+SD_DAT0
+Text GLabel 11125 7175 0    50   Input ~ 0
+SD_CMD
+Text GLabel 11125 7075 0    50   Input ~ 0
+SD_DAT3
 $EndSCHEMATC

@@ -1,6 +1,39 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroTransistorsFETsMOSFETsSingle_BSS138APW
+#
+DEF antmicroTransistorsFETsMOSFETsSingle_BSS138APW Q 0 0 Y Y 1 F N
+F0 "Q" -106 143 60 H V R CNN
+F1 "antmicroTransistorsFETsMOSFETsSingle_BSS138APW" 136 0 60 V V C CNN
+F2 "antmicro-footprints:SC70-3" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "BSS138PW" 200 500 60 H I L CNN "MPN"
+F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -50 0 130 0 1 0 f
+C 0 -75 5 0 1 0 N
+C 0 -55 5 0 1 0 N
+C 0 75 5 0 1 0 N
+P 2 0 1 0 0 -55 -100 -55 N
+P 3 0 1 0 -200 -100 -120 -100 -120 55 N
+P 3 0 1 0 0 -100 0 0 -100 0 N
+P 3 0 1 0 0 100 0 55 -100 55 N
+P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
+P 2 1 1 0 -100 -55 -100 -75 N
+P 2 1 1 0 -100 -55 -100 -35 N
+P 2 1 1 0 -100 0 -100 -20 N
+P 2 1 1 0 -100 0 -100 20 N
+P 2 1 1 0 -100 75 -100 35 N
+P 2 1 1 0 60 20 20 20 N
+P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
+P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
+X G 1 -300 -100 100 R 50 50 1 1 B
+X S 2 0 -200 100 U 50 50 1 1 B
+X D 3 0 200 100 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # lpddr4-test-board_0878311420
 #
 DEF lpddr4-test-board_0878311420 J 0 40 Y Y 1 F N
@@ -414,39 +447,6 @@ P 2 0 1 0 50 0 100 0 N
 P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
 X ~ 1 -200 0 100 R 50 50 1 1 P
 X ~ 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_BSS138AKA
-#
-DEF lpddr4-test-board_BSS138AKA Q 0 0 Y Y 1 F N
-F0 "Q" -106 143 60 H V R CNN
-F1 "lpddr4-test-board_BSS138AKA" 136 0 60 V V C CNN
-F2 "lpddr4-test-board-footprints:SOT-23-3" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "BSS138AKAR" 200 500 60 H I L CNN "MPN"
-F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-C -50 0 130 0 1 0 f
-C 0 -75 5 0 1 0 N
-C 0 -55 5 0 1 0 N
-C 0 75 5 0 1 0 N
-P 2 0 1 0 0 -55 -100 -55 N
-P 3 0 1 0 -200 -100 -120 -100 -120 55 N
-P 3 0 1 0 0 -100 0 0 -100 0 N
-P 3 0 1 0 0 100 0 55 -100 55 N
-P 5 0 1 0 -5 -75 40 -75 40 55 40 75 -5 75 N
-P 2 1 1 0 -100 -55 -100 -75 N
-P 2 1 1 0 -100 -55 -100 -35 N
-P 2 1 1 0 -100 0 -100 -20 N
-P 2 1 1 0 -100 0 -100 20 N
-P 2 1 1 0 -100 75 -100 35 N
-P 2 1 1 0 60 20 20 20 N
-P 4 1 1 0 -100 0 -70 20 -70 -20 -100 0 F
-P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
-X G 1 -300 -100 100 R 50 50 1 1 B
-X S 2 0 -200 100 U 50 50 1 1 B
-X D 3 0 200 100 D 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

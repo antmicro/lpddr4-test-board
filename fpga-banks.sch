@@ -705,12 +705,12 @@ Text Notes 6100 7025 1    50   ~ 0
 interfaces.sch\nHDMI
 Wire Notes Line
 	16550 425  16550 7525
-Text Notes 6000 4000 1    50   ~ 0
+Text Notes 6100 5450 1    50   ~ 0
 interfaces.sch
-Text GLabel 5450 4000 2    50   Input ~ 0
-CD
 Text GLabel 5450 3900 2    50   Input ~ 0
-DAT2
+SD_CD
+Text GLabel 5275 5900 2    50   Input ~ 0
+SD_DAT2
 $Comp
 L lpddr4-test-board:R_200R_0402 R15
 U 1 1 60AC14D7
@@ -726,35 +726,25 @@ F 6 "200R" H 5650 9325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 4000 5450 4000
-Wire Wire Line
 	4800 3900 5450 3900
 Wire Wire Line
-	4800 3800 5450 3800
-Wire Wire Line
-	4800 3700 5450 3700
-Wire Wire Line
-	4800 3600 5450 3600
-Wire Wire Line
-	4800 3500 5450 3500
+	4800 3800 5375 3800
 Wire Wire Line
 	4800 2300 5300 2300
-Wire Wire Line
-	4800 3300 5450 3300
 Text Notes 6475 4200 1    50   ~ 0
 ethernet.sch
-Text GLabel 5450 3800 2    50   Input ~ 0
-DAT1
-Text GLabel 5450 3700 2    50   Input ~ 0
-SCK
-Text GLabel 5450 3600 2    50   Input ~ 0
-MISO_DAT0
-Text GLabel 5450 3500 2    50   Input ~ 0
-MOSI_CMD
+Text GLabel 5375 3800 2    50   Input ~ 0
+SD_DAT1
+Text GLabel 5375 4300 2    50   Input ~ 0
+SD_CLK
+Text GLabel 5375 4200 2    50   Input ~ 0
+SD_DAT0
+Text GLabel 5350 5400 2    50   Input ~ 0
+SD_CMD
 Text GLabel 5300 2300 2    50   Input ~ 0
 GCLK100
-Text GLabel 5450 3300 2    50   Input ~ 0
-CD_DAT3
+Text GLabel 5325 5500 2    50   Input ~ 0
+SD_DAT3
 Wire Notes Line
 	6350 7950 6350 500 
 Text Notes 6625 925  0    98   ~ 20
@@ -1054,7 +1044,6 @@ NoConn ~ 1900 7100
 NoConn ~ 1900 7200
 NoConn ~ 4800 3000
 NoConn ~ 4800 4100
-NoConn ~ 4800 4200
 NoConn ~ 4800 6200
 NoConn ~ 4800 6300
 NoConn ~ 4800 7200
@@ -1415,4 +1404,14 @@ Wire Wire Line
 	9850 1350 9875 1350
 Wire Wire Line
 	9775 1350 9875 1350
+Wire Wire Line
+	4800 5900 5275 5900
+Wire Wire Line
+	4800 5500 5325 5500
+Wire Wire Line
+	4800 5400 5350 5400
+Wire Wire Line
+	4800 4300 5375 4300
+Wire Wire Line
+	4800 4200 5375 4200
 $EndSCHEMATC
