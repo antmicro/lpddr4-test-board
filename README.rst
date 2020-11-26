@@ -14,7 +14,6 @@ This design is now a Work in Progress.
 
 Repository structure
 --------------------
-
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
@@ -31,10 +30,11 @@ Key Features
 * HDMI output connector
 * Ethernet RJ45 connector with 100BASE-T transciever
 * Micro USB debug connector with FT2232HQ FTDI USB controller.
+* JTAG connector compatible with Xilinx Platform Cable
 * microSD card slot
+* QSPI FLASH memory
 * External 4.5-18V power input
 * 5 user LEDs
-
 
 Block diagram
 -------------
