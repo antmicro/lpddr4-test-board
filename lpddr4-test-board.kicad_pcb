@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 130)
-    (tracks 4521)
+    (tracks 4520)
     (zones 0)
     (modules 261)
     (nets 548)
@@ -24,7 +24,7 @@
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -6360,7 +6360,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FDAACFC)
-    (at 132.468 118.883 270)
+    (at 135.389 119.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFD6C0C)
@@ -6394,7 +6394,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-res (layer B.Cu) (tedit 5D5E98EC) (tstamp 5FDAACD2)
-    (at 131.468 118.883 270)
+    (at 134.389 119.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFD3938)
@@ -8445,7 +8445,7 @@
   )
 
   (module lpddr4-test-board-footprints:0603 (layer B.Cu) (tedit 5E68CDA5) (tstamp 5FDA833A)
-    (at 126.468 122.883)
+    (at 129.389 123.264)
     (path /600E76D8/6002DC37)
     (attr smd)
     (fp_text reference FB6 (at 0 0 90) (layer F.SilkS) hide
@@ -8466,7 +8466,7 @@
   )
 
   (module lpddr4-test-board-footprints:0603 (layer B.Cu) (tedit 5E68CDA5) (tstamp 5FDAACBA)
-    (at 129.468 122.883)
+    (at 132.389 123.264)
     (path /600E76D8/5FFB9ED1)
     (attr smd)
     (fp_text reference FB5 (at 0 0 -90) (layer F.SilkS) hide
@@ -8487,7 +8487,7 @@
   )
 
   (module lpddr4-test-board-footprints:0603 (layer B.Cu) (tedit 5E68CDA5) (tstamp 5FDAACAB)
-    (at 132.468 122.883 180)
+    (at 135.389 123.264 180)
     (path /600E76D8/5FFBA238)
     (attr smd)
     (fp_text reference FB4 (at 0 0 -90) (layer F.SilkS) hide
@@ -8607,7 +8607,7 @@
   )
 
   (module lpddr4-test-board-footprints:SOT-3 (layer F.Cu) (tedit 5DF0CA86) (tstamp 5FDAAC74)
-    (at 131.05181 122.883)
+    (at 133.97281 123.264)
     (descr http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)
     (path /600E76D8/6003C213)
     (attr smd)
@@ -8728,7 +8728,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDA8238)
-    (at 133.468 113.883 270)
+    (at 136.389 114.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60010F22)
@@ -8762,7 +8762,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAC3F)
-    (at 128.468 118.883 90)
+    (at 131.389 119.264 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60010F19)
@@ -8796,7 +8796,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAC15)
-    (at 133.468 118.883 90)
+    (at 136.389 119.264 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60010F10)
@@ -8830,7 +8830,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDA81BA)
-    (at 129.468 113.883 270)
+    (at 132.389 114.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60019562)
@@ -8864,7 +8864,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDA8190)
-    (at 134.468 113.868 270)
+    (at 137.389 114.249 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60006DA8)
@@ -8898,7 +8898,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAABEB)
-    (at 130.468 118.883 90)
+    (at 133.389 119.264 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFDD6CC)
@@ -8932,7 +8932,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDA813C)
-    (at 130.468 113.883 270)
+    (at 133.389 114.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60006AD7)
@@ -8966,7 +8966,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDA810F)
-    (at 128.468 113.883 270)
+    (at 131.389 114.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/6000686A)
@@ -9000,7 +9000,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAABC1)
-    (at 129.468 118.883 90)
+    (at 132.389 119.264 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFDD1FF)
@@ -9034,7 +9034,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAB97)
-    (at 130.468 124.883 270)
+    (at 133.389 125.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFC21B8)
@@ -9068,7 +9068,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAB6D)
-    (at 128.968 115.883)
+    (at 131.889 116.264)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/600065DF)
@@ -9102,7 +9102,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAB43)
-    (at 132.468 124.883 270)
+    (at 135.389 125.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFC3ECF)
@@ -9136,7 +9136,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAB19)
-    (at 134.468 118.883 90)
+    (at 137.389 119.264 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/60005E0E)
@@ -9170,7 +9170,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAAEF)
-    (at 129.468 124.883 270)
+    (at 132.389 125.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFBFABB)
@@ -9204,7 +9204,7 @@
   )
 
   (module lpddr4-test-board-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 5FDAAAC5)
-    (at 131.468 124.883 270)
+    (at 134.389 125.264 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /600E76D8/5FFC3EC6)
@@ -11358,7 +11358,7 @@
   )
 
   (module lpddr4-test-board-footprints:BEL_08B0-1X1T-36-F (layer F.Cu) (tedit 5F998932) (tstamp 5FDA1C5A)
-    (at 198.648 123.986 180)
+    (at 200.807 123.986 180)
     (path /5F982999/5FA151D3)
     (fp_text reference J2 (at -4.176 17.3154) (layer F.SilkS)
       (effects (font (size 1.514331 1.514331) (thickness 0.015)))
@@ -11425,7 +11425,7 @@
   )
 
   (module lpddr4-test-board-footprints:QFN50P900X900X100-65N (layer F.Cu) (tedit 5FA12592) (tstamp 5FDAAA09)
-    (at 131.468 116.383 90)
+    (at 134.389 116.764 90)
     (path /600E76D8/600E77E5)
     (fp_text reference U12 (at -2.12661 -5.88945 90) (layer F.SilkS)
       (effects (font (size 1.000756 1.000756) (thickness 0.015)))
@@ -11831,7 +11831,7 @@
   )
 
   (module lpddr4-test-board-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 5FDB80C5)
-    (at 131.211 131.098)
+    (at 134.132 131.479)
     (descr "USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf")
     (tags "usb micro receptacle")
     (path /600E76D8/60021F87)
@@ -16794,7 +16794,6 @@
   (segment (start 174.80698 128.77702) (end 173.04001 130.54399) (width 0.15) (layer B.Cu) (net 532))
   (segment (start 173.536329 108.497157) (end 173.507157 108.497157) (width 0.15) (layer F.Cu) (net 539))
   (segment (start 173.507157 108.497157) (end 173.502 108.492) (width 0.15) (layer F.Cu) (net 539))
-  (segment (start 173.502 108.492) (end 172.994 109) (width 0.15) (layer B.Cu) (net 533))
   (segment (start 178.836 124.598) (end 177.693 124.598) (width 0.15) (layer F.Cu) (net 533))
   (via (at 176.931 124.621) (size 0.5) (drill 0.2) (layers F.Cu B.Cu) (net 533))
   (segment (start 177.67 124.621) (end 177.693 124.598) (width 0.15) (layer F.Cu) (net 533))
