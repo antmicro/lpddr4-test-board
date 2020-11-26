@@ -1377,105 +1377,7 @@ NoConn ~ 15125 6925
 NoConn ~ 15125 7025
 NoConn ~ 15125 7125
 Wire Wire Line
-	7200 1350 7725 1350
-Wire Wire Line
-	7200 2275 7325 2275
-Wire Wire Line
-	7325 2375 7200 2375
-Wire Wire Line
 	10225 2275 10350 2275
-Wire Wire Line
-	7200 2475 7325 2475
-Wire Wire Line
-	7325 2575 7200 2575
-Wire Wire Line
-	7200 2675 7325 2675
-Wire Wire Line
-	7325 2775 7200 2775
-Wire Wire Line
-	7200 2875 7325 2875
-Wire Wire Line
-	7325 2975 7200 2975
-Wire Wire Line
-	7200 3075 7325 3075
-Wire Wire Line
-	7325 3175 7200 3175
-Wire Wire Line
-	7200 3275 7325 3275
-Wire Wire Line
-	7325 3375 7200 3375
-Wire Wire Line
-	7200 3475 7325 3475
-Wire Wire Line
-	7325 3575 7200 3575
-Wire Wire Line
-	7200 3675 7325 3675
-Wire Wire Line
-	7325 3775 7200 3775
-Wire Wire Line
-	7200 3875 7325 3875
-Wire Wire Line
-	7325 3975 7200 3975
-Wire Wire Line
-	7200 4075 7325 4075
-Wire Wire Line
-	7325 4175 7200 4175
-Wire Wire Line
-	7200 4275 7325 4275
-Wire Wire Line
-	7325 4375 7200 4375
-Wire Wire Line
-	7200 4475 7325 4475
-Wire Wire Line
-	7325 4575 7200 4575
-Wire Wire Line
-	7200 4675 7325 4675
-Wire Wire Line
-	7325 4775 7200 4775
-Wire Wire Line
-	7200 4875 7325 4875
-Wire Wire Line
-	7325 4975 7200 4975
-Wire Wire Line
-	7200 5075 7325 5075
-Wire Wire Line
-	7325 5175 7200 5175
-Wire Wire Line
-	7200 5275 7325 5275
-Wire Wire Line
-	7325 5375 7200 5375
-Wire Wire Line
-	7200 5475 7325 5475
-Wire Wire Line
-	7325 5575 7200 5575
-Wire Wire Line
-	7200 5675 7325 5675
-Wire Wire Line
-	7325 5775 7200 5775
-Wire Wire Line
-	7200 5875 7325 5875
-Wire Wire Line
-	7325 5975 7200 5975
-Wire Wire Line
-	7200 6075 7325 6075
-Wire Wire Line
-	7325 6175 7200 6175
-Wire Wire Line
-	7200 6275 7325 6275
-Wire Wire Line
-	7325 6375 7200 6375
-Wire Wire Line
-	7200 6475 7325 6475
-Wire Wire Line
-	7325 6575 7200 6575
-Wire Wire Line
-	7200 6675 7325 6675
-Wire Wire Line
-	7325 6775 7200 6775
-Wire Wire Line
-	7200 6875 7325 6875
-Wire Wire Line
-	7325 6975 7200 6975
 Wire Wire Line
 	10225 2375 10350 2375
 Wire Wire Line
@@ -1525,10 +1427,6 @@ Wire Wire Line
 Wire Wire Line
 	10350 4675 10225 4675
 Wire Wire Line
-	7200 7075 7325 7075
-Wire Wire Line
-	7325 7175 7200 7175
-Wire Wire Line
 	10225 4775 10350 4775
 Wire Wire Line
 	10350 4875 10225 4875
@@ -1548,155 +1446,6 @@ Wire Wire Line
 	10225 5575 10350 5575
 Wire Wire Line
 	10350 5675 10225 5675
-Wire Wire Line
-	7200 1350 7200 2275
-Connection ~ 7200 2275
-Wire Wire Line
-	7200 2275 7200 2375
-Connection ~ 7200 2375
-Wire Wire Line
-	7200 2375 7200 2475
-Connection ~ 7200 2475
-Wire Wire Line
-	7200 2475 7200 2575
-Connection ~ 7200 2575
-Wire Wire Line
-	7200 2575 7200 2675
-Connection ~ 7200 2675
-Wire Wire Line
-	7200 2675 7200 2775
-Connection ~ 7200 2775
-Wire Wire Line
-	7200 2775 7200 2875
-Connection ~ 7200 2875
-Wire Wire Line
-	7200 2875 7200 2975
-Connection ~ 7200 2975
-Wire Wire Line
-	7200 2975 7200 3075
-Connection ~ 7200 3075
-Wire Wire Line
-	7200 3075 7200 3175
-Connection ~ 7200 3175
-Wire Wire Line
-	7200 3175 7200 3275
-Connection ~ 7200 3275
-Wire Wire Line
-	7200 3275 7200 3375
-Connection ~ 7200 3375
-Wire Wire Line
-	7200 3375 7200 3475
-Connection ~ 7200 3475
-Wire Wire Line
-	7200 3475 7200 3575
-Connection ~ 7200 3575
-Wire Wire Line
-	7200 3575 7200 3675
-Connection ~ 7200 3675
-Wire Wire Line
-	7200 3675 7200 3775
-Connection ~ 7200 3775
-Wire Wire Line
-	7200 3775 7200 3875
-Connection ~ 7200 3875
-Wire Wire Line
-	7200 3875 7200 3975
-Connection ~ 7200 3975
-Wire Wire Line
-	7200 3975 7200 4075
-Connection ~ 7200 4075
-Wire Wire Line
-	7200 4075 7200 4175
-Connection ~ 7200 4175
-Wire Wire Line
-	7200 4175 7200 4275
-Connection ~ 7200 4275
-Wire Wire Line
-	7200 4275 7200 4375
-Connection ~ 7200 4375
-Wire Wire Line
-	7200 4375 7200 4475
-Connection ~ 7200 4475
-Wire Wire Line
-	7200 4475 7200 4575
-Connection ~ 7200 4575
-Wire Wire Line
-	7200 4575 7200 4675
-Connection ~ 7200 4675
-Wire Wire Line
-	7200 4675 7200 4775
-Connection ~ 7200 4775
-Wire Wire Line
-	7200 4775 7200 4875
-Connection ~ 7200 4875
-Wire Wire Line
-	7200 4875 7200 4975
-Connection ~ 7200 4975
-Wire Wire Line
-	7200 4975 7200 5075
-Connection ~ 7200 5075
-Wire Wire Line
-	7200 5075 7200 5175
-Connection ~ 7200 5175
-Wire Wire Line
-	7200 5175 7200 5275
-Connection ~ 7200 5275
-Wire Wire Line
-	7200 5275 7200 5375
-Connection ~ 7200 5375
-Wire Wire Line
-	7200 5375 7200 5475
-Connection ~ 7200 5475
-Wire Wire Line
-	7200 5475 7200 5575
-Connection ~ 7200 5575
-Wire Wire Line
-	7200 5575 7200 5675
-Connection ~ 7200 5675
-Wire Wire Line
-	7200 5675 7200 5775
-Connection ~ 7200 5775
-Wire Wire Line
-	7200 5775 7200 5875
-Connection ~ 7200 5875
-Wire Wire Line
-	7200 5875 7200 5975
-Connection ~ 7200 5975
-Wire Wire Line
-	7200 5975 7200 6075
-Connection ~ 7200 6075
-Wire Wire Line
-	7200 6075 7200 6175
-Connection ~ 7200 6175
-Wire Wire Line
-	7200 6175 7200 6275
-Connection ~ 7200 6275
-Wire Wire Line
-	7200 6275 7200 6375
-Connection ~ 7200 6375
-Wire Wire Line
-	7200 6375 7200 6475
-Connection ~ 7200 6475
-Wire Wire Line
-	7200 6475 7200 6575
-Connection ~ 7200 6575
-Wire Wire Line
-	7200 6575 7200 6675
-Connection ~ 7200 6675
-Wire Wire Line
-	7200 6675 7200 6775
-Connection ~ 7200 6775
-Wire Wire Line
-	7200 6775 7200 6875
-Connection ~ 7200 6875
-Wire Wire Line
-	7200 6875 7200 6975
-Connection ~ 7200 6975
-Wire Wire Line
-	7200 6975 7200 7075
-Connection ~ 7200 7075
-Wire Wire Line
-	7200 7075 7200 7175
 Wire Wire Line
 	10350 1350 10350 2275
 Connection ~ 10350 2275
@@ -1824,7 +1573,6 @@ Wire Wire Line
 	9775 1475 9775 1350
 Wire Wire Line
 	9875 1475 9875 1350
-Connection ~ 7725 1350
 Wire Wire Line
 	7725 1350 7825 1350
 Connection ~ 7825 1350
@@ -1839,10 +1587,6 @@ Wire Wire Line
 Connection ~ 8125 1350
 Wire Wire Line
 	8125 1350 8225 1350
-Connection ~ 8225 1350
-Wire Wire Line
-	8225 1350 9575 1350
-Connection ~ 9575 1350
 Wire Wire Line
 	9575 1350 9675 1350
 Connection ~ 9675 1350
@@ -1862,4 +1606,11 @@ Text GLabel 11975 4725 0    50   Input ~ 0
 CKE0_A
 Text GLabel 15125 5725 2    50   Input ~ 0
 ODT1
+Text GLabel 8400 1250 1    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	8225 1350 8400 1350
+Wire Wire Line
+	8400 1350 8400 1250
+Connection ~ 8225 1350
 $EndSCHEMATC
