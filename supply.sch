@@ -1093,10 +1093,10 @@ Wire Wire Line
 Wire Wire Line
 	7925 9500 8000 9500
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP?
+L lpddr4-test-board:TP_SMD1MM TP9
 U 1 1 6C3554ED
 P 11550 3700
-F 0 "TP?" V 11455 3747 50  0000 C CNN
+F 0 "TP9" V 11455 3747 50  0000 C CNN
 F 1 "TP_SMD1MM" H 11550 3600 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 11750 3900 60  0001 L CNN
 F 3 "" H 11750 4000 60  0001 L CNN
@@ -1106,10 +1106,10 @@ $EndComp
 Wire Wire Line
 	8075 9300 8300 9300
 $Comp
-L lpddr4-test-board:BC817W Q?
+L lpddr4-test-board:BC817W Q1
 U 1 1 5FBC69EE
 P 8200 9500
-F 0 "Q?" H 8390 9546 50  0000 L CNN
+F 0 "Q1" H 8390 9546 50  0000 L CNN
 F 1 "BC817W" H 8390 9455 50  0000 L CNN
 F 2 "lpddr4-test-board-footprints:SOT-323" H 8400 9425 50  0001 L CIN
 F 3 "" H 8200 9500 50  0001 L CNN
@@ -1120,10 +1120,10 @@ Connection ~ 8300 9300
 Wire Wire Line
 	8300 9300 8400 9300
 $Comp
-L lpddr4-test-board:TPS65296 U?
+L lpddr4-test-board:TPS65296 U4
 U 1 1 5FBE8E3F
 P 4500 2150
-F 0 "U?" H 4950 2215 50  0000 C CNN
+F 0 "U4" H 4950 2215 50  0000 C CNN
 F 1 "TPS65296" H 4950 2124 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:VQFN-HR" H 4500 2150 50  0001 C CNN
 F 3 "" H 4500 2150 50  0001 C CNN
@@ -1137,10 +1137,10 @@ VIN
 Text GLabel 2750 2350 0    50   Input ~ 0
 VCC5V0
 $Comp
-L lpddr4-test-board:C_10u_0402 C?
+L lpddr4-test-board:C_10u_0402 C31
 U 1 1 5FC0C801
 P 3175 2700
-F 0 "C?" H 3200 2800 60  0000 L CNN
+F 0 "C31" H 3200 2800 60  0000 L CNN
 F 1 "C_10u_0402" H 3175 2550 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 3375 2900 60  0001 L CNN
 F 3 "" H 3175 2700 50  0001 C CNN
@@ -1151,10 +1151,10 @@ F 6 "10u" V 3125 2500 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_100n_0402_6V3 C?
+L lpddr4-test-board:C_100n_0402_6V3 C32
 U 1 1 5FC0D105
 P 3400 2700
-F 0 "C?" H 3425 2800 60  0000 L CNN
+F 0 "C32" H 3425 2800 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3400 2550 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 3600 2900 60  0001 L CNN
 F 3 "" H 3400 2700 50  0001 C CNN
@@ -1165,10 +1165,10 @@ F 6 "100n" V 3350 2500 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0133
 U 1 1 5FC23070
 P 3175 2850
-F 0 "#PWR?" H 3175 2600 50  0001 C CNN
+F 0 "#PWR0133" H 3175 2600 50  0001 C CNN
 F 1 "GND" H 3180 2677 50  0000 C CNN
 F 2 "" H 3175 2850 50  0001 C CNN
 F 3 "" H 3175 2850 50  0001 C CNN
@@ -1176,10 +1176,10 @@ F 3 "" H 3175 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0134
 U 1 1 5FC23E64
 P 3400 2850
-F 0 "#PWR?" H 3400 2600 50  0001 C CNN
+F 0 "#PWR0134" H 3400 2600 50  0001 C CNN
 F 1 "GND" H 3405 2677 50  0000 C CNN
 F 2 "" H 3400 2850 50  0001 C CNN
 F 3 "" H 3400 2850 50  0001 C CNN
@@ -1187,10 +1187,10 @@ F 3 "" H 3400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_1u_0402 C?
+L lpddr4-test-board:C_1u_0402 C34
 U 1 1 5FC2BF93
 P 3650 2700
-F 0 "C?" H 3675 2800 60  0000 L CNN
+F 0 "C34" H 3675 2800 60  0000 L CNN
 F 1 "C_1u_0402" H 3650 2550 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 3850 2900 60  0001 L CNN
 F 3 "" H 3650 2700 50  0001 C CNN
@@ -1201,10 +1201,10 @@ F 6 "1u" V 3600 2500 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0135
 U 1 1 5FC33189
 P 3650 2850
-F 0 "#PWR?" H 3650 2600 50  0001 C CNN
+F 0 "#PWR0135" H 3650 2600 50  0001 C CNN
 F 1 "GND" H 3655 2677 50  0000 C CNN
 F 2 "" H 3650 2850 50  0001 C CNN
 F 3 "" H 3650 2850 50  0001 C CNN
@@ -1238,10 +1238,10 @@ Wire Wire Line
 Text GLabel 1225 2475 1    50   Input ~ 0
 VIN
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0136
 U 1 1 5FCF2715
 P 1225 2775
-F 0 "#PWR?" H 1225 2525 50  0001 C CNN
+F 0 "#PWR0136" H 1225 2525 50  0001 C CNN
 F 1 "GND" H 1230 2602 50  0000 C CNN
 F 2 "" H 1225 2775 50  0001 C CNN
 F 3 "" H 1225 2775 50  0001 C CNN
@@ -1251,10 +1251,10 @@ $EndComp
 Text GLabel 3375 3125 0    50   Input ~ 0
 VDD1V1
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0149
 U 1 1 5FD445DB
 P 3625 3425
-F 0 "#PWR?" H 3625 3175 50  0001 C CNN
+F 0 "#PWR0149" H 3625 3175 50  0001 C CNN
 F 1 "GND" H 3630 3252 50  0000 C CNN
 F 2 "" H 3625 3425 50  0001 C CNN
 F 3 "" H 3625 3425 50  0001 C CNN
@@ -1262,10 +1262,10 @@ F 3 "" H 3625 3425 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:R_100k_0402 R?
+L lpddr4-test-board:R_100k_0402 R40
 U 1 1 5FD504C3
 P 3900 2725
-F 0 "R?" V 4050 2725 60  0000 R CNN
+F 0 "R40" V 4050 2725 60  0000 R CNN
 F 1 "R_100k_0402" H 3900 2575 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 4100 2925 60  0001 L CNN
 F 3 "" H 3900 2725 50  0001 C CNN
@@ -1303,10 +1303,10 @@ Wire Wire Line
 Text GLabel 7900 2300 1    50   Input ~ 0
 VDD1V8
 $Comp
-L lpddr4-test-board:C_22u_0603 C?
+L lpddr4-test-board:C_22u_0603 C37
 U 1 1 5FE70DF3
 P 7900 2450
-F 0 "C?" H 8015 2495 60  0000 L CNN
+F 0 "C37" H 8015 2495 60  0000 L CNN
 F 1 "C_22u_0603" H 7900 2300 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 8100 2650 60  0001 L CNN
 F 3 "" H 7900 2450 50  0001 C CNN
@@ -1317,10 +1317,10 @@ F 6 "22u" H 8015 2397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0150
 U 1 1 5FE71F81
 P 7900 2600
-F 0 "#PWR?" H 7900 2350 50  0001 C CNN
+F 0 "#PWR0150" H 7900 2350 50  0001 C CNN
 F 1 "GND" H 7905 2427 50  0000 C CNN
 F 2 "" H 7900 2600 50  0001 C CNN
 F 3 "" H 7900 2600 50  0001 C CNN
@@ -1328,10 +1328,10 @@ F 3 "" H 7900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:R_5R1_1020 R?
+L lpddr4-test-board:R_5R1_1020 R41
 U 1 1 5FE73AC9
 P 5775 2650
-F 0 "R?" H 5775 2863 60  0000 C CNN
+F 0 "R41" H 5775 2863 60  0000 C CNN
 F 1 "R_5R1_1020" H 5775 2500 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:1020-res" H 5975 2850 60  0001 L CNN
 F 3 "" H 5775 2650 50  0001 C CNN
@@ -1342,10 +1342,10 @@ F 6 "5R1" H 5775 2765 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_100n_0402_6V3 C?
+L lpddr4-test-board:C_100n_0402_6V3 C35
 U 1 1 5FE76020
 P 6075 2650
-F 0 "C?" V 5817 2650 60  0000 C CNN
+F 0 "C35" V 5817 2650 60  0000 C CNN
 F 1 "C_100n_0402_6V3" H 6075 2500 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 6275 2850 60  0001 L CNN
 F 3 "" H 6075 2650 50  0001 C CNN
@@ -1366,10 +1366,10 @@ VDD1V1
 Text GLabel 8250 2300 1    50   Input ~ 0
 VDD1V1
 $Comp
-L lpddr4-test-board:C_22u_0603 C?
+L lpddr4-test-board:C_22u_0603 C39
 U 1 1 5FECB0DA
 P 8250 2450
-F 0 "C?" H 8365 2495 60  0000 L CNN
+F 0 "C39" H 8365 2495 60  0000 L CNN
 F 1 "C_22u_0603" H 8250 2300 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 8450 2650 60  0001 L CNN
 F 3 "" H 8250 2450 50  0001 C CNN
@@ -1380,10 +1380,10 @@ F 6 "22u" H 8365 2397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0151
 U 1 1 5FECB0E0
 P 8250 2600
-F 0 "#PWR?" H 8250 2350 50  0001 C CNN
+F 0 "#PWR0151" H 8250 2350 50  0001 C CNN
 F 1 "GND" H 8255 2427 50  0000 C CNN
 F 2 "" H 8250 2600 50  0001 C CNN
 F 3 "" H 8250 2600 50  0001 C CNN
@@ -1393,10 +1393,10 @@ $EndComp
 Text GLabel 8575 2300 1    50   Input ~ 0
 VDD1V1
 $Comp
-L lpddr4-test-board:C_22u_0603 C?
+L lpddr4-test-board:C_22u_0603 C40
 U 1 1 5FED6DC8
 P 8575 2450
-F 0 "C?" H 8690 2495 60  0000 L CNN
+F 0 "C40" H 8690 2495 60  0000 L CNN
 F 1 "C_22u_0603" H 8575 2300 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 8775 2650 60  0001 L CNN
 F 3 "" H 8575 2450 50  0001 C CNN
@@ -1407,10 +1407,10 @@ F 6 "22u" H 8690 2397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0152
 U 1 1 5FED6DCE
 P 8575 2600
-F 0 "#PWR?" H 8575 2350 50  0001 C CNN
+F 0 "#PWR0152" H 8575 2350 50  0001 C CNN
 F 1 "GND" H 8580 2427 50  0000 C CNN
 F 2 "" H 8575 2600 50  0001 C CNN
 F 3 "" H 8575 2600 50  0001 C CNN
@@ -1420,10 +1420,10 @@ $EndComp
 Text GLabel 8900 2300 1    50   Input ~ 0
 VDD1V1
 $Comp
-L lpddr4-test-board:C_22u_0603 C?
+L lpddr4-test-board:C_22u_0603 C41
 U 1 1 5FEE2019
 P 8900 2450
-F 0 "C?" H 9015 2495 60  0000 L CNN
+F 0 "C41" H 9015 2495 60  0000 L CNN
 F 1 "C_22u_0603" H 8900 2300 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 9100 2650 60  0001 L CNN
 F 3 "" H 8900 2450 50  0001 C CNN
@@ -1434,10 +1434,10 @@ F 6 "22u" H 9015 2397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0153
 U 1 1 5FEE201F
 P 8900 2600
-F 0 "#PWR?" H 8900 2350 50  0001 C CNN
+F 0 "#PWR0153" H 8900 2350 50  0001 C CNN
 F 1 "GND" H 8905 2427 50  0000 C CNN
 F 2 "" H 8900 2600 50  0001 C CNN
 F 3 "" H 8900 2600 50  0001 C CNN
@@ -1447,10 +1447,10 @@ $EndComp
 Text GLabel 9225 2300 1    50   Input ~ 0
 VDD1V1
 $Comp
-L lpddr4-test-board:C_22u_0603 C?
+L lpddr4-test-board:C_22u_0603 C42
 U 1 1 5FEEDD12
 P 9225 2450
-F 0 "C?" H 9340 2495 60  0000 L CNN
+F 0 "C42" H 9340 2495 60  0000 L CNN
 F 1 "C_22u_0603" H 9225 2300 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 9425 2650 60  0001 L CNN
 F 3 "" H 9225 2450 50  0001 C CNN
@@ -1461,10 +1461,10 @@ F 6 "22u" H 9340 2397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0154
 U 1 1 5FEEDD18
 P 9225 2600
-F 0 "#PWR?" H 9225 2350 50  0001 C CNN
+F 0 "#PWR0154" H 9225 2350 50  0001 C CNN
 F 1 "GND" H 9230 2427 50  0000 C CNN
 F 2 "" H 9225 2600 50  0001 C CNN
 F 3 "" H 9225 2600 50  0001 C CNN
@@ -1474,10 +1474,10 @@ $EndComp
 Text GLabel 9550 2300 1    50   Input ~ 0
 VDD1V1
 $Comp
-L lpddr4-test-board:C_22u_0603 C?
+L lpddr4-test-board:C_22u_0603 C43
 U 1 1 5FEF8FB3
 P 9550 2450
-F 0 "C?" H 9665 2495 60  0000 L CNN
+F 0 "C43" H 9665 2495 60  0000 L CNN
 F 1 "C_22u_0603" H 9550 2300 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 9750 2650 60  0001 L CNN
 F 3 "" H 9550 2450 50  0001 C CNN
@@ -1488,10 +1488,10 @@ F 6 "22u" H 9665 2397 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0155
 U 1 1 5FEF8FB9
 P 9550 2600
-F 0 "#PWR?" H 9550 2350 50  0001 C CNN
+F 0 "#PWR0155" H 9550 2350 50  0001 C CNN
 F 1 "GND" H 9555 2427 50  0000 C CNN
 F 2 "" H 9550 2600 50  0001 C CNN
 F 3 "" H 9550 2600 50  0001 C CNN
@@ -1509,10 +1509,10 @@ VDD0V6
 Wire Wire Line
 	5500 3100 6075 3100
 $Comp
-L lpddr4-test-board:R_0R_0402 R?
+L lpddr4-test-board:R_0R_0402 R42
 U 1 1 5FF5209D
 P 5800 3250
-F 0 "R?" H 5800 3463 60  0000 C CNN
+F 0 "R42" H 5800 3463 60  0000 C CNN
 F 1 "R_0R_0402" H 5800 3100 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 6000 3450 60  0001 L CNN
 F 3 "" H 5800 3250 50  0001 C CNN
@@ -1534,10 +1534,10 @@ Wire Wire Line
 Text GLabel 7900 3200 1    50   Input ~ 0
 VDD0V6
 $Comp
-L lpddr4-test-board:C_10u_0402 C?
+L lpddr4-test-board:C_10u_0402 C38
 U 1 1 5FF6BF00
 P 7900 3350
-F 0 "C?" H 8015 3395 60  0000 L CNN
+F 0 "C38" H 8015 3395 60  0000 L CNN
 F 1 "C_10u_0402" H 7900 3200 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 8100 3550 60  0001 L CNN
 F 3 "" H 7900 3350 50  0001 C CNN
@@ -1548,10 +1548,10 @@ F 6 "10u" H 8015 3297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0156
 U 1 1 5FF6C3A4
 P 7900 3500
-F 0 "#PWR?" H 7900 3250 50  0001 C CNN
+F 0 "#PWR0156" H 7900 3250 50  0001 C CNN
 F 1 "GND" H 7905 3327 50  0000 C CNN
 F 2 "" H 7900 3500 50  0001 C CNN
 F 3 "" H 7900 3500 50  0001 C CNN
@@ -1559,10 +1559,10 @@ F 3 "" H 7900 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_470n_0402 C?
+L lpddr4-test-board:C_470n_0402 C36
 U 1 1 5FF7C396
 P 6075 3550
-F 0 "C?" H 6190 3595 60  0000 L CNN
+F 0 "C36" H 6190 3595 60  0000 L CNN
 F 1 "C_470n_0402" H 6075 3400 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 6275 3750 60  0001 L CNN
 F 3 "" H 6075 3550 50  0001 C CNN
@@ -1589,10 +1589,10 @@ Connection ~ 5575 4050
 Wire Wire Line
 	5575 4050 5575 4300
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0157
 U 1 1 5FFAF8E7
 P 5575 4300
-F 0 "#PWR?" H 5575 4050 50  0001 C CNN
+F 0 "#PWR0157" H 5575 4050 50  0001 C CNN
 F 1 "GND" H 5580 4127 50  0000 C CNN
 F 2 "" H 5575 4300 50  0001 C CNN
 F 3 "" H 5575 4300 50  0001 C CNN
@@ -1600,10 +1600,10 @@ F 3 "" H 5575 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0158
 U 1 1 5FFB01FE
 P 6075 4300
-F 0 "#PWR?" H 6075 4050 50  0001 C CNN
+F 0 "#PWR0158" H 6075 4050 50  0001 C CNN
 F 1 "GND" H 6080 4127 50  0000 C CNN
 F 2 "" H 6075 4300 50  0001 C CNN
 F 3 "" H 6075 4300 50  0001 C CNN
@@ -1613,10 +1613,10 @@ $EndComp
 Wire Wire Line
 	6075 3700 6075 4300
 $Comp
-L lpddr4-test-board:C_10u_25V_0603 C?
+L lpddr4-test-board:C_10u_25V_0603 C27
 U 1 1 5FFE9E64
 P 1225 2625
-F 0 "C?" H 1340 2670 60  0000 L CNN
+F 0 "C27" H 1340 2670 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 1225 2475 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 1425 2825 60  0001 L CNN
 F 3 "" H 1225 2625 50  0001 C CNN
@@ -1627,10 +1627,10 @@ F 6 "10u/25V" H 1340 2572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_10u_0603 C?
+L lpddr4-test-board:C_10u_0603 C33
 U 1 1 60014B32
 P 3625 3275
-F 0 "C?" H 3740 3320 60  0000 L CNN
+F 0 "C33" H 3740 3320 60  0000 L CNN
 F 1 "C_10u_0603" H 3625 3125 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 3825 3475 60  0001 L CNN
 F 3 "" H 3625 3275 50  0001 C CNN
@@ -1641,10 +1641,10 @@ F 6 "10u" H 3740 3222 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_10u_25V_0603 C?
+L lpddr4-test-board:C_10u_25V_0603 C28
 U 1 1 60031E10
 P 1550 2625
-F 0 "C?" H 1665 2670 60  0000 L CNN
+F 0 "C28" H 1665 2670 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 1550 2475 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 1750 2825 60  0001 L CNN
 F 3 "" H 1550 2625 50  0001 C CNN
@@ -1655,10 +1655,10 @@ F 6 "10u/25V" H 1665 2572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_10u_25V_0603 C?
+L lpddr4-test-board:C_10u_25V_0603 C29
 U 1 1 6003214B
 P 1850 2625
-F 0 "C?" H 1965 2670 60  0000 L CNN
+F 0 "C29" H 1965 2670 60  0000 L CNN
 F 1 "C_10u_25V_0603" H 1850 2475 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0603-cap" H 2050 2825 60  0001 L CNN
 F 3 "" H 1850 2625 50  0001 C CNN
@@ -1673,10 +1673,10 @@ VIN
 Text GLabel 1850 2475 1    50   Input ~ 0
 VIN
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0159
 U 1 1 6003313C
 P 1550 2775
-F 0 "#PWR?" H 1550 2525 50  0001 C CNN
+F 0 "#PWR0159" H 1550 2525 50  0001 C CNN
 F 1 "GND" H 1555 2602 50  0000 C CNN
 F 2 "" H 1550 2775 50  0001 C CNN
 F 3 "" H 1550 2775 50  0001 C CNN
@@ -1684,10 +1684,10 @@ F 3 "" H 1550 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0160
 U 1 1 6003331B
 P 1850 2775
-F 0 "#PWR?" H 1850 2525 50  0001 C CNN
+F 0 "#PWR0160" H 1850 2525 50  0001 C CNN
 F 1 "GND" H 1855 2602 50  0000 C CNN
 F 2 "" H 1850 2775 50  0001 C CNN
 F 3 "" H 1850 2775 50  0001 C CNN
@@ -1695,10 +1695,10 @@ F 3 "" H 1850 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_100n_0402_16V C?
+L lpddr4-test-board:C_100n_0402_16V C30
 U 1 1 60033E34
 P 2125 2625
-F 0 "C?" H 2240 2670 60  0000 L CNN
+F 0 "C30" H 2240 2670 60  0000 L CNN
 F 1 "C_100n_0402_16V" H 2125 2475 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 2325 2825 60  0001 L CNN
 F 3 "" H 2125 2625 50  0001 C CNN
@@ -1711,10 +1711,10 @@ $EndComp
 Text GLabel 2125 2475 1    50   Input ~ 0
 VIN
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0161
 U 1 1 60035B7F
 P 2125 2775
-F 0 "#PWR?" H 2125 2525 50  0001 C CNN
+F 0 "#PWR0161" H 2125 2525 50  0001 C CNN
 F 1 "GND" H 2130 2602 50  0000 C CNN
 F 2 "" H 2125 2775 50  0001 C CNN
 F 3 "" H 2125 2775 50  0001 C CNN
@@ -1741,10 +1741,10 @@ VDD1V1 1.1V 8A
 Text Notes 7050 3025 0    50   ~ 0
 VDD0V6 0.6V 1.5A
 $Comp
-L lpddr4-test-board:TPS62823DLCT U?
+L lpddr4-test-board:TPS62823DLCT U5
 U 1 1 6014DA7E
 P 12325 7050
-F 0 "U?" H 12375 7997 50  0000 C CNN
+F 0 "U5" H 12375 7997 50  0000 C CNN
 F 1 "TPS62823DLCT" H 12375 7906 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:QFN-8_2x1mm" H 12225 6850 50  0001 C CNN
 F 3 "" H 12325 6950 50  0001 C CNN
@@ -1774,10 +1774,10 @@ Connection ~ 11650 6550
 Text GLabel 11225 6250 1    50   Input ~ 0
 VCC5V0
 $Comp
-L lpddr4-test-board:C_2u2_0402 C?
+L lpddr4-test-board:C_2u2_0402 C44
 U 1 1 601A51FF
 P 11225 6475
-F 0 "C?" H 11340 6520 60  0000 L CNN
+F 0 "C44" H 11340 6520 60  0000 L CNN
 F 1 "C_2u2_0402" H 11225 6325 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 11425 6675 60  0001 L CNN
 F 3 "" H 11225 6475 50  0001 C CNN
@@ -1788,10 +1788,10 @@ F 6 "2u2" H 11340 6422 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0162
 U 1 1 601A5A9F
 P 11225 6675
-F 0 "#PWR?" H 11225 6425 50  0001 C CNN
+F 0 "#PWR0162" H 11225 6425 50  0001 C CNN
 F 1 "GND" H 11230 6502 50  0000 C CNN
 F 2 "" H 11225 6675 50  0001 C CNN
 F 3 "" H 11225 6675 50  0001 C CNN
@@ -1799,10 +1799,10 @@ F 3 "" H 11225 6675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0163
 U 1 1 601A6015
 P 11900 7150
-F 0 "#PWR?" H 11900 6900 50  0001 C CNN
+F 0 "#PWR0163" H 11900 6900 50  0001 C CNN
 F 1 "GND" H 11905 6977 50  0000 C CNN
 F 2 "" H 11900 7150 50  0001 C CNN
 F 3 "" H 11900 7150 50  0001 C CNN
@@ -1814,10 +1814,10 @@ Wire Wire Line
 Wire Wire Line
 	11900 7000 11900 7150
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0164
 U 1 1 601CEA05
 P 12875 7150
-F 0 "#PWR?" H 12875 6900 50  0001 C CNN
+F 0 "#PWR0164" H 12875 6900 50  0001 C CNN
 F 1 "GND" H 12880 6977 50  0000 C CNN
 F 2 "" H 12875 7150 50  0001 C CNN
 F 3 "" H 12875 7150 50  0001 C CNN
@@ -1831,10 +1831,10 @@ Wire Wire Line
 Text Notes 3675 1950 0    50   ~ 0
 TODO: check if VDD labels have the same names as those connected to FPGA
 $Comp
-L lpddr4-test-board:IHLP1212AEERR47M11 L?
+L lpddr4-test-board:IHLP1212AEERR47M11 L3
 U 1 1 602421C5
 P 13100 6550
-F 0 "L?" H 13100 6764 60  0000 C CNN
+F 0 "L3" H 13100 6764 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 13100 6658 60  0000 C CNN
 F 2 "lpddr4-test-board-footprints:IHLP-1212AE" H 13100 6550 60  0001 C CNN
 F 3 "" H 13100 6550 60  0001 C CNN
@@ -1844,10 +1844,10 @@ F 5 "IHLP1212AEERR47M11" H 13100 6550 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0165
 U 1 1 601F9B65
 P 14250 6675
-F 0 "#PWR?" H 14250 6425 50  0001 C CNN
+F 0 "#PWR0165" H 14250 6425 50  0001 C CNN
 F 1 "GND" H 14255 6502 50  0000 C CNN
 F 2 "" H 14250 6675 50  0001 C CNN
 F 3 "" H 14250 6675 50  0001 C CNN
@@ -1855,10 +1855,10 @@ F 3 "" H 14250 6675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:C_10u_0402 C?
+L lpddr4-test-board:C_10u_0402 C46
 U 1 1 601F8FE9
 P 14250 6475
-F 0 "C?" H 14365 6520 60  0000 L CNN
+F 0 "C46" H 14365 6520 60  0000 L CNN
 F 1 "C_10u_0402" H 14250 6325 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 14450 6675 60  0001 L CNN
 F 3 "" H 14250 6475 50  0001 C CNN
@@ -1871,10 +1871,10 @@ $EndComp
 Text GLabel 14250 6250 1    50   Input ~ 0
 VCC3V3
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0166
 U 1 1 601C6B4F
 P 13775 7150
-F 0 "#PWR?" H 13775 6900 50  0001 C CNN
+F 0 "#PWR0166" H 13775 6900 50  0001 C CNN
 F 1 "GND" H 13780 6977 50  0000 C CNN
 F 2 "" H 13775 7150 50  0001 C CNN
 F 3 "" H 13775 7150 50  0001 C CNN
@@ -1883,10 +1883,10 @@ F 3 "" H 13775 7150 50  0001 C CNN
 $EndComp
 Connection ~ 13775 6850
 $Comp
-L lpddr4-test-board:R_53k6_0402 R?
+L lpddr4-test-board:R_53k6_0402 R48
 U 1 1 601C5705
 P 13775 7000
-F 0 "R?" V 13730 7070 60  0000 L CNN
+F 0 "R48" V 13730 7070 60  0000 L CNN
 F 1 "R_53k6_0402" H 13775 6850 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13975 7200 60  0001 L CNN
 F 3 "" H 13775 7000 50  0001 C CNN
@@ -1901,10 +1901,10 @@ Wire Wire Line
 	13775 6850 13400 6850
 Connection ~ 13775 6550
 $Comp
-L lpddr4-test-board:R_243k_0402 R?
+L lpddr4-test-board:R_243k_0402 R47
 U 1 1 601BD2CD
 P 13775 6700
-F 0 "R?" V 13730 6770 60  0000 L CNN
+F 0 "R47" V 13730 6770 60  0000 L CNN
 F 1 "R_243k_0402" H 13775 6550 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13975 6900 60  0001 L CNN
 F 3 "" H 13775 6700 50  0001 C CNN
@@ -1918,10 +1918,10 @@ Wire Wire Line
 	13400 6550 13775 6550
 Connection ~ 13400 6550
 $Comp
-L lpddr4-test-board:C_100p_0402 C?
+L lpddr4-test-board:C_100p_0402 C45
 U 1 1 601ADCF0
 P 13400 6700
-F 0 "C?" H 13515 6745 60  0000 L CNN
+F 0 "C45" H 13515 6745 60  0000 L CNN
 F 1 "C_100p_0402" H 13400 6550 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-cap" H 13600 6900 60  0001 L CNN
 F 3 "" H 13400 6700 50  0001 C CNN
@@ -1942,10 +1942,10 @@ Text Notes 10325 5825 0    79   ~ 16
 Text Notes 3250 8000 0    50   ~ 0
 TODO: check whether this part of the design is obsolete
 $Comp
-L lpddr4-test-board:IHLP2020BZER4R7M01 L?
+L lpddr4-test-board:IHLP2020BZER4R7M01 L1
 U 1 1 6030F1D7
 P 5850 2350
-F 0 "L?" H 5850 2564 60  0000 C CNN
+F 0 "L1" H 5850 2564 60  0000 C CNN
 F 1 "IHLP2020BZER4R7M01" H 5850 2458 60  0000 C CNN
 F 2 "lpddr4-test-board-footprints:IHLP2020BZER4R7M01" H 5850 2350 60  0001 C CNN
 F 3 "" H 5850 2350 60  0001 C CNN
@@ -1960,10 +1960,10 @@ Wire Wire Line
 	6050 2350 6225 2350
 Connection ~ 6225 2350
 $Comp
-L lpddr4-test-board:DFE322512F-R68M=P2 L?
+L lpddr4-test-board:DFE322512F-R68M=P2 L2
 U 1 1 60328362
 P 6425 2800
-F 0 "L?" H 6425 3014 60  0000 C CNN
+F 0 "L2" H 6425 3014 60  0000 C CNN
 F 1 "DFE322512F-R68M=P2" H 6425 2908 60  0000 C CNN
 F 2 "lpddr4-test-board-footprints:INDC3225X120N" H 6425 2800 60  0001 C CNN
 F 3 "" H 6425 2800 60  0001 C CNN
@@ -1975,12 +1975,12 @@ $EndComp
 Connection ~ 6225 2800
 Connection ~ 6625 2800
 $Comp
-L antmicroResistorsmisc:R_0R_1206 R?
+L lpddr4-test-board:R_0R_1206 R49
 U 1 1 6020F9C4
 P 14375 3500
-F 0 "R?" V 14330 3570 60  0000 L CNN
+F 0 "R49" V 14330 3570 60  0000 L CNN
 F 1 "R_0R_1206" H 14375 3350 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 14575 3700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-res" H 14575 3700 60  0001 L CNN
 F 3 "" H 14375 3500 50  0001 C CNN
 F 4 "MULTICOMP" H 14575 3900 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 14575 3800 60  0001 L CNN "MPN"
@@ -1991,10 +1991,10 @@ $EndComp
 Text GLabel 14825 3200 1    50   Input ~ 0
 VCC5V0
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP?
+L lpddr4-test-board:TP_SMD1MM TP11
 U 1 1 60212554
 P 14825 3300
-F 0 "TP?" V 14730 3347 50  0000 C CNN
+F 0 "TP11" V 14730 3347 50  0000 C CNN
 F 1 "TP_SMD1MM" H 14825 3200 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 15025 3500 60  0001 L CNN
 F 3 "" H 15025 3600 60  0001 L CNN
@@ -2002,12 +2002,12 @@ F 3 "" H 15025 3600 60  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_1206 R?
+L lpddr4-test-board:R_0R_1206 R46
 U 1 1 6021B240
 P 13775 6400
-F 0 "R?" V 13730 6470 60  0000 L CNN
+F 0 "R46" V 13730 6470 60  0000 L CNN
 F 1 "R_0R_1206" H 13775 6250 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 13975 6600 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-res" H 13975 6600 60  0001 L CNN
 F 3 "" H 13775 6400 50  0001 C CNN
 F 4 "MULTICOMP" H 13975 6800 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 13975 6700 60  0001 L CNN "MPN"
@@ -2026,10 +2026,10 @@ Wire Wire Line
 Text GLabel 14650 6250 1    50   Input ~ 0
 VCC3V3
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP?
+L lpddr4-test-board:TP_SMD1MM TP10
 U 1 1 6026C4D0
 P 14650 6350
-F 0 "TP?" V 14555 6397 50  0000 C CNN
+F 0 "TP10" V 14555 6397 50  0000 C CNN
 F 1 "TP_SMD1MM" H 14650 6250 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 14850 6550 60  0001 L CNN
 F 3 "" H 14850 6650 60  0001 L CNN
@@ -2037,12 +2037,12 @@ F 3 "" H 14850 6650 60  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_1206 R?
+L lpddr4-test-board:R_0R_1206 R43
 U 1 1 60283299
 P 6900 2350
-F 0 "R?" H 6900 2137 60  0000 C CNN
+F 0 "R43" H 6900 2137 60  0000 C CNN
 F 1 "R_0R_1206" H 6900 2200 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 7100 2550 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-res" H 7100 2550 60  0001 L CNN
 F 3 "" H 6900 2350 50  0001 C CNN
 F 4 "MULTICOMP" H 7100 2750 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 7100 2650 60  0001 L CNN "MPN"
@@ -2051,12 +2051,12 @@ F 6 "0R" H 6900 2235 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_1206 R?
+L lpddr4-test-board:R_0R_1206 R44
 U 1 1 60285989
 P 6900 2800
-F 0 "R?" H 6900 2587 60  0000 C CNN
+F 0 "R44" H 6900 2587 60  0000 C CNN
 F 1 "R_0R_1206" H 6900 2650 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 7100 3000 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-res" H 7100 3000 60  0001 L CNN
 F 3 "" H 6900 2800 50  0001 C CNN
 F 4 "MULTICOMP" H 7100 3200 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 7100 3100 60  0001 L CNN "MPN"
@@ -2065,12 +2065,12 @@ F 6 "0R" H 6900 2685 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_1206 R?
+L lpddr4-test-board:R_0R_1206 R45
 U 1 1 60285DF8
 P 6900 3100
-F 0 "R?" H 6900 2887 60  0000 C CNN
+F 0 "R45" H 6900 2887 60  0000 C CNN
 F 1 "R_0R_1206" H 6900 2950 60  0001 C CNN
-F 2 "antmicro-footprints:1206-res" H 7100 3300 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-res" H 7100 3300 60  0001 L CNN
 F 3 "" H 6900 3100 50  0001 C CNN
 F 4 "MULTICOMP" H 7100 3500 60  0001 L CNN "Manufacturer"
 F 5 "MCMR12X000_PTL" H 7100 3400 60  0001 L CNN "MPN"
@@ -2091,10 +2091,10 @@ VDD1V1
 Text GLabel 7250 3650 1    50   Input ~ 0
 VDD0V6
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP?
+L lpddr4-test-board:TP_SMD1MM TP6
 U 1 1 602C0646
 P 6800 3750
-F 0 "TP?" V 6705 3797 50  0000 C CNN
+F 0 "TP6" V 6705 3797 50  0000 C CNN
 F 1 "TP_SMD1MM" H 6800 3650 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 7000 3950 60  0001 L CNN
 F 3 "" H 7000 4050 60  0001 L CNN
@@ -2102,10 +2102,10 @@ F 3 "" H 7000 4050 60  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP?
+L lpddr4-test-board:TP_SMD1MM TP7
 U 1 1 602C252D
 P 7025 3750
-F 0 "TP?" V 6930 3797 50  0000 C CNN
+F 0 "TP7" V 6930 3797 50  0000 C CNN
 F 1 "TP_SMD1MM" H 7025 3650 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 7225 3950 60  0001 L CNN
 F 3 "" H 7225 4050 60  0001 L CNN
@@ -2113,10 +2113,10 @@ F 3 "" H 7225 4050 60  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP?
+L lpddr4-test-board:TP_SMD1MM TP8
 U 1 1 602C27EC
 P 7250 3750
-F 0 "TP?" V 7155 3797 50  0000 C CNN
+F 0 "TP8" V 7155 3797 50  0000 C CNN
 F 1 "TP_SMD1MM" H 7250 3650 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 7450 3950 60  0001 L CNN
 F 3 "" H 7450 4050 60  0001 L CNN

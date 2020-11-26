@@ -289,12 +289,12 @@ VDD2\n
 Text GLabel 3925 9625 0    50   Input ~ 0
 VDDQ
 $Comp
-L antmicroResistors0402:R_0R_0402 R55
+L lpddr4-test-board:R_0R_0402 R55
 U 1 1 606BFB95
 P 4275 9625
 F 0 "R55" H 4275 9700 60  0000 C CNN
 F 1 "R_0R_0402" H 4275 9475 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4475 9825 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9825 60  0001 L CNN
 F 3 "" H 4275 9625 50  0001 C CNN
 F 4 "PANASONIC" H 4475 10025 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4475 9925 60  0001 L CNN "MPN"
@@ -303,12 +303,12 @@ F 6 "0R" H 4275 9625 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R56
+L lpddr4-test-board:R_0R_0402 R56
 U 1 1 606C1C63
 P 4275 9800
 F 0 "R56" H 4275 9875 60  0000 C CNN
 F 1 "R_0R_0402" H 4275 9650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4475 10000 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4475 10000 60  0001 L CNN
 F 3 "" H 4275 9800 50  0001 C CNN
 F 4 "PANASONIC" H 4475 10200 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4475 10100 60  0001 L CNN "MPN"
@@ -415,12 +415,12 @@ F 3 "" H 5275 7525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-slot-2-2013289-2 J9
+L lpddr4-test-board:ddr3-sodimm-slot-2-2013289-2 J9
 U 1 1 60D77CED
 P 4350 5100
 F 0 "J9" H 4350 7267 50  0000 C CNN
 F 1 "ddr3-sodimm-slot-2-2013289-2" H 4350 7176 50  0000 C CNN
-F 2 "antmicro-footprints:TE_2-2013289-2" H 4350 5100 50  0001 L BNN
+F 2 "lpddr4-test-board-footprints:TE_2-2013289-2" H 4350 5100 50  0001 L BNN
 F 3 "" H 4350 5100 50  0001 L BNN
 F 4 "Manufacturer Recommendation" H 4350 5100 50  0001 L BNN "STANDARD"
 F 5 "TE Connectivity" H 4350 5100 50  0001 L BNN "MANUFACTURER"
@@ -429,12 +429,12 @@ F 6 "C" H 4350 5100 50  0001 L BNN "PARTREV"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:ddr3-sodimm-slot-2-2013289-2 J9
+L lpddr4-test-board:ddr3-sodimm-slot-2-2013289-2 J9
 U 2 1 60D7BA8A
 P 11175 5775
 F 0 "J9" H 11175 9442 50  0000 C CNN
 F 1 "ddr3-sodimm-slot-2-2013289-2" H 11175 9351 50  0000 C CNN
-F 2 "antmicro-footprints:TE_2-2013289-2" H 11175 5775 50  0001 L BNN
+F 2 "lpddr4-test-board-footprints:TE_2-2013289-2" H 11175 5775 50  0001 L BNN
 F 3 "" H 11175 5775 50  0001 L BNN
 F 4 "Manufacturer Recommendation" H 11175 5775 50  0001 L BNN "STANDARD"
 F 5 "TE Connectivity" H 11175 5775 50  0001 L BNN "MANUFACTURER"

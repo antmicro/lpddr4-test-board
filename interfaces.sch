@@ -947,10 +947,10 @@ F 3 "" H 11600 3825 60  0001 L CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lpddr4-test-board:TPD8S009DSMR IC
+L lpddr4-test-board:TPD8S009DSMR IC3
 U 1 1 601C2CA9
 P 13000 3625
-F 0 "IC" H 13225 2625 50  0000 C CNN
+F 0 "IC3" H 13225 2625 50  0000 C CNN
 F 1 "TPD8S009DSMR" H 12950 4025 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:R-PDSO-N15" H 14400 3275 50  0001 C CNN
 F 3 "" H 14700 3175 50  0001 C CNN
@@ -1531,10 +1531,10 @@ Wire Wire Line
 Wire Wire Line
 	7800 5900 7800 6000
 $Comp
-L lpddr4-test-board:BSS138AKA Q?
+L lpddr4-test-board:BSS138AKA Q2
 U 1 1 5FF5BCFF
 P 7900 8825
-F 0 "Q?" V 8175 8875 60  0000 L CNN
+F 0 "Q2" V 8175 8875 60  0000 L CNN
 F 1 "BSS138AKA" V 8050 8475 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:SOT-23-3" H 8100 9025 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8100 9125 60  0001 L CNN
@@ -1544,10 +1544,10 @@ F 5 "ON Semiconductor" H 8100 9925 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0167
 U 1 1 5FF5DE33
 P 8350 8825
-F 0 "#PWR?" H 8350 8575 50  0001 C CNN
+F 0 "#PWR0167" H 8350 8575 50  0001 C CNN
 F 1 "GND" H 8355 8652 50  0000 C CNN
 F 2 "" H 8350 8825 50  0001 C CNN
 F 3 "" H 8350 8825 50  0001 C CNN
@@ -1559,10 +1559,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 8825 7625 8825
 $Comp
-L lpddr4-test-board:R_330R_0402 R?
+L lpddr4-test-board:R_330R_0402 R50
 U 1 1 5FF78200
 P 7475 8825
-F 0 "R?" V 7430 8895 60  0000 L CNN
+F 0 "R50" V 7430 8895 60  0000 L CNN
 F 1 "R_330R_0402" H 7475 8675 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7675 9025 60  0001 L CNN
 F 3 "" H 7475 8825 50  0001 C CNN
@@ -1573,10 +1573,10 @@ F 6 "330R" V 7528 8895 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:KP-1608CGCK D?
+L lpddr4-test-board:KP-1608CGCK D5
 U 1 1 5FF856A4
 P 7200 8825
-F 0 "D?" H 7125 9150 60  0000 L CNN
+F 0 "D5" H 7125 9150 60  0000 L CNN
 F 1 "KP-1608CGCK" H 6600 9050 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:LED_0603" H 7400 9025 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 7400 9125 60  0001 L CNN
@@ -1594,10 +1594,10 @@ Wire Wire Line
 Wire Wire Line
 	8000 9125 7000 9125
 $Comp
-L lpddr4-test-board:BSS138AKA Q?
+L lpddr4-test-board:BSS138AKA Q4
 U 1 1 6002240B
 P 7925 9600
-F 0 "Q?" V 8200 9650 60  0000 L CNN
+F 0 "Q4" V 8200 9650 60  0000 L CNN
 F 1 "BSS138AKA" V 8075 9250 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:SOT-23-3" H 8125 9800 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8125 9900 60  0001 L CNN
@@ -1607,10 +1607,10 @@ F 5 "ON Semiconductor" H 8125 10700 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0168
 U 1 1 60022411
 P 8375 9600
-F 0 "#PWR?" H 8375 9350 50  0001 C CNN
+F 0 "#PWR0168" H 8375 9350 50  0001 C CNN
 F 1 "GND" H 8380 9427 50  0000 C CNN
 F 2 "" H 8375 9600 50  0001 C CNN
 F 3 "" H 8375 9600 50  0001 C CNN
@@ -1622,10 +1622,10 @@ Wire Wire Line
 Wire Wire Line
 	7725 9600 7650 9600
 $Comp
-L lpddr4-test-board:R_330R_0402 R?
+L lpddr4-test-board:R_330R_0402 R52
 U 1 1 6002241C
 P 7500 9600
-F 0 "R?" V 7455 9670 60  0000 L CNN
+F 0 "R52" V 7455 9670 60  0000 L CNN
 F 1 "R_330R_0402" H 7500 9450 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7700 9800 60  0001 L CNN
 F 3 "" H 7500 9600 50  0001 C CNN
@@ -1636,10 +1636,10 @@ F 6 "330R" V 7553 9670 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:KP-1608CGCK D?
+L lpddr4-test-board:KP-1608CGCK D7
 U 1 1 60022424
 P 7225 9600
-F 0 "D?" H 7150 9925 60  0000 L CNN
+F 0 "D7" H 7150 9925 60  0000 L CNN
 F 1 "KP-1608CGCK" H 6625 9825 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:LED_0603" H 7425 9800 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 7425 9900 60  0001 L CNN
@@ -1657,10 +1657,10 @@ Wire Wire Line
 Wire Wire Line
 	8025 9900 7025 9900
 $Comp
-L lpddr4-test-board:BSS138AKA Q?
+L lpddr4-test-board:BSS138AKA Q5
 U 1 1 600304B1
 P 10075 8825
-F 0 "Q?" V 10350 8875 60  0000 L CNN
+F 0 "Q5" V 10350 8875 60  0000 L CNN
 F 1 "BSS138AKA" V 10225 8475 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:SOT-23-3" H 10275 9025 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 10275 9125 60  0001 L CNN
@@ -1670,10 +1670,10 @@ F 5 "ON Semiconductor" H 10275 9925 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0169
 U 1 1 600304B7
 P 10525 8825
-F 0 "#PWR?" H 10525 8575 50  0001 C CNN
+F 0 "#PWR0169" H 10525 8575 50  0001 C CNN
 F 1 "GND" H 10530 8652 50  0000 C CNN
 F 2 "" H 10525 8825 50  0001 C CNN
 F 3 "" H 10525 8825 50  0001 C CNN
@@ -1685,10 +1685,10 @@ Wire Wire Line
 Wire Wire Line
 	9875 8825 9800 8825
 $Comp
-L lpddr4-test-board:R_330R_0402 R?
+L lpddr4-test-board:R_330R_0402 R53
 U 1 1 600304C2
 P 9650 8825
-F 0 "R?" V 9605 8895 60  0000 L CNN
+F 0 "R53" V 9605 8895 60  0000 L CNN
 F 1 "R_330R_0402" H 9650 8675 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 9850 9025 60  0001 L CNN
 F 3 "" H 9650 8825 50  0001 C CNN
@@ -1699,10 +1699,10 @@ F 6 "330R" V 9703 8895 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:KP-1608CGCK D?
+L lpddr4-test-board:KP-1608CGCK D8
 U 1 1 600304CA
 P 9375 8825
-F 0 "D?" H 9300 9150 60  0000 L CNN
+F 0 "D8" H 9300 9150 60  0000 L CNN
 F 1 "KP-1608CGCK" H 8775 9050 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:LED_0603" H 9575 9025 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 9575 9125 60  0001 L CNN
@@ -1720,10 +1720,10 @@ Wire Wire Line
 Wire Wire Line
 	10175 9125 9175 9125
 $Comp
-L lpddr4-test-board:BSS138AKA Q?
+L lpddr4-test-board:BSS138AKA Q6
 U 1 1 6003D8CD
 P 10075 9600
-F 0 "Q?" V 10350 9650 60  0000 L CNN
+F 0 "Q6" V 10350 9650 60  0000 L CNN
 F 1 "BSS138AKA" V 10225 9250 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:SOT-23-3" H 10275 9800 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 10275 9900 60  0001 L CNN
@@ -1733,10 +1733,10 @@ F 5 "ON Semiconductor" H 10275 10700 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0170
 U 1 1 6003D8D3
 P 10525 9600
-F 0 "#PWR?" H 10525 9350 50  0001 C CNN
+F 0 "#PWR0170" H 10525 9350 50  0001 C CNN
 F 1 "GND" H 10530 9427 50  0000 C CNN
 F 2 "" H 10525 9600 50  0001 C CNN
 F 3 "" H 10525 9600 50  0001 C CNN
@@ -1748,10 +1748,10 @@ Wire Wire Line
 Wire Wire Line
 	9875 9600 9800 9600
 $Comp
-L lpddr4-test-board:R_330R_0402 R?
+L lpddr4-test-board:R_330R_0402 R54
 U 1 1 6003D8DE
 P 9650 9600
-F 0 "R?" V 9605 9670 60  0000 L CNN
+F 0 "R54" V 9605 9670 60  0000 L CNN
 F 1 "R_330R_0402" H 9650 9450 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 9850 9800 60  0001 L CNN
 F 3 "" H 9650 9600 50  0001 C CNN
@@ -1762,10 +1762,10 @@ F 6 "330R" V 9703 9670 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:KP-1608CGCK D?
+L lpddr4-test-board:KP-1608CGCK D9
 U 1 1 6003D8E6
 P 9375 9600
-F 0 "D?" H 9300 9925 60  0000 L CNN
+F 0 "D9" H 9300 9925 60  0000 L CNN
 F 1 "KP-1608CGCK" H 8775 9825 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:LED_0603" H 9575 9800 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 9575 9900 60  0001 L CNN
@@ -1783,10 +1783,10 @@ Wire Wire Line
 Wire Wire Line
 	10175 9900 9175 9900
 $Comp
-L lpddr4-test-board:BSS138AKA Q?
+L lpddr4-test-board:BSS138AKA Q3
 U 1 1 60050B08
 P 7900 10375
-F 0 "Q?" V 8175 10425 60  0000 L CNN
+F 0 "Q3" V 8175 10425 60  0000 L CNN
 F 1 "BSS138AKA" V 8050 10025 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:SOT-23-3" H 8100 10575 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 8100 10675 60  0001 L CNN
@@ -1796,10 +1796,10 @@ F 5 "ON Semiconductor" H 8100 11475 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0171
 U 1 1 60050B0E
 P 8350 10375
-F 0 "#PWR?" H 8350 10125 50  0001 C CNN
+F 0 "#PWR0171" H 8350 10125 50  0001 C CNN
 F 1 "GND" H 8355 10202 50  0000 C CNN
 F 2 "" H 8350 10375 50  0001 C CNN
 F 3 "" H 8350 10375 50  0001 C CNN
@@ -1811,10 +1811,10 @@ Wire Wire Line
 Wire Wire Line
 	7700 10375 7625 10375
 $Comp
-L lpddr4-test-board:R_330R_0402 R?
+L lpddr4-test-board:R_330R_0402 R51
 U 1 1 60050B19
 P 7475 10375
-F 0 "R?" V 7430 10445 60  0000 L CNN
+F 0 "R51" V 7430 10445 60  0000 L CNN
 F 1 "R_330R_0402" H 7475 10225 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7675 10575 60  0001 L CNN
 F 3 "" H 7475 10375 50  0001 C CNN
@@ -1825,10 +1825,10 @@ F 6 "330R" V 7528 10445 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:KP-1608CGCK D?
+L lpddr4-test-board:KP-1608CGCK D6
 U 1 1 60050B21
 P 7200 10375
-F 0 "D?" H 7125 10700 60  0000 L CNN
+F 0 "D6" H 7125 10700 60  0000 L CNN
 F 1 "KP-1608CGCK" H 6600 10600 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:LED_0603" H 7400 10575 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 7400 10675 60  0001 L CNN

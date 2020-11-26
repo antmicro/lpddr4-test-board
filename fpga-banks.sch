@@ -741,84 +741,8 @@ Wire Wire Line
 	4800 2300 5300 2300
 Wire Wire Line
 	4800 3300 5450 3300
-Text Notes 6000 5300 1    50   ~ 0
+Text Notes 6475 4200 1    50   ~ 0
 ethernet.sch
-Text GLabel 5300 6100 2    50   Input ~ 0
-ETH_REF_CLK
-Wire Wire Line
-	4800 6100 5300 6100
-Text GLabel 5300 6000 2    50   Input ~ 0
-ETH_RXD0
-Text GLabel 5300 5900 2    50   Input ~ 0
-ETH_RXD2
-Wire Wire Line
-	4800 6000 5300 6000
-Wire Wire Line
-	4800 5900 5300 5900
-Text GLabel 5300 5800 2    50   Input ~ 0
-ETH_RXERR
-Wire Wire Line
-	4800 5800 5300 5800
-Text GLabel 5300 5700 2    50   Input ~ 0
-ETH_TX_RSTN
-Text GLabel 5300 5600 2    50   Input ~ 0
-ETH_TX_EN
-Wire Wire Line
-	4800 5700 5300 5700
-Wire Wire Line
-	4800 5600 5300 5600
-Text GLabel 5300 5500 2    50   Input ~ 0
-ETH_TXD1
-Wire Wire Line
-	4800 5500 5300 5500
-Text GLabel 5300 5400 2    50   Input ~ 0
-ETH_RXD3
-Text GLabel 5300 5300 2    50   Input ~ 0
-ETH_TXD3
-Wire Wire Line
-	4800 5400 5300 5400
-Wire Wire Line
-	4800 5300 5300 5300
-Text GLabel 5300 5200 2    50   Input ~ 0
-ETH_TXD2
-Wire Wire Line
-	4800 5200 5300 5200
-Text GLabel 5300 5100 2    50   Input ~ 0
-ETH_MDIO
-Text GLabel 5300 5000 2    50   Input ~ 0
-ETH_COL
-Wire Wire Line
-	4800 5100 5300 5100
-Wire Wire Line
-	4800 5000 5300 5000
-Text GLabel 5300 4900 2    50   Input ~ 0
-ETH_RXD1
-Wire Wire Line
-	4800 4900 5300 4900
-Text GLabel 5300 4800 2    50   Input ~ 0
-ETH_CRS
-Text GLabel 5300 4700 2    50   Input ~ 0
-ETH_TXD0
-Wire Wire Line
-	4800 4800 5300 4800
-Wire Wire Line
-	4800 4700 5300 4700
-Text GLabel 5300 4600 2    50   Input ~ 0
-ETH_MDC
-Wire Wire Line
-	4800 4600 5300 4600
-Text GLabel 5300 4500 2    50   Input ~ 0
-ETH_RX_CLK
-Text GLabel 5300 4400 2    50   Input ~ 0
-ETH_RX_DV
-Wire Wire Line
-	4800 4500 5300 4500
-Wire Wire Line
-	4800 4400 5300 4400
-Text GLabel 5300 4300 2    50   Input ~ 0
-ETH_TX_CLK
-Wire Wire Line
-	4800 4300 5300 4300
 $Comp
 L lpddr4-test-board:GND #PWR0107
 U 1 1 639065D0
@@ -1044,10 +968,6 @@ Text GLabel 1525 2700 0    50   Input ~ 0
 USR_LED5
 Wire Wire Line
 	1850 2800 1900 2800
-Wire Wire Line
-	9325 9750 9675 9750
-Wire Wire Line
-	9325 10050 9675 10050
 Text GLabel 14750 1050 1    50   Input ~ 0
 VDDQ
 Text GLabel 13150 1050 1    50   Input ~ 0
@@ -1099,12 +1019,12 @@ VCCO (HP banks) max: 2.0V
 Text Notes 8700 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
 $Comp
-L antmicroCapacitors0603:C_820p_0603 C3
+L lpddr4-test-board:C_820p_0603 C3
 U 1 1 604141EE
 P 9675 9900
 F 0 "C3" H 9790 9945 60  0000 L CNN
 F 1 "C_820p_0603" H 9675 9750 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 9875 10100 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 9875 10100 60  0001 L CNN
 F 3 "" H 9675 9900 50  0001 C CNN
 F 4 "KEMET" H 9875 10300 60  0001 L CNN "Manufacturer"
 F 5 "C0603C821J5RACTU" H 9875 10200 60  0001 L CNN "MPN"
@@ -1112,12 +1032,6 @@ F 6 "820p" H 9790 9847 50  0000 L CNN "Val"
 	1    9675 9900
 	1    0    0    -1  
 $EndComp
-Connection ~ 9675 9750
-Wire Wire Line
-	9675 9750 10200 9750
-Connection ~ 9675 10050
-Wire Wire Line
-	9675 10050 10200 10050
 NoConn ~ 1850 2800
 NoConn ~ 1900 3700
 NoConn ~ 1900 3800
@@ -1613,4 +1527,76 @@ Wire Wire Line
 Wire Wire Line
 	8400 1350 8400 1250
 Connection ~ 8225 1350
+Wire Wire Line
+	9325 9750 10200 9750
+Wire Wire Line
+	9325 10050 10200 10050
+Text GLabel 7000 2025 0    50   Input ~ 0
+ETH_REF_CLK
+Text GLabel 6925 4075 0    50   Input ~ 0
+ETH_RXD0
+Text GLabel 6950 3875 0    50   Input ~ 0
+ETH_RXD2
+Text GLabel 6975 3075 0    50   Input ~ 0
+ETH_RXERR
+Text GLabel 7125 7500 0    50   Input ~ 0
+ETH_TX_RSTN
+Text GLabel 6925 4275 0    50   Input ~ 0
+ETH_TX_EN
+Text GLabel 6975 6975 0    50   Input ~ 0
+ETH_TXD1
+Text GLabel 6925 4175 0    50   Input ~ 0
+ETH_RXD3
+Text GLabel 6975 7075 0    50   Input ~ 0
+ETH_TXD3
+Text GLabel 6950 6575 0    50   Input ~ 0
+ETH_TXD2
+Text GLabel 6950 7375 0    50   Input ~ 0
+ETH_MDIO
+Text GLabel 6975 3975 0    50   Input ~ 0
+ETH_COL
+Text GLabel 6950 3775 0    50   Input ~ 0
+ETH_RXD1
+Text GLabel 6925 2975 0    50   Input ~ 0
+ETH_CRS
+Text GLabel 7000 6275 0    50   Input ~ 0
+ETH_TXD0
+Text GLabel 8100 7850 0    50   Input ~ 0
+ETH_MDC
+Text GLabel 6950 2675 0    50   Input ~ 0
+ETH_RX_CLK
+Text GLabel 6975 3275 0    50   Input ~ 0
+ETH_RX_DV
+Text GLabel 7025 6175 0    50   Input ~ 0
+ETH_TX_CLK
+Wire Wire Line
+	6950 2675 7325 2675
+Wire Wire Line
+	6975 3275 7325 3275
+Wire Wire Line
+	6925 2975 7325 2975
+Wire Wire Line
+	6925 4075 7325 4075
+Wire Wire Line
+	6975 3075 7325 3075
+Wire Wire Line
+	6975 3975 7325 3975
+Wire Wire Line
+	6950 3775 7325 3775
+Wire Wire Line
+	6925 4175 7325 4175
+Wire Wire Line
+	7025 6175 7325 6175
+Wire Wire Line
+	6950 3875 7325 3875
+Wire Wire Line
+	6925 4275 7325 4275
+Wire Wire Line
+	6975 7075 7325 7075
+Wire Wire Line
+	6950 6575 7325 6575
+Wire Wire Line
+	6975 6975 7325 6975
+Wire Wire Line
+	7000 6275 7325 6275
 $EndSCHEMATC

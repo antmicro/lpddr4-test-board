@@ -741,10 +741,10 @@ Wire Wire Line
 Wire Wire Line
 	11000 3700 11725 3700
 $Comp
-L lpddr4-test-board:R_200R_0402 R?
+L lpddr4-test-board:R_200R_0402 R12
 U 1 1 6AC30A74
 P 7350 8825
-F 0 "R?" H 7150 8875 60  0000 C CNN
+F 0 "R12" H 7150 8875 60  0000 C CNN
 F 1 "R_200R_0402" H 7350 8675 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7550 9025 60  0001 L CNN
 F 3 "" H 7350 8825 50  0001 C CNN
@@ -755,10 +755,10 @@ F 6 "200R" H 7550 8775 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:R_200R_0402 R?
+L lpddr4-test-board:R_200R_0402 R11
 U 1 1 6AC310E1
 P 7350 8725
-F 0 "R?" H 7150 8775 60  0000 C CNN
+F 0 "R11" H 7150 8775 60  0000 C CNN
 F 1 "R_200R_0402" H 7350 8575 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7550 8925 60  0001 L CNN
 F 3 "" H 7350 8725 50  0001 C CNN
@@ -769,10 +769,10 @@ F 6 "200R" H 7550 8675 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:R_200R_0402 R?
+L lpddr4-test-board:R_200R_0402 R13
 U 1 1 6AC32AC8
 P 7350 8925
-F 0 "R?" H 7150 8975 60  0000 C CNN
+F 0 "R13" H 7150 8975 60  0000 C CNN
 F 1 "R_200R_0402" H 7350 8775 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7550 9125 60  0001 L CNN
 F 3 "" H 7350 8925 50  0001 C CNN
@@ -783,10 +783,10 @@ F 6 "200R" H 7550 8875 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:R_200R_0402 R?
+L lpddr4-test-board:R_200R_0402 R14
 U 1 1 6AC32F63
 P 7350 9025
-F 0 "R?" H 7150 9075 60  0000 C CNN
+F 0 "R14" H 7150 9075 60  0000 C CNN
 F 1 "R_200R_0402" H 7350 8875 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 7550 9225 60  0001 L CNN
 F 3 "" H 7350 9025 50  0001 C CNN
@@ -805,10 +805,10 @@ Wire Wire Line
 Wire Wire Line
 	6975 8825 7200 8825
 $Comp
-L lpddr4-test-board:61300411121 J?
+L lpddr4-test-board:61300411121 J8
 U 1 1 6AC614B6
 P 9425 8700
-F 0 "J?" V 9300 8675 50  0000 C CNN
+F 0 "J8" V 9300 8675 50  0000 C CNN
 F 1 "61300411121" V 9850 8700 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 9625 8900 60  0001 L CNN
 F 3 "" H 9625 9000 60  0001 L CNN
@@ -818,10 +818,10 @@ F 5 "Wurth Electronics Inc." H 9625 9800 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L lpddr4-test-board:61300611121 J?
+L lpddr4-test-board:61300611121 J5
 U 1 1 6AC62996
 P 6825 8725
-F 0 "J?" V 6700 8700 50  0000 C CNN
+F 0 "J5" V 6700 8700 50  0000 C CNN
 F 1 "61300611121" V 7425 8700 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:61300611121" H 7025 8925 60  0001 L CNN
 F 3 "" H 7025 9025 60  0001 L CNN
@@ -868,10 +868,10 @@ Wire Wire Line
 Wire Wire Line
 	6975 9225 7250 9225
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0109
 U 1 1 6B7BF2C0
 P 7250 9400
-F 0 "#PWR?" H 7250 9150 50  0001 C CNN
+F 0 "#PWR0109" H 7250 9150 50  0001 C CNN
 F 1 "GND" H 7255 9227 50  0000 C CNN
 F 2 "" H 7250 9400 50  0001 C CNN
 F 3 "" H 7250 9400 50  0001 C CNN
@@ -881,12 +881,12 @@ $EndComp
 Text Notes 7200 8275 0    118  ~ 24
 SPI
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:0878311420 J?
+L lpddr4-test-board:0878311420 J1
 U 1 1 5FB8277B
 P 2675 8325
-F 0 "J?" H 2675 8850 50  0000 C CNN
+F 0 "J1" H 2675 8850 50  0000 C CNN
 F 1 "0878311420" H 2675 8759 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" H 2875 8525 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_2x7_P2mm_Drill1mm" H 2875 8525 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 2875 8625 60  0001 L CNN
 F 4 "0878311420" H 2875 8825 60  0001 L CNN "MPN"
 F 5 "Molex" H 2875 9425 60  0001 L CNN "Manufacturer"
@@ -942,10 +942,10 @@ Connection ~ 2350 8625
 Wire Wire Line
 	2350 8625 2350 8800
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0110
 U 1 1 5FCE9A21
 P 2350 8800
-F 0 "#PWR?" H 2350 8550 50  0001 C CNN
+F 0 "#PWR0110" H 2350 8550 50  0001 C CNN
 F 1 "GND" H 2355 8627 50  0000 C CNN
 F 2 "" H 2350 8800 50  0001 C CNN
 F 3 "" H 2350 8800 50  0001 C CNN
@@ -954,12 +954,12 @@ F 3 "" H 2350 8800 50  0001 C CNN
 $EndComp
 NoConn ~ 2875 8525
 $Comp
-L antmicroTVSDiodes:TPD6E05U06 D?
+L lpddr4-test-board:TPD6E05U06 D4
 U 1 1 5FCF46CA
 P 3225 9175
-F 0 "D?" V 3445 8497 50  0000 R CNN
+F 0 "D4" V 3445 8497 50  0000 R CNN
 F 1 "TPD6E05U06" V 3354 8497 50  0000 R CNN
-F 2 "antmicro-footprints:TPD6E05U06" H 4425 9425 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:TPD6E05U06" H 4425 9425 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" H 4725 9525 50  0001 C CNN
 F 4 "TPD6E05U06RVZR" V 3263 8497 50  0000 R CNN "MPN"
 F 5 "Texas Instruments" V 3172 8497 50  0000 R CNN "Manufacturer"
@@ -1004,10 +1004,10 @@ Connection ~ 3775 8825
 Wire Wire Line
 	3775 8825 4025 8825
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0111
 U 1 1 5FD74251
 P 4025 8825
-F 0 "#PWR?" H 4025 8575 50  0001 C CNN
+F 0 "#PWR0111" H 4025 8575 50  0001 C CNN
 F 1 "GND" H 4030 8652 50  0000 C CNN
 F 2 "" H 4025 8825 50  0001 C CNN
 F 3 "" H 4025 8825 50  0001 C CNN
@@ -1030,10 +1030,10 @@ NoConn ~ 2875 8625
 Text Notes 11850 9900 0    50   ~ 0
 Reference: UG470
 $Comp
-L lpddr4-test-board:R_1k_0402 R?
+L lpddr4-test-board:R_1k_0402 R29
 U 1 1 60067D6F
 P 12800 7225
-F 0 "R?" H 12800 7150 60  0000 L CNN
+F 0 "R29" H 12800 7150 60  0000 L CNN
 F 1 "R_1k_0402" H 12800 7075 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13000 7425 60  0001 L CNN
 F 3 "" H 12800 7225 50  0001 C CNN
@@ -1048,10 +1048,10 @@ Wire Wire Line
 Wire Wire Line
 	12950 7025 13100 7025
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0113
 U 1 1 60091BBD
 P 13100 7225
-F 0 "#PWR?" H 13100 6975 50  0001 C CNN
+F 0 "#PWR0113" H 13100 6975 50  0001 C CNN
 F 1 "GND" H 13105 7052 50  0000 C CNN
 F 2 "" H 13100 7225 50  0001 C CNN
 F 3 "" H 13100 7225 50  0001 C CNN
@@ -1068,10 +1068,10 @@ Connection ~ 12550 7025
 Wire Wire Line
 	12550 7025 12650 7025
 $Comp
-L lpddr4-test-board:R_1k_0402 R?
+L lpddr4-test-board:R_1k_0402 R35
 U 1 1 600B5E20
 P 12800 7525
-F 0 "R?" H 12800 7450 60  0000 L CNN
+F 0 "R35" H 12800 7450 60  0000 L CNN
 F 1 "R_1k_0402" H 12800 7375 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13000 7725 60  0001 L CNN
 F 3 "" H 12800 7525 50  0001 C CNN
@@ -1084,10 +1084,10 @@ $EndComp
 Text GLabel 13100 7525 2    50   Input ~ 0
 VCC3v3
 $Comp
-L lpddr4-test-board:R_1k_0402 R?
+L lpddr4-test-board:R_1k_0402 R37
 U 1 1 600B5E2A
 P 12800 7725
-F 0 "R?" H 12800 7650 60  0000 L CNN
+F 0 "R37" H 12800 7650 60  0000 L CNN
 F 1 "R_1k_0402" H 12800 7575 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13000 7925 60  0001 L CNN
 F 3 "" H 12800 7725 50  0001 C CNN
@@ -1102,10 +1102,10 @@ Wire Wire Line
 Wire Wire Line
 	12950 7525 13100 7525
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0114
 U 1 1 600B5E32
 P 13100 7725
-F 0 "#PWR?" H 13100 7475 50  0001 C CNN
+F 0 "#PWR0114" H 13100 7475 50  0001 C CNN
 F 1 "GND" H 13105 7552 50  0000 C CNN
 F 2 "" H 13100 7725 50  0001 C CNN
 F 3 "" H 13100 7725 50  0001 C CNN
@@ -1124,10 +1124,10 @@ Wire Wire Line
 Text GLabel 13100 8000 2    50   Input ~ 0
 VCC3v3
 $Comp
-L lpddr4-test-board:R_1k_0402 R?
+L lpddr4-test-board:R_1k_0402 R39
 U 1 1 600BDF4C
 P 12800 8200
-F 0 "R?" H 12800 8125 60  0000 L CNN
+F 0 "R39" H 12800 8125 60  0000 L CNN
 F 1 "R_1k_0402" H 12800 8050 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13000 8400 60  0001 L CNN
 F 3 "" H 12800 8200 50  0001 C CNN
@@ -1142,10 +1142,10 @@ Wire Wire Line
 Wire Wire Line
 	12950 8000 13100 8000
 $Comp
-L lpddr4-test-board:GND #PWR?
+L lpddr4-test-board:GND #PWR0115
 U 1 1 600BDF54
 P 13100 8200
-F 0 "#PWR?" H 13100 7950 50  0001 C CNN
+F 0 "#PWR0115" H 13100 7950 50  0001 C CNN
 F 1 "GND" H 13105 8027 50  0000 C CNN
 F 2 "" H 13100 8200 50  0001 C CNN
 F 3 "" H 13100 8200 50  0001 C CNN
@@ -1164,10 +1164,10 @@ Wire Wire Line
 Text GLabel 12375 8000 0    50   Input ~ 0
 MODE2
 $Comp
-L lpddr4-test-board:R_1k_0402 R?
+L lpddr4-test-board:R_1k_0402 R38
 U 1 1 600D5CDE
 P 12800 8000
-F 0 "R?" H 12800 7925 60  0000 L CNN
+F 0 "R38" H 12800 7925 60  0000 L CNN
 F 1 "R_1k_0402" H 12800 7850 60  0001 C CNN
 F 2 "lpddr4-test-board-footprints:0402-res" H 13000 8200 60  0001 L CNN
 F 3 "" H 12800 8000 50  0001 C CNN
