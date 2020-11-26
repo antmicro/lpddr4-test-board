@@ -14,21 +14,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	4800 6400 5300 6400
+	625  7825 1125 7825
 Wire Wire Line
-	4800 6500 5300 6500
+	625  7925 1125 7925
 Wire Wire Line
-	4800 6600 5300 6600
+	625  8025 1125 8025
 Wire Wire Line
-	4800 6700 5300 6700
+	625  8125 1125 8125
 Wire Wire Line
-	4800 6800 5300 6800
+	625  8225 1125 8225
 Wire Wire Line
-	4800 6900 5300 6900
+	625  8325 1125 8325
 Wire Wire Line
-	4800 7000 5300 7000
+	625  8425 1125 8425
 Wire Wire Line
-	4800 7100 5300 7100
+	625  8525 1125 8525
 Wire Wire Line
 	1900 3600 1400 3600
 Text GLabel 1400 3600 0    50   Input ~ 0
@@ -376,21 +376,21 @@ Wire Wire Line
 	5050 10225 5050 10375
 Wire Wire Line
 	5050 9825 5050 9700
-Text GLabel 5300 7000 2    50   Input ~ 0
+Text GLabel 1125 8425 2    50   Input ~ 0
 TMDS_CLK_P
-Text GLabel 5300 7100 2    50   Input ~ 0
+Text GLabel 1125 8525 2    50   Input ~ 0
 TMDS_CLK_N
-Text GLabel 5300 6400 2    50   Input ~ 0
+Text GLabel 1450 2600 0    50   Input ~ 0
 TMDS_D0_P
-Text GLabel 5300 6500 2    50   Input ~ 0
+Text GLabel 1450 2500 0    50   Input ~ 0
 TMDS_D0_N
-Text GLabel 5300 6600 2    50   Input ~ 0
+Text GLabel 5150 7000 2    50   Input ~ 0
 TMDS_D1_P
-Text GLabel 5300 6700 2    50   Input ~ 0
+Text GLabel 5150 7100 2    50   Input ~ 0
 TMDS_D1_N
-Text GLabel 5300 6800 2    50   Input ~ 0
+Text GLabel 5150 6600 2    50   Input ~ 0
 TMDS_D2_P
-Text GLabel 5300 6900 2    50   Input ~ 0
+Text GLabel 5150 6700 2    50   Input ~ 0
 TMDS_D2_N
 Text GLabel 11975 6325 0    50   Input ~ 0
 CK0_P
@@ -707,9 +707,9 @@ Wire Notes Line
 	16550 425  16550 7525
 Text Notes 6100 5450 1    50   ~ 0
 interfaces.sch
-Text GLabel 5450 3900 2    50   Input ~ 0
+Text GLabel 6925 6475 0    50   Input ~ 0
 SD_CD
-Text GLabel 5275 5900 2    50   Input ~ 0
+Text GLabel 6975 5775 0    50   Input ~ 0
 SD_DAT2
 $Comp
 L lpddr4-test-board:R_200R_0402 R15
@@ -733,17 +733,17 @@ Wire Wire Line
 	4800 2300 5300 2300
 Text Notes 6475 4200 1    50   ~ 0
 ethernet.sch
-Text GLabel 5375 3800 2    50   Input ~ 0
+Text GLabel 6925 6375 0    50   Input ~ 0
 SD_DAT1
-Text GLabel 5375 4300 2    50   Input ~ 0
+Text GLabel 6950 6875 0    50   Input ~ 0
 SD_CLK
-Text GLabel 5375 4200 2    50   Input ~ 0
+Text GLabel 6975 6775 0    50   Input ~ 0
 SD_DAT0
-Text GLabel 5350 5400 2    50   Input ~ 0
+Text GLabel 7000 6075 0    50   Input ~ 0
 SD_CMD
 Text GLabel 5300 2300 2    50   Input ~ 0
 GCLK100
-Text GLabel 5325 5500 2    50   Input ~ 0
+Text GLabel 6975 5875 0    50   Input ~ 0
 SD_DAT3
 Wire Notes Line
 	6350 7950 6350 500 
@@ -926,24 +926,24 @@ Wire Wire Line
 Text Notes 5950 2950 1    50   ~ 0
 config-spi.sch
 Wire Wire Line
-	1900 2300 1525 2300
-Text GLabel 1525 2300 0    50   Input ~ 0
+	1700 1425 1325 1425
+Text GLabel 1325 1425 0    50   Input ~ 0
 USR_LED1
 Wire Wire Line
-	1900 2400 1525 2400
-Text GLabel 1525 2400 0    50   Input ~ 0
+	1700 1525 1325 1525
+Text GLabel 1325 1525 0    50   Input ~ 0
 USR_LED2
 Wire Wire Line
-	1900 2500 1525 2500
-Text GLabel 1525 2500 0    50   Input ~ 0
+	1700 1625 1325 1625
+Text GLabel 1325 1625 0    50   Input ~ 0
 USR_LED3
 Wire Wire Line
-	1900 2600 1525 2600
-Text GLabel 1525 2600 0    50   Input ~ 0
+	1700 1725 1325 1725
+Text GLabel 1325 1725 0    50   Input ~ 0
 USR_LED4
 Wire Wire Line
-	1900 2700 1525 2700
-Text GLabel 1525 2700 0    50   Input ~ 0
+	1700 1825 1325 1825
+Text GLabel 1325 1825 0    50   Input ~ 0
 USR_LED5
 Wire Wire Line
 	1850 2800 1900 2800
@@ -989,7 +989,7 @@ Text GLabel 1425 5400 0    50   Input ~ 0
 CK_RST
 Text Notes 875  5825 1    50   ~ 0
 spi-config.sch
-Text Notes 950  2700 1    50   ~ 0
+Text Notes 750  1825 1    50   ~ 0
 interfaces.sch
 Text Notes 3225 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
@@ -1414,4 +1414,31 @@ Wire Wire Line
 	4800 4300 5375 4300
 Wire Wire Line
 	4800 4200 5375 4200
+Wire Wire Line
+	4800 6600 5150 6600
+Wire Wire Line
+	4800 6700 5150 6700
+Wire Wire Line
+	4800 7000 5150 7000
+Wire Wire Line
+	4800 7100 5150 7100
+Wire Wire Line
+	1450 2500 1900 2500
+Wire Wire Line
+	1450 2600 1900 2600
+NoConn ~ 1900 2400
+Wire Wire Line
+	6925 6475 7325 6475
+Wire Wire Line
+	6925 6375 7325 6375
+Wire Wire Line
+	6975 6775 7325 6775
+Wire Wire Line
+	6950 6875 7325 6875
+Wire Wire Line
+	7000 6075 7325 6075
+Wire Wire Line
+	7325 5875 6975 5875
+Wire Wire Line
+	6975 5775 7325 5775
 $EndSCHEMATC
