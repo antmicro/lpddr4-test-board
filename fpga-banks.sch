@@ -14,22 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	625  7825 1125 7825
-Wire Wire Line
-	625  7925 1125 7925
-Wire Wire Line
-	625  8025 1125 8025
-Wire Wire Line
-	625  8125 1125 8125
-Wire Wire Line
-	625  8225 1125 8225
-Wire Wire Line
-	625  8325 1125 8325
-Wire Wire Line
-	625  8425 1125 8425
-Wire Wire Line
-	625  8525 1125 8525
-Wire Wire Line
 	1900 3600 1400 3600
 Text GLabel 1400 3600 0    50   Input ~ 0
 AD1_P
@@ -376,21 +360,21 @@ Wire Wire Line
 	5050 10225 5050 10375
 Wire Wire Line
 	5050 9825 5050 9700
-Text GLabel 1125 8425 2    50   Input ~ 0
-TMDS_CLK_P
-Text GLabel 1125 8525 2    50   Input ~ 0
-TMDS_CLK_N
-Text GLabel 1450 2600 0    50   Input ~ 0
-TMDS_D0_P
-Text GLabel 1450 2500 0    50   Input ~ 0
-TMDS_D0_N
 Text GLabel 5150 7000 2    50   Input ~ 0
-TMDS_D1_P
+TMDS_CLK_P
 Text GLabel 5150 7100 2    50   Input ~ 0
-TMDS_D1_N
+TMDS_CLK_N
 Text GLabel 5150 6600 2    50   Input ~ 0
-TMDS_D2_P
+TMDS_D0_P
 Text GLabel 5150 6700 2    50   Input ~ 0
+TMDS_D0_N
+Text GLabel 5325 5400 2    50   Input ~ 0
+TMDS_D1_P
+Text GLabel 5325 5500 2    50   Input ~ 0
+TMDS_D1_N
+Text GLabel 5375 4200 2    50   Input ~ 0
+TMDS_D2_P
+Text GLabel 5375 4300 2    50   Input ~ 0
 TMDS_D2_N
 Text GLabel 11975 6325 0    50   Input ~ 0
 CK0_P
@@ -701,12 +685,10 @@ Wire Wire Line
 	2250 1275 2350 1275
 Wire Wire Line
 	2250 1500 2250 1275
-Text Notes 6100 7025 1    50   ~ 0
+Text Notes 6150 5675 1    50   ~ 0
 interfaces.sch\nHDMI
 Wire Notes Line
 	16550 425  16550 7525
-Text Notes 6100 5450 1    50   ~ 0
-interfaces.sch
 Text GLabel 6925 6475 0    50   Input ~ 0
 SD_CD
 Text GLabel 6975 5775 0    50   Input ~ 0
@@ -726,9 +708,9 @@ F 6 "200R" H 5650 9325 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3900 5450 3900
+	4800 4100 5375 4100
 Wire Wire Line
-	4800 3800 5375 3800
+	4800 4000 5375 4000
 Wire Wire Line
 	4800 2300 5300 2300
 Text Notes 6475 4200 1    50   ~ 0
@@ -1043,7 +1025,7 @@ NoConn ~ 1900 7000
 NoConn ~ 1900 7100
 NoConn ~ 1900 7200
 NoConn ~ 4800 3000
-NoConn ~ 4800 4100
+NoConn ~ 4800 3900
 NoConn ~ 4800 6200
 NoConn ~ 4800 6300
 NoConn ~ 4800 7200
@@ -1405,11 +1387,9 @@ Wire Wire Line
 Wire Wire Line
 	9775 1350 9875 1350
 Wire Wire Line
-	4800 5900 5275 5900
-Wire Wire Line
 	4800 5500 5325 5500
 Wire Wire Line
-	4800 5400 5350 5400
+	4800 5400 5325 5400
 Wire Wire Line
 	4800 4300 5375 4300
 Wire Wire Line
