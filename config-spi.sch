@@ -967,23 +967,9 @@ F 5 "Texas Instruments" V 3172 8497 50  0000 R CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2875 8125 3275 8125
-Wire Wire Line
-	2875 8225 3375 8225
-Wire Wire Line
 	2875 8325 3475 8325
 Wire Wire Line
 	2875 8425 3575 8425
-Wire Wire Line
-	3275 8925 3275 8125
-Connection ~ 3275 8125
-Wire Wire Line
-	3275 8125 4000 8125
-Wire Wire Line
-	3375 8925 3375 8225
-Connection ~ 3375 8225
-Wire Wire Line
-	3375 8225 4000 8225
 Wire Wire Line
 	3475 8925 3475 8325
 Connection ~ 3475 8325
@@ -1189,4 +1175,18 @@ Wire Notes Line width 4 style solid
 	14425 6950 14425 7525
 Wire Notes Line width 4 style solid
 	13675 6950 14850 6950
+Wire Wire Line
+	3075 8925 3075 8125
+Wire Wire Line
+	2875 8125 3075 8125
+Connection ~ 3075 8125
+Wire Wire Line
+	3075 8125 4000 8125
+Wire Wire Line
+	3175 8925 3175 8225
+Wire Wire Line
+	2875 8225 3175 8225
+Connection ~ 3175 8225
+Wire Wire Line
+	3175 8225 4000 8225
 $EndSCHEMATC

@@ -1214,9 +1214,9 @@ Text GLabel 15125 4525 2    50   Input ~ 0
 DQ3
 Text GLabel 15125 4225 2    50   Input ~ 0
 DQ2
-Text GLabel 15125 4325 2    50   Input ~ 0
-DQ4
 Text GLabel 15125 4425 2    50   Input ~ 0
+DQ4
+Text GLabel 15125 4325 2    50   Input ~ 0
 DQ5
 Text GLabel 15125 4125 2    50   Input ~ 0
 DQ1
