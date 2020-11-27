@@ -77,32 +77,6 @@ Text GLabel 10200 9000 2    50   Input ~ 0
 AD1_N
 Text GLabel 10200 8700 2    50   Input ~ 0
 AD1_P
-Wire Wire Line
-	5050 10375 5600 10375
-Wire Wire Line
-	5050 8825 5550 8825
-Wire Wire Line
-	5050 9325 5500 9325
-Text GLabel 5975 9325 2    50   Input ~ 0
-CK_RST
-$Comp
-L lpddr4-test-board:R_10k_0402 R16
-U 1 1 5FBBB45F
-P 5050 9075
-F 0 "R16" V 4900 9100 60  0000 L CNN
-F 1 "R_10k_0402" H 5050 8925 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 5250 9275 60  0001 L CNN
-F 3 "" H 5050 9075 50  0001 C CNN
-F 4 "VISHAY" H 5250 9475 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 5250 9375 60  0001 L CNN "MPN"
-F 6 "10k" V 5200 9100 50  0000 L CNN "Val"
-	1    5050 9075
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 8825 5050 8925
-Wire Wire Line
-	5050 9325 5050 9225
 $Comp
 L lpddr4-test-board:R_100R_0402 R1
 U 1 1 6012E7BA
@@ -303,55 +277,6 @@ Wire Wire Line
 Connection ~ 9650 9000
 Wire Wire Line
 	9650 9000 10200 9000
-$Comp
-L lpddr4-test-board:GND #PWR0103
-U 1 1 60A83D37
-P 5600 10425
-F 0 "#PWR0103" H 5600 10175 50  0001 C CNN
-F 1 "GND" H 5605 10252 50  0000 C CNN
-F 2 "" H 5600 10425 50  0001 C CNN
-F 3 "" H 5600 10425 50  0001 C CNN
-	1    5600 10425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 10375 5600 10425
-Text GLabel 5550 8825 1    50   Input ~ 10
-VCC3V3
-$Comp
-L lpddr4-test-board:R_200R_0402 R17
-U 1 1 60B10DCB
-P 5050 9550
-F 0 "R17" V 4900 9575 60  0000 L CNN
-F 1 "R_200R_0402" H 5050 9400 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 5250 9750 60  0001 L CNN
-F 3 "" H 5050 9550 50  0001 C CNN
-F 4 "YAGEO" H 5250 9950 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200RL" H 5250 9850 60  0001 L CNN "MPN"
-F 6 "200R" V 5200 9600 50  0000 L CNN "Val"
-	1    5050 9550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 9400 5050 9325
-Connection ~ 5050 9325
-$Comp
-L lpddr4-test-board:B3U-1000P S1
-U 1 1 60B66561
-P 5050 10025
-F 0 "S1" V 4997 10163 60  0000 L CNN
-F 1 "B3U-1000P" V 5103 10163 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P" H 5250 10225 60  0001 L CNN
-F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5250 10325 60  0001 L CNN
-F 4 "B3U-1000P" H 5250 10525 60  0001 L CNN "MPN"
-F 5 "Omron Electronics Inc-EMC Div" H 5250 11125 60  0001 L CNN "Manufacturer"
-	1    5050 10025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5050 10225 5050 10375
-Wire Wire Line
-	5050 9825 5050 9700
 Text GLabel 5150 7000 2    50   Input ~ 0
 TMDS_CLK_P
 Text GLabel 5150 7100 2    50   Input ~ 0
@@ -685,22 +610,6 @@ Text GLabel 6925 6475 0    50   Input ~ 0
 SD_CD
 Text GLabel 6975 5775 0    50   Input ~ 0
 SD_DAT2
-$Comp
-L lpddr4-test-board:R_200R_0402 R15
-U 1 1 60AC14D7
-P 5650 9325
-F 0 "R15" H 5425 9375 60  0000 C CNN
-F 1 "R_200R_0402" H 5650 9175 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 5850 9525 60  0001 L CNN
-F 3 "" H 5650 9325 50  0001 C CNN
-F 4 "YAGEO" H 5850 9725 60  0001 L CNN "Manufacturer"
-F 5 "RC0402FR-07200RL" H 5850 9625 60  0001 L CNN "MPN"
-F 6 "200R" H 5650 9325 50  0000 C CNN "Val"
-	1    5650 9325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4800 2300 5300 2300
 Text Notes 6475 4200 1    50   ~ 0
 ethernet.sch
 Text GLabel 6925 6375 0    50   Input ~ 0
@@ -711,8 +620,6 @@ Text GLabel 6975 6775 0    50   Input ~ 0
 SD_DAT0
 Text GLabel 7000 6075 0    50   Input ~ 0
 SD_CMD
-Text GLabel 5300 2300 2    50   Input ~ 0
-GCLK100
 Text GLabel 6975 5875 0    50   Input ~ 0
 SD_DAT3
 Wire Notes Line
@@ -721,8 +628,6 @@ Text Notes 6625 925  0    98   ~ 20
 SODIMM-SPECIFIC
 Text Notes 1675 850  0    98   ~ 20
 INTERFACES
-Wire Wire Line
-	5800 9325 5975 9325
 Wire Wire Line
 	14125 9000 14325 9000
 Wire Wire Line
@@ -893,20 +798,6 @@ Text Notes 13400 1050 0    50   ~ 0
 VCCO (HP banks) max: 2.0V
 Text Notes 8700 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
-$Comp
-L lpddr4-test-board:C_820p_0603 C3
-U 1 1 604141EE
-P 9675 9900
-F 0 "C3" H 9790 9945 60  0000 L CNN
-F 1 "C_820p_0603" H 9675 9750 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0603-res" H 9875 10100 60  0001 L CNN
-F 3 "" H 9675 9900 50  0001 C CNN
-F 4 "KEMET" H 9875 10300 60  0001 L CNN "Manufacturer"
-F 5 "C0603C821J5RACTU" H 9875 10200 60  0001 L CNN "MPN"
-F 6 "820p" H 9790 9847 50  0000 L CNN "Val"
-	1    9675 9900
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1850 2800
 NoConn ~ 1900 3700
 NoConn ~ 1900 3800
@@ -1347,4 +1238,9 @@ Wire Wire Line
 NoConn ~ 1900 7000
 NoConn ~ 1900 7100
 NoConn ~ 1900 7200
+Text GLabel 5300 3600 2    50   Input ~ 0
+GCLK100
+Wire Wire Line
+	4800 3600 5300 3600
+NoConn ~ 4800 2300
 $EndSCHEMATC
