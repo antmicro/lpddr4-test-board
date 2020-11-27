@@ -512,19 +512,6 @@ Wire Wire Line
 	14875 8225 14500 8225
 Text Notes 4550 8525 0    118  ~ 24
 STATUS LEDs
-$Comp
-L lpddr4-test-board:0878311420 J1
-U 1 1 5FB8277B
-P 1250 9675
-F 0 "J1" H 1250 10200 50  0000 C CNN
-F 1 "0878311420" H 1250 10109 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:PinHeader_2x7_P2mm_Drill1mm" H 1450 9875 60  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 1450 9975 60  0001 L CNN
-F 4 "0878311420" H 1450 10175 60  0001 L CNN "MPN"
-F 5 "Molex" H 1450 10775 60  0001 L CNN "Manufacturer"
-	1    1250 9675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 9375 1625 9375
 Wire Wire Line
@@ -1261,4 +1248,17 @@ F 6 "2k2" H 5075 3600 50  0000 R CNN "Val"
 $EndComp
 Wire Wire Line
 	5050 3250 5050 3525
+$Comp
+L antmicroRectangularConnectorsHeadersMalePins:0878311420 J1
+U 1 1 617E9509
+P 1250 9675
+F 0 "J1" H 1250 10200 50  0000 C CNN
+F 1 "0878311420" H 1250 10109 50  0000 C CNN
+F 2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" H 1450 9875 60  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 1450 9975 60  0001 L CNN
+F 4 "0878311420" H 1450 10175 60  0001 L CNN "MPN"
+F 5 "Molex" H 1450 10775 60  0001 L CNN "Manufacturer"
+	1    1250 9675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
