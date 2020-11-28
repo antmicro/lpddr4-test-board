@@ -818,14 +818,143 @@ Wire Wire Line
 Wire Wire Line
 	3650 4700 3100 4700
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:2309409-1 J?
+L antmicroMemoryConnectorsPCCardSockets:2309409-1 J5
 U 1 1 5FC76C01
-P 9300 5550
-F 0 "J?" H 9300 9117 50  0000 C CNN
-F 1 "2309409-1" H 9300 9026 50  0000 C CNN
-F 2 "antmicro-footprints:TE_2309409-1" H 9000 1950 50  0001 L BNN
-F 3 "" H 10300 5650 50  0001 L BNN
-	1    9300 5550
+P 7475 5300
+F 0 "J5" H 7475 8867 50  0000 C CNN
+F 1 "2309409-1" H 7475 8776 50  0000 C CNN
+F 2 "antmicro-footprints:TE_2309409-1" H 7175 1700 50  0001 L BNN
+F 3 "" H 8475 5400 50  0001 L BNN
+	1    7475 5300
 	1    0    0    -1  
 $EndComp
+Text GLabel 9875 3675 0    50   Input ~ 0
+DQ11_A
+$Comp
+L antmicroMemoryConnectorsPCCardSockets:2309409-1 J5
+U 2 1 5FCC3654
+P 10850 5275
+F 0 "J5" H 10850 8742 50  0000 C CNN
+F 1 "2309409-1" H 10850 8651 50  0000 C CNN
+F 2 "antmicro-footprints:TE_2309409-1" H 10550 1675 50  0001 L BNN
+F 3 "" H 11850 5375 50  0001 L BNN
+	2    10850 5275
+	1    0    0    -1  
+$EndComp
+Text GLabel 9875 3775 0    50   Input ~ 0
+DQ10_A
+Wire Wire Line
+	10350 3675 9875 3675
+Wire Wire Line
+	10350 3775 9875 3775
+Wire Wire Line
+	10350 3875 9875 3875
+Wire Wire Line
+	10350 3975 9875 3975
+Text GLabel 9875 3875 0    50   Input ~ 0
+DQ09_A
+Text GLabel 9875 3975 0    50   Input ~ 0
+DQ08_A
+Text GLabel 9850 4175 0    50   Input ~ 0
+DQ_S1_CA
+Wire Wire Line
+	9850 4175 10350 4175
+Text GLabel 9850 4275 0    50   Input ~ 0
+DQ_S1_TA
+Wire Wire Line
+	9850 4275 10350 4275
+Text GLabel 9850 4075 0    50   Input ~ 0
+DMI_1A
+$Comp
+L lpddr4-test-board:GND #PWR0103
+U 1 1 5FF1892C
+P 10000 8475
+F 0 "#PWR0103" H 10000 8225 50  0001 C CNN
+F 1 "GND" H 10005 8302 50  0000 C CNN
+F 2 "" H 10000 8475 50  0001 C CNN
+F 3 "" H 10000 8475 50  0001 C CNN
+	1    10000 8475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4375 10000 4375
+Connection ~ 10000 4375
+Wire Wire Line
+	9850 4475 10350 4475
+Wire Wire Line
+	10350 3575 10000 3575
+Wire Wire Line
+	9850 4675 10350 4675
+Text GLabel 9850 4475 0    50   Input ~ 0
+DQ15_A
+Text GLabel 9850 4575 0    50   Input ~ 0
+DQ14_A
+Text GLabel 9850 4675 0    50   Input ~ 0
+DQ13_A
+Text GLabel 9850 4775 0    50   Input ~ 0
+DQ12_A
+Wire Wire Line
+	9850 4775 10350 4775
+Wire Wire Line
+	9850 4875 10350 4875
+Wire Wire Line
+	9850 4975 10350 4975
+Wire Wire Line
+	9850 4575 10350 4575
+Text GLabel 9850 4875 0    50   Input ~ 0
+DQ04_A
+Wire Wire Line
+	10000 4375 10000 5275
+Text GLabel 9850 4975 0    50   Input ~ 0
+DQ05_A
+Text GLabel 9850 5075 0    50   Input ~ 0
+DQ06_A
+Text GLabel 9850 5375 0    50   Input ~ 0
+DQ07_A
+Text GLabel 9850 5475 0    50   Input ~ 0
+DQ_S0_CA
+Wire Wire Line
+	9850 5075 10350 5075
+Wire Wire Line
+	9850 5175 10350 5175
+Wire Wire Line
+	10000 5275 10350 5275
+Wire Wire Line
+	9850 5375 10350 5375
+Connection ~ 10000 5275
+Wire Wire Line
+	10000 3575 10000 4375
+Wire Wire Line
+	9850 4075 10350 4075
+Text GLabel 9850 5175 0    50   Input ~ 0
+DMI_0A
+Text GLabel 9850 5575 0    50   Input ~ 0
+DQ_S0_TA
+Wire Wire Line
+	9850 5475 10350 5475
+Wire Wire Line
+	9850 5575 10350 5575
+Text GLabel 9825 5675 0    50   Input ~ 0
+DQ03_A
+Text GLabel 9825 5775 0    50   Input ~ 0
+DQ02_A
+Text GLabel 9825 5875 0    50   Input ~ 0
+DQ01_A
+Text GLabel 9825 5975 0    50   Input ~ 0
+DQ00_A
+Wire Wire Line
+	9825 5675 10350 5675
+Wire Wire Line
+	9825 5775 10350 5775
+Wire Wire Line
+	9825 5875 10350 5875
+Wire Wire Line
+	9825 5975 10350 5975
+Wire Wire Line
+	10350 6075 10000 6075
+Wire Wire Line
+	10000 5275 10000 6075
+Connection ~ 10000 6075
+Wire Wire Line
+	10000 6075 10000 8475
 $EndSCHEMATC
