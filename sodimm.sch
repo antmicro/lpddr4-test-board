@@ -272,10 +272,6 @@ Text Notes 7375 1325 0    118  ~ 24
 SODIMM connector
 Text GLabel 3000 5175 0    50   Input ~ 0
 VDD1V8
-Text GLabel 4550 9625 2    50   Input ~ 0
-VDD1V1
-Text GLabel 4550 9800 2    50   Input ~ 0
-VDD0V6
 Text Notes 6025 5075 2    50   ~ 0
 VDD1
 Text GLabel 5725 5175 2    50   Input ~ 0
@@ -286,51 +282,6 @@ Text GLabel 5575 2600 2    50   Input ~ 0
 VDD1V1
 Text Notes 2825 2475 0    50   ~ 0
 VDD2\n
-Text GLabel 3925 9625 0    50   Input ~ 0
-VDDQ
-$Comp
-L lpddr4-test-board:R_0R_0402 R55
-U 1 1 606BFB95
-P 4275 9625
-F 0 "R55" H 4275 9700 60  0000 C CNN
-F 1 "R_0R_0402" H 4275 9475 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 4475 9825 60  0001 L CNN
-F 3 "" H 4275 9625 50  0001 C CNN
-F 4 "PANASONIC" H 4475 10025 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4475 9925 60  0001 L CNN "MPN"
-F 6 "0R" H 4275 9625 50  0000 C CNN "Val"
-	1    4275 9625
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_0R_0402 R56
-U 1 1 606C1C63
-P 4275 9800
-F 0 "R56" H 4275 9875 60  0000 C CNN
-F 1 "R_0R_0402" H 4275 9650 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 4475 10000 60  0001 L CNN
-F 3 "" H 4275 9800 50  0001 C CNN
-F 4 "PANASONIC" H 4475 10200 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 4475 10100 60  0001 L CNN "MPN"
-F 6 "0R" H 4275 9800 50  0000 C CNN "Val"
-	1    4275 9800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4425 9800 4550 9800
-Wire Wire Line
-	4425 9625 4550 9625
-Wire Wire Line
-	4125 9800 4025 9800
-Wire Wire Line
-	4025 9800 4025 9625
-Wire Wire Line
-	4025 9625 4125 9625
-Wire Wire Line
-	3925 9625 4025 9625
-Connection ~ 4025 9625
-Text Notes 2950 9350 0    118  ~ 24
-LPDDR4/LPDDR4x supply control
 Text GLabel 1400 4825 0    50   Input ~ 0
 DQ4
 Wire Wire Line
