@@ -14,13 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	11675 6100 10950 6100
-Text GLabel 10950 6100 0    50   Input ~ 0
-V_P
+	11675 6100 11100 6100
 Wire Wire Line
-	11675 6200 10950 6200
-Text GLabel 10950 6200 0    50   Input ~ 0
-V_N
+	11675 6200 11100 6200
 Wire Wire Line
 	11675 4700 10950 4700
 Wire Wire Line
@@ -37,70 +33,6 @@ Text GLabel 8375 8975 0    50   Input ~ 0
 MODE0
 Text GLabel 8375 9475 0    50   Input ~ 0
 MODE1
-Wire Wire Line
-	13475 8950 13800 8950
-Wire Wire Line
-	13475 9250 13825 9250
-Text GLabel 13475 8950 0    50   Input ~ 0
-XADC_V_P
-Text GLabel 13475 9250 0    50   Input ~ 0
-XADC_V_N
-Text GLabel 14925 8950 2    50   Input ~ 0
-V_P
-Text GLabel 14925 9250 2    50   Input ~ 0
-V_N
-$Comp
-L lpddr4-test-board:R_140R_0402 R18
-U 1 1 611C8786
-P 13950 8950
-F 0 "R18" H 13900 9050 60  0000 C CNN
-F 1 "R_140R_0402" H 13950 8800 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 14150 9150 60  0001 L CNN
-F 3 "" H 13950 8950 50  0001 C CNN
-F 4 "MULTICOMP PRO" H 14150 9350 60  0001 L CNN "Manufacturer"
-F 5 "MCMR04X1400FTL" H 14150 9250 60  0001 L CNN "MPN"
-F 6 "140R" H 14150 8900 50  0000 C CNN "Val"
-	1    13950 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_140R_0402 R19
-U 1 1 611C9205
-P 13975 9250
-F 0 "R19" H 13925 9350 60  0000 C CNN
-F 1 "R_140R_0402" H 13975 9100 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 14175 9450 60  0001 L CNN
-F 3 "" H 13975 9250 50  0001 C CNN
-F 4 "MULTICOMP PRO" H 14175 9650 60  0001 L CNN "Manufacturer"
-F 5 "MCMR04X1400FTL" H 14175 9550 60  0001 L CNN "MPN"
-F 6 "140R" H 14175 9200 50  0000 C CNN "Val"
-	1    13975 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:C_1n_0402 C9
-U 1 1 61217549
-P 14400 9100
-F 0 "C9" H 14425 9200 60  0000 L CNN
-F 1 "C_1n_0402" H 14400 8950 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 14600 9300 60  0001 L CNN
-F 3 "" H 14400 9100 50  0001 C CNN
-F 4 "YAGEO" H 14600 9500 60  0001 L CNN "Manufacturer"
-F 5 "CC0402KRX7R9BB102" H 14600 9400 60  0001 L CNN "MPN"
-F 6 "1n" H 14425 9000 50  0000 L CNN "Val"
-	1    14400 9100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14100 8950 14400 8950
-Wire Wire Line
-	14125 9250 14400 9250
-Connection ~ 14400 8950
-Connection ~ 14400 9250
-Wire Wire Line
-	14400 8950 14925 8950
-Wire Wire Line
-	14400 9250 14925 9250
 Text Notes 1225 8500 0    118  ~ 24
 JTAG Connector\n
 Wire Wire Line
@@ -168,52 +100,28 @@ Wire Wire Line
 	9800 5700 8750 5700
 Text GLabel 8750 5600 0    50   Input ~ 0
 INIT_B
-Text GLabel 10950 6500 0    50   Input ~ 0
-XADCGND
 Wire Wire Line
-	11675 6500 10950 6500
-Text GLabel 10950 6400 0    50   Input ~ 0
-XADCVREF
+	11675 6500 11100 6500
 Wire Wire Line
-	11675 6400 10950 6400
+	11675 6700 11100 6700
 Wire Wire Line
-	11675 6700 11550 6700
+	11100 6700 11100 6800
 Wire Wire Line
-	11550 6700 11550 6800
+	11675 6800 11100 6800
+Connection ~ 11100 6800
 Wire Wire Line
-	11675 6800 11550 6800
-Connection ~ 11550 6800
-Wire Wire Line
-	11550 6800 11550 7025
+	11100 6800 11100 7000
 $Comp
 L lpddr4-test-board:GND #PWR0118
 U 1 1 61E5EC21
-P 11550 7025
-F 0 "#PWR0118" H 11550 6775 50  0001 C CNN
-F 1 "GND" H 11555 6852 50  0000 C CNN
-F 2 "" H 11550 7025 50  0001 C CNN
-F 3 "" H 11550 7025 50  0001 C CNN
-	1    11550 7025
+P 11100 7000
+F 0 "#PWR0118" H 11100 6750 50  0001 C CNN
+F 1 "GND" H 11105 6827 50  0000 C CNN
+F 2 "" H 11100 7000 50  0001 C CNN
+F 3 "" H 11100 7000 50  0001 C CNN
+	1    11100 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L lpddr4-test-board:C_10n_0402 C?
-U 1 1 61E688A4
-P 12575 9000
-AR Path="/600295C1/61E688A4" Ref="C?"  Part="1" 
-AR Path="/5FD53C7D/61E688A4" Ref="C11"  Part="1" 
-F 0 "C11" H 12600 9100 60  0000 L CNN
-F 1 "C_10n_0402" H 12575 8850 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-cap" H 12775 9200 60  0001 L CNN
-F 3 "" H 12575 9000 50  0001 C CNN
-F 4 "AVX" H 12775 9400 60  0001 L CNN "Manufacturer"
-F 5 "04025G103ZAT2A" H 12775 9300 60  0001 L CNN "MPN"
-F 6 "10n" H 12600 8900 50  0000 L CNN "Val"
-	1    12575 9000
-	1    0    0    -1  
-$EndComp
-Text GLabel 12575 9150 3    50   Input ~ 0
-XADCGND
 Wire Wire Line
 	10150 5325 10150 5500
 Wire Wire Line
@@ -481,35 +389,6 @@ Wire Wire Line
 	5250 3250 5475 3250
 Wire Wire Line
 	10950 5000 11675 5000
-$Comp
-L lpddr4-test-board:61300411121 J8
-U 1 1 6AC614B6
-P 14350 7925
-F 0 "J8" V 14225 7900 50  0000 C CNN
-F 1 "61300411121" V 14775 7925 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" H 14550 8125 60  0001 L CNN
-F 3 "" H 14550 8225 60  0001 L CNN
-F 4 "61300411121" H 14550 8425 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 14550 9025 60  0001 L CNN "Manufacturer"
-	1    14350 7925
-	0    1    1    0   
-$EndComp
-Text GLabel 14875 7925 2    50   Input ~ 0
-XADC_V_P
-Text GLabel 14875 8025 2    50   Input ~ 0
-XADC_V_N
-Text GLabel 14875 8125 2    50   Input ~ 0
-XADCGND
-Text GLabel 14875 8225 2    50   Input ~ 0
-XADCVREF
-Wire Wire Line
-	14500 7925 14875 7925
-Wire Wire Line
-	14500 8025 14875 8025
-Wire Wire Line
-	14500 8125 14875 8125
-Wire Wire Line
-	14875 8225 14500 8225
 Text Notes 4550 8525 0    118  ~ 24
 STATUS LEDs
 Wire Wire Line
@@ -1076,8 +955,6 @@ F 6 "4k7" H 5650 3575 50  0000 L CNN "Val"
 	1    5700 3675
 	0    -1   1    0   
 $EndComp
-Text GLabel 12575 8850 1    50   Input ~ 0
-XADCVREF
 Text GLabel 9100 8975 2    50   Input ~ 0
 VCC3v3
 $Comp
@@ -1261,4 +1138,18 @@ F 5 "Molex" H 1450 10775 60  0001 L CNN "Manufacturer"
 	1    1250 9675
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	11100 6700 11100 6500
+Connection ~ 11100 6700
+Connection ~ 11100 6200
+Wire Wire Line
+	11100 6100 11100 6200
+Connection ~ 11100 6500
+Wire Wire Line
+	11100 6200 11100 6400
+Connection ~ 11100 6400
+Wire Wire Line
+	11100 6400 11100 6500
+Wire Wire Line
+	11100 6400 11675 6400
 $EndSCHEMATC
