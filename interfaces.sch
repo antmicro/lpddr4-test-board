@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 5950 3000 2    50   Input ~ 0
-UART_RXD_OUT
-Text GLabel 5950 3100 2    50   Input ~ 0
-UART_TXD_IN
-Wire Wire Line
-	5150 3000 5950 3000
-Wire Wire Line
-	5150 3100 5950 3100
 Wire Wire Line
 	3550 3000 3450 3000
 Wire Wire Line
@@ -251,7 +243,7 @@ Wire Wire Line
 	3450 5400 3550 5400
 Wire Wire Line
 	3150 5400 3050 5400
-Text Notes 2500 6450 0    50   ~ 0
+Text Notes 1075 6050 0    118  ~ 24
 TODO: add QC3A12
 Wire Wire Line
 	2450 6200 2450 6500
@@ -294,19 +286,6 @@ F 1 "GND" H 4155 7177 50  0000 C CNN
 F 2 "" H 4150 7350 50  0001 C CNN
 F 3 "" H 4150 7350 50  0001 C CNN
 	1    4150 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:FT2232HQ U12
-U 1 1 600E77E5
-P 4350 5150
-F 0 "U12" H 3725 7500 60  0000 C CNN
-F 1 "FT2232HQ" H 4825 7500 60  0000 C CNN
-F 2 "lpddr4-test-board-footprints:QFN50P900X900X100-65N" V 4550 5350 60  0001 L CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 4550 5550 60  0001 L CNN
-F 4 "FTDI" H 4550 6300 60  0001 L CNN "Manufacturer"
-F 5 "FT2232HQ-TRAY" H 4550 5700 60  0001 L CNN "MPN"
-	1    4350 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -624,94 +603,94 @@ $EndComp
 $Comp
 L lpddr4-test-board:WE_629105150521 J4
 U 1 1 60021F87
-P 7700 4800
-F 0 "J4" H 7875 5425 60  0000 R CNN
-F 1 "WE_629105150521" H 7486 4718 60  0000 R CNN
-F 2 "lpddr4-test-board-footprints:USB_Micro_B_Female_629105150521" H 7900 5000 60  0001 L CNN
-F 3 "" H 7900 5100 60  0001 L CNN
-F 4 "629105150521" H 7900 5300 60  0001 L CNN "MPN"
-F 5 "Wurth_Elektronik" H 7900 5900 60  0001 L CNN "Manufacturer"
-	1    7700 4800
+P 9325 5250
+F 0 "J4" H 9500 5875 60  0000 R CNN
+F 1 "WE_629105150521" H 9111 5168 60  0000 R CNN
+F 2 "lpddr4-test-board-footprints:USB_Micro_B_Female_629105150521" H 9525 5450 60  0001 L CNN
+F 3 "" H 9525 5550 60  0001 L CNN
+F 4 "629105150521" H 9525 5750 60  0001 L CNN "MPN"
+F 5 "Wurth_Elektronik" H 9525 6350 60  0001 L CNN "Manufacturer"
+	1    9325 5250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 5000 7300 5000
+	9025 5450 8925 5450
 Wire Wire Line
-	7300 5000 7300 5500
+	8925 5450 8925 5950
 $Comp
 L lpddr4-test-board:GND #PWR0226
 U 1 1 6002BAB6
-P 7300 5500
-F 0 "#PWR0226" H 7300 5250 50  0001 C CNN
-F 1 "GND" H 7305 5327 50  0000 C CNN
-F 2 "" H 7300 5500 50  0001 C CNN
-F 3 "" H 7300 5500 50  0001 C CNN
-	1    7300 5500
+P 8925 5950
+F 0 "#PWR0226" H 8925 5700 50  0001 C CNN
+F 1 "GND" H 8930 5777 50  0000 C CNN
+F 2 "" H 8925 5950 50  0001 C CNN
+F 3 "" H 8925 5950 50  0001 C CNN
+	1    8925 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L lpddr4-test-board:BLM18AG601SN1D FB6
 U 1 1 6002DC37
-P 7800 5700
-F 0 "FB6" V 7950 5600 60  0000 C CNN
-F 1 "BLM18AG601SN1D" V 7675 5250 60  0000 C CNN
-F 2 "lpddr4-test-board-footprints:0603" H 8000 5900 60  0001 L CNN
-F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 8000 6000 60  0001 L CNN
-F 4 "BLM18AG601SN1D" H 8000 6200 60  0001 L CNN "MPN"
-F 5 "Murata Electronics North America" H 8000 6800 60  0001 L CNN "Manufacturer"
-	1    7800 5700
+P 9425 6150
+F 0 "FB6" V 9575 6050 60  0000 C CNN
+F 1 "BLM18AG601SN1D" V 9300 5700 60  0000 C CNN
+F 2 "lpddr4-test-board-footprints:0603" H 9625 6350 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 9625 6450 60  0001 L CNN
+F 4 "BLM18AG601SN1D" H 9625 6650 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 9625 7250 60  0001 L CNN "Manufacturer"
+	1    9425 6150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 6100 4700 0    50   Input ~ 0
+Text GLabel 7725 5150 0    50   Input ~ 0
 DBG_USB_N
-Text GLabel 6100 4800 0    50   Input ~ 0
+Text GLabel 7725 5250 0    50   Input ~ 0
 DBG_USB_P
 Wire Wire Line
-	7400 4600 7300 4600
+	9025 5050 8925 5050
 Wire Wire Line
-	7300 4600 7300 4150
+	8925 5050 8925 4600
 Text GLabel 2350 8375 1    50   Input ~ 0
 VCC3V3
 $Comp
 L lpddr4-test-board:TPD2E009 D3
 U 1 1 6003C213
-P 6850 5150
-F 0 "D3" V 6800 5225 60  0000 L CNN
-F 1 "TPD2E009" V 7300 4850 60  0000 L CNN
-F 2 "lpddr4-test-board-footprints:SOT-3" H 6900 5350 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 6850 5150 60  0001 C CNN
-F 4 "TPD2E009DRTR" H 6550 5450 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 6550 5550 50  0001 C CNN "Manufacturer"
-	1    6850 5150
+P 8475 5600
+F 0 "D3" V 8425 5675 60  0000 L CNN
+F 1 "TPD2E009" V 8925 5300 60  0000 L CNN
+F 2 "lpddr4-test-board-footprints:SOT-3" H 8525 5800 60  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 8475 5600 60  0001 C CNN
+F 4 "TPD2E009DRTR" H 8175 5900 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 8175 6000 50  0001 C CNN "Manufacturer"
+	1    8475 5600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6100 4700 6850 4700
+	7725 5150 8475 5150
 Wire Wire Line
-	6100 4800 6750 4800
+	7725 5250 8375 5250
 Wire Wire Line
-	6850 4950 6850 4700
-Connection ~ 6850 4700
+	8475 5400 8475 5150
+Connection ~ 8475 5150
 Wire Wire Line
-	6850 4700 7400 4700
+	8475 5150 9025 5150
 Wire Wire Line
-	6750 4950 6750 4800
-Connection ~ 6750 4800
+	8375 5400 8375 5250
+Connection ~ 8375 5250
 Wire Wire Line
-	6750 4800 7400 4800
+	8375 5250 9025 5250
 Wire Wire Line
-	6650 4950 6400 4950
+	8275 5400 8025 5400
 Wire Wire Line
-	6400 4950 6400 5500
+	8025 5400 8025 5950
 $Comp
 L lpddr4-test-board:GND #PWR0228
 U 1 1 60049482
-P 6400 5500
-F 0 "#PWR0228" H 6400 5250 50  0001 C CNN
-F 1 "GND" H 6405 5327 50  0000 C CNN
-F 2 "" H 6400 5500 50  0001 C CNN
-F 3 "" H 6400 5500 50  0001 C CNN
-	1    6400 5500
+P 8025 5950
+F 0 "#PWR0228" H 8025 5700 50  0001 C CNN
+F 1 "GND" H 8030 5777 50  0000 C CNN
+F 2 "" H 8025 5950 50  0001 C CNN
+F 3 "" H 8025 5950 50  0001 C CNN
+	1    8025 5950
 	1    0    0    -1  
 $EndComp
 Text GLabel 2375 9775 1    50   Input ~ 0
@@ -775,7 +754,7 @@ Wire Wire Line
 	1300 4300 1300 4400
 Text GLabel 3050 5400 0    50   Input ~ 0
 VCC3V3
-Text GLabel 7300 4150 1    50   Input ~ 0
+Text GLabel 8925 4600 1    50   Input ~ 0
 VBUS
 $Comp
 L lpddr4-test-board:685119134923 J6
@@ -1353,12 +1332,12 @@ Wire Wire Line
 $Comp
 L lpddr4-test-board:GND #PWR0227
 U 1 1 6002DF17
-P 7800 6000
-F 0 "#PWR0227" H 7800 5750 50  0001 C CNN
-F 1 "GND" H 7805 5827 50  0000 C CNN
-F 2 "" H 7800 6000 50  0001 C CNN
-F 3 "" H 7800 6000 50  0001 C CNN
-	1    7800 6000
+P 9425 6450
+F 0 "#PWR0227" H 9425 6200 50  0001 C CNN
+F 1 "GND" H 9430 6277 50  0000 C CNN
+F 2 "" H 9425 6450 50  0001 C CNN
+F 3 "" H 9425 6450 50  0001 C CNN
+	1    9425 6450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1499,9 +1478,9 @@ Connection ~ 11300 7775
 Wire Wire Line
 	11125 7775 11300 7775
 Wire Wire Line
-	7800 5400 7800 5500
+	9425 5850 9425 5950
 Wire Wire Line
-	7800 5900 7800 6000
+	9425 6350 9425 6450
 $Comp
 L lpddr4-test-board:GND #PWR0167
 U 1 1 5FF5DE33
@@ -2036,4 +2015,89 @@ Text GLabel 5200 9125 1    50   Input ~ 0
 VCC3v3
 Text Notes 4300 8225 0    118  ~ 24
 User buttons
+$Comp
+L antmicroInterfaceControllers:FT4232HQ U?
+U 1 1 601044E5
+P 4350 5150
+F 0 "U?" H 4350 7637 60  0000 C CNN
+F 1 "FT4232HQ" H 4350 7531 60  0000 C CNN
+F 2 "antmicro-footprints:FT4232HQ" V 4550 5350 60  0001 L CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4550 5550 60  0001 L CNN
+F 4 "FTDI" H 4550 6300 60  0001 L CNN "Manufacturer"
+F 5 "FT4232HQ-TRAY" H 4550 5700 60  0001 L CNN "MPN"
+	1    4350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_22R_0402 R?
+U 1 1 6013A2FD
+P 5600 3000
+F 0 "R?" H 5800 3050 60  0000 C CNN
+F 1 "R_22R_0402" H 5600 2850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5800 3200 60  0001 L CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+F 4 "VISHAY" H 5800 3400 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 5800 3300 60  0001 L CNN "MPN"
+F 6 "22R" H 5600 3000 50  0000 C CNN "Val"
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_22R_0402 R?
+U 1 1 6013A700
+P 5600 3100
+F 0 "R?" H 5800 3150 60  0000 C CNN
+F 1 "R_22R_0402" H 5600 2950 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5800 3300 60  0001 L CNN
+F 3 "" H 5600 3100 50  0001 C CNN
+F 4 "VISHAY" H 5800 3500 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 5800 3400 60  0001 L CNN "MPN"
+F 6 "22R" H 5600 3100 50  0000 C CNN "Val"
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_22R_0402 R?
+U 1 1 6013A969
+P 5600 3200
+F 0 "R?" H 5800 3250 60  0000 C CNN
+F 1 "R_22R_0402" H 5600 3050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5800 3400 60  0001 L CNN
+F 3 "" H 5600 3200 50  0001 C CNN
+F 4 "VISHAY" H 5800 3600 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 5800 3500 60  0001 L CNN "MPN"
+F 6 "22R" H 5600 3200 50  0000 C CNN "Val"
+	1    5600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0402:R_22R_0402 R?
+U 1 1 6013AB72
+P 5600 3300
+F 0 "R?" H 5800 3350 60  0000 C CNN
+F 1 "R_22R_0402" H 5600 3150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5800 3500 60  0001 L CNN
+F 3 "" H 5600 3300 50  0001 C CNN
+F 4 "VISHAY" H 5800 3700 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040222R0FKED" H 5800 3600 60  0001 L CNN "MPN"
+F 6 "22R" H 5600 3300 50  0000 C CNN "Val"
+	1    5600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3000 5150 3000
+Wire Wire Line
+	5150 3100 5450 3100
+Wire Wire Line
+	5450 3200 5150 3200
+Wire Wire Line
+	5150 3300 5450 3300
+Wire Wire Line
+	5750 3000 6225 3000
+Wire Wire Line
+	5750 3100 6225 3100
+Wire Wire Line
+	5750 3200 6225 3200
+Wire Wire Line
+	5750 3300 6225 3300
 $EndSCHEMATC
