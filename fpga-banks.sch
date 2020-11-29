@@ -316,25 +316,19 @@ F 3 "" H 9325 5175 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15000 4725 15125 4725
+	15000 4825 15450 4825
 Wire Wire Line
-	15000 4825 15125 4825
-Wire Wire Line
-	15000 4925 15125 4925
-Wire Wire Line
-	15000 5025 15125 5025
+	15000 4925 15450 4925
 Wire Wire Line
 	15000 5125 15450 5125
 Wire Wire Line
 	15000 5225 15450 5225
 Wire Wire Line
-	15000 5325 15125 5325
+	15000 5425 15450 5425
 Wire Wire Line
-	15000 5425 15125 5425
+	15000 5525 15450 5525
 Wire Wire Line
-	15000 5525 15125 5525
-Wire Wire Line
-	15000 5725 15125 5725
+	15000 5725 15450 5725
 Text Notes 11475 1000 0    98   ~ 20
 LPDDR4-TESTBED
 Wire Wire Line
@@ -666,9 +660,7 @@ NoConn ~ 4800 6300
 NoConn ~ 4800 7200
 NoConn ~ 1900 5300
 Wire Wire Line
-	15125 4425 15000 4425
-Wire Wire Line
-	15125 4325 15000 4325
+	15450 4325 15000 4325
 Wire Wire Line
 	15125 4225 15000 4225
 Wire Wire Line
@@ -676,7 +668,7 @@ Wire Wire Line
 Wire Wire Line
 	15125 4025 15000 4025
 Wire Wire Line
-	15125 3925 15000 3925
+	15450 3925 15000 3925
 Wire Wire Line
 	15125 3825 15000 3825
 Wire Wire Line
@@ -686,7 +678,7 @@ Wire Wire Line
 Wire Wire Line
 	15125 3525 15000 3525
 Wire Wire Line
-	15125 2325 15000 2325
+	15175 2325 15000 2325
 Wire Wire Line
 	15125 2425 15000 2425
 Wire Wire Line
@@ -706,7 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	15125 3225 15000 3225
 Wire Wire Line
-	15125 3325 15000 3325
+	15450 3325 15000 3325
 Wire Wire Line
 	7725 1475 7725 1350
 Wire Wire Line
@@ -914,7 +906,7 @@ Wire Wire Line
 	15500 7025 15000 7025
 Text GLabel 15125 4225 2    50   Input ~ 0
 DQ15_A
-Text GLabel 15125 4625 2    50   Input ~ 0
+Text GLabel 15450 4625 2    50   Input ~ 0
 DQ14_A
 Text GLabel 15125 4125 2    50   Input ~ 0
 DQ13_A
@@ -927,7 +919,7 @@ Wire Wire Line
 Wire Wire Line
 	15500 6725 15000 6725
 Wire Wire Line
-	15000 4625 15125 4625
+	15000 4625 15450 4625
 NoConn ~ 15000 4525
 Wire Wire Line
 	15000 6125 15475 6125
@@ -985,4 +977,51 @@ Wire Wire Line
 	10225 4675 10525 4675
 Text GLabel 10525 4675 2    50   Input ~ 0
 USR_LED4
+Text GLabel 15175 2325 2    50   Input ~ 0
+CA_0A
+Text GLabel 15125 3425 2    50   Input ~ 0
+CA_1A
+Wire Wire Line
+	15000 2225 15450 2225
+Text GLabel 15125 3125 2    50   Input ~ 0
+CS0_A
+Text GLabel 15125 4025 2    50   Input ~ 0
+CKE0_A
+Wire Wire Line
+	15000 3425 15125 3425
+Text GLabel 15450 5025 2    50   Input ~ 0
+IO_W4
+Wire Wire Line
+	15000 5025 15450 5025
+Text GLabel 15450 4925 2    50   Input ~ 0
+IO_V4
+Text GLabel 15450 5525 2    50   Input ~ 0
+IO_V3
+Text GLabel 15450 4825 2    50   Input ~ 0
+IO_U3
+Text GLabel 15450 4725 2    50   Input ~ 0
+IO_T4
+Wire Wire Line
+	15000 4725 15450 4725
+Text GLabel 15450 4425 2    50   Input ~ 0
+IO_R4
+Wire Wire Line
+	15000 4425 15450 4425
+Text GLabel 15450 4325 2    50   Input ~ 0
+IO_P4
+Text GLabel 15450 3925 2    50   Input ~ 0
+IO_M5
+Text GLabel 15450 3325 2    50   Input ~ 0
+IO_L5
+Text GLabel 15450 2225 2    50   Input ~ 0
+IO_K4
+NoConn ~ 15000 5325
+Text GLabel 15450 5425 2    50   Input ~ 0
+IO_U5
+NoConn ~ 15000 5925
+NoConn ~ 15000 5825
+Text GLabel 15450 5725 2    50   Input ~ 0
+IO_N5
+NoConn ~ 15000 6025
+NoConn ~ 15000 7125
 $EndSCHEMATC

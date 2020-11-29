@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# antmicroCapacitors0603_C_120p_0603
+#
+DEF antmicroCapacitors0603_C_120p_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0603_C_120p_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
+F5 "0603N121J500CT" 200 300 60 H I L CNN "MPN"
+F6 "120p" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroCapacitors0603_C_1u_0603
 #
 DEF antmicroCapacitors0603_C_1u_0603 C 0 0 Y Y 1 F N
@@ -11,6 +29,24 @@ F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
 F5 "0603YD105KAT2A" 200 300 60 H I L CNN "MPN"
 F6 "1u" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroCapacitors0603_C_4u7_0603
+#
+DEF antmicroCapacitors0603_C_4u7_0603 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitors0603_C_4u7_0603" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0603-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C1608X5R1V475M080AC" 200 300 60 H I L CNN "MPN"
+F6 "4u7" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -336,6 +372,26 @@ X ~ 9 -200 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroRectangularConnectorsHeadersMalePins_61300311121
+#
+DEF antmicroRectangularConnectorsHeadersMalePins_61300311121 J 0 40 Y Y 1 F N
+F0 "J" -200 100 50 H V L CNN
+F1 "antmicroRectangularConnectorsHeadersMalePins_61300311121" 100 -100 50 H V C CNN
+F2 "antmicro-footprints:PinHeader_1x3_P2.54_Drill1.1mm" 200 200 60 H I L CNN
+F3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 200 300 60 H I L CNN
+F4 "61300311121" 200 500 60 H I L CNN "MPN"
+F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+S -50 50 250 -50 1 1 0 f
+S -10 5 10 -15 1 1 0 F
+S 90 5 110 -15 1 1 0 F
+S 190 5 210 -15 1 1 0 F
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 100 150 100 D 50 50 1 1 P
+X ~ 3 200 150 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroRectangularConnectorsHeadersMalePins_62000311121
 #
 DEF antmicroRectangularConnectorsHeadersMalePins_62000311121 J 0 40 Y Y 1 F N
@@ -520,33 +576,6 @@ X ~ SH 400 400 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lpddr4-test-board_10uH
-#
-DEF lpddr4-test-board_10uH L 0 40 Y Y 1 F N
-F0 "L" -275 75 60 H V L BNN
-F1 "lpddr4-test-board_10uH" -25 75 60 H V L BNN
-F2 "lpddr4-test-board-footprints:0805-res" 50 -150 60 H I C CNN
-F3 "" 55 30 60 H I C CNN
-F4 "TDK" 0 -100 50 H I C CNN "Manufacturer"
-F5 "MLZ2012N100LT000" -50 -50 50 H I C CNN "MPN"
-DRAW
-A -75 0 25 0 600 1 1 10 N -50 0 -62 21
-A -75 0 25 600 1200 1 1 10 N -62 21 -87 21
-A -75 0 25 1200 1800 1 1 10 N -87 21 -100 0
-A -25 0 25 0 600 1 1 10 N 0 0 -12 21
-A -25 0 25 600 1200 1 1 10 N -12 21 -37 21
-A -25 0 25 1200 1800 1 1 10 N -37 21 -50 0
-A 25 0 25 573 1195 1 1 10 N 38 21 13 21
-A 25 0 25 1195 -1783 1 1 10 N 13 21 1 0
-A 25 0 25 -49 573 1 1 10 N 49 -2 38 21
-A 75 0 25 589 1194 1 1 10 N 87 21 62 21
-A 75 0 25 1194 1800 1 1 10 N 62 21 50 0
-A 75 0 25 -16 589 1 1 10 N 99 0 87 21
-X P 1 -150 0 50 R 1 1 0 1 P
-X P 2 150 0 50 L 1 1 0 1 P
-ENDDRAW
-ENDDEF
-#
 # lpddr4-test-board_1140084168
 #
 DEF lpddr4-test-board_1140084168 J 0 40 Y Y 1 F N
@@ -570,28 +599,6 @@ X DAT0 7 -500 -150 100 R 50 50 1 1 B
 X DAT1 8 -500 -250 100 R 50 50 1 1 B
 X CD1 9 -500 -350 100 R 50 50 1 1 P
 X Shell ~ 350 -350 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_61300411121
-#
-DEF lpddr4-test-board_61300411121 J 0 40 Y Y 1 F N
-F0 "J" -200 100 50 H V L CNN
-F1 "lpddr4-test-board_61300411121" 100 -100 50 H V C CNN
-F2 "lpddr4-test-board-footprints:PinHeader_1x4_P2.54mm_Drill1.02mm" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "61300411121" 200 500 60 H I L CNN "MPN"
-F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -50 50 350 -50 0 1 0 f
-S -10 5 10 -15 1 1 0 F
-S 90 5 110 -15 1 1 0 F
-S 190 5 210 -15 1 1 0 F
-S 290 5 310 -15 1 1 0 F
-X ~ 1 0 150 100 D 50 50 1 1 P
-X ~ 2 100 150 100 D 50 50 1 1 P
-X ~ 3 200 150 100 D 50 50 1 1 P
-X ~ 4 300 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -765,24 +772,6 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lpddr4-test-board_BLM15AG601SN1D
-#
-DEF lpddr4-test-board_BLM15AG601SN1D FB 0 40 Y Y 1 F N
-F0 "FB" -150 150 60 H V C CNN
-F1 "lpddr4-test-board_BLM15AG601SN1D" 0 -150 60 H V L CNN
-F2 "lpddr4-test-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "BLM15AG601SN1D" 200 500 60 H I L CNN "MPN"
-F5 "Murata" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-P 2 0 1 0 -50 0 -100 0 N
-P 2 0 1 0 50 0 100 0 N
-P 5 0 1 0 -50 100 -100 50 50 -100 100 -50 -50 100 f
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # lpddr4-test-board_BLM18AG601SN1D
 #
 DEF lpddr4-test-board_BLM18AG601SN1D FB 0 40 Y Y 1 F N
@@ -829,24 +818,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
 F6 "100n" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_C_100p_0402
-#
-DEF lpddr4-test-board_C_100p_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_C_100p_0402" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
-F5 "0402N101J500CT" 200 300 60 H I L CNN "MPN"
-F6 "100p" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -960,24 +931,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0402N180J500CT" 200 300 60 H I L CNN "MPN"
 F6 "18p" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_C_1n_0402
-#
-DEF lpddr4-test-board_C_1n_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_C_1n_0402" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
-F5 "CC0402KRX7R9BB102" 200 300 60 H I L CNN "MPN"
-F6 "1n" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
@@ -1539,21 +1492,6 @@ X C C 0 100 100 D 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
-# lpddr4-test-board_REF3012AIDBZT
-#
-DEF lpddr4-test-board_REF3012AIDBZT U 0 40 Y Y 1 F N
-F0 "U" -500 200 50 H V L BNN
-F1 "lpddr4-test-board_REF3012AIDBZT" -500 100 50 H V L BNN
-F2 "lpddr4-test-board-footprints:SOT-23-3" 150 300 50 H I L BNN
-F3 "" 150 400 50 H I L BNN
-DRAW
-S -500 50 0 -200 0 0 6 f
-X IN 1 -700 0 200 R 40 40 0 0 W
-X OUT 2 200 0 200 L 40 40 0 0 O
-X GND 3 -700 -150 200 R 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
 # lpddr4-test-board_R_0R_0402
 #
 DEF lpddr4-test-board_R_0R_0402 R 0 0 Y Y 1 F N
@@ -1666,23 +1604,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040212K0FKEDHP" 200 300 60 H I L CNN "MPN"
 F6 "12k" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_R_140R_0402
-#
-DEF lpddr4-test-board_R_140R_0402 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_R_140R_0402" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "MULTICOMP PRO" 200 400 60 H I L CNN "Manufacturer"
-F5 "MCMR04X1400FTL" 200 300 60 H I L CNN "MPN"
-F6 "140R" 0 -100 50 H V C CNN "Val"
 DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
