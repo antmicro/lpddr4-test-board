@@ -2016,10 +2016,10 @@ VCC3v3
 Text Notes 4300 8225 0    118  ~ 24
 User buttons
 $Comp
-L antmicroInterfaceControllers:FT4232HQ U?
+L antmicroInterfaceControllers:FT4232HQ U7
 U 1 1 601044E5
 P 4350 5150
-F 0 "U?" H 4350 7637 60  0000 C CNN
+F 0 "U7" H 4350 7637 60  0000 C CNN
 F 1 "FT4232HQ" H 4350 7531 60  0000 C CNN
 F 2 "antmicro-footprints:FT4232HQ" V 4550 5350 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4550 5550 60  0001 L CNN
@@ -2029,10 +2029,10 @@ F 5 "FT4232HQ-TRAY" H 4550 5700 60  0001 L CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R?
+L antmicroResistors0402:R_22R_0402 R18
 U 1 1 6013A2FD
 P 5600 3000
-F 0 "R?" H 5800 3050 60  0000 C CNN
+F 0 "R18" H 5800 3050 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 2850 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5800 3200 60  0001 L CNN
 F 3 "" H 5600 3000 50  0001 C CNN
@@ -2043,10 +2043,10 @@ F 6 "22R" H 5600 3000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R?
+L antmicroResistors0402:R_22R_0402 R19
 U 1 1 6013A700
 P 5600 3100
-F 0 "R?" H 5800 3150 60  0000 C CNN
+F 0 "R19" H 5800 3150 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 2950 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5800 3300 60  0001 L CNN
 F 3 "" H 5600 3100 50  0001 C CNN
@@ -2057,10 +2057,10 @@ F 6 "22R" H 5600 3100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R?
+L antmicroResistors0402:R_22R_0402 R20
 U 1 1 6013A969
 P 5600 3200
-F 0 "R?" H 5800 3250 60  0000 C CNN
+F 0 "R20" H 5800 3250 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3050 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5800 3400 60  0001 L CNN
 F 3 "" H 5600 3200 50  0001 C CNN
@@ -2071,10 +2071,10 @@ F 6 "22R" H 5600 3200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R?
+L antmicroResistors0402:R_22R_0402 R25
 U 1 1 6013AB72
 P 5600 3300
-F 0 "R?" H 5800 3350 60  0000 C CNN
+F 0 "R25" H 5800 3350 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3150 60  0001 C CNN
 F 2 "antmicro-footprints:0402-res" H 5800 3500 60  0001 L CNN
 F 3 "" H 5600 3300 50  0001 C CNN
@@ -2100,4 +2100,25 @@ Wire Wire Line
 	5750 3200 6225 3200
 Wire Wire Line
 	5750 3300 6225 3300
+Text GLabel 6225 3000 2    50   Input ~ 0
+TCK_JTAG
+Text GLabel 6225 3100 2    50   Input ~ 0
+TDI_JTAG
+Text GLabel 6225 3200 2    50   Input ~ 0
+TDO_JTAG
+Text GLabel 6225 3300 2    50   Input ~ 0
+TMS_JTAG
+Wire Wire Line
+	5150 3500 5500 3500
+$Comp
+L antmicroTestPoints:test U8
+U 1 1 601E16F4
+P 5700 3450
+F 0 "U8" V 5631 3500 50  0000 R CNN
+F 1 "SRST" V 5586 3500 50  0001 R CNN
+F 2 "" H 5700 3450 50  0001 C CNN
+F 3 "" H 5700 3450 50  0001 C CNN
+	1    5700 3450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
