@@ -770,4 +770,38 @@ F 3 "" H 3900 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1900 2800
+Text GLabel 12125 8675 0    50   Input ~ 0
+TCK_JTAG
+Text GLabel 12125 8575 0    50   Input ~ 0
+TDI_JTAG
+Text GLabel 12125 8475 0    50   Input ~ 0
+TDO_JTAG
+Text GLabel 12125 8375 0    50   Input ~ 0
+TMS_JTAG
+Text GLabel 12125 7725 0    50   Input ~ 0
+AUX_JTAG_TDI
+Text GLabel 12125 7625 0    50   Input ~ 0
+AUX_JTAG_TDO
+Text GLabel 12125 7525 0    50   Input ~ 0
+AUX_JTAG_TMS
+Text GLabel 11850 6225 0    50   Input ~ 0
+UART0_RX
+Text GLabel 11825 3425 0    50   Input ~ 0
+UART1_RX
+Text GLabel 11850 6125 0    50   Input ~ 0
+UART0_TX
+Text GLabel 11825 3325 0    50   Input ~ 0
+UART1_TX
+Text GLabel 12125 7825 0    50   Input ~ 0
+AUX_JTAG_TCK
+Text GLabel 12125 7325 0    50   Input ~ 0
+AUX_JTAG_RST
+Wire Wire Line
+	12100 6225 11850 6225
+Wire Wire Line
+	12100 6125 11850 6125
+Wire Wire Line
+	12100 3325 11825 3325
+Wire Wire Line
+	12100 3425 11825 3425
 $EndSCHEMATC
