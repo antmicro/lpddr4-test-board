@@ -13,212 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	1900 3600 1400 3600
-Text GLabel 1400 3600 0    50   Input ~ 0
-AD1_P
-Wire Wire Line
-	1900 3500 1400 3500
-Text GLabel 1400 3500 0    50   Input ~ 0
-AD1_N
-Wire Wire Line
-	1900 3400 1400 3400
-Text GLabel 1400 3400 0    50   Input ~ 0
-AD9_P
-Wire Wire Line
-	1900 3300 1400 3300
-Text GLabel 1400 3300 0    50   Input ~ 0
-AD9_N
-Wire Wire Line
-	1900 3200 1400 3200
-Text GLabel 1400 3200 0    50   Input ~ 0
-AD2_P
-Wire Wire Line
-	1900 3100 1400 3100
-Text GLabel 1400 3100 0    50   Input ~ 0
-AD2_N
-Wire Wire Line
-	1900 3000 1400 3000
-Text GLabel 1400 3000 0    50   Input ~ 0
-AD10_P
-Wire Wire Line
-	1900 2900 1400 2900
-Text GLabel 1400 2900 0    50   Input ~ 0
-AD10_N
-Text GLabel 8150 8700 0    50   Input ~ 0
-VSNS5V0_P
-Text GLabel 8150 9000 0    50   Input ~ 0
-VSNS5V0_N
-Text GLabel 8150 9250 0    50   Input ~ 0
-SNS5V0_P
-Text GLabel 8150 9550 0    50   Input ~ 0
-SNS5V0_N
-Text GLabel 8150 9750 0    50   Input ~ 0
-VSNSVU_P
-Text GLabel 8150 10050 0    50   Input ~ 0
-VSNSVU_N
-Text GLabel 8150 10300 0    50   Input ~ 0
-SNSVCCINT_P
-Text GLabel 8150 10600 0    50   Input ~ 0
-SNSVCCINT_N
-Text GLabel 10200 10600 2    50   Input ~ 0
-AD10_N
-Text GLabel 10200 10300 2    50   Input ~ 0
-AD10_P
-Text GLabel 10200 10050 2    50   Input ~ 0
-AD2_N
-Text GLabel 10200 9750 2    50   Input ~ 0
-AD2_P
-Text GLabel 10200 9550 2    50   Input ~ 0
-AD9_N
-Text GLabel 10200 9250 2    50   Input ~ 0
-AD9_P
-Text GLabel 10200 9000 2    50   Input ~ 0
-AD1_N
-Text GLabel 10200 8700 2    50   Input ~ 0
-AD1_P
-$Comp
-L lpddr4-test-board:R_100R_0402 R1
-U 1 1 6012E7BA
-P 9175 8700
-F 0 "R1" H 9125 8800 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 8550 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 8900 60  0001 L CNN
-F 3 "" H 9175 8700 50  0001 C CNN
-F 4 "BOURNS" H 9375 9100 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 9000 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 8650 50  0000 C CNN "Val"
-	1    9175 8700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 8700 9025 8700
-$Comp
-L lpddr4-test-board:R_100R_0402 R5
-U 1 1 60161EE1
-P 9175 9750
-F 0 "R5" H 9125 9850 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 9600 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 9950 60  0001 L CNN
-F 3 "" H 9175 9750 50  0001 C CNN
-F 4 "BOURNS" H 9375 10150 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 10050 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 9700 50  0000 C CNN "Val"
-	1    9175 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_100R_0402 R2
-U 1 1 601AB4D0
-P 9175 9000
-F 0 "R2" H 9125 9100 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 8850 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 9200 60  0001 L CNN
-F 3 "" H 9175 9000 50  0001 C CNN
-F 4 "BOURNS" H 9375 9400 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 9300 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 8950 50  0000 C CNN "Val"
-	1    9175 9000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 9000 9025 9000
-$Comp
-L lpddr4-test-board:R_100R_0402 R3
-U 1 1 601C3195
-P 9175 9250
-F 0 "R3" H 9125 9350 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 9100 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 9450 60  0001 L CNN
-F 3 "" H 9175 9250 50  0001 C CNN
-F 4 "BOURNS" H 9375 9650 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 9550 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 9200 50  0000 C CNN "Val"
-	1    9175 9250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 9250 9025 9250
-$Comp
-L lpddr4-test-board:R_100R_0402 R4
-U 1 1 601DAFC2
-P 9175 9550
-F 0 "R4" H 9125 9650 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 9400 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 9750 60  0001 L CNN
-F 3 "" H 9175 9550 50  0001 C CNN
-F 4 "BOURNS" H 9375 9950 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 9850 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 9500 50  0000 C CNN "Val"
-	1    9175 9550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 9550 9025 9550
-Wire Wire Line
-	8150 9750 9025 9750
-$Comp
-L lpddr4-test-board:R_100R_0402 R6
-U 1 1 6020E894
-P 9175 10050
-F 0 "R6" H 9125 10150 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 9900 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 10250 60  0001 L CNN
-F 3 "" H 9175 10050 50  0001 C CNN
-F 4 "BOURNS" H 9375 10450 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 10350 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 10000 50  0000 C CNN "Val"
-	1    9175 10050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 10050 9025 10050
-$Comp
-L lpddr4-test-board:R_100R_0402 R7
-U 1 1 602264FE
-P 9175 10300
-F 0 "R7" H 9125 10400 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 10150 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 10500 60  0001 L CNN
-F 3 "" H 9175 10300 50  0001 C CNN
-F 4 "BOURNS" H 9375 10700 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 10600 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 10250 50  0000 C CNN "Val"
-	1    9175 10300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 10300 9025 10300
-$Comp
-L lpddr4-test-board:R_100R_0402 R8
-U 1 1 6023E401
-P 9175 10600
-F 0 "R8" H 9125 10700 60  0000 C CNN
-F 1 "R_100R_0402" H 9175 10450 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9375 10800 60  0001 L CNN
-F 3 "" H 9175 10600 50  0001 C CNN
-F 4 "BOURNS" H 9375 11000 60  0001 L CNN "Manufacturer"
-F 5 "CR0402-FX-1000GLF" H 9375 10900 60  0001 L CNN "MPN"
-F 6 "100R" H 9375 10550 50  0000 C CNN "Val"
-	1    9175 10600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8150 10600 9025 10600
-$Comp
-L lpddr4-test-board:C_910p_0402 C1
-U 1 1 6045F2AB
-P 9700 8850
-F 0 "C1" H 9725 8950 60  0000 L CNN
-F 1 "C_910p_0402" H 9700 8700 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9900 9050 60  0001 L CNN
-F 3 "" H 9700 8850 50  0001 C CNN
-F 4 "KEMET" H 9900 9250 60  0001 L CNN "Manufacturer"
-F 5 "C0402C911J5GACTU" H 9900 9150 60  0001 L CNN "MPN"
-F 6 "910p" H 9725 8750 50  0000 L CNN "Val"
-	1    9700 8850
-	1    0    0    -1  
-$EndComp
 Text GLabel 5150 7000 2    50   Input ~ 0
 TMDS_CLK_P
 Text GLabel 5150 7100 2    50   Input ~ 0
@@ -235,17 +29,6 @@ Text GLabel 5375 4200 2    50   Input ~ 0
 TMDS_D2_P
 Text GLabel 5375 4300 2    50   Input ~ 0
 TMDS_D2_N
-$Comp
-L lpddr4-test-board:XC7K70T-FBG484 U1
-U 1 1 5FB5167E
-P 3350 4600
-F 0 "U1" H 3350 1825 50  0000 C CNN
-F 1 "XC7K70T-FBG484" H 3350 1734 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 3100 5200 50  0001 C CNN
-F 3 "" H 3900 5200 50  0000 C CNN
-	1    3350 4600
-	1    0    0    -1  
-$EndComp
 $Comp
 L lpddr4-test-board:XC7K70T-FBG484 U1
 U 2 1 5FB5E2AD
@@ -553,8 +336,6 @@ Text GLabel 10525 5175 2    50   Input ~ 0
 USR_LED3
 Text GLabel 10525 3975 2    50   Input ~ 0
 USR_LED5
-Wire Wire Line
-	1850 2800 1900 2800
 Text GLabel 14750 1050 1    50   Input ~ 0
 VDDQ
 Text GLabel 13150 1050 1    50   Input ~ 0
@@ -567,7 +348,6 @@ Text Notes 13400 1050 0    50   ~ 0
 VCCO (HP banks) max: 2.0V
 Text Notes 8700 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
-NoConn ~ 1850 2800
 NoConn ~ 1900 3700
 NoConn ~ 1900 3800
 NoConn ~ 1900 3900
@@ -688,11 +468,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 1350 8400 1250
 Connection ~ 8225 1350
-Wire Wire Line
-	9325 9750 9700 9750
-Wire Wire Line
-	9325 10050 9700 10050
-Text GLabel 7075 7750 0    50   Input ~ 0
+Text GLabel 8125 7800 0    50   Input ~ 0
 ETH_REF_CLK
 Text GLabel 6925 4075 0    50   Input ~ 0
 ETH_RXD0
@@ -700,7 +476,7 @@ Text GLabel 6950 3875 0    50   Input ~ 0
 ETH_RXD2
 Text GLabel 6975 3075 0    50   Input ~ 0
 ETH_RXERR
-Text GLabel 7075 7500 0    50   Input ~ 0
+Text GLabel 8125 7550 0    50   Input ~ 0
 ETH_TX_RSTN
 Text GLabel 6925 4275 0    50   Input ~ 0
 ETH_TX_EN
@@ -712,7 +488,7 @@ Text GLabel 6975 7075 0    50   Input ~ 0
 ETH_TXD3
 Text GLabel 6950 6575 0    50   Input ~ 0
 ETH_TXD2
-Text GLabel 6950 7375 0    50   Input ~ 0
+Text GLabel 8000 7425 0    50   Input ~ 0
 ETH_MDIO
 Text GLabel 6975 3975 0    50   Input ~ 0
 ETH_COL
@@ -722,7 +498,7 @@ Text GLabel 6925 2975 0    50   Input ~ 0
 ETH_CRS
 Text GLabel 7000 6275 0    50   Input ~ 0
 ETH_TXD0
-Text GLabel 6925 7625 0    50   Input ~ 0
+Text GLabel 7975 7675 0    50   Input ~ 0
 ETH_MDC
 Text GLabel 6950 2675 0    50   Input ~ 0
 ETH_RX_CLK
@@ -970,82 +746,28 @@ Wire Wire Line
 	10225 4075 10525 4075
 Text GLabel 10525 4075 2    50   Input ~ 0
 USR_BTN4
+NoConn ~ 1900 2900
+NoConn ~ 1900 3000
+NoConn ~ 1900 3100
+NoConn ~ 1900 3200
+NoConn ~ 1900 3300
+NoConn ~ 1900 3400
+NoConn ~ 1900 3500
+NoConn ~ 1900 3600
+NoConn ~ 1900 2700
+NoConn ~ 1900 2600
+NoConn ~ 1900 2500
+NoConn ~ 1900 2300
 $Comp
-L lpddr4-test-board:C_910p_0402 C4
-U 1 1 5FC5316D
-P 9700 9900
-F 0 "C4" H 9725 10000 60  0000 L CNN
-F 1 "C_910p_0402" H 9700 9750 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9900 10100 60  0001 L CNN
-F 3 "" H 9700 9900 50  0001 C CNN
-F 4 "KEMET" H 9900 10300 60  0001 L CNN "Manufacturer"
-F 5 "C0402C911J5GACTU" H 9900 10200 60  0001 L CNN "MPN"
-F 6 "910p" H 9725 9800 50  0000 L CNN "Val"
-	1    9700 9900
+L lpddr4-test-board:XC7K70T-FBG484 U1
+U 1 1 5FB5167E
+P 3350 4600
+F 0 "U1" H 3350 1825 50  0000 C CNN
+F 1 "XC7K70T-FBG484" H 3350 1734 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 3100 5200 50  0001 C CNN
+F 3 "" H 3900 5200 50  0000 C CNN
+	1    3350 4600
 	1    0    0    -1  
 $EndComp
-Connection ~ 9700 9750
-Wire Wire Line
-	9700 9750 10200 9750
-Connection ~ 9700 10050
-Wire Wire Line
-	9700 10050 10200 10050
-Wire Wire Line
-	9325 9250 9700 9250
-Wire Wire Line
-	9325 9550 9700 9550
-Wire Wire Line
-	9325 10300 9700 10300
-Wire Wire Line
-	9325 10600 9700 10600
-$Comp
-L lpddr4-test-board:C_910p_0402 C71
-U 1 1 5FC539B0
-P 9700 10450
-F 0 "C71" H 9725 10550 60  0000 L CNN
-F 1 "C_910p_0402" H 9700 10300 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9900 10650 60  0001 L CNN
-F 3 "" H 9700 10450 50  0001 C CNN
-F 4 "KEMET" H 9900 10850 60  0001 L CNN "Manufacturer"
-F 5 "C0402C911J5GACTU" H 9900 10750 60  0001 L CNN "MPN"
-F 6 "910p" H 9725 10350 50  0000 L CNN "Val"
-	1    9700 10450
-	1    0    0    -1  
-$EndComp
-Connection ~ 9700 10300
-Wire Wire Line
-	9700 10300 10200 10300
-Connection ~ 9700 10600
-Wire Wire Line
-	9700 10600 10200 10600
-$Comp
-L lpddr4-test-board:C_910p_0402 C2
-U 1 1 5FC53CE5
-P 9700 9400
-F 0 "C2" H 9725 9500 60  0000 L CNN
-F 1 "C_910p_0402" H 9700 9250 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 9900 9600 60  0001 L CNN
-F 3 "" H 9700 9400 50  0001 C CNN
-F 4 "KEMET" H 9900 9800 60  0001 L CNN "Manufacturer"
-F 5 "C0402C911J5GACTU" H 9900 9700 60  0001 L CNN "MPN"
-F 6 "910p" H 9725 9300 50  0000 L CNN "Val"
-	1    9700 9400
-	1    0    0    -1  
-$EndComp
-Connection ~ 9700 9250
-Wire Wire Line
-	9700 9250 10200 9250
-Connection ~ 9700 9550
-Wire Wire Line
-	9700 9550 10200 9550
-Connection ~ 9700 8700
-Wire Wire Line
-	9700 8700 10200 8700
-Connection ~ 9700 9000
-Wire Wire Line
-	9700 9000 10200 9000
-Wire Wire Line
-	9325 9000 9700 9000
-Wire Wire Line
-	9325 8700 9700 8700
+NoConn ~ 1900 2800
 $EndSCHEMATC

@@ -577,6 +577,23 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroResistors0402_R_5R1_0402
+#
+DEF antmicroResistors0402_R_5R1_0402 R 0 0 Y Y 1 F N
+F0 "R" -55 135 60 H V L CNN
+F1 "antmicroResistors0402_R_5R1_0402" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:0402-res" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
+F5 "ERJ2GEJ5R1X" 200 300 60 H I L CNN "MPN"
+F6 "5R1" 0 -100 50 H V C CNN "Val"
+DRAW
+S 100 -40 -100 40 1 1 10 N
+X ~ 1 -150 0 50 R 0 0 1 1 P
+X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroTestPoints_test
 #
 DEF antmicroTestPoints_test U 0 40 Y Y 1 F N
@@ -1207,24 +1224,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM155R61A475MEAAD" 200 300 60 H I L CNN "MPN"
 F6 "4u7" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_C_910p_0402
-#
-DEF lpddr4-test-board_C_910p_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_C_910p_0402" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:0402-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
-F5 "C0402C911J5GACTU" 200 300 60 H I L CNN "MPN"
-F6 "910p" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
