@@ -723,4 +723,8 @@ Wire Wire Line
 	7975 8600 8075 8600
 Wire Wire Line
 	8075 8600 8075 8700
+Text GLabel 11775 5075 2    50   Input ~ 0
+IO_N5
+Wire Wire Line
+	11350 5075 11775 5075
 $EndSCHEMATC
