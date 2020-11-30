@@ -603,13 +603,13 @@ Wire Wire Line
 	4800 2800 5300 2800
 Text Notes 5950 2950 1    50   ~ 0
 config-spi.sch
-Text GLabel 10525 5375 2    50   Input ~ 0
+Text GLabel 10525 4475 2    50   Input ~ 0
 USR_LED1
-Text GLabel 10525 5175 2    50   Input ~ 0
+Text GLabel 10525 5275 2    50   Input ~ 0
 USR_LED2
-Text GLabel 10525 4775 2    50   Input ~ 0
+Text GLabel 10525 5175 2    50   Input ~ 0
 USR_LED3
-Text GLabel 10525 4075 2    50   Input ~ 0
+Text GLabel 10525 3975 2    50   Input ~ 0
 USR_LED5
 Wire Wire Line
 	1850 2800 1900 2800
@@ -861,13 +861,13 @@ Wire Wire Line
 Text Notes 5775 5675 2    50   ~ 0
 CSI_B used for config
 Wire Wire Line
-	10525 5375 10225 5375
+	10525 4475 10225 4475
+Wire Wire Line
+	10225 5275 10525 5275
+Wire Wire Line
+	10225 3975 10525 3975
 Wire Wire Line
 	10225 5175 10525 5175
-Wire Wire Line
-	10225 4075 10525 4075
-Wire Wire Line
-	10225 4775 10525 4775
 Wire Wire Line
 	4800 3400 5300 3400
 Wire Wire Line
@@ -961,18 +961,18 @@ Text GLabel 15500 6825 2    50   Input ~ 0
 CA5_A
 Text GLabel 15500 6925 2    50   Input ~ 0
 CA2_A
-Text GLabel 10525 4475 2    50   Input ~ 0
-USR_BTN1
 Text GLabel 10525 5675 2    50   Input ~ 0
+USR_BTN1
+Text GLabel 10525 5375 2    50   Input ~ 0
 USR_BTN2
-Text GLabel 10525 5275 2    50   Input ~ 0
+Text GLabel 10525 4775 2    50   Input ~ 0
 USR_BTN3
-Wire Wire Line
-	10225 4475 10525 4475
 Wire Wire Line
 	10225 5675 10525 5675
 Wire Wire Line
-	10225 5275 10525 5275
+	10225 5375 10525 5375
+Wire Wire Line
+	10225 4775 10525 4775
 Wire Wire Line
 	10225 4675 10525 4675
 Text GLabel 10525 4675 2    50   Input ~ 0
@@ -1024,4 +1024,8 @@ Text GLabel 15450 5725 2    50   Input ~ 0
 IO_N5
 NoConn ~ 15000 6025
 NoConn ~ 15000 7125
+Wire Wire Line
+	10225 4075 10525 4075
+Text GLabel 10525 4075 2    50   Input ~ 0
+USR_BTN4
 $EndSCHEMATC
