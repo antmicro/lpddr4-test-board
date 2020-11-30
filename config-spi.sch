@@ -65,8 +65,6 @@ F 3 "" H 9800 6700 50  0001 C CNN
 	1    9800 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 9800 4725 1    50   Input ~ 0
-VCC3v3
 $Comp
 L lpddr4-test-board:XC7K70T-FBG484 U1
 U 6 1 61A5DF86
@@ -162,15 +160,11 @@ Wire Wire Line
 	9475 5025 9475 4875
 Wire Wire Line
 	9475 4875 9800 4875
-Text GLabel 12075 3400 1    50   Input ~ 0
-VCC3v3
 Wire Wire Line
 	12075 3400 12075 3700
 Wire Wire Line
 	12175 3700 12075 3700
 Connection ~ 12075 3700
-Text GLabel 14800 4300 1    50   Input ~ 0
-VCC3v3
 $Comp
 L lpddr4-test-board:C_47u_0603 C12
 U 1 1 622BD281
@@ -280,8 +274,6 @@ Wire Wire Line
 	5700 3250 5475 3250
 Wire Wire Line
 	5700 3525 5700 3250
-Text GLabel 5700 3150 1    50   Input ~ 0
-VCC3v3
 Wire Wire Line
 	5700 3825 5700 4550
 $Comp
@@ -396,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	1625 9375 1625 9200
 Text GLabel 1625 9200 1    50   Input ~ 0
-VCC3v3
+VCC3V3
 Text GLabel 2575 9475 2    50   Input ~ 0
 TMS_JTAG
 Text GLabel 2575 9775 2    50   Input ~ 0
@@ -512,7 +504,7 @@ NoConn ~ 1450 9975
 Wire Wire Line
 	8950 8975 9100 8975
 Text GLabel 9100 9475 2    50   Input ~ 0
-VCC3v3
+VCC3V3
 Wire Wire Line
 	8950 9475 9100 9475
 $Comp
@@ -746,8 +738,6 @@ F 6 "0R" V 11478 3995 50  0000 L CNN "Val"
 	1    11425 3925
 	0    1    1    0   
 $EndComp
-Text GLabel 11425 3400 1    50   Input ~ 0
-VCC3v3
 Wire Wire Line
 	11425 3400 11425 3775
 Wire Wire Line
@@ -826,8 +816,6 @@ F 3 "" H 6175 6875 50  0001 C CNN
 	1    6175 6875
 	1    0    0    -1  
 $EndComp
-Text GLabel 6175 5750 1    50   Input ~ 0
-VCC3v3
 Wire Wire Line
 	6175 5750 6175 5900
 Wire Wire Line
@@ -955,8 +943,6 @@ F 6 "4k7" H 5650 3575 50  0000 L CNN "Val"
 	1    5700 3675
 	0    -1   1    0   
 $EndComp
-Text GLabel 9100 8975 2    50   Input ~ 0
-VCC3v3
 $Comp
 L antmicroRectangularConnectorsHeadersMalePins:62000311121 CFG1
 U 1 1 6148AC57
@@ -1072,7 +1058,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 10275 9125 10275
 Text GLabel 9125 9825 2    50   Input ~ 0
-VCC3v3
+VCC3V3
 $Comp
 L lpddr4-test-board:GND #PWR04
 U 1 1 614BF10F
@@ -1152,4 +1138,18 @@ Wire Wire Line
 	11100 6400 11100 6500
 Wire Wire Line
 	11100 6400 11675 6400
+Text GLabel 9100 8975 2    50   Input ~ 0
+VCC3V3
+Text GLabel 12075 3400 1    50   Input ~ 0
+VCC3V3
+Text GLabel 11425 3400 1    50   Input ~ 0
+VCC3V3
+Text GLabel 14800 4300 1    50   Input ~ 0
+VCC3V3
+Text GLabel 9800 4725 1    50   Input ~ 0
+VCC3V3
+Text GLabel 6175 5750 1    50   Input ~ 0
+VCC3V3
+Text GLabel 5700 3150 1    50   Input ~ 0
+VCC3V3
 $EndSCHEMATC
