@@ -468,15 +468,13 @@ Wire Wire Line
 Wire Wire Line
 	8400 1350 8400 1250
 Connection ~ 8225 1350
-Text GLabel 8125 7800 0    50   Input ~ 0
-ETH_REF_CLK
 Text GLabel 6925 4075 0    50   Input ~ 0
 ETH_RXD0
 Text GLabel 6950 3875 0    50   Input ~ 0
 ETH_RXD2
 Text GLabel 6975 3075 0    50   Input ~ 0
 ETH_RXERR
-Text GLabel 8125 7550 0    50   Input ~ 0
+Text GLabel 6975 3175 0    50   Input ~ 0
 ETH_TX_RSTN
 Text GLabel 6925 4275 0    50   Input ~ 0
 ETH_TX_EN
@@ -488,17 +486,17 @@ Text GLabel 6975 7075 0    50   Input ~ 0
 ETH_TXD3
 Text GLabel 6950 6575 0    50   Input ~ 0
 ETH_TXD2
-Text GLabel 8000 7425 0    50   Input ~ 0
+Text GLabel 6950 2575 0    50   Input ~ 0
 ETH_MDIO
 Text GLabel 6975 3975 0    50   Input ~ 0
 ETH_COL
 Text GLabel 6950 3775 0    50   Input ~ 0
 ETH_RXD1
-Text GLabel 6925 2975 0    50   Input ~ 0
+Text GLabel 6975 2975 0    50   Input ~ 0
 ETH_CRS
 Text GLabel 7000 6275 0    50   Input ~ 0
 ETH_TXD0
-Text GLabel 7975 7675 0    50   Input ~ 0
+Text GLabel 6950 3575 0    50   Input ~ 0
 ETH_MDC
 Text GLabel 6950 2675 0    50   Input ~ 0
 ETH_RX_CLK
@@ -511,7 +509,7 @@ Wire Wire Line
 Wire Wire Line
 	6975 3275 7325 3275
 Wire Wire Line
-	6925 2975 7325 2975
+	6975 2975 7325 2975
 Wire Wire Line
 	6925 4075 7325 4075
 Wire Wire Line
@@ -814,4 +812,14 @@ Wire Wire Line
 	11875 5525 12100 5525
 Wire Wire Line
 	12100 3025 11825 3025
+Wire Wire Line
+	7325 2575 6950 2575
+Wire Wire Line
+	7325 3175 6975 3175
+Wire Wire Line
+	7325 3575 6950 3575
+Wire Wire Line
+	7325 3675 6950 3675
+Text GLabel 6950 3675 0    50   Input ~ 0
+ETH_REF_CLK
 $EndSCHEMATC
