@@ -241,8 +241,6 @@ F 3 "" H 7375 8850 50  0001 C CNN
 	1    7375 8850
 	1    0    0    -1  
 $EndComp
-Text GLabel 7525 2275 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:XC7K70T-FBG484 U1
 U 7 1 6246CC56
@@ -502,16 +500,12 @@ Wire Wire Line
 	7275 3325 7525 3325
 Wire Wire Line
 	7525 3425 7275 3425
-Text GLabel 7275 3425 0    50   Input ~ 0
-VCC1V8
 Connection ~ 7525 3625
 Wire Wire Line
 	7525 3625 7525 3725
 Wire Wire Line
 	7525 3525 7525 3625
 Connection ~ 7525 3525
-Text GLabel 7275 3525 0    50   Input ~ 0
-VCC1V1
 Connection ~ 9525 2525
 Wire Wire Line
 	9525 2525 9525 2625
@@ -914,19 +908,9 @@ F 3 "" H 6525 6225 50  0001 C CNN
 	1    6525 6225
 	1    0    0    -1  
 $EndComp
-Text GLabel 5025 5525 1    50   Input ~ 10
+Text GLabel 5025 5525 1    50   Input ~ 0
 VCC3V3
-Text GLabel 5275 5525 1    50   Input ~ 10
-VCC3V3
-Text GLabel 5525 5525 1    50   Input ~ 10
-VCC3V3
-Text GLabel 5775 5525 1    50   Input ~ 10
-VCC3V3
-Text GLabel 6025 5525 1    50   Input ~ 10
-VCC3V3
-Text GLabel 6275 5525 1    50   Input ~ 10
-VDDQ
-Text GLabel 6525 5525 1    50   Input ~ 10
+Text GLabel 6275 5525 1    50   Input ~ 0
 VDDQ
 Wire Notes Line
 	4825 4800 4825 6525
@@ -948,10 +932,6 @@ Text Notes 6850 3550 2    50   ~ 0
 VCCBRAM max: 1.1V
 Text Notes 9750 1925 3    50   ~ 0
 VCCINT max: 1.1V
-Text GLabel 9525 2225 1    50   Input ~ 0
-VCC1V1
-Text GLabel 14625 2250 1    50   Input ~ 0
-VCC1V1
 $Comp
 L lpddr4-test-board:XC7K70T-FBG484 U1
 U 5 1 604C456D
@@ -1023,8 +1003,6 @@ F 6 "100n" H 4750 2400 50  0000 L CNN "Val"
 	1    4700 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 2225 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0115
 U 1 1 60575505
@@ -1054,8 +1032,6 @@ F 6 "100n" H 5025 2400 50  0000 L CNN "Val"
 	1    4975 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 4975 2225 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0116
 U 1 1 605A9661
@@ -1114,8 +1090,6 @@ F 6 "100n" H 5575 2400 50  0000 L CNN "Val"
 	1    5525 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 5525 2225 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0123
 U 1 1 605DA619
@@ -1145,8 +1119,6 @@ F 6 "100n" H 5850 2400 50  0000 L CNN "Val"
 	1    5800 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 5800 2225 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0172
 U 1 1 605DA62B
@@ -1176,8 +1148,6 @@ F 6 "100n" H 6125 2400 50  0000 L CNN "Val"
 	1    6075 2500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6075 2225 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0173
 U 1 1 605DA63D
@@ -1353,7 +1323,7 @@ F 6 "100n" H 6400 2400 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text GLabel 6350 2225 1    50   Input ~ 0
-VCC1V8
+VDD1
 $Comp
 L lpddr4-test-board:GND #PWR0193
 U 1 1 6064363B
@@ -1369,16 +1339,6 @@ Wire Wire Line
 	6350 2775 6350 2650
 Wire Wire Line
 	6350 2350 6350 2225
-Text GLabel 10175 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 10450 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 10725 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 11000 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 11275 2250 1    50   Input ~ 0
-VCC1V1
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C62
 U 1 1 606E4B79
@@ -1524,16 +1484,6 @@ Wire Wire Line
 	12650 2800 12650 2675
 Wire Wire Line
 	12650 2375 12650 2250
-Text GLabel 11550 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 11825 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 12100 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 12375 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 12650 2250 1    50   Input ~ 0
-VCC1V1
 $Comp
 L antmicroCapacitorsmisc:C_100n_0201 C67
 U 1 1 6070900E
@@ -1650,18 +1600,8 @@ Wire Wire Line
 	13725 2800 13725 2675
 Wire Wire Line
 	13725 2375 13725 2250
-Text GLabel 12900 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 13175 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 13450 2250 1    50   Input ~ 0
-VCC1V1
-Text GLabel 13725 2250 1    50   Input ~ 0
-VCC1V1
 Wire Wire Line
 	14625 2800 14625 2675
-Text GLabel 7275 3325 0    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0204
 U 1 1 6081D53D
@@ -1691,8 +1631,6 @@ F 6 "100n" H 4750 3875 50  0000 L CNN "Val"
 	1    4700 3975
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 3700 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0205
 U 1 1 608FFA52
@@ -1722,8 +1660,6 @@ F 6 "100n" H 5025 3875 50  0000 L CNN "Val"
 	1    4975 3975
 	1    0    0    -1  
 $EndComp
-Text GLabel 4975 3700 1    50   Input ~ 0
-VCC1V8
 $Comp
 L lpddr4-test-board:GND #PWR0206
 U 1 1 608FFA64
@@ -1826,32 +1762,16 @@ Wire Wire Line
 	5825 4225 5825 4100
 Wire Wire Line
 	5825 3800 5825 3675
-Text GLabel 5275 3675 1    50   Input ~ 0
-VCC1V1
-Text GLabel 5550 3675 1    50   Input ~ 0
-VCC1V1
-Text GLabel 5825 3675 1    50   Input ~ 0
-VCC1V1
 Wire Wire Line
 	5275 3800 5275 3675
-Text GLabel 2675 2225 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	2675 2350 2675 2225
-Text GLabel 2950 2225 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	2950 2350 2950 2225
-Text GLabel 3225 2225 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	3225 2350 3225 2225
-Text GLabel 3500 2225 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	3500 2350 3500 2225
-Text GLabel 3775 2225 1    50   Input ~ 0
-VCC1V8
 Wire Wire Line
 	3775 2350 3775 2225
 $Comp
@@ -1976,14 +1896,94 @@ Wire Wire Line
 	3500 3775 3500 3650
 Wire Wire Line
 	3775 3775 3775 3650
-Text GLabel 3225 3650 1    50   Input ~ 0
-VCC1V1
-Text GLabel 3500 3650 1    50   Input ~ 0
-VCC1V1
-Text GLabel 3775 3650 1    50   Input ~ 0
-VCC1V1
 Wire Wire Line
 	3225 3775 3225 3650
+Text GLabel 6075 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 5800 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 5525 2225 1    50   Input ~ 0
+VDD1
 Text GLabel 5250 2225 1    50   Input ~ 0
-VCC1V8
+VDD1
+Text GLabel 4975 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 4700 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 3775 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 3500 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 3225 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 2950 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 2675 2225 1    50   Input ~ 0
+VDD1
+Text GLabel 4975 3700 1    50   Input ~ 0
+VDD1
+Text GLabel 4700 3700 1    50   Input ~ 0
+VDD1
+Text GLabel 7525 2275 1    50   Input ~ 0
+VDD1
+Text GLabel 7275 3425 0    50   Input ~ 0
+VDD1
+Text GLabel 7275 3325 0    50   Input ~ 0
+VDD1
+Text GLabel 10725 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 10175 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 10450 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 11550 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 11000 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 11275 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 12375 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 11825 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 12100 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 13200 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 12650 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 12925 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 3225 3650 1    50   Input ~ 0
+VDD2
+Text GLabel 13450 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 13725 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 14625 2250 1    50   Input ~ 0
+VDD2
+Text GLabel 3500 3650 1    50   Input ~ 0
+VDD2
+Text GLabel 3775 3650 1    50   Input ~ 0
+VDD2
+Text GLabel 7275 3525 0    50   Input ~ 0
+VDD2
+Text GLabel 5825 3675 1    50   Input ~ 0
+VDD2
+Text GLabel 5275 3675 1    50   Input ~ 0
+VDD2
+Text GLabel 5550 3675 1    50   Input ~ 0
+VDD2
+Text GLabel 9525 2225 1    50   Input ~ 0
+VDD2
+Text GLabel 5275 5525 1    50   Input ~ 0
+VCC3V3
+Text GLabel 5525 5525 1    50   Input ~ 0
+VCC3V3
+Text GLabel 5775 5525 1    50   Input ~ 0
+VCC3V3
+Text GLabel 6025 5525 1    50   Input ~ 0
+VCC3V3
+Text GLabel 6525 5525 1    50   Input ~ 0
+VDDQ
 $EndSCHEMATC
