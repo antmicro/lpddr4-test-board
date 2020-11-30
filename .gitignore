@@ -28,3 +28,4 @@ fp-info-cache
 *.csv
 
 *.swp
+*-cache.lib
