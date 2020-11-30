@@ -1,6 +1,6 @@
-==============
-DDR test board
-==============
+=================
+LPDDR4 test board
+=================
 
 .. figure:: img/lpddr4-test-board.png
 
@@ -26,10 +26,10 @@ Key Features
 ------------
 
 * Kintex-7 FPGA - XC7K70T-FBG484
-* Modular design with custom LPDDR4 SO-DIMM connector
+* Modular design with custom DDR4 SO-DIMM connector
 * HDMI output connector
 * Ethernet RJ45 connector with 100BASE-T transciever
-* Micro USB debug connector with FT2232HQ FTDI USB controller.
+* Micro USB debug connector with FT4232HQ FTDI USB controller.
 * JTAG connector compatible with Xilinx Platform Cable
 * microSD card slot
 * QSPI FLASH memory
