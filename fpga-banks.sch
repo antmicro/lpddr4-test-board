@@ -778,30 +778,40 @@ Text GLabel 12125 8475 0    50   Input ~ 0
 TDO_JTAG
 Text GLabel 12125 8375 0    50   Input ~ 0
 TMS_JTAG
-Text GLabel 12125 7725 0    50   Input ~ 0
+Text GLabel 11850 6825 0    50   Input ~ 0
 AUX_JTAG_TDI
-Text GLabel 12125 7625 0    50   Input ~ 0
+Text GLabel 11875 5925 0    50   Input ~ 0
 AUX_JTAG_TDO
-Text GLabel 12125 7525 0    50   Input ~ 0
+Text GLabel 11875 6025 0    50   Input ~ 0
 AUX_JTAG_TMS
-Text GLabel 11850 6225 0    50   Input ~ 0
+Text GLabel 11725 6225 0    50   Input ~ 0
 UART0_RX
 Text GLabel 11825 3425 0    50   Input ~ 0
 UART1_RX
-Text GLabel 11850 6125 0    50   Input ~ 0
+Text GLabel 11700 6125 0    50   Input ~ 0
 UART0_TX
 Text GLabel 11825 3325 0    50   Input ~ 0
 UART1_TX
-Text GLabel 12125 7825 0    50   Input ~ 0
+Text GLabel 11875 5525 0    50   Input ~ 0
 AUX_JTAG_TCK
-Text GLabel 12125 7325 0    50   Input ~ 0
+Text GLabel 11825 3025 0    50   Input ~ 0
 AUX_JTAG_RST
 Wire Wire Line
-	12100 6225 11850 6225
+	12100 6225 11725 6225
 Wire Wire Line
-	12100 6125 11850 6125
+	12100 6125 11700 6125
 Wire Wire Line
 	12100 3325 11825 3325
 Wire Wire Line
 	12100 3425 11825 3425
+Wire Wire Line
+	11875 6025 12100 6025
+Wire Wire Line
+	12100 5925 11875 5925
+Wire Wire Line
+	11850 6825 12100 6825
+Wire Wire Line
+	11875 5525 12100 5525
+Wire Wire Line
+	12100 3025 11825 3025
 $EndSCHEMATC
