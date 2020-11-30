@@ -1864,6 +1864,8 @@ F 3 "" H 4375 10450 50  0001 C CNN
 	1    4375 10450
 	1    0    0    -1  
 $EndComp
+Text GLabel 4375 9125 1    50   Input ~ 0
+VCC3v3
 $Comp
 L lpddr4-test-board:R_4k7_0402 R?
 U 1 1 5FCEBF9F
@@ -1900,6 +1902,8 @@ F 6 "4k7" V 3903 9395 50  0000 L CNN "Val"
 	1    3850 9325
 	0    1    1    0   
 $EndComp
+Text GLabel 3850 9125 1    50   Input ~ 0
+VCC3v3
 $Comp
 L lpddr4-test-board:GND #PWR?
 U 1 1 5FDD2900
@@ -1980,7 +1984,7 @@ Connection ~ 4875 9775
 Wire Wire Line
 	4875 9775 5550 9775
 Wire Wire Line
-	4875 9125 4875 9175
+	4875 9100 4875 9175
 $Comp
 L lpddr4-test-board:R_4k7_0402 R?
 U 1 1 5FE766E6
@@ -1997,6 +2001,8 @@ F 6 "4k7" V 4928 9395 50  0000 L CNN "Val"
 	1    4875 9325
 	0    1    1    0   
 $EndComp
+Text GLabel 4875 9100 1    50   Input ~ 0
+VCC3v3
 Text Notes 4300 8225 0    118  ~ 24
 User buttons
 $Comp
@@ -2110,6 +2116,8 @@ F 6 "4k7" V 5428 9395 50  0000 L CNN "Val"
 	1    5375 9325
 	0    1    1    0   
 $EndComp
+Text GLabel 5375 9125 1    50   Input ~ 0
+VCC3v3
 $Comp
 L lpddr4-test-board:GND #PWR?
 U 1 1 5FCB7E46
@@ -2358,12 +2366,4 @@ NoConn ~ 5150 3700
 NoConn ~ 5150 4250
 NoConn ~ 5150 4450
 NoConn ~ 5150 4550
-Text GLabel 3850 9125 1    50   Input ~ 0
-VCC3V3
-Text GLabel 4375 9125 1    50   Input ~ 0
-VCC3V3
-Text GLabel 4875 9125 1    50   Input ~ 0
-VCC3V3
-Text GLabel 5375 9125 1    50   Input ~ 0
-VCC3V3
 $EndSCHEMATC

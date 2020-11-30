@@ -474,8 +474,8 @@ Text GLabel 6950 3875 0    50   Input ~ 0
 ETH_RXD2
 Text GLabel 6975 3075 0    50   Input ~ 0
 ETH_RXERR
-Text GLabel 6975 2325 0    50   Input ~ 0
-ETH_TX_RSTN
+Text GLabel 6950 3675 0    50   Input ~ 0
+ETH_RSTN
 Text GLabel 6925 4275 0    50   Input ~ 0
 ETH_TX_EN
 Text GLabel 6975 6975 0    50   Input ~ 0
