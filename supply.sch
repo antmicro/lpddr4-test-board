@@ -627,7 +627,7 @@ F 2 "lpddr4-test-board-footprints:0402-cap" H 2650 2550 60  0001 L CNN
 F 3 "" H 2450 2350 50  0001 C CNN
 F 4 "Walsin" H 2650 2750 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 2650 2650 60  0001 L CNN "MPN"
-F 6 "100n" V 2400 2150 50  0000 L CNN "Val"
+F 6 "100n" V 2375 2100 50  0000 L CNN "Val"
 	1    2450 2350
 	1    0    0    -1  
 $EndComp
@@ -1258,8 +1258,6 @@ Wire Wire Line
 	4350 10225 4450 10225
 Wire Wire Line
 	4450 10225 4450 10375
-Text Notes 2725 1600 0    50   ~ 0
-TODO: check if VDD labels have the same names as those connected to FPGA
 $Comp
 L lpddr4-test-board:IHLP1212AEERR47M11 L3
 U 1 1 602421C5
@@ -1392,17 +1390,17 @@ F 6 "0R" V 5803 6045 50  0000 L CNN "Val"
 	1    5750 5975
 	0    1    1    0   
 $EndComp
-Text GLabel 6200 5675 1    50   Input ~ 0
+Text GLabel 12250 8075 1    50   Input ~ 0
 VCC5V0
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP11
+L lpddr4-test-board:TP_SMD1MM 5V0
 U 1 1 60212554
-P 6200 5775
-F 0 "TP11" V 6105 5822 50  0000 C CNN
-F 1 "TP_SMD1MM" H 6200 5675 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 6400 5975 60  0001 L CNN
-F 3 "" H 6400 6075 60  0001 L CNN
-	1    6200 5775
+P 12250 8175
+F 0 "5V0" V 12155 8222 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12250 8075 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 12450 8375 60  0001 L CNN
+F 3 "" H 12450 8475 60  0001 L CNN
+	1    12250 8175
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1413,17 +1411,17 @@ Wire Wire Line
 	5825 9475 5825 9550
 Wire Wire Line
 	5825 9850 5825 9900
-Text GLabel 6225 9475 1    50   Input ~ 0
+Text GLabel 12050 8075 1    50   Input ~ 0
 VCC3V3
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP10
+L lpddr4-test-board:TP_SMD1MM 3V3
 U 1 1 6026C4D0
-P 6225 9575
-F 0 "TP10" V 6130 9622 50  0000 C CNN
-F 1 "TP_SMD1MM" H 6225 9475 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 6425 9775 60  0001 L CNN
-F 3 "" H 6425 9875 60  0001 L CNN
-	1    6225 9575
+P 12050 8175
+F 0 "3V3" V 11955 8222 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12050 8075 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 12250 8375 60  0001 L CNN
+F 3 "" H 12250 8475 60  0001 L CNN
+	1    12050 8175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1454,39 +1452,39 @@ F 6 "0R" H 11600 7400 50  0000 C CNN "Val"
 	1    11750 7350
 	-1   0    0    1   
 $EndComp
-Text GLabel 11950 8075 1    50   Input ~ 0
+Text GLabel 11850 8075 1    50   Input ~ 0
 VDD0V6
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP6
+L lpddr4-test-board:TP_SMD1MM 1V8
 U 1 1 602C0646
-P 11500 8175
-F 0 "TP6" V 11405 8222 50  0000 C CNN
-F 1 "TP_SMD1MM" H 11500 8075 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 11700 8375 60  0001 L CNN
-F 3 "" H 11700 8475 60  0001 L CNN
-	1    11500 8175
+P 11425 8175
+F 0 "1V8" V 11330 8222 50  0000 C CNN
+F 1 "TP_SMD1MM" H 11425 8075 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 11625 8375 60  0001 L CNN
+F 3 "" H 11625 8475 60  0001 L CNN
+	1    11425 8175
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP7
+L lpddr4-test-board:TP_SMD1MM 1V1
 U 1 1 602C252D
-P 11725 8175
-F 0 "TP7" V 11630 8222 50  0000 C CNN
-F 1 "TP_SMD1MM" H 11725 8075 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 11925 8375 60  0001 L CNN
-F 3 "" H 11925 8475 60  0001 L CNN
-	1    11725 8175
+P 11625 8175
+F 0 "1V1" V 11530 8222 50  0000 C CNN
+F 1 "TP_SMD1MM" H 11625 8075 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 11825 8375 60  0001 L CNN
+F 3 "" H 11825 8475 60  0001 L CNN
+	1    11625 8175
 	1    0    0    -1  
 $EndComp
 $Comp
-L lpddr4-test-board:TP_SMD1MM TP8
+L lpddr4-test-board:TP_SMD1MM 0V6
 U 1 1 602C27EC
-P 11950 8175
-F 0 "TP8" V 11855 8222 50  0000 C CNN
-F 1 "TP_SMD1MM" H 11950 8075 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 12150 8375 60  0001 L CNN
-F 3 "" H 12150 8475 60  0001 L CNN
-	1    11950 8175
+P 11850 8175
+F 0 "0V6" V 11755 8222 50  0000 C CNN
+F 1 "TP_SMD1MM" H 11850 8075 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 12050 8375 60  0001 L CNN
+F 3 "" H 12050 8475 60  0001 L CNN
+	1    11850 8175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1547,9 +1545,9 @@ Wire Wire Line
 	5275 2000 6225 2000
 Wire Wire Line
 	5675 2450 6225 2450
-Text GLabel 11725 8075 1    50   Input ~ 0
+Text GLabel 11625 8075 1    50   Input ~ 0
 VDD1V1
-Text GLabel 11500 8075 1    50   Input ~ 0
+Text GLabel 11425 8075 1    50   Input ~ 0
 VDD1V8
 Text GLabel 11450 7125 0    50   Input ~ 0
 VDD1V8

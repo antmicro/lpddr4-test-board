@@ -768,14 +768,6 @@ F 3 "" H 3900 5200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1900 2800
-Text GLabel 12125 8675 0    50   Input ~ 0
-TCK_JTAG
-Text GLabel 12125 8575 0    50   Input ~ 0
-TDI_JTAG
-Text GLabel 12125 8475 0    50   Input ~ 0
-TDO_JTAG
-Text GLabel 12125 8375 0    50   Input ~ 0
-TMS_JTAG
 Text GLabel 11850 6825 0    50   Input ~ 0
 AUX_JTAG_TDI
 Text GLabel 11875 5925 0    50   Input ~ 0
