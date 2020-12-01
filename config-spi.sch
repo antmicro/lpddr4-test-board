@@ -223,9 +223,9 @@ Wire Wire Line
 	14800 4750 14800 4925
 Connection ~ 14800 4750
 Text GLabel 2750 3950 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 2425 3950 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	2425 4250 2425 4300
 $Comp
@@ -388,7 +388,7 @@ Wire Wire Line
 Wire Wire Line
 	1625 9375 1625 9200
 Text GLabel 1625 9200 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 2575 9475 2    50   Input ~ 0
 TMS_JTAG
 Text GLabel 2575 9775 2    50   Input ~ 0
@@ -504,7 +504,7 @@ NoConn ~ 1450 9975
 Wire Wire Line
 	8950 8975 9100 8975
 Text GLabel 9100 9475 2    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	8950 9475 9100 9475
 $Comp
@@ -629,7 +629,7 @@ $EndComp
 Wire Wire Line
 	5325 9425 5350 9425
 Text GLabel 4925 9425 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	4925 9425 5025 9425
 Wire Wire Line
@@ -685,7 +685,7 @@ $EndComp
 Wire Wire Line
 	5350 10200 5375 10200
 Text GLabel 4950 10200 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	4950 10200 5050 10200
 Wire Wire Line
@@ -1058,7 +1058,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 10275 9125 10275
 Text GLabel 9125 9825 2    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L lpddr4-test-board:GND #PWR04
 U 1 1 614BF10F
@@ -1139,17 +1139,17 @@ Wire Wire Line
 Wire Wire Line
 	11100 6400 11675 6400
 Text GLabel 9100 8975 2    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 12075 3400 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 11425 3400 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 14800 4300 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 9800 4725 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 6175 5750 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 5700 3150 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $EndSCHEMATC

@@ -646,7 +646,7 @@ Wire Wire Line
 Wire Wire Line
 	8925 5050 8925 4600
 Text GLabel 2350 8375 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L lpddr4-test-board:TPD2E009 D3
 U 1 1 6003C213
@@ -734,11 +734,11 @@ Connection ~ 2375 9875
 Wire Wire Line
 	2375 9875 2225 9875
 Text GLabel 3300 2750 1    50   Input ~ 0
-VDD1V8
+1V8_FT
 Text GLabel 3450 2750 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 1300 4050 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	1300 4050 1300 4300
 Wire Wire Line
@@ -747,7 +747,7 @@ Connection ~ 1300 4300
 Wire Wire Line
 	1300 4300 1300 4400
 Text GLabel 3050 5400 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 8925 4600 1    50   Input ~ 0
 VBUS
 $Comp
@@ -1154,7 +1154,7 @@ Connection ~ 12550 3025
 Wire Wire Line
 	12550 3025 12550 2525
 Text GLabel 12550 2525 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L lpddr4-test-board:1140084168 J7
 U 1 1 602D3498
@@ -1365,7 +1365,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 6375 12700 6250
 Text GLabel 13300 6150 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text Notes 3775 1450 0    118  ~ 24
 Debug UART
 Text Notes 11925 1375 0    118  ~ 24
@@ -1520,7 +1520,7 @@ $EndComp
 Wire Wire Line
 	7700 8825 7725 8825
 Text GLabel 7300 8825 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	7300 8825 7400 8825
 Wire Wire Line
@@ -1570,7 +1570,7 @@ $EndComp
 Wire Wire Line
 	7725 9600 7750 9600
 Text GLabel 7325 9600 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	7325 9600 7425 9600
 Wire Wire Line
@@ -1620,7 +1620,7 @@ $EndComp
 Wire Wire Line
 	9875 8825 9900 8825
 Text GLabel 9475 8825 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	9475 8825 9575 8825
 Wire Wire Line
@@ -1670,7 +1670,7 @@ $EndComp
 Wire Wire Line
 	9875 9600 9900 9600
 Text GLabel 9475 9600 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	9475 9600 9575 9600
 Wire Wire Line
@@ -1720,7 +1720,7 @@ $EndComp
 Wire Wire Line
 	7700 10375 7725 10375
 Text GLabel 7300 10375 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	7300 10375 7400 10375
 Wire Wire Line
@@ -2357,13 +2357,13 @@ NoConn ~ 5150 4550
 Text GLabel 2375 9775 1    50   Input ~ 0
 VDD1V8
 Text GLabel 3850 9125 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 4375 9125 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 4875 9100 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 5375 9125 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L antmicroCrystals:ABM8G-12.000MHZ-18-D2Y-T Y?
 U 1 1 61D2EA50

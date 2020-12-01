@@ -750,7 +750,7 @@ Wire Wire Line
 Wire Wire Line
 	11725 3725 11725 3850
 Text GLabel 12775 4600 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	12775 4600 12775 4800
 Connection ~ 12775 4800
@@ -769,7 +769,7 @@ Wire Wire Line
 	12775 5400 12775 5600
 Connection ~ 12775 5400
 Text GLabel 12375 7200 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	12125 7200 12375 7200
 Text GLabel 11200 7100 2    50   Input ~ 0
@@ -821,7 +821,7 @@ Connection ~ 11025 7700
 Wire Wire Line
 	11025 7700 11025 8000
 Text GLabel 6975 4950 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	6975 4950 7275 4950
 Wire Wire Line
@@ -925,7 +925,7 @@ F 6 "4k87" H 9125 5525 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text GLabel 8700 5400 0    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	8750 5400 8700 5400
 $Comp

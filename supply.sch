@@ -508,7 +508,7 @@ F 5 "KINGBRIGHT" H 13835 8145 60  0001 L CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 Text GLabel 13625 7325 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L lpddr4-test-board:R_330R_0402 R119
 U 1 1 60801709
@@ -1297,7 +1297,7 @@ F 6 "10u" H 5940 9647 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text GLabel 5825 9475 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L lpddr4-test-board:GND #PWR0166
 U 1 1 601C6B4F
@@ -1340,7 +1340,7 @@ F 6 "243k" V 5403 9995 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text GLabel 5350 9475 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text Notes 3550 8450 0    79   ~ 16
 3V3 supply (1A)
 $Comp
@@ -1412,7 +1412,7 @@ Wire Wire Line
 Wire Wire Line
 	5825 9850 5825 9900
 Text GLabel 12050 8075 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 $Comp
 L lpddr4-test-board:TP_SMD1MM 3V3
 U 1 1 6026C4D0

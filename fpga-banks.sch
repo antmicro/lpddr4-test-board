@@ -150,7 +150,7 @@ Wire Wire Line
 	14750 1200 14750 1050
 Connection ~ 14600 1200
 Text GLabel 4600 1125 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Notes Line
 	11175 525  11175 7975
 Wire Notes Line
@@ -168,8 +168,8 @@ F 3 "" H 12775 9150 50  0001 C CNN
 	1    12775 9150
 	-1   0    0    -1  
 $EndComp
-Text GLabel 15025 8525 1    50   Input ~ 10
-VCC3V3
+Text GLabel 14875 8425 1    50   Input ~ 0
+3V3_SYS
 Wire Wire Line
 	14325 8525 14875 8525
 Wire Wire Line
@@ -186,7 +186,7 @@ F 3 "" H 12875 9000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14875 8525 15025 8525
+	14875 8525 14875 8425
 Connection ~ 14875 8525
 $Comp
 L lpddr4-test-board:C_100n_0402_6V3 C8
@@ -209,7 +209,7 @@ Wire Wire Line
 Text GLabel 14300 9100 2    50   Input ~ 0
 GCLK100
 Text GLabel 2900 1125 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Connection ~ 2750 1275
 Wire Wire Line
 	2900 1275 2900 1125
@@ -340,8 +340,6 @@ Text GLabel 14750 1050 1    50   Input ~ 0
 VDDQ
 Text GLabel 13150 1050 1    50   Input ~ 0
 VDDQ
-Text Notes 750  1825 1    50   ~ 0
-interfaces.sch
 Text Notes 3225 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
 Text Notes 13400 1050 0    50   ~ 0
@@ -462,7 +460,7 @@ Wire Wire Line
 	9675 1350 9775 1350
 Connection ~ 9775 1350
 Text GLabel 8400 1250 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	8225 1350 8400 1350
 Wire Wire Line
@@ -535,7 +533,7 @@ Wire Wire Line
 Wire Wire Line
 	7000 6275 7325 6275
 Text GLabel 9875 1200 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Wire Wire Line
 	9875 1200 9875 1350
 Connection ~ 9875 1350

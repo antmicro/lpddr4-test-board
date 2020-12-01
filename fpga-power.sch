@@ -909,7 +909,7 @@ F 3 "" H 6525 6225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5025 5525 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 6275 5525 1    50   Input ~ 0
 VDDQ
 Wire Notes Line
@@ -1977,13 +1977,13 @@ VDD2
 Text GLabel 9525 2225 1    50   Input ~ 0
 VDD2
 Text GLabel 5275 5525 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 5525 5525 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 5775 5525 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 6025 5525 1    50   Input ~ 0
-VCC3V3
+3V3_SYS
 Text GLabel 6525 5525 1    50   Input ~ 0
 VDDQ
 $EndSCHEMATC
