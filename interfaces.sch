@@ -2355,7 +2355,7 @@ NoConn ~ 5150 4250
 NoConn ~ 5150 4450
 NoConn ~ 5150 4550
 Text GLabel 2375 9775 1    50   Input ~ 0
-VDD1V8
+1V8_FT
 Text GLabel 3850 9125 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 4375 9125 1    50   Input ~ 0

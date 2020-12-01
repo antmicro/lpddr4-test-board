@@ -408,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 7700 6450 7700
 Text GLabel 6350 7700 0    50   Input ~ 0
-VDD2
+1V1_SYS
 $Comp
 L antmicroMemoryConnectorsPCCardSockets:2309409-1 J5
 U 1 1 5FC76C01
@@ -639,7 +639,7 @@ Wire Wire Line
 Wire Wire Line
 	9725 7775 9825 7775
 Text GLabel 9725 7775 0    50   Input ~ 0
-VDD2
+1V1_SYS
 Wire Wire Line
 	10350 7775 9825 7775
 Wire Wire Line
@@ -657,7 +657,7 @@ Wire Wire Line
 Wire Wire Line
 	11975 7775 11875 7775
 Text GLabel 11975 8075 2    50   Input ~ 0
-VDD1
+1V8_SYS
 Wire Wire Line
 	11350 8275 11875 8275
 Connection ~ 11875 8175
@@ -682,7 +682,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 8200 8500 8200
 Text GLabel 8575 7700 2    50   Input ~ 0
-VDD1
+1V8_SYS
 Connection ~ 8500 7800
 Wire Wire Line
 	8500 7800 8500 7900

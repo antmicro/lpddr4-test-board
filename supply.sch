@@ -1554,9 +1554,9 @@ VDD1V8
 Text GLabel 11450 7350 0    50   Input ~ 0
 VDD1V1
 Text GLabel 12125 7125 2    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 12125 7350 2    50   Input ~ 0
-VDD2
+1V1_SYS
 Wire Wire Line
 	11450 7125 11600 7125
 Wire Wire Line

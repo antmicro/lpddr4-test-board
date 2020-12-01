@@ -1323,7 +1323,7 @@ F 6 "100n" H 6400 2400 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Text GLabel 6350 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 $Comp
 L lpddr4-test-board:GND #PWR0193
 U 1 1 6064363B
@@ -1899,83 +1899,83 @@ Wire Wire Line
 Wire Wire Line
 	3225 3775 3225 3650
 Text GLabel 6075 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 5800 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 5525 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 5250 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 4975 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 4700 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 3775 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 3500 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 3225 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 2950 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 2675 2225 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 4975 3700 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 4700 3700 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 7525 2275 1    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 7275 3425 0    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 7275 3325 0    50   Input ~ 0
-VDD1
+1V8_SYS
 Text GLabel 10725 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 10175 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 10450 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 11550 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 11000 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 11275 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 12375 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 11825 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 12100 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 13200 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 12650 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 12925 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 3225 3650 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 13450 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 13725 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 14625 2250 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 3500 3650 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 3775 3650 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 7275 3525 0    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 5825 3675 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 5275 3675 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 5550 3675 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 9525 2225 1    50   Input ~ 0
-VDD2
+1V1_SYS
 Text GLabel 5275 5525 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 5525 5525 1    50   Input ~ 0
