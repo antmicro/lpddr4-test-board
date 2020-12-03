@@ -1523,23 +1523,6 @@ X ~ 2 150 0 50 L 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lpddr4-test-board_R_0R_1206
-#
-DEF lpddr4-test-board_R_0R_1206 R 0 0 Y Y 1 F N
-F0 "R" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_R_0R_1206" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:1206-res" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
-F5 "MCMR12X000_PTL" 200 300 60 H I L CNN "MPN"
-F6 "0R" 0 -100 50 H V C CNN "Val"
-DRAW
-S 100 -40 -100 40 1 1 10 N
-X ~ 1 -150 0 50 R 0 0 1 1 P
-X ~ 2 150 0 50 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # lpddr4-test-board_R_100R_0402
 #
 DEF lpddr4-test-board_R_100R_0402 R 0 0 Y Y 1 F N

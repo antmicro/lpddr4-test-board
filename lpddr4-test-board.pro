@@ -1,4 +1,4 @@
-update=Tue Dec  1 01:11:16 2020
+update=Thu Dec  3 17:06:38 2020
 version=1
 last_client=kicad
 [general]
@@ -19,7 +19,7 @@ LastNetListRead=
 CopperLayerCount=8
 BoardThickness=1.6
 AllowMicroVias=0
-AllowBlindVias=0
+AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.09999999999999999

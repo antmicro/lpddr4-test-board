@@ -1238,7 +1238,6 @@ F 6 "53k6" V 5403 10295 50  0000 L CNN "Val"
 	1    5350 10225
 	0    1    1    0   
 $EndComp
-Connection ~ 5350 9775
 $Comp
 L lpddr4-test-board:R_243k_0402 R47
 U 1 1 601BD2CD
@@ -1464,20 +1463,6 @@ Wire Wire Line
 Connection ~ 5000 10075
 Wire Wire Line
 	5000 10075 5350 10075
-$Comp
-L lpddr4-test-board:R_0R_1206 R46
-U 1 1 6021B240
-P 5350 9625
-F 0 "R46" V 5305 9695 60  0000 L CNN
-F 1 "R_0R_1206" H 5350 9475 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:1206-res" H 5550 9825 60  0001 L CNN
-F 3 "" H 5350 9625 50  0001 C CNN
-F 4 "MULTICOMP" H 5550 10025 60  0001 L CNN "Manufacturer"
-F 5 "MCMR12X000_PTL" H 5550 9925 60  0001 L CNN "MPN"
-F 6 "0R" V 5403 9695 50  0000 L CNN "Val"
-	1    5350 9625
-	0    1    1    0   
-$EndComp
 Text Notes 10625 1050 0    79   ~ 16
 Decoupling
 $Comp
@@ -1628,4 +1613,19 @@ Wire Wire Line
 Connection ~ 6700 6375
 Text GLabel 3225 9650 1    50   Input ~ 0
 VCC5V0_INT
+$Comp
+L antmicroResistors0603:R_0R_0603 R?
+U 1 1 5FD15A52
+P 5350 9625
+F 0 "R?" V 5305 9695 60  0000 L CNN
+F 1 "R_0R_0603" H 5350 9475 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 5550 9825 60  0001 L CNN
+F 3 "" H 5350 9625 50  0001 C CNN
+F 4 "BOURNS" H 5550 10025 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 5550 9925 60  0001 L CNN "MPN"
+F 6 "0R" V 5403 9695 50  0000 L CNN "Val"
+	1    5350 9625
+	0    1    1    0   
+$EndComp
+Connection ~ 5350 9775
 $EndSCHEMATC
