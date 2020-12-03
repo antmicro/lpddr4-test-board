@@ -565,12 +565,12 @@ F 6 "4k7" V 9853 5245 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_330R_0402 R57
+L lpddr4-test-board:R_330R_0402 R57
 U 1 1 6107C15B
 P 10150 5175
 F 0 "R57" V 10105 5245 60  0000 L CNN
 F 1 "R_330R_0402" H 10150 5025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10350 5375 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 10350 5375 60  0001 L CNN
 F 3 "" H 10150 5175 50  0001 C CNN
 F 4 "MULTICOMP" H 10350 5575 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 10350 5475 60  0001 L CNN "MPN"
@@ -691,14 +691,14 @@ Wire Wire Line
 Wire Wire Line
 	6050 10500 5050 10500
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q?
+L lpddr4-test-board:BSS138APW Q?
 U 1 1 610AEC42
 P 5925 9425
 AR Path="/600E76D8/610AEC42" Ref="Q?"  Part="1" 
 AR Path="/5FD53C7D/610AEC42" Ref="Q7"  Part="1" 
 F 0 "Q7" V 6192 9425 60  0000 C CNN
 F 1 "BSS138APW" V 6086 9425 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 6125 9625 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 6125 9625 60  0001 L CNN
 F 3 "" H 6125 9725 60  0001 L CNN
 F 4 "BSS138PW" H 6125 9925 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 6125 10525 60  0001 L CNN "Manufacturer"
@@ -706,14 +706,14 @@ F 5 "ON Semiconductor" H 6125 10525 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q?
+L lpddr4-test-board:BSS138APW Q?
 U 1 1 610AEC4A
 P 5950 10200
 AR Path="/600E76D8/610AEC4A" Ref="Q?"  Part="1" 
 AR Path="/5FD53C7D/610AEC4A" Ref="Q8"  Part="1" 
 F 0 "Q8" V 6217 10200 60  0000 C CNN
 F 1 "BSS138APW" V 6111 10200 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 6150 10400 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 6150 10400 60  0001 L CNN
 F 3 "" H 6150 10500 60  0001 L CNN
 F 4 "BSS138PW" H 6150 10700 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 6150 11300 60  0001 L CNN "Manufacturer"
@@ -725,12 +725,12 @@ DONE
 Text GLabel 5050 10500 0    50   Input ~ 0
 INIT_B
 $Comp
-L antmicroResistors0402:R_0R_0402 R58
+L lpddr4-test-board:R_0R_0402 R58
 U 1 1 611AD748
 P 11425 3925
 F 0 "R58" V 11380 3995 60  0000 L CNN
 F 1 "R_0R_0402" H 11425 3775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 11625 4125 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 11625 4125 60  0001 L CNN
 F 3 "" H 11425 3925 50  0001 C CNN
 F 4 "PANASONIC" H 11625 4325 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 11625 4225 60  0001 L CNN "MPN"
@@ -755,7 +755,7 @@ Wire Wire Line
 Wire Wire Line
 	7475 6325 7975 6325
 $Comp
-L antmicroTestPoints:test PUDC_B1
+L lpddr4-test-board:test PUDC_B1
 U 1 1 61236E26
 P 5775 6375
 F 0 "PUDC_B1" V 5725 6275 50  0000 C CNN
@@ -766,7 +766,7 @@ F 3 "" H 5775 6375 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroTestPoints:test EMCCLK1
+L lpddr4-test-board:test EMCCLK1
 U 1 1 61237446
 P 7275 6375
 F 0 "EMCCLK1" V 7225 6275 50  0000 C CNN
@@ -828,12 +828,12 @@ Wire Wire Line
 Wire Wire Line
 	6175 6750 6175 6875
 $Comp
-L antmicroResistors0402:R_0R_0402 R26
+L lpddr4-test-board:R_0R_0402 R26
 U 1 1 6129A314
 P 4675 4450
 F 0 "R26" H 4475 4500 60  0000 C CNN
 F 1 "R_0R_0402" H 4675 4300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 4650 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4875 4650 60  0001 L CNN
 F 3 "" H 4675 4450 50  0001 C CNN
 F 4 "PANASONIC" H 4875 4850 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4875 4750 60  0001 L CNN "MPN"
@@ -842,12 +842,12 @@ F 6 "0R" H 4875 4500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R27
+L lpddr4-test-board:R_0R_0402 R27
 U 1 1 6129AB54
 P 4675 4550
 F 0 "R27" H 4475 4600 60  0000 C CNN
 F 1 "R_0R_0402" H 4675 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 4750 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4875 4750 60  0001 L CNN
 F 3 "" H 4675 4550 50  0001 C CNN
 F 4 "PANASONIC" H 4875 4950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4875 4850 60  0001 L CNN "MPN"
@@ -856,12 +856,12 @@ F 6 "0R" H 4875 4600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R59
+L lpddr4-test-board:R_0R_0402 R59
 U 1 1 6129AE45
 P 4675 4750
 F 0 "R59" H 4450 4800 60  0000 C CNN
 F 1 "R_0R_0402" H 4675 4600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 4950 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4875 4950 60  0001 L CNN
 F 3 "" H 4675 4750 50  0001 C CNN
 F 4 "PANASONIC" H 4875 5150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4875 5050 60  0001 L CNN "MPN"
@@ -870,12 +870,12 @@ F 6 "0R" H 4850 4800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R60
+L lpddr4-test-board:R_0R_0402 R60
 U 1 1 6129B28E
 P 4675 4850
 F 0 "R60" H 4450 4900 60  0000 C CNN
 F 1 "R_0R_0402" H 4675 4700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 5050 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4875 5050 60  0001 L CNN
 F 3 "" H 4675 4850 50  0001 C CNN
 F 4 "PANASONIC" H 4875 5250 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4875 5150 60  0001 L CNN "MPN"
@@ -884,12 +884,12 @@ F 6 "0R" H 4850 4900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R24
+L lpddr4-test-board:R_0R_0402 R24
 U 1 1 612AE761
 P 4675 4250
 F 0 "R24" H 4475 4300 60  0000 C CNN
 F 1 "R_0R_0402" H 4675 4100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 4450 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4875 4450 60  0001 L CNN
 F 3 "" H 4675 4250 50  0001 C CNN
 F 4 "PANASONIC" H 4875 4650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4875 4550 60  0001 L CNN "MPN"
@@ -900,12 +900,12 @@ $EndComp
 Wire Wire Line
 	4825 4250 5250 4250
 $Comp
-L antmicroResistors0402:R_0R_0402 R23
+L lpddr4-test-board:R_0R_0402 R23
 U 1 1 612F2218
 P 4675 4150
 F 0 "R23" H 4475 4200 60  0000 C CNN
 F 1 "R_0R_0402" H 4675 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4875 4350 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4875 4350 60  0001 L CNN
 F 3 "" H 4675 4150 50  0001 C CNN
 F 4 "PANASONIC" H 4875 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 4875 4450 60  0001 L CNN "MPN"
@@ -944,12 +944,12 @@ F 6 "4k7" H 5650 3575 50  0000 L CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:62000311121 CFG1
+L lpddr4-test-board:62000311121 CFG1
 U 1 1 6148AC57
 P 8700 10050
 F 0 "CFG1" H 8622 10055 50  0000 R CNN
 F 1 "62000311121" H 8750 9850 50  0001 C CNN
-F 2 "antmicro-footprints:62000311121" H 8800 10300 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:62000311121" H 8800 10300 60  0001 L CNN
 F 3 "https://www.we-online.com/catalog/datasheet/62000311121.pdf" H 8900 10350 60  0001 L CNN
 F 4 "62000421121" H 8900 10550 60  0001 L CNN "MPN"
 F 5 "Wurth Elektronik" H 8900 11150 60  0001 L CNN "Manufacturer"
@@ -988,12 +988,12 @@ F 3 "" H 9100 9175 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R9
+L lpddr4-test-board:R_0R_0402 R9
 U 1 1 614A139A
 P 8800 8975
 F 0 "R9" H 8575 9025 60  0000 C CNN
 F 1 "R_0R_0402" H 8800 8825 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9000 9175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9000 9175 60  0001 L CNN
 F 3 "" H 8800 8975 50  0001 C CNN
 F 4 "PANASONIC" H 9000 9375 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9000 9275 60  0001 L CNN "MPN"
@@ -1002,12 +1002,12 @@ F 6 "0R" H 8975 9025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R11
+L lpddr4-test-board:R_0R_0402 R11
 U 1 1 614A1913
 P 8800 9175
 F 0 "R11" H 8575 9225 60  0000 C CNN
 F 1 "R_0R_0402" H 8800 9025 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9000 9375 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9000 9375 60  0001 L CNN
 F 3 "" H 8800 9175 50  0001 C CNN
 F 4 "PANASONIC" H 9000 9575 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9000 9475 60  0001 L CNN "MPN"
@@ -1017,12 +1017,12 @@ F 7 "DNP" H 8800 9175 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R12
+L lpddr4-test-board:R_0R_0402 R12
 U 1 1 614A1D25
 P 8800 9475
 F 0 "R12" H 8575 9525 60  0000 C CNN
 F 1 "R_0R_0402" H 8800 9325 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9000 9675 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9000 9675 60  0001 L CNN
 F 3 "" H 8800 9475 50  0001 C CNN
 F 4 "PANASONIC" H 9000 9875 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9000 9775 60  0001 L CNN "MPN"
@@ -1032,12 +1032,12 @@ F 7 "DNP" H 8800 9475 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R13
+L lpddr4-test-board:R_0R_0402 R13
 U 1 1 614A2237
 P 8800 9675
 F 0 "R13" H 8575 9725 60  0000 C CNN
 F 1 "R_0R_0402" H 8800 9525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9000 9875 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9000 9875 60  0001 L CNN
 F 3 "" H 8800 9675 50  0001 C CNN
 F 4 "PANASONIC" H 9000 10075 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 9000 9975 60  0001 L CNN "MPN"
@@ -1096,12 +1096,12 @@ Wire Wire Line
 Wire Wire Line
 	4300 4250 4525 4250
 $Comp
-L antmicroResistors0402:R_2k2_0402 R14
+L lpddr4-test-board:R_2k2_0402 R14
 U 1 1 616A6781
 P 5050 3675
 F 0 "R14" H 5300 3750 60  0000 R CNN
 F 1 "R_2k2_0402" H 5050 3525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5250 3875 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5250 3875 60  0001 L CNN
 F 3 "" H 5050 3675 50  0001 C CNN
 F 4 "YAGEO" H 5250 4075 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-072K2L" H 5250 3975 60  0001 L CNN "MPN"
@@ -1112,12 +1112,12 @@ $EndComp
 Wire Wire Line
 	5050 3250 5050 3525
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:0878311420 J1
+L lpddr4-test-board:0878311420 J1
 U 1 1 617E9509
 P 1250 9675
 F 0 "J1" H 1250 10200 50  0000 C CNN
 F 1 "0878311420" H 1250 10109 50  0000 C CNN
-F 2 "antmicro-footprints:PinHeader_2x7_P2mm_Drill1mm" H 1450 9875 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_2x7_P2mm_Drill1mm" H 1450 9875 60  0001 L CNN
 F 3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" H 1450 9975 60  0001 L CNN
 F 4 "0878311420" H 1450 10175 60  0001 L CNN "MPN"
 F 5 "Molex" H 1450 10775 60  0001 L CNN "Manufacturer"

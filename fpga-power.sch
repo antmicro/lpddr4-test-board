@@ -990,12 +990,12 @@ UNUSED
 Text Notes 7775 1450 0    98   ~ 20
 POWER RAILS
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C9
+L lpddr4-test-board:C_100n_0201 C9
 U 1 1 6056B1DF
 P 4700 2500
 F 0 "C9" H 4725 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 4700 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 4900 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 4900 2700 60  0001 L CNN
 F 3 "" H 4700 2500 50  0001 C CNN
 F 4 "YAGEO" H 4900 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 4900 2800 60  0001 L CNN "MPN"
@@ -1019,12 +1019,12 @@ Wire Wire Line
 Wire Wire Line
 	4700 2350 4700 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C47
+L lpddr4-test-board:C_100n_0201 C47
 U 1 1 605A965A
 P 4975 2500
 F 0 "C47" H 5000 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 4975 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5175 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5175 2700 60  0001 L CNN
 F 3 "" H 4975 2500 50  0001 C CNN
 F 4 "YAGEO" H 5175 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 5175 2800 60  0001 L CNN "MPN"
@@ -1048,12 +1048,12 @@ Wire Wire Line
 Wire Wire Line
 	4975 2350 4975 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C49
+L lpddr4-test-board:C_100n_0201 C49
 U 1 1 605B9F21
 P 5250 2500
 F 0 "C49" H 5275 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 5250 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5450 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5450 2700 60  0001 L CNN
 F 3 "" H 5250 2500 50  0001 C CNN
 F 4 "YAGEO" H 5450 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 5450 2800 60  0001 L CNN "MPN"
@@ -1077,12 +1077,12 @@ Wire Wire Line
 Wire Wire Line
 	5250 2350 5250 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C51
+L lpddr4-test-board:C_100n_0201 C51
 U 1 1 605DA612
 P 5525 2500
 F 0 "C51" H 5550 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 5525 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5725 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5725 2700 60  0001 L CNN
 F 3 "" H 5525 2500 50  0001 C CNN
 F 4 "YAGEO" H 5725 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 5725 2800 60  0001 L CNN "MPN"
@@ -1106,12 +1106,12 @@ Wire Wire Line
 Wire Wire Line
 	5525 2350 5525 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C53
+L lpddr4-test-board:C_100n_0201 C53
 U 1 1 605DA624
 P 5800 2500
 F 0 "C53" H 5825 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 5800 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 6000 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 6000 2700 60  0001 L CNN
 F 3 "" H 5800 2500 50  0001 C CNN
 F 4 "YAGEO" H 6000 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 6000 2800 60  0001 L CNN "MPN"
@@ -1135,12 +1135,12 @@ Wire Wire Line
 Wire Wire Line
 	5800 2350 5800 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C55
+L lpddr4-test-board:C_100n_0201 C55
 U 1 1 605DA636
 P 6075 2500
 F 0 "C55" H 6100 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 6075 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 6275 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 6275 2700 60  0001 L CNN
 F 3 "" H 6075 2500 50  0001 C CNN
 F 4 "YAGEO" H 6275 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 6275 2800 60  0001 L CNN "MPN"
@@ -1164,12 +1164,12 @@ Wire Wire Line
 Wire Wire Line
 	6075 2350 6075 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C57
+L lpddr4-test-board:C_100n_0201 C57
 U 1 1 606435DA
 P 10175 2525
 F 0 "C57" H 10200 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 10175 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10375 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 10375 2725 60  0001 L CNN
 F 3 "" H 10175 2525 50  0001 C CNN
 F 4 "YAGEO" H 10375 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 10375 2825 60  0001 L CNN "MPN"
@@ -1193,12 +1193,12 @@ Wire Wire Line
 Wire Wire Line
 	14625 2375 14625 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C58
+L lpddr4-test-board:C_100n_0201 C58
 U 1 1 606435EC
 P 10450 2525
 F 0 "C58" H 10475 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 10450 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10650 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 10650 2725 60  0001 L CNN
 F 3 "" H 10450 2525 50  0001 C CNN
 F 4 "YAGEO" H 10650 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 10650 2825 60  0001 L CNN "MPN"
@@ -1222,12 +1222,12 @@ Wire Wire Line
 Wire Wire Line
 	10450 2375 10450 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C59
+L lpddr4-test-board:C_100n_0201 C59
 U 1 1 606435FE
 P 10725 2525
 F 0 "C59" H 10750 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 10725 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10925 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 10925 2725 60  0001 L CNN
 F 3 "" H 10725 2525 50  0001 C CNN
 F 4 "YAGEO" H 10925 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 10925 2825 60  0001 L CNN "MPN"
@@ -1251,12 +1251,12 @@ Wire Wire Line
 Wire Wire Line
 	10725 2375 10725 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C60
+L lpddr4-test-board:C_100n_0201 C60
 U 1 1 60643610
 P 11000 2525
 F 0 "C60" H 11025 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 11000 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 11200 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 11200 2725 60  0001 L CNN
 F 3 "" H 11000 2525 50  0001 C CNN
 F 4 "YAGEO" H 11200 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 11200 2825 60  0001 L CNN "MPN"
@@ -1280,12 +1280,12 @@ Wire Wire Line
 Wire Wire Line
 	11000 2375 11000 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C61
+L lpddr4-test-board:C_100n_0201 C61
 U 1 1 60643622
 P 11275 2525
 F 0 "C61" H 11300 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 11275 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 11475 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 11475 2725 60  0001 L CNN
 F 3 "" H 11275 2525 50  0001 C CNN
 F 4 "YAGEO" H 11475 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 11475 2825 60  0001 L CNN "MPN"
@@ -1309,12 +1309,12 @@ Wire Wire Line
 Wire Wire Line
 	11275 2375 11275 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C56
+L lpddr4-test-board:C_100n_0201 C56
 U 1 1 60643634
 P 6350 2500
 F 0 "C56" H 6375 2600 60  0000 L CNN
 F 1 "C_100n_0201" H 6350 2350 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 6550 2700 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 6550 2700 60  0001 L CNN
 F 3 "" H 6350 2500 50  0001 C CNN
 F 4 "YAGEO" H 6550 2900 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 6550 2800 60  0001 L CNN "MPN"
@@ -1340,12 +1340,12 @@ Wire Wire Line
 Wire Wire Line
 	6350 2350 6350 2225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C62
+L lpddr4-test-board:C_100n_0201 C62
 U 1 1 606E4B79
 P 11550 2525
 F 0 "C62" H 11575 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 11550 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 11750 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 11750 2725 60  0001 L CNN
 F 3 "" H 11550 2525 50  0001 C CNN
 F 4 "YAGEO" H 11750 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 11750 2825 60  0001 L CNN "MPN"
@@ -1369,12 +1369,12 @@ Wire Wire Line
 Wire Wire Line
 	11550 2375 11550 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C63
+L lpddr4-test-board:C_100n_0201 C63
 U 1 1 606E4B8A
 P 11825 2525
 F 0 "C63" H 11850 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 11825 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12025 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 12025 2725 60  0001 L CNN
 F 3 "" H 11825 2525 50  0001 C CNN
 F 4 "YAGEO" H 12025 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 12025 2825 60  0001 L CNN "MPN"
@@ -1398,12 +1398,12 @@ Wire Wire Line
 Wire Wire Line
 	11825 2375 11825 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C64
+L lpddr4-test-board:C_100n_0201 C64
 U 1 1 606E4B9B
 P 12100 2525
 F 0 "C64" H 12125 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 12100 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12300 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 12300 2725 60  0001 L CNN
 F 3 "" H 12100 2525 50  0001 C CNN
 F 4 "YAGEO" H 12300 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 12300 2825 60  0001 L CNN "MPN"
@@ -1427,12 +1427,12 @@ Wire Wire Line
 Wire Wire Line
 	12100 2375 12100 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C65
+L lpddr4-test-board:C_100n_0201 C65
 U 1 1 606E4BAC
 P 12375 2525
 F 0 "C65" H 12400 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 12375 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12575 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 12575 2725 60  0001 L CNN
 F 3 "" H 12375 2525 50  0001 C CNN
 F 4 "YAGEO" H 12575 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 12575 2825 60  0001 L CNN "MPN"
@@ -1456,12 +1456,12 @@ Wire Wire Line
 Wire Wire Line
 	12375 2375 12375 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C66
+L lpddr4-test-board:C_100n_0201 C66
 U 1 1 606E4BBD
 P 12650 2525
 F 0 "C66" H 12675 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 12650 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 12850 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 12850 2725 60  0001 L CNN
 F 3 "" H 12650 2525 50  0001 C CNN
 F 4 "YAGEO" H 12850 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 12850 2825 60  0001 L CNN "MPN"
@@ -1485,12 +1485,12 @@ Wire Wire Line
 Wire Wire Line
 	12650 2375 12650 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C67
+L lpddr4-test-board:C_100n_0201 C67
 U 1 1 6070900E
 P 12900 2525
 F 0 "C67" H 12925 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 12900 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13100 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 13100 2725 60  0001 L CNN
 F 3 "" H 12900 2525 50  0001 C CNN
 F 4 "YAGEO" H 13100 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 13100 2825 60  0001 L CNN "MPN"
@@ -1514,12 +1514,12 @@ Wire Wire Line
 Wire Wire Line
 	12900 2375 12900 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C68
+L lpddr4-test-board:C_100n_0201 C68
 U 1 1 6070901F
 P 13175 2525
 F 0 "C68" H 13200 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 13175 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13375 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 13375 2725 60  0001 L CNN
 F 3 "" H 13175 2525 50  0001 C CNN
 F 4 "YAGEO" H 13375 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 13375 2825 60  0001 L CNN "MPN"
@@ -1543,12 +1543,12 @@ Wire Wire Line
 Wire Wire Line
 	13175 2375 13175 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C69
+L lpddr4-test-board:C_100n_0201 C69
 U 1 1 60709030
 P 13450 2525
 F 0 "C69" H 13475 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 13450 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13650 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 13650 2725 60  0001 L CNN
 F 3 "" H 13450 2525 50  0001 C CNN
 F 4 "YAGEO" H 13650 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 13650 2825 60  0001 L CNN "MPN"
@@ -1572,12 +1572,12 @@ Wire Wire Line
 Wire Wire Line
 	13450 2375 13450 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C70
+L lpddr4-test-board:C_100n_0201 C70
 U 1 1 60709041
 P 13725 2525
 F 0 "C70" H 13750 2625 60  0000 L CNN
 F 1 "C_100n_0201" H 13725 2375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 13925 2725 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 13925 2725 60  0001 L CNN
 F 3 "" H 13725 2525 50  0001 C CNN
 F 4 "YAGEO" H 13925 2925 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 13925 2825 60  0001 L CNN "MPN"
@@ -1618,12 +1618,12 @@ Wire Wire Line
 Wire Wire Line
 	7375 3225 7525 3225
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C11
+L lpddr4-test-board:C_100n_0201 C11
 U 1 1 608FFA4B
 P 4700 3975
 F 0 "C11" H 4725 4075 60  0000 L CNN
 F 1 "C_100n_0201" H 4700 3825 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 4900 4175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 4900 4175 60  0001 L CNN
 F 3 "" H 4700 3975 50  0001 C CNN
 F 4 "YAGEO" H 4900 4375 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 4900 4275 60  0001 L CNN "MPN"
@@ -1647,12 +1647,12 @@ Wire Wire Line
 Wire Wire Line
 	4700 3825 4700 3700
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C48
+L lpddr4-test-board:C_100n_0201 C48
 U 1 1 608FFA5D
 P 4975 3975
 F 0 "C48" H 5000 4075 60  0000 L CNN
 F 1 "C_100n_0201" H 4975 3825 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5175 4175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5175 4175 60  0001 L CNN
 F 3 "" H 4975 3975 50  0001 C CNN
 F 4 "YAGEO" H 5175 4375 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 5175 4275 60  0001 L CNN "MPN"
@@ -1678,12 +1678,12 @@ Wire Wire Line
 Wire Wire Line
 	10175 2375 10175 2250
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C50
+L lpddr4-test-board:C_100n_0201 C50
 U 1 1 60942157
 P 5275 3950
 F 0 "C50" H 5300 4050 60  0000 L CNN
 F 1 "C_100n_0201" H 5275 3800 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5475 4150 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5475 4150 60  0001 L CNN
 F 3 "" H 5275 3950 50  0001 C CNN
 F 4 "YAGEO" H 5475 4350 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 5475 4250 60  0001 L CNN "MPN"
@@ -1705,12 +1705,12 @@ $EndComp
 Wire Wire Line
 	5275 4225 5275 4100
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C52
+L lpddr4-test-board:C_100n_0201 C52
 U 1 1 60942167
 P 5550 3950
 F 0 "C52" H 5575 4050 60  0000 L CNN
 F 1 "C_100n_0201" H 5550 3800 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 5750 4150 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5750 4150 60  0001 L CNN
 F 3 "" H 5550 3950 50  0001 C CNN
 F 4 "YAGEO" H 5750 4350 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 5750 4250 60  0001 L CNN "MPN"
@@ -1734,12 +1734,12 @@ Wire Wire Line
 Wire Wire Line
 	5550 3800 5550 3675
 $Comp
-L antmicroCapacitorsmisc:C_100n_0201 C54
+L lpddr4-test-board:C_100n_0201 C54
 U 1 1 60942178
 P 5825 3950
 F 0 "C54" H 5850 4050 60  0000 L CNN
 F 1 "C_100n_0201" H 5825 3800 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 6025 4150 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 6025 4150 60  0001 L CNN
 F 3 "" H 5825 3950 50  0001 C CNN
 F 4 "YAGEO" H 6025 4350 60  0001 L CNN "Manufacturer"
 F 5 "CC0201KRX6S5BB104" H 6025 4250 60  0001 L CNN "MPN"

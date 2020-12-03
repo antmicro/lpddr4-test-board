@@ -154,12 +154,12 @@ Wire Wire Line
 Text GLabel 9875 3675 0    50   Input ~ 0
 DQ11_A
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:2309409-1 J5
+L lpddr4-test-board:2309409-1 J5
 U 2 1 5FCC3654
 P 10850 5275
 F 0 "J5" H 10850 8742 50  0000 C CNN
 F 1 "2309409-1" H 10850 8651 50  0000 C CNN
-F 2 "antmicro-footprints:TE_2309409-1" H 10550 1675 50  0001 L BNN
+F 2 "lpddr4-test-board-footprints:TE_2309409-1" H 10550 1675 50  0001 L BNN
 F 3 "" H 11850 5375 50  0001 L BNN
 	2    10850 5275
 	1    0    0    -1  
@@ -410,12 +410,12 @@ Wire Wire Line
 Text GLabel 6350 7700 0    50   Input ~ 0
 1V1_SYS
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:2309409-1 J5
+L lpddr4-test-board:2309409-1 J5
 U 1 1 5FC76C01
 P 7475 5300
 F 0 "J5" H 7475 8867 50  0000 C CNN
 F 1 "2309409-1" H 7475 8776 50  0000 C CNN
-F 2 "antmicro-footprints:TE_2309409-1" H 7175 1700 50  0001 L BNN
+F 2 "lpddr4-test-board-footprints:TE_2309409-1" H 7175 1700 50  0001 L BNN
 F 3 "" H 8475 5400 50  0001 L BNN
 	1    7475 5300
 	1    0    0    -1  

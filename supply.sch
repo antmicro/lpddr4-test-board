@@ -1355,12 +1355,12 @@ F 3 "" H 12050 8475 60  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroRectangularConnectorsHeadersMalePins:61300311121 J10
+L lpddr4-test-board:61300311121 J10
 U 1 1 603FC14E
 P 11575 4575
 F 0 "J10" H 11487 4587 50  0000 R CNN
 F 1 "61300311121" H 11487 4678 50  0000 R CNN
-F 2 "antmicro-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 11775 4775 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 11775 4775 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 11775 4875 60  0001 L CNN
 F 4 "61300311121" H 11775 5075 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 11775 5675 60  0001 L CNN "Manufacturer"
@@ -1426,12 +1426,12 @@ Connection ~ 5700 2750
 Wire Wire Line
 	5700 2750 5825 2750
 $Comp
-L antmicroResistors0402:R_0R_0402 R55
+L lpddr4-test-board:R_0R_0402 R55
 U 1 1 60B2C496
 P 3375 9925
 F 0 "R55" H 3325 10025 60  0000 C CNN
 F 1 "R_0R_0402" H 3375 9775 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3575 10125 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 3575 10125 60  0001 L CNN
 F 3 "" H 3375 9925 50  0001 C CNN
 F 4 "PANASONIC" H 3575 10325 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 3575 10225 60  0001 L CNN "MPN"
@@ -1440,12 +1440,12 @@ F 6 "0R" H 3425 9850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_120p_0603 C45
+L lpddr4-test-board:C_120p_0603 C45
 U 1 1 60B43827
 P 5000 9925
 F 0 "C45" H 5115 9970 60  0000 L CNN
 F 1 "C_120p_0603" H 5000 9775 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 5200 10125 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 5200 10125 60  0001 L CNN
 F 3 "" H 5000 9925 50  0001 C CNN
 F 4 "WALSIN" H 5200 10325 60  0001 L CNN "Manufacturer"
 F 5 "0603N121J500CT" H 5200 10225 60  0001 L CNN "MPN"
@@ -1466,12 +1466,12 @@ Wire Wire Line
 Text Notes 10625 1050 0    79   ~ 16
 Decoupling
 $Comp
-L antmicroResistors0402:R_5R1_0402 R35
+L lpddr4-test-board:R_5R1_0402 R35
 U 1 1 604E9209
 P 4825 2300
 F 0 "R35" H 4675 2400 60  0000 C CNN
 F 1 "R_5R1_0402" H 4825 2150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5025 2500 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5025 2500 60  0001 L CNN
 F 3 "" H 4825 2300 50  0001 C CNN
 F 4 "PANASONIC" H 5025 2700 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ5R1X" H 5025 2600 60  0001 L CNN "MPN"
@@ -1482,12 +1482,12 @@ $EndComp
 Text Notes 7975 5600 0    79   ~ 16
 TODO Add LM3881 power sequencer
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C4
+L lpddr4-test-board:C_1u_0603 C4
 U 1 1 5FCD598A
 P 2625 2350
 F 0 "C4" H 2740 2395 60  0000 L CNN
 F 1 "C_1u_0603" H 2625 2200 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2825 2550 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 2825 2550 60  0001 L CNN
 F 3 "" H 2625 2350 50  0001 C CNN
 F 4 "WALSIN" H 2825 2750 60  0001 L CNN "Manufacturer"
 F 5 "0603YD105KAT2A" H 2825 2650 60  0001 L CNN "MPN"
@@ -1510,12 +1510,12 @@ F 6 "10u" H 1750 2300 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_100n_0603 C2
+L lpddr4-test-board:C_100n_0603 C2
 U 1 1 5FCD7977
 P 2225 2350
 F 0 "C2" H 2340 2395 60  0000 L CNN
 F 1 "C_100n_0603" H 2225 2200 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 2425 2550 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 2425 2550 60  0001 L CNN
 F 3 "" H 2225 2350 50  0001 C CNN
 F 4 "AVX" H 2425 2750 60  0001 L CNN "Manufacturer"
 F 5 "0603YC104KAZ2A" H 2425 2650 60  0001 L CNN "MPN"
@@ -1524,12 +1524,12 @@ F 6 "100n" H 2340 2297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R38
+L lpddr4-test-board:R_0R_0603 R38
 U 1 1 5FD73258
 P 11750 7350
 F 0 "R38" H 11650 7250 60  0000 C CNN
 F 1 "R_0R_0603" H 11750 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 11950 7550 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 11950 7550 60  0001 L CNN
 F 3 "" H 11750 7350 50  0001 C CNN
 F 4 "BOURNS" H 11950 7750 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 11950 7650 60  0001 L CNN "MPN"
@@ -1565,12 +1565,12 @@ F 3 "" H 11350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R39
+L lpddr4-test-board:R_0R_0603 R39
 U 1 1 5FDA5C63
 P 11750 7125
 F 0 "R39" H 11650 7025 60  0000 C CNN
 F 1 "R_0R_0603" H 11750 6975 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 11950 7325 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 11950 7325 60  0001 L CNN
 F 3 "" H 11750 7125 50  0001 C CNN
 F 4 "BOURNS" H 11950 7525 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 11950 7425 60  0001 L CNN "MPN"
@@ -1579,12 +1579,12 @@ F 6 "0R" H 11900 7025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R41
+L lpddr4-test-board:R_0R_0603 R41
 U 1 1 5FDAEBDB
 P 5975 2750
 F 0 "R41" H 6050 2650 60  0000 C CNN
 F 1 "R_0R_0603" H 5975 2600 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 6175 2950 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 6175 2950 60  0001 L CNN
 F 3 "" H 5975 2750 50  0001 C CNN
 F 4 "BOURNS" H 6175 3150 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 6175 3050 60  0001 L CNN "MPN"
@@ -1593,12 +1593,12 @@ F 6 "0R" H 6050 2575 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0603:R_0R_0603 R43
+L lpddr4-test-board:R_0R_0603 R43
 U 1 1 5FDBEC32
 P 5750 5975
 F 0 "R43" V 5705 6045 60  0000 L CNN
 F 1 "R_0R_0603" H 5750 5825 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 5950 6175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 5950 6175 60  0001 L CNN
 F 3 "" H 5750 5975 50  0001 C CNN
 F 4 "BOURNS" H 5950 6375 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 5950 6275 60  0001 L CNN "MPN"
@@ -1614,12 +1614,12 @@ Connection ~ 6700 6375
 Text GLabel 3225 9650 1    50   Input ~ 0
 VCC5V0_INT
 $Comp
-L antmicroResistors0603:R_0R_0603 R44
+L lpddr4-test-board:R_0R_0603 R44
 U 1 1 5FD15A52
 P 5350 9625
 F 0 "R44" V 5305 9695 60  0000 L CNN
 F 1 "R_0R_0603" H 5350 9475 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 5550 9825 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 5550 9825 60  0001 L CNN
 F 3 "" H 5350 9625 50  0001 C CNN
 F 4 "BOURNS" H 5550 10025 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 5550 9925 60  0001 L CNN "MPN"

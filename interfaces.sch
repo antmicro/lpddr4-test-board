@@ -1738,12 +1738,12 @@ USR_LED5
 Text Notes 8400 8125 0    118  ~ 24
 User LEDs
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q2
+L lpddr4-test-board:BSS138APW Q2
 U 1 1 6090FD8D
 P 8300 8825
 F 0 "Q2" V 8567 8825 60  0000 C CNN
 F 1 "BSS138APW" V 8461 8825 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 8500 9025 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 8500 9025 60  0001 L CNN
 F 3 "" H 8500 9125 60  0001 L CNN
 F 4 "BSS138PW" H 8500 9325 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 8500 9925 60  0001 L CNN "Manufacturer"
@@ -1751,12 +1751,12 @@ F 5 "ON Semiconductor" H 8500 9925 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q4
+L lpddr4-test-board:BSS138APW Q4
 U 1 1 6091F8AC
 P 8325 9600
 F 0 "Q4" V 8592 9600 60  0000 C CNN
 F 1 "BSS138APW" V 8486 9600 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 8525 9800 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 8525 9800 60  0001 L CNN
 F 3 "" H 8525 9900 60  0001 L CNN
 F 4 "BSS138PW" H 8525 10100 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 8525 10700 60  0001 L CNN "Manufacturer"
@@ -1764,12 +1764,12 @@ F 5 "ON Semiconductor" H 8525 10700 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q5
+L lpddr4-test-board:BSS138APW Q5
 U 1 1 6092108D
 P 10475 8825
 F 0 "Q5" V 10742 8825 60  0000 C CNN
 F 1 "BSS138APW" V 10636 8825 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 10675 9025 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 10675 9025 60  0001 L CNN
 F 3 "" H 10675 9125 60  0001 L CNN
 F 4 "BSS138PW" H 10675 9325 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 10675 9925 60  0001 L CNN "Manufacturer"
@@ -1777,12 +1777,12 @@ F 5 "ON Semiconductor" H 10675 9925 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q6
+L lpddr4-test-board:BSS138APW Q6
 U 1 1 60922535
 P 10475 9600
 F 0 "Q6" V 10742 9600 60  0000 C CNN
 F 1 "BSS138APW" V 10636 9600 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 10675 9800 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 10675 9800 60  0001 L CNN
 F 3 "" H 10675 9900 60  0001 L CNN
 F 4 "BSS138PW" H 10675 10100 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 10675 10700 60  0001 L CNN "Manufacturer"
@@ -1790,12 +1790,12 @@ F 5 "ON Semiconductor" H 10675 10700 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroTransistorsFETsMOSFETsSingle:BSS138APW Q3
+L lpddr4-test-board:BSS138APW Q3
 U 1 1 60923B88
 P 8300 10375
 F 0 "Q3" V 8567 10375 60  0000 C CNN
 F 1 "BSS138APW" V 8461 10375 60  0000 C CNN
-F 2 "antmicro-footprints:SC70-3" H 8500 10575 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:SC70-3" H 8500 10575 60  0001 L CNN
 F 3 "" H 8500 10675 60  0001 L CNN
 F 4 "BSS138PW" H 8500 10875 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 8500 11475 60  0001 L CNN "Manufacturer"
@@ -1817,12 +1817,12 @@ SD_CMD
 Text GLabel 11125 7075 0    50   Input ~ 0
 SD_DAT3
 $Comp
-L antmicroCapacitors0603:C_1u_0603 C10
+L lpddr4-test-board:C_1u_0603 C10
 U 1 1 617CD12F
 P 13300 8075
 F 0 "C10" H 13415 8120 60  0000 L CNN
 F 1 "C_1u_0603" H 13300 7925 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 13500 8275 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 13500 8275 60  0001 L CNN
 F 3 "" H 13300 8075 50  0001 C CNN
 F 4 "WALSIN" H 13500 8475 60  0001 L CNN "Manufacturer"
 F 5 "0603YD105KAT2A" H 13500 8375 60  0001 L CNN "MPN"
@@ -1996,12 +1996,12 @@ $EndComp
 Text Notes 4300 8225 0    118  ~ 24
 User buttons
 $Comp
-L antmicroResistors0402:R_22R_0402 R18
+L lpddr4-test-board:R_22R_0402 R18
 U 1 1 6013A2FD
 P 5600 3000
 F 0 "R18" H 5800 3050 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 2850 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 3200 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 3200 60  0001 L CNN
 F 3 "" H 5600 3000 50  0001 C CNN
 F 4 "VISHAY" H 5800 3400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 3300 60  0001 L CNN "MPN"
@@ -2010,12 +2010,12 @@ F 6 "22R" H 5600 3000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R19
+L lpddr4-test-board:R_22R_0402 R19
 U 1 1 6013A700
 P 5600 3100
 F 0 "R19" H 5800 3150 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 2950 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 3300 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 3300 60  0001 L CNN
 F 3 "" H 5600 3100 50  0001 C CNN
 F 4 "VISHAY" H 5800 3500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 3400 60  0001 L CNN "MPN"
@@ -2024,12 +2024,12 @@ F 6 "22R" H 5600 3100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R20
+L lpddr4-test-board:R_22R_0402 R20
 U 1 1 6013A969
 P 5600 3200
 F 0 "R20" H 5800 3250 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3050 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 3400 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 3400 60  0001 L CNN
 F 3 "" H 5600 3200 50  0001 C CNN
 F 4 "VISHAY" H 5800 3600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 3500 60  0001 L CNN "MPN"
@@ -2038,12 +2038,12 @@ F 6 "22R" H 5600 3200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R25
+L lpddr4-test-board:R_22R_0402 R25
 U 1 1 6013AB72
 P 5600 3300
 F 0 "R25" H 5800 3350 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 3500 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 3500 60  0001 L CNN
 F 3 "" H 5600 3300 50  0001 C CNN
 F 4 "VISHAY" H 5800 3700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 3600 60  0001 L CNN "MPN"
@@ -2078,7 +2078,7 @@ TMS_JTAG
 Wire Wire Line
 	5150 3500 5500 3500
 $Comp
-L antmicroTestPoints:test U8
+L lpddr4-test-board:test U8
 U 1 1 601E16F4
 P 5700 3450
 F 0 "U8" V 5631 3500 50  0000 R CNN
@@ -2154,12 +2154,12 @@ USR_BTN2
 Text GLabel 5550 9525 2    50   Input ~ 0
 USR_BTN1
 $Comp
-L antmicroResistors0402:R_22R_0402 R1
+L lpddr4-test-board:R_22R_0402 R1
 U 1 1 5FE0DD48
 P 5600 3850
 F 0 "R1" H 5800 3900 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 4050 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 4050 60  0001 L CNN
 F 3 "" H 5600 3850 50  0001 C CNN
 F 4 "VISHAY" H 5800 4250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 4150 60  0001 L CNN "MPN"
@@ -2168,12 +2168,12 @@ F 6 "22R" H 5600 3850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R2
+L lpddr4-test-board:R_22R_0402 R2
 U 1 1 5FE0E0D9
 P 5600 3950
 F 0 "R2" H 5800 4000 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3800 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 4150 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 4150 60  0001 L CNN
 F 3 "" H 5600 3950 50  0001 C CNN
 F 4 "VISHAY" H 5800 4350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 4250 60  0001 L CNN "MPN"
@@ -2182,12 +2182,12 @@ F 6 "22R" H 5600 3950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R4
+L lpddr4-test-board:R_22R_0402 R4
 U 1 1 5FE0E52B
 P 5600 4150
 F 0 "R4" H 5800 4200 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 4000 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 4350 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 4350 60  0001 L CNN
 F 3 "" H 5600 4150 50  0001 C CNN
 F 4 "VISHAY" H 5800 4550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 4450 60  0001 L CNN "MPN"
@@ -2196,12 +2196,12 @@ F 6 "22R" H 5600 4150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R3
+L lpddr4-test-board:R_22R_0402 R3
 U 1 1 5FE0E30A
 P 5600 4050
 F 0 "R3" H 5800 4100 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 3900 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 4250 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 4250 60  0001 L CNN
 F 3 "" H 5600 4050 50  0001 C CNN
 F 4 "VISHAY" H 5800 4450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 4350 60  0001 L CNN "MPN"
@@ -2236,12 +2236,12 @@ UART0_RX
 Text GLabel 6225 5550 2    50   Input ~ 0
 UART1_RX
 $Comp
-L antmicroResistors0402:R_22R_0402 R6
+L lpddr4-test-board:R_22R_0402 R6
 U 1 1 5FEB07CF
 P 5600 4700
 F 0 "R6" H 5800 4750 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 4550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 4900 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 4900 60  0001 L CNN
 F 3 "" H 5600 4700 50  0001 C CNN
 F 4 "VISHAY" H 5800 5100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 5000 60  0001 L CNN "MPN"
@@ -2250,12 +2250,12 @@ F 6 "22R" H 5600 4700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R37
+L lpddr4-test-board:R_22R_0402 R37
 U 1 1 5FEB0AF8
 P 5600 5650
 F 0 "R37" H 5800 5700 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 5850 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 5850 60  0001 L CNN
 F 3 "" H 5600 5650 50  0001 C CNN
 F 4 "VISHAY" H 5800 6050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 5950 60  0001 L CNN "MPN"
@@ -2268,12 +2268,12 @@ UART0_TX
 Text GLabel 6225 5650 2    50   Input ~ 0
 UART1_TX
 $Comp
-L antmicroResistors0402:R_22R_0402 R7
+L lpddr4-test-board:R_22R_0402 R7
 U 1 1 5FEB126C
 P 5600 4800
 F 0 "R7" H 5800 4850 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 4650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 5000 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 5000 60  0001 L CNN
 F 3 "" H 5600 4800 50  0001 C CNN
 F 4 "VISHAY" H 5800 5200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 5100 60  0001 L CNN "MPN"
@@ -2282,12 +2282,12 @@ F 6 "22R" H 5600 4800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_22R_0402 R8
+L lpddr4-test-board:R_22R_0402 R8
 U 1 1 5FEB1585
 P 5600 5550
 F 0 "R8" H 5800 5600 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 5400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 5750 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 5750 60  0001 L CNN
 F 3 "" H 5600 5550 50  0001 C CNN
 F 4 "VISHAY" H 5800 5950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 5850 60  0001 L CNN "MPN"
@@ -2314,12 +2314,12 @@ Wire Wire Line
 Text GLabel 6225 3850 2    50   Input ~ 0
 AUX_JTAG_TCK
 $Comp
-L antmicroResistors0402:R_22R_0402 R5
+L lpddr4-test-board:R_22R_0402 R5
 U 1 1 601136B0
 P 5600 4350
 F 0 "R5" H 5800 4400 60  0000 C CNN
 F 1 "R_22R_0402" H 5600 4200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5800 4550 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 5800 4550 60  0001 L CNN
 F 3 "" H 5600 4350 50  0001 C CNN
 F 4 "VISHAY" H 5800 4750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5800 4650 60  0001 L CNN "MPN"
@@ -2336,12 +2336,12 @@ AUX_JTAG_RST
 Wire Wire Line
 	3550 6800 3550 7350
 $Comp
-L antmicroInterfaceControllers:FT4232HQ U7
+L lpddr4-test-board:FT4232HQ U7
 U 1 1 601044E5
 P 4350 5150
 F 0 "U7" H 4350 7637 60  0000 C CNN
 F 1 "FT4232HQ" H 4350 7531 60  0000 C CNN
-F 2 "antmicro-footprints:FT4232HQ" V 4550 5350 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:FT4232HQ" V 4550 5350 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4550 5550 60  0001 L CNN
 F 4 "FTDI" H 4550 6300 60  0001 L CNN "Manufacturer"
 F 5 "FT4232HQ-TRAY" H 4550 5700 60  0001 L CNN "MPN"
@@ -2365,12 +2365,12 @@ Text GLabel 4875 9100 1    50   Input ~ 0
 Text GLabel 5375 9125 1    50   Input ~ 0
 3V3_SYS
 $Comp
-L antmicroCrystals:ABM8G-12.000MHZ-18-D2Y-T Y2
+L lpddr4-test-board:ABM8G-12.000MHZ-18-D2Y-T Y2
 U 1 1 61D2EA50
 P 2875 6550
 F 0 "Y2" H 3069 6643 31  0000 L CNN
 F 1 "ABM8G-12.000MHZ-18-D2Y-T" H 3069 6581 31  0000 L CNN
-F 2 "antmicro-footprints:KX-7" H 4975 6550 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:KX-7" H 4975 6550 50  0001 C CNN
 F 3 "" H 5075 6650 50  0001 C CNN
 F 4 "ABM8G-12.000MHZ-18-D2Y-T " H 3069 6519 31  0000 L CNN "MPN"
 F 5 "Abracon" H 3069 6457 31  0000 L CNN "Manufacturer"
