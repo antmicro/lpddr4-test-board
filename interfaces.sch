@@ -1836,7 +1836,7 @@ U 1 1 5FCEBF82
 P 4375 10125
 AR Path="/5FD53C7D/5FCEBF82" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FCEBF82" Ref="USR_BTN2"  Part="1" 
-F 0 "USR_BTN2" V 4125 10125 60  0000 L CNN
+F 0 "USR_BTN2" H 4225 10300 60  0000 L CNN
 F 1 "B3U-1000P" H 4225 10025 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P" H 4575 10325 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 4575 10425 60  0001 L CNN
@@ -1917,7 +1917,7 @@ U 1 1 5FDD28F9
 P 3850 10125
 AR Path="/5FD53C7D/5FDD28F9" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FDD28F9" Ref="USR_BTN1"  Part="1" 
-F 0 "USR_BTN1" V 3600 10125 60  0000 L CNN
+F 0 "USR_BTN1" H 3700 10300 60  0000 L CNN
 F 1 "B3U-1000P" H 3700 10025 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P" H 4050 10325 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 4050 10425 60  0001 L CNN
@@ -1934,7 +1934,7 @@ U 1 1 5FE766D1
 P 4875 10100
 AR Path="/5FD53C7D/5FE766D1" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FE766D1" Ref="USR_BTN3"  Part="1" 
-F 0 "USR_BTN3" V 4650 10100 60  0000 L CNN
+F 0 "USR_BTN3" H 4750 10300 60  0000 L CNN
 F 1 "B3U-1000P" H 4725 10000 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P" H 5075 10300 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5075 10400 60  0001 L CNN
@@ -2126,8 +2126,8 @@ L lpddr4-test-board:B3U-1000P PROG_B?
 U 1 1 5FCB7E4F
 P 5375 10125
 AR Path="/5FD53C7D/5FCB7E4F" Ref="PROG_B?"  Part="1" 
-AR Path="/600E76D8/5FCB7E4F" Ref="USR_BTN_4"  Part="1" 
-F 0 "USR_BTN_4" V 5125 10125 60  0000 L CNN
+AR Path="/600E76D8/5FCB7E4F" Ref="USR_BTN4"  Part="1" 
+F 0 "USR_BTN4" H 5225 10325 60  0000 L CNN
 F 1 "B3U-1000P" H 5225 10025 60  0000 L CNN
 F 2 "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P" H 5575 10325 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 5575 10425 60  0001 L CNN
