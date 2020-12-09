@@ -1465,20 +1465,6 @@ Wire Wire Line
 	5000 10075 5350 10075
 Text Notes 10625 1050 0    79   ~ 16
 Decoupling
-$Comp
-L lpddr4-test-board:R_5R1_0402 R35
-U 1 1 604E9209
-P 4825 2300
-F 0 "R35" H 4675 2400 60  0000 C CNN
-F 1 "R_5R1_0402" H 4825 2150 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0402-res" H 5025 2500 60  0001 L CNN
-F 3 "" H 4825 2300 50  0001 C CNN
-F 4 "PANASONIC" H 5025 2700 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ5R1X" H 5025 2600 60  0001 L CNN "MPN"
-F 6 "5R1" H 4850 2225 50  0000 C CNN "Val"
-	1    4825 2300
-	1    0    0    -1  
-$EndComp
 Text Notes 7975 5600 0    79   ~ 16
 TODO Add LM3881 power sequencer
 $Comp
@@ -1628,4 +1614,20 @@ F 6 "0R" V 5403 9695 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Connection ~ 5350 9775
+$Comp
+L antmicroResistors0402:R_5R1_0402 R35
+U 1 1 609CC1B7
+P 4825 2300
+F 0 "R35" H 4650 2400 60  0000 C CNN
+F 1 "R_5R1_0402" H 4825 2150 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5025 2500 60  0001 L CNN
+F 3 "" H 4825 2300 50  0001 C CNN
+F 4 "PANASONIC" H 5025 2700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ5R1X" H 5025 2600 60  0001 L CNN "MPN"
+F 6 "5R1" H 4825 2300 50  0000 C CNN "Val"
+	1    4825 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 7975 5950 0    79   ~ 16
+TODO Add TPS62080 DC/DC providing VCCINT of 1.0V
 $EndSCHEMATC
