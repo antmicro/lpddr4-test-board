@@ -347,21 +347,17 @@ VCCO (HP banks) max: 2.0V
 Text Notes 8700 1125 0    50   ~ 0
 VCCO (HR banks) max: 3.6V
 NoConn ~ 1900 3700
-NoConn ~ 1900 3800
 NoConn ~ 1900 3900
 NoConn ~ 1900 4000
 NoConn ~ 1900 4100
 NoConn ~ 1900 4200
-NoConn ~ 1900 4300
 NoConn ~ 1900 4400
-NoConn ~ 1900 4500
 NoConn ~ 1900 4600
 NoConn ~ 1900 4700
 NoConn ~ 1900 4800
 NoConn ~ 1900 4900
 NoConn ~ 1900 4975
 NoConn ~ 1900 5100
-NoConn ~ 1900 5200
 NoConn ~ 1900 5900
 NoConn ~ 1900 6000
 NoConn ~ 1900 6100
@@ -378,7 +374,6 @@ NoConn ~ 4800 3900
 NoConn ~ 4800 6200
 NoConn ~ 4800 6300
 NoConn ~ 4800 7200
-NoConn ~ 1900 5300
 Wire Wire Line
 	15450 4325 15000 4325
 Wire Wire Line
@@ -743,65 +738,43 @@ Wire Wire Line
 Text GLabel 10525 4075 2    50   Input ~ 0
 USR_BTN4
 NoConn ~ 1900 2900
-NoConn ~ 1900 3000
-NoConn ~ 1900 3100
 NoConn ~ 1900 3200
 NoConn ~ 1900 3300
 NoConn ~ 1900 3400
 NoConn ~ 1900 3500
-NoConn ~ 1900 3600
 NoConn ~ 1900 2700
 NoConn ~ 1900 2600
 NoConn ~ 1900 2500
 NoConn ~ 1900 2300
-$Comp
-L lpddr4-test-board:XC7K70T-FBG484 U1
-U 1 1 5FB5167E
-P 3350 4600
-F 0 "U1" H 3350 1825 50  0000 C CNN
-F 1 "XC7K70T-FBG484" H 3350 1734 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 3100 5200 50  0001 C CNN
-F 3 "" H 3900 5200 50  0000 C CNN
-	1    3350 4600
-	1    0    0    -1  
-$EndComp
 NoConn ~ 1900 2800
-Text GLabel 11850 6825 0    50   Input ~ 0
+Text GLabel 1650 4500 0    50   Input ~ 0
 AUX_JTAG_TDI
-Text GLabel 11875 5925 0    50   Input ~ 0
+Text GLabel 1675 3000 0    50   Input ~ 0
 AUX_JTAG_TDO
-Text GLabel 11875 6025 0    50   Input ~ 0
+Text GLabel 1675 3600 0    50   Input ~ 0
 AUX_JTAG_TMS
-Text GLabel 11725 6225 0    50   Input ~ 0
+Text GLabel 1550 5200 0    50   Input ~ 0
 UART0_RX
-Text GLabel 11825 3425 0    50   Input ~ 0
+Text GLabel 1625 4300 0    50   Input ~ 0
 UART1_RX
-Text GLabel 11700 6125 0    50   Input ~ 0
-UART0_TX
-Text GLabel 11825 3325 0    50   Input ~ 0
+Text GLabel 1625 3800 0    50   Input ~ 0
 UART1_TX
-Text GLabel 11875 5525 0    50   Input ~ 0
+Text GLabel 1675 3100 0    50   Input ~ 0
 AUX_JTAG_TCK
-Text GLabel 11825 3025 0    50   Input ~ 0
+Text GLabel 1550 5700 0    50   Input ~ 0
 AUX_JTAG_RST
 Wire Wire Line
-	12100 6225 11725 6225
+	1900 4300 1625 4300
 Wire Wire Line
-	12100 6125 11700 6125
+	1900 3800 1625 3800
 Wire Wire Line
-	12100 3325 11825 3325
+	1675 3600 1900 3600
 Wire Wire Line
-	12100 3425 11825 3425
+	1900 3000 1675 3000
 Wire Wire Line
-	11875 6025 12100 6025
+	1650 4500 1900 4500
 Wire Wire Line
-	12100 5925 11875 5925
-Wire Wire Line
-	11850 6825 12100 6825
-Wire Wire Line
-	11875 5525 12100 5525
-Wire Wire Line
-	12100 3025 11825 3025
+	1675 3100 1900 3100
 Wire Wire Line
 	7325 2575 6950 2575
 Wire Wire Line
@@ -814,4 +787,59 @@ Text GLabel 6950 2575 0    50   Input ~ 0
 ETH_REF_CLK
 Text Notes 11500 7875 0    98   ~ 20
 TODO Migrate FTDI interfaces to B13
+Wire Wire Line
+	1900 5700 1550 5700
+Wire Wire Line
+	1900 5200 1550 5200
+Text GLabel 1550 5300 0    50   Input ~ 0
+UART0_TX
+Wire Wire Line
+	1900 5300 1550 5300
+$Comp
+L lpddr4-test-board:XC7K70T-FBG484 U1
+U 1 1 5FB5167E
+P 3350 4600
+F 0 "U1" H 3350 1825 50  0000 C CNN
+F 1 "XC7K70T-FBG484" H 3350 1734 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 3100 5200 50  0001 C CNN
+F 3 "" H 3900 5200 50  0000 C CNN
+	1    3350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 6225 11725 6225
+Text GLabel 11725 6225 0    50   Input ~ 0
+IO_AB11
+Text GLabel 11775 3025 0    50   Input ~ 0
+IO_AB10
+Wire Wire Line
+	11775 3025 12100 3025
+Text GLabel 11725 6125 0    50   Input ~ 0
+IO_AA11
+Wire Wire Line
+	11725 6125 12100 6125
+Text GLabel 11775 3425 0    50   Input ~ 0
+IO_Y11
+Wire Wire Line
+	11775 3425 12100 3425
+Text GLabel 11775 3325 0    50   Input ~ 0
+IO_W11
+Wire Wire Line
+	11775 3325 12100 3325
+Text GLabel 11700 6025 0    50   Input ~ 0
+IO_Y12
+Wire Wire Line
+	12100 6025 11700 6025
+Text GLabel 11700 5925 0    50   Input ~ 0
+IO_W12
+Wire Wire Line
+	11700 5925 12100 5925
+Text GLabel 11750 6825 0    50   Input ~ 0
+IO_V12
+Wire Wire Line
+	11725 6825 12100 6825
+Text GLabel 11700 5525 0    50   Input ~ 0
+IO_U12
+Wire Wire Line
+	11700 5525 12100 5525
 $EndSCHEMATC

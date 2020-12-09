@@ -126,31 +126,31 @@ Wire Wire Line
 Wire Wire Line
 	8200 4400 8500 4400
 Wire Wire Line
-	6450 8000 6975 8000
+	6450 6900 6975 6900
 Wire Wire Line
-	6975 7800 6450 7800
+	6975 6700 6450 6700
 Wire Wire Line
-	6975 8200 6450 8200
+	6975 7100 6450 7100
 Wire Wire Line
-	6975 8100 6450 8100
+	6975 7000 6450 7000
 Wire Wire Line
-	6975 7900 6450 7900
+	6975 6800 6450 6800
 Wire Wire Line
-	6975 8300 6450 8300
-Connection ~ 6450 7800
+	6975 7200 6450 7200
+Connection ~ 6450 6700
 Wire Wire Line
-	6450 7800 6450 7900
-Connection ~ 6450 7900
+	6450 6700 6450 6800
+Connection ~ 6450 6800
 Wire Wire Line
-	6450 7900 6450 8000
-Connection ~ 6450 8100
+	6450 6800 6450 6900
+Connection ~ 6450 7000
 Wire Wire Line
-	6450 8100 6450 8200
-Connection ~ 6450 8200
+	6450 7000 6450 7100
+Connection ~ 6450 7100
 Wire Wire Line
-	6450 8200 6450 8300
+	6450 7100 6450 7200
 Wire Wire Line
-	6975 8400 6450 8400
+	6975 7300 6450 7300
 Text GLabel 9875 3675 0    50   Input ~ 0
 DQ11_A
 $Comp
@@ -399,15 +399,15 @@ Wire Wire Line
 Connection ~ 11425 5475
 Wire Wire Line
 	11425 5475 11425 5975
-Connection ~ 6450 8000
+Connection ~ 6450 6900
 Wire Wire Line
-	6450 8000 6450 8100
-Connection ~ 6450 8300
+	6450 6900 6450 7000
+Connection ~ 6450 7200
 Wire Wire Line
-	6450 8300 6450 8400
+	6450 7200 6450 7300
 Wire Wire Line
-	6350 7700 6450 7700
-Text GLabel 6350 7700 0    50   Input ~ 0
+	6350 6600 6450 6600
+Text GLabel 6350 6600 0    50   Input ~ 0
 1V1_SYS
 $Comp
 L lpddr4-test-board:2309409-1 J5
@@ -600,10 +600,10 @@ Connection ~ 8200 4200
 Wire Wire Line
 	8200 4200 8200 4300
 Wire Wire Line
-	6975 7700 6450 7700
+	6975 6600 6450 6600
 Wire Wire Line
-	6450 7700 6450 7800
-Connection ~ 6450 7700
+	6450 6600 6450 6700
+Connection ~ 6450 6600
 Wire Wire Line
 	9825 8075 10350 8075
 Wire Wire Line
@@ -727,4 +727,40 @@ Text GLabel 11775 5075 2    50   Input ~ 0
 IO_N5
 Wire Wire Line
 	11350 5075 11775 5075
+Text GLabel 10075 2675 0    50   Input ~ 0
+IO_AB10
+Text GLabel 10075 2575 0    50   Input ~ 0
+IO_AB11
+Text GLabel 10075 2475 0    50   Input ~ 0
+IO_AA11
+Text GLabel 10075 2375 0    50   Input ~ 0
+IO_Y11
+Text GLabel 10075 2275 0    50   Input ~ 0
+IO_W11
+Text GLabel 10075 2175 0    50   Input ~ 0
+IO_Y12
+Text GLabel 10075 2075 0    50   Input ~ 0
+IO_W12
+Wire Wire Line
+	10075 2075 10350 2075
+Wire Wire Line
+	10075 2175 10350 2175
+Wire Wire Line
+	10075 2275 10350 2275
+Wire Wire Line
+	10075 2375 10350 2375
+Wire Wire Line
+	10075 2475 10350 2475
+Wire Wire Line
+	10075 2575 10350 2575
+Wire Wire Line
+	10075 2675 10350 2675
+Text GLabel 6700 8400 0    50   Input ~ 0
+IO_V12
+Text GLabel 6700 8300 0    50   Input ~ 0
+IO_U12
+Wire Wire Line
+	6700 8300 6975 8300
+Wire Wire Line
+	6975 8400 6700 8400
 $EndSCHEMATC
