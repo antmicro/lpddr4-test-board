@@ -264,7 +264,7 @@ SD_DAT3
 Wire Notes Line
 	6350 7950 6350 500 
 Text Notes 6625 925  0    98   ~ 20
-SODIMM-SPECIFIC
+INTERFACES
 Text Notes 1675 850  0    98   ~ 20
 INTERFACES
 Wire Wire Line
@@ -812,4 +812,6 @@ Wire Wire Line
 	7325 3675 6950 3675
 Text GLabel 6950 2575 0    50   Input ~ 0
 ETH_REF_CLK
+Text Notes 11500 7875 0    98   ~ 20
+TODO Migrate FTDI interfaces to B13
 $EndSCHEMATC
