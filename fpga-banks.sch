@@ -636,7 +636,7 @@ Text GLabel 15125 3825 2    50   Input ~ 0
 DQ04_A
 Text GLabel 15125 3525 2    50   Input ~ 0
 DQ05_A
-Text GLabel 15125 3225 2    50   Input ~ 0
+Text GLabel 15125 2425 2    50   Input ~ 0
 DMI_0A
 Text GLabel 15125 2825 2    50   Input ~ 0
 DQ_S0_CA
@@ -644,7 +644,7 @@ Text GLabel 15125 3725 2    50   Input ~ 0
 DQ06_A
 Text GLabel 15125 2725 2    50   Input ~ 0
 DQ_S0_TA
-Text GLabel 15125 2425 2    50   Input ~ 0
+Text GLabel 15125 3225 2    50   Input ~ 0
 DQ07_A
 Text GLabel 15125 2625 2    50   Input ~ 0
 DQ03_A

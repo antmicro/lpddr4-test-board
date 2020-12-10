@@ -232,7 +232,7 @@ Text GLabel 9850 4975 0    50   Input ~ 0
 DQ05_A
 Text GLabel 9850 5075 0    50   Input ~ 0
 DQ06_A
-Text GLabel 9850 5375 0    50   Input ~ 0
+Text GLabel 9850 5175 0    50   Input ~ 0
 DQ07_A
 Text GLabel 9850 5475 0    50   Input ~ 0
 DQ_S0_CA
@@ -249,7 +249,7 @@ Wire Wire Line
 	10000 3575 10000 4375
 Wire Wire Line
 	9850 4075 10350 4075
-Text GLabel 9850 5175 0    50   Input ~ 0
+Text GLabel 9850 5375 0    50   Input ~ 0
 DMI_0A
 Text GLabel 9850 5575 0    50   Input ~ 0
 DQ_S0_TA
