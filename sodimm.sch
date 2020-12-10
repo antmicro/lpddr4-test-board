@@ -257,13 +257,13 @@ Wire Wire Line
 	9850 5475 10350 5475
 Wire Wire Line
 	9850 5575 10350 5575
-Text GLabel 9825 5675 0    50   Input ~ 0
-DQ03_A
-Text GLabel 9825 5775 0    50   Input ~ 0
-DQ02_A
-Text GLabel 9825 5875 0    50   Input ~ 0
-DQ01_A
 Text GLabel 9825 5975 0    50   Input ~ 0
+DQ03_A
+Text GLabel 9825 5875 0    50   Input ~ 0
+DQ02_A
+Text GLabel 9825 5775 0    50   Input ~ 0
+DQ01_A
+Text GLabel 9825 5675 0    50   Input ~ 0
 DQ00_A
 Wire Wire Line
 	9825 5675 10350 5675

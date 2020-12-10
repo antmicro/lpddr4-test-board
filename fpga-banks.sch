@@ -646,13 +646,13 @@ Text GLabel 15125 2725 2    50   Input ~ 0
 DQ_S0_TA
 Text GLabel 15125 3225 2    50   Input ~ 0
 DQ07_A
-Text GLabel 15125 2625 2    50   Input ~ 0
-DQ03_A
-Text GLabel 15125 3025 2    50   Input ~ 0
-DQ02_A
-Text GLabel 15125 2525 2    50   Input ~ 0
-DQ01_A
 Text GLabel 15125 2925 2    50   Input ~ 0
+DQ03_A
+Text GLabel 15125 2525 2    50   Input ~ 0
+DQ02_A
+Text GLabel 15125 3025 2    50   Input ~ 0
+DQ01_A
+Text GLabel 15125 2625 2    50   Input ~ 0
 DQ00_A
 Wire Wire Line
 	15475 6625 15000 6625
