@@ -547,7 +547,7 @@ F 6 "10k2" V 5053 7320 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text Notes 2800 950  0    79   ~ 16
-Power manager
+LPDDR4 PMIC
 Text Notes 2700 4700 0    79   ~ 16
 Main supply (5V 5A)
 Wire Wire Line
@@ -1818,9 +1818,11 @@ Wire Wire Line
 Wire Wire Line
 	7800 6250 7800 5875
 $Comp
-L antmicroCapacitors0402:C_100n_0402_6V3 C101
+L lpddr4-test-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C101
 U 1 1 5FE75452
 P 9800 5700
+AR Path="/5FE75452" Ref="C101"  Part="1" 
+AR Path="/60225B0C/5FE75452" Ref="C101"  Part="1" 
 F 0 "C101" H 9915 5745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9800 5550 60  0001 C CNN
 F 2 "antmicro-footprints:0402-cap" H 10000 5900 60  0001 L CNN
