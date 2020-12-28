@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.0"
@@ -356,19 +356,6 @@ NoConn ~ 1900 4600
 NoConn ~ 1900 4700
 NoConn ~ 1900 4800
 NoConn ~ 1900 4900
-NoConn ~ 1900 4975
-NoConn ~ 1900 5100
-NoConn ~ 1900 5900
-NoConn ~ 1900 6000
-NoConn ~ 1900 6100
-NoConn ~ 1900 6200
-NoConn ~ 1900 6300
-NoConn ~ 1900 6400
-NoConn ~ 1900 6500
-NoConn ~ 1900 6600
-NoConn ~ 1900 6700
-NoConn ~ 1900 6800
-NoConn ~ 1900 6900
 NoConn ~ 4800 3000
 NoConn ~ 4800 3900
 NoConn ~ 4800 6200
@@ -581,8 +568,6 @@ Wire Wire Line
 	4800 3400 5300 3400
 Wire Wire Line
 	4800 2900 5300 2900
-NoConn ~ 1900 7000
-NoConn ~ 1900 7100
 NoConn ~ 1900 7200
 Text GLabel 5300 3600 2    50   Input ~ 0
 GCLK100
@@ -795,17 +780,6 @@ Text GLabel 1550 5300 0    50   Input ~ 0
 UART0_TX
 Wire Wire Line
 	1900 5300 1550 5300
-$Comp
-L lpddr4-test-board:XC7K70T-FBG484 U1
-U 1 1 5FB5167E
-P 3350 4600
-F 0 "U1" H 3350 1825 50  0000 C CNN
-F 1 "XC7K70T-FBG484" H 3350 1734 50  0000 C CNN
-F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 3100 5200 50  0001 C CNN
-F 3 "" H 3900 5200 50  0000 C CNN
-	1    3350 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12100 6225 11725 6225
 Text GLabel 11725 6225 0    50   Input ~ 0
@@ -842,4 +816,67 @@ Text GLabel 11700 5525 0    50   Input ~ 0
 IO_U12
 Wire Wire Line
 	11700 5525 12100 5525
+Text GLabel 1550 5600 0    50   Input ~ 0
+HR_CS
+Text GLabel 1550 6100 0    50   Input ~ 0
+HR_RST
+Text GLabel 1550 5400 0    50   Input ~ 0
+HR_CKP
+Text GLabel 1550 5500 0    50   Input ~ 0
+HR_CKN
+Text GLabel 1550 6900 0    50   Input ~ 0
+HR_DQ0
+Text GLabel 1550 5900 0    50   Input ~ 0
+HR_DQ1
+Text GLabel 1550 5800 0    50   Input ~ 0
+HR_DQ2
+Text GLabel 1550 6600 0    50   Input ~ 0
+HR_DQ3
+Text GLabel 1550 6700 0    50   Input ~ 0
+HR_DQ4
+Text GLabel 1550 6800 0    50   Input ~ 0
+HR_DQ5
+Text GLabel 1550 6500 0    50   Input ~ 0
+HR_DQ6
+Text GLabel 1550 5000 0    50   Input ~ 0
+HR_DQ7
+$Comp
+L lpddr4-test-board:XC7K70T-FBG484 U1
+U 1 1 5FB5167E
+P 3350 4600
+F 0 "U1" H 3350 1825 50  0000 C CNN
+F 1 "XC7K70T-FBG484" H 3350 1734 50  0000 C CNN
+F 2 "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N" H 3100 5200 50  0001 C CNN
+F 3 "" H 3900 5200 50  0000 C CNN
+	1    3350 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 5400 1900 5400
+Wire Wire Line
+	1550 5500 1900 5500
+Wire Wire Line
+	1550 5600 1900 5600
+Wire Wire Line
+	1550 6100 1900 6100
+Wire Wire Line
+	1550 5900 1900 5900
+Wire Wire Line
+	1550 6900 1900 6900
+Wire Wire Line
+	1550 5800 1900 5800
+Wire Wire Line
+	1550 6600 1900 6600
+Wire Wire Line
+	1550 6700 1900 6700
+Wire Wire Line
+	1550 6800 1900 6800
+Wire Wire Line
+	1550 6500 1900 6500
+Wire Wire Line
+	1550 5000 1900 5000
+Wire Wire Line
+	1550 5100 1900 5100
+Text GLabel 1550 5100 0    50   Input ~ 0
+HR_RW
 $EndSCHEMATC
