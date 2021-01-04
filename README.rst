@@ -29,8 +29,8 @@ Key Features
 * Modular design with custom DDR4 SO-DIMM connector
 * HDMI output connector
 * Ethernet RJ45 connector with 100BASE-T transciever
-* Micro USB debug connector with FT4232HQ FTDI USB controller.
-* JTAG connector compatible with Xilinx Platform Cable
+* Micro USB debug connector with FT4232HQ FTDI USB controller
+* JTAG
 * microSD card slot
 * QSPI FLASH memory
 * External 4.5-18V power input
