@@ -478,14 +478,12 @@ Text GLabel 7000 6275 0    50   Input ~ 0
 ETH_TXD0
 Text GLabel 6950 3575 0    50   Input ~ 0
 ETH_MDC
-Text GLabel 6950 2675 0    50   Input ~ 0
+Text GLabel 7025 4575 0    50   Input ~ 0
 ETH_RX_CLK
 Text GLabel 6975 3275 0    50   Input ~ 0
 ETH_RX_DV
-Text GLabel 7025 6175 0    50   Input ~ 0
+Text GLabel 7025 4775 0    50   Input ~ 0
 ETH_TX_CLK
-Wire Wire Line
-	6950 2675 7325 2675
 Wire Wire Line
 	6975 3275 7325 3275
 Wire Wire Line
@@ -569,10 +567,8 @@ Wire Wire Line
 Wire Wire Line
 	4800 2900 5300 2900
 NoConn ~ 1900 7200
-Text GLabel 5300 3600 2    50   Input ~ 0
+Text GLabel 5275 4600 2    50   Input ~ 0
 GCLK100
-Wire Wire Line
-	4800 3600 5300 3600
 NoConn ~ 4800 2300
 Text GLabel 15475 6625 2    50   Input ~ 0
 DQ11_A
@@ -879,4 +875,10 @@ Wire Wire Line
 	1550 5100 1900 5100
 Text GLabel 1550 5100 0    50   Input ~ 0
 HR_RW
+Wire Wire Line
+	4800 4600 5275 4600
+Wire Wire Line
+	7025 4775 7325 4775
+Wire Wire Line
+	7325 4575 7025 4575
 $EndSCHEMATC
