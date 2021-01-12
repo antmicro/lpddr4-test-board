@@ -766,8 +766,6 @@ Wire Wire Line
 	7325 3675 6950 3675
 Text GLabel 6950 2575 0    50   Input ~ 0
 ETH_REF_CLK
-Text Notes 11500 7875 0    98   ~ 20
-TODO Migrate FTDI interfaces to B13
 Wire Wire Line
 	1900 5700 1550 5700
 Wire Wire Line
