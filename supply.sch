@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 6 9
 Title "LPDDR4 Test Board"
 Date ""
-Rev "1.0.0"
+Rev "1.0.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -2307,4 +2307,39 @@ F 5 "PDS760-13" H 13050 8525 50  0000 C CNN "MPN"
 $EndComp
 Wire Wire Line
 	12725 8425 12725 8525
+Text Notes 12400 6825 0    79   ~ 16
+Optional FAN connector
+$Comp
+L lpddr4-test-board:61300311121 J8
+U 1 1 60001A7D
+P 12525 7200
+F 0 "J8" H 12437 7212 50  0000 R CNN
+F 1 "61300311121" H 12825 7075 50  0000 R CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 12725 7400 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 12725 7500 60  0001 L CNN
+F 4 "61300311121" H 12725 7700 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 12725 8300 60  0001 L CNN "Manufacturer"
+	1    12525 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:GND #PWR036
+U 1 1 60003077
+P 12950 7475
+F 0 "#PWR036" H 12950 7225 50  0001 C CNN
+F 1 "GND" H 12955 7302 50  0000 C CNN
+F 2 "" H 12950 7475 50  0001 C CNN
+F 3 "" H 12950 7475 50  0001 C CNN
+	1    12950 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12675 7400 12950 7400
+Wire Wire Line
+	12950 7400 12950 7475
+Text GLabel 13025 7200 2    50   Input ~ 0
+VCC5V0_INT
+Wire Wire Line
+	12675 7200 13025 7200
+NoConn ~ 12675 7300
 $EndSCHEMATC
