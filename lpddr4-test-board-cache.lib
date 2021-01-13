@@ -53,6 +53,18 @@ X 1 1 -200 0 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMechanicalParts_oshw_logo
+#
+DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N
+F0 "N" 20 40 50 H V C CNN
+F1 "antmicroMechanicalParts_oshw_logo" 30 -150 50 H V C CNN
+F2 "antmicro-footprints:oshw-logo" 20 -240 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 30 -40 79 0 1 1 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0603_R_1k_0603
 #
 DEF antmicroResistors0603_R_1k_0603 R 0 0 Y Y 1 F N

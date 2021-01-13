@@ -944,10 +944,10 @@ F 6 "4k7" H 5650 3575 50  0000 L CNN "Val"
 	0    -1   1    0   
 $EndComp
 $Comp
-L lpddr4-test-board:62000311121 CFG1
+L lpddr4-test-board:62000311121 MODE2
 U 1 1 6148AC57
 P 8700 10050
-F 0 "CFG1" H 8622 10055 50  0000 R CNN
+F 0 "MODE2" H 8622 10055 50  0000 R CNN
 F 1 "62000311121" H 8750 9850 50  0001 C CNN
 F 2 "lpddr4-test-board-footprints:62000311121" H 8800 10300 60  0001 L CNN
 F 3 "https://www.we-online.com/catalog/datasheet/62000311121.pdf" H 8900 10350 60  0001 L CNN

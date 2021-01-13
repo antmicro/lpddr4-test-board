@@ -2772,4 +2772,15 @@ C8 82 01 00 00 00 00 00 00 00 80 EA 43 16 0C 00 00 00 00 00 00 00 00 54 1F B2 60
 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L antmicroMechanicalParts:oshw_logo N?
+U 1 1 603B54EA
+P 1400 7000
+F 0 "N?" H 1594 7003 50  0000 L CNN
+F 1 "oshw_logo" H 1594 6912 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 1420 6760 50  0001 C CNN
+F 3 "" H 1400 7000 50  0001 C CNN
+	1    1400 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
