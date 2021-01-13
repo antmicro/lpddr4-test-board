@@ -943,12 +943,12 @@ Wire Wire Line
 Text GLabel 14600 8850 2    50   Input ~ 0
 VREF_34
 $Comp
-L antmicroResistors0603:R_1k_0603 R65
+L lpddr4-test-board:R_1k_0603 R65
 U 1 1 600B17BC
 P 13575 8700
 F 0 "R65" V 13525 8450 60  0000 L CNN
 F 1 "R_1k_0603" H 13575 8550 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 13775 8900 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 13775 8900 60  0001 L CNN
 F 3 "" H 13575 8700 50  0001 C CNN
 F 4 "BOURNS" H 13775 9100 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-102ELF" H 13775 9000 60  0001 L CNN "MPN"
@@ -957,12 +957,12 @@ F 6 "1k" V 13625 8525 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0603:R_1k_0603 R66
+L lpddr4-test-board:R_1k_0603 R66
 U 1 1 600B201C
 P 13575 9000
 F 0 "R66" V 13525 8750 60  0000 L CNN
 F 1 "R_1k_0603" H 13575 8850 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 13775 9200 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 13775 9200 60  0001 L CNN
 F 3 "" H 13575 9000 50  0001 C CNN
 F 4 "BOURNS" H 13775 9400 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-102ELF" H 13775 9300 60  0001 L CNN "MPN"

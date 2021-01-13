@@ -2001,12 +2001,12 @@ Wire Wire Line
 Text Notes 10475 2300 0    79   ~ 16
 Plane Decoupling
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C106
+L lpddr4-test-board:C_10n_0603 C106
 U 1 1 60003ED3
 P 10550 2925
 F 0 "C106" H 10665 2970 60  0000 L CNN
 F 1 "C_10n_0603" H 10550 2775 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 10750 3125 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 10750 3125 60  0001 L CNN
 F 3 "" H 10550 2925 50  0001 C CNN
 F 4 "AVX" H 10750 3325 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 10750 3225 60  0001 L CNN "MPN"
@@ -2028,12 +2028,12 @@ $EndComp
 Text GLabel 10550 2775 1    50   Input ~ 0
 VDDQ
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C107
+L lpddr4-test-board:C_10n_0603 C107
 U 1 1 6001D22C
 P 11050 2925
 F 0 "C107" H 11165 2970 60  0000 L CNN
 F 1 "C_10n_0603" H 11050 2775 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 11250 3125 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 11250 3125 60  0001 L CNN
 F 3 "" H 11050 2925 50  0001 C CNN
 F 4 "AVX" H 11250 3325 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 11250 3225 60  0001 L CNN "MPN"
@@ -2055,12 +2055,12 @@ $EndComp
 Text GLabel 11050 2775 1    50   Input ~ 0
 VDDQ
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C108
+L lpddr4-test-board:C_10n_0603 C108
 U 1 1 60023729
 P 11475 2950
 F 0 "C108" H 11590 2995 60  0000 L CNN
 F 1 "C_10n_0603" H 11475 2800 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 11675 3150 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 11675 3150 60  0001 L CNN
 F 3 "" H 11475 2950 50  0001 C CNN
 F 4 "AVX" H 11675 3350 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 11675 3250 60  0001 L CNN "MPN"
@@ -2082,12 +2082,12 @@ $EndComp
 Text GLabel 11475 2800 1    50   Input ~ 0
 VDDQ
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C109
+L lpddr4-test-board:C_10n_0603 C109
 U 1 1 60029BE0
 P 11950 2950
 F 0 "C109" H 12065 2995 60  0000 L CNN
 F 1 "C_10n_0603" H 11950 2800 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 12150 3150 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 12150 3150 60  0001 L CNN
 F 3 "" H 11950 2950 50  0001 C CNN
 F 4 "AVX" H 12150 3350 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 12150 3250 60  0001 L CNN "MPN"
@@ -2111,12 +2111,12 @@ VDDQ
 Text GLabel 12575 2825 1    50   Input ~ 0
 1V8_SYS
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C110
+L lpddr4-test-board:C_10n_0603 C110
 U 1 1 60050A58
 P 12575 2975
 F 0 "C110" H 12690 3020 60  0000 L CNN
 F 1 "C_10n_0603" H 12575 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 12775 3175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 12775 3175 60  0001 L CNN
 F 3 "" H 12575 2975 50  0001 C CNN
 F 4 "AVX" H 12775 3375 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 12775 3275 60  0001 L CNN "MPN"
@@ -2138,12 +2138,12 @@ $EndComp
 Text GLabel 13075 2825 1    50   Input ~ 0
 1V8_SYS
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C111
+L lpddr4-test-board:C_10n_0603 C111
 U 1 1 600519C1
 P 13075 2975
 F 0 "C111" H 13190 3020 60  0000 L CNN
 F 1 "C_10n_0603" H 13075 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 13275 3175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 13275 3175 60  0001 L CNN
 F 3 "" H 13075 2975 50  0001 C CNN
 F 4 "AVX" H 13275 3375 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 13275 3275 60  0001 L CNN "MPN"
@@ -2165,12 +2165,12 @@ $EndComp
 Text GLabel 13550 2825 1    50   Input ~ 0
 1V8_SYS
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C112
+L lpddr4-test-board:C_10n_0603 C112
 U 1 1 60057FF0
 P 13550 2975
 F 0 "C112" H 13665 3020 60  0000 L CNN
 F 1 "C_10n_0603" H 13550 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 13750 3175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 13750 3175 60  0001 L CNN
 F 3 "" H 13550 2975 50  0001 C CNN
 F 4 "AVX" H 13750 3375 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 13750 3275 60  0001 L CNN "MPN"
@@ -2192,12 +2192,12 @@ $EndComp
 Text GLabel 14000 2825 1    50   Input ~ 0
 1V8_SYS
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C113
+L lpddr4-test-board:C_10n_0603 C113
 U 1 1 6005E663
 P 14000 2975
 F 0 "C113" H 14115 3020 60  0000 L CNN
 F 1 "C_10n_0603" H 14000 2825 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 14200 3175 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 14200 3175 60  0001 L CNN
 F 3 "" H 14000 2975 50  0001 C CNN
 F 4 "AVX" H 14200 3375 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 14200 3275 60  0001 L CNN "MPN"
@@ -2217,12 +2217,12 @@ F 3 "" H 14000 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroSlideSwitches:EG1218 S1
+L lpddr4-test-board:EG1218 S1
 U 1 1 602873C2
 P 10350 8725
 F 0 "S1" H 10350 9006 50  0000 C CNN
 F 1 "EG1218" H 10350 8915 50  0000 C CNN
-F 2 "antmicro-footprints:Switch_Slide_11.6x4mm_EG1218" H 10550 8925 50  0001 L CNN
+F 2 "lpddr4-test-board-footprints:Switch_Slide_11.6x4mm_EG1218" H 10550 8925 50  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 10550 9025 60  0001 L CNN
 F 4 "EG1218" H 10550 9225 60  0001 L CNN "MPN"
 F 5 "E-Switch" H 10550 9825 60  0001 L CNN "Manufacturer"
@@ -2251,12 +2251,12 @@ Wire Wire Line
 Wire Wire Line
 	10675 8825 10675 9000
 $Comp
-L antmicroCapacitorsmisc:C_47u_16V_1206 C116
+L lpddr4-test-board:C_47u_16V_1206 C116
 U 1 1 602EDD65
 P 1000 5300
 F 0 "C116" H 1115 5345 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 1000 5150 60  0001 C CNN
-F 2 "antmicro-footprints:1206-cap" H 1200 5500 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-cap" H 1200 5500 60  0001 L CNN
 F 3 "" H 1000 5300 50  0001 C CNN
 F 4 "TDK" H 1200 5700 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 1200 5600 60  0001 L CNN "MPN"
@@ -2265,12 +2265,12 @@ F 6 "47u/16V" H 1115 5247 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_16V_1206 C117
+L lpddr4-test-board:C_47u_16V_1206 C117
 U 1 1 602EFA5A
 P 1575 5300
 F 0 "C117" H 1690 5345 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 1575 5150 60  0001 C CNN
-F 2 "antmicro-footprints:1206-cap" H 1775 5500 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-cap" H 1775 5500 60  0001 L CNN
 F 3 "" H 1575 5300 50  0001 C CNN
 F 4 "TDK" H 1775 5700 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 1775 5600 60  0001 L CNN "MPN"
@@ -2279,12 +2279,12 @@ F 6 "47u/16V" H 1690 5247 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_47u_16V_1206 C118
+L lpddr4-test-board:C_47u_16V_1206 C118
 U 1 1 602EFC89
 P 2150 5300
 F 0 "C118" H 2265 5345 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 2150 5150 60  0001 C CNN
-F 2 "antmicro-footprints:1206-cap" H 2350 5500 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:1206-cap" H 2350 5500 60  0001 L CNN
 F 3 "" H 2150 5300 50  0001 C CNN
 F 4 "TDK" H 2350 5700 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 2350 5600 60  0001 L CNN "MPN"

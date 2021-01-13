@@ -2773,23 +2773,23 @@ C8 82 01 00 00 00 00 00 00 00 80 EA 43 16 0C 00 00 00 00 00 00 00 00 54 1F B2 60
 EndData
 $EndBitmap
 $Comp
-L antmicroMechanicalParts:oshw_logo N1
+L lpddr4-test-board:oshw_logo N1
 U 1 1 603B54EA
 P 3700 10500
 F 0 "N1" H 3894 10503 50  0000 L CNN
 F 1 "oshw_logo" H 3894 10412 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 3720 10260 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:oshw-logo" H 3720 10260 50  0001 C CNN
 F 3 "" H 3700 10500 50  0001 C CNN
 	1    3700 10500
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:antmicro_logo N2
+L lpddr4-test-board:antmicro_logo N2
 U 1 1 60405260
 P 3675 10850
 F 0 "N2" H 3889 10943 50  0000 L CNN
 F 1 "antmicro_logo" H 3889 10852 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo" H 3575 11100 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:antmicro-logo" H 3575 11100 50  0001 C CNN
 F 3 "" H 3675 11200 50  0001 C CNN
 	1    3675 10850
 	1    0    0    -1  
