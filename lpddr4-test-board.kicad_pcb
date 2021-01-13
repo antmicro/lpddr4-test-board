@@ -1338,7 +1338,7 @@
     (add_net DBG_USB_P)
   )
 
-  (module antmicro-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60019F05)
+  (module lpddr4-test-board-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60019F05)
     (at 162.836328 89.897157)
     (path /5F96C515/602A2807)
     (attr smd)
@@ -1373,7 +1373,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60019EF1)
+  (module lpddr4-test-board-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60019EF1)
     (at 170.536328 86.697157 180)
     (path /5F96C515/602A22BC)
     (attr smd)
@@ -1408,7 +1408,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 6000BB6C)
+  (module lpddr4-test-board-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 6000BB6C)
     (at 169.636328 88.497157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -1476,7 +1476,7 @@
     )
   )
 
-  (module antmicro-footprints:FBGA-24 (layer F.Cu) (tedit 5FE9F0E9) (tstamp 5FEC6D55)
+  (module lpddr4-test-board-footprints:FBGA-24 (layer F.Cu) (tedit 5FE9F0E9) (tstamp 5FEC6D55)
     (at 150.696328 97.277157 90)
     (path /5FEA2994/60063BBD)
     (fp_text reference U11 (at 3.525757 -3.096928 180) (layer F.SilkS)
@@ -2055,7 +2055,7 @@
     )
   )
 
-  (module antmicro-footprints:VSSOP8-Texas_Instruments-DGK0008A (layer F.Cu) (tedit 5FCA1CC5) (tstamp 5FD185F7)
+  (module lpddr4-test-board-footprints:VSSOP8-Texas_Instruments-DGK0008A (layer F.Cu) (tedit 5FCA1CC5) (tstamp 5FD185F7)
     (at 138.125 95.5)
     (path /60225B0C/5FE68F88)
     (fp_text reference U10 (at 0.661328 -2.252843) (layer F.SilkS)
@@ -2191,7 +2191,7 @@
       (net 557 /Supply/VCC_INT_EN))
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD17A5A)
+  (module lpddr4-test-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD17A5A)
     (at 136.5 98.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2225,7 +2225,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179BF)
+  (module lpddr4-test-board-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179BF)
     (at 131.875 84.375 90)
     (path /60225B0C/5FE2EB23)
     (attr smd)
@@ -2260,7 +2260,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179AB)
+  (module lpddr4-test-board-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179AB)
     (at 134.125 85 180)
     (path /60225B0C/5FE2DA05)
     (attr smd)
@@ -2330,7 +2330,7 @@
     )
   )
 
-  (module antmicro-footprints:0402 (layer F.Cu) (tedit 5E68CD62) (tstamp 5FD17983)
+  (module lpddr4-test-board-footprints:0402 (layer F.Cu) (tedit 5E68CD62) (tstamp 5FD17983)
     (at 115 110.5 180)
     (path /60225B0C/5FE39D9C)
     (attr smd)
@@ -2351,7 +2351,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD5130C)
+  (module lpddr4-test-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD5130C)
     (at 115.875 108.89 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2406,7 +2406,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD1683C)
+  (module lpddr4-test-board-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD1683C)
     (at 136.5 93)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2440,7 +2440,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD1682D)
+  (module lpddr4-test-board-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD1682D)
     (at 139.5 98.25)
     (path /60225B0C/5FEE4E91)
     (attr smd)
@@ -2544,7 +2544,7 @@
     )
   )
 
-  (module antmicro-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD29723)
+  (module lpddr4-test-board-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD29723)
     (at 132.75 92.375 180)
     (path /60225B0C/5FE45523)
     (attr smd)
@@ -2579,7 +2579,7 @@
     )
   )
 
-  (module antmicro-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDAB6B0)
+  (module lpddr4-test-board-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDAB6B0)
     (at 118.875 96.125 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)

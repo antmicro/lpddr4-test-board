@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name lpddr4-test-board)(type Legacy)(uri ${KIPRJMOD}/lib/lpddr4-test-board.lib)(options "")(descr ""))
   (lib (name lpddr4-test-board-rescue)(type Legacy)(uri ${KIPRJMOD}/lpddr4-test-board-rescue.lib)(options "")(descr ""))
+  (lib (name lpddr4-test-board)(type Legacy)(uri ${KIPRJMOD}/lib/lpddr4-test-board.lib)(options "")(descr ""))
 )

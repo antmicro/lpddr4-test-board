@@ -1556,12 +1556,12 @@ F 6 "0R" V 4203 9570 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_5R1_0402 R35
+L lpddr4-test-board:R_5R1_0402 R35
 U 1 1 609CC1B7
 P 4475 2275
 F 0 "R35" H 4300 2375 60  0000 C CNN
 F 1 "R_5R1_0402" H 4475 2125 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4675 2475 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4675 2475 60  0001 L CNN
 F 3 "" H 4475 2275 50  0001 C CNN
 F 4 "PANASONIC" H 4675 2675 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ5R1X" H 4675 2575 60  0001 L CNN "MPN"
@@ -1723,12 +1723,12 @@ Wire Wire Line
 Wire Wire Line
 	5475 9775 6300 9775
 $Comp
-L antmicroResistors0603:R_66k5_0603 R48
+L lpddr4-test-board:R_66k5_0603 R48
 U 1 1 5FE2DA05
 P 8100 9775
 F 0 "R48" V 8055 9845 60  0000 L CNN
 F 1 "R_66k5_0603" H 8100 9625 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 8300 9975 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 8300 9975 60  0001 L CNN
 F 3 "" H 8100 9775 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 8300 10175 60  0001 L CNN "Manufacturer"
 F 5 "ERJ3EKF6652V" H 8300 10075 60  0001 L CNN "MPN"
@@ -1737,12 +1737,12 @@ F 6 "66k5" V 8153 9845 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0603:R_100k_0603 R49
+L lpddr4-test-board:R_100k_0603 R49
 U 1 1 5FE2EB23
 P 8100 10075
 F 0 "R49" V 8055 10145 60  0000 L CNN
 F 1 "R_100k_0603" H 8100 9925 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 8300 10275 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-res" H 8300 10275 60  0001 L CNN
 F 3 "" H 8100 10075 50  0001 C CNN
 F 4 "BOURNS" H 8300 10475 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-FX-1003HLF" H 8300 10375 60  0001 L CNN "MPN"
@@ -1752,12 +1752,12 @@ F 6 "100k" V 8153 10145 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 8100 9925
 $Comp
-L antmicroResistors0402:R_453k_0402 R45
+L lpddr4-test-board:R_453k_0402 R45
 U 1 1 5FE38DF2
 P 4150 9800
 F 0 "R45" V 4105 9870 60  0000 L CNN
 F 1 "R_453k_0402" H 4150 9650 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4350 10000 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 4350 10000 60  0001 L CNN
 F 3 "" H 4150 9800 50  0001 C CNN
 F 4 "VISHAY" H 4350 10200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402453KFKED" H 4350 10100 60  0001 L CNN "MPN"
@@ -1766,12 +1766,12 @@ F 6 "453k" V 4203 9870 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_1%_0402 R46
+L lpddr4-test-board:R_100k_1%_0402 R46
 U 1 1 5FE39D9C
 P 4150 10100
 F 0 "R46" V 4105 10170 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 4150 9950 60  0001 C CNN
-F 2 "antmicro-footprints:0402" H 4350 10300 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402" H 4350 10300 60  0001 L CNN
 F 3 "" H 4150 10100 50  0001 C CNN
 F 4 "PANASONIC" H 4350 10500 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 4350 10400 60  0001 L CNN "MPN"
@@ -1782,12 +1782,12 @@ $EndComp
 Connection ~ 4150 9650
 Connection ~ 4150 9950
 $Comp
-L antmicroCapacitors0603:C_4u7_0603 C97
+L lpddr4-test-board:C_4u7_0603 C97
 U 1 1 5FE45523
 P 5975 10075
 F 0 "C97" H 5725 10100 60  0000 L CNN
 F 1 "C_4u7_0603" H 5975 9925 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 6175 10275 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 6175 10275 60  0001 L CNN
 F 3 "" H 5975 10075 50  0001 C CNN
 F 4 "TDK" H 6175 10475 60  0001 L CNN "Manufacturer"
 F 5 "C1608X5R1V475M080AC" H 6175 10375 60  0001 L CNN "MPN"
@@ -1818,14 +1818,14 @@ Wire Wire Line
 Wire Wire Line
 	7800 6250 7800 5875
 $Comp
-L lpddr4-test-board-rescue:C_100n_0402_6V3-antmicroCapacitors0402 C101
+L lpddr4-test-board:C_100n_0402_6V3-antmicroCapacitors0402 C101
 U 1 1 5FE75452
 P 9800 5700
 AR Path="/5FE75452" Ref="C101"  Part="1" 
 AR Path="/60225B0C/5FE75452" Ref="C101"  Part="1" 
 F 0 "C101" H 9915 5745 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9800 5550 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 10000 5900 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-cap" H 10000 5900 60  0001 L CNN
 F 3 "" H 9800 5700 50  0001 C CNN
 F 4 "Walsin" H 10000 6100 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 10000 6000 60  0001 L CNN "MPN"
@@ -1851,12 +1851,12 @@ SYS_ON
 Wire Wire Line
 	7775 6350 8250 6350
 $Comp
-L antmicroPMICVoltageRegulatorsDCDCSwitchingControllers:LM3881MME_NOPB U10
+L lpddr4-test-board:LM3881MME_NOPB U10
 U 1 1 5FE68F88
 P 8650 6350
 F 0 "U10" H 8650 6843 60  0000 C CNN
 F 1 "LM3881MME_NOPB" H 8400 6000 60  0001 L CNN
-F 2 "antmicro-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 8850 6550 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 8850 6550 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm3881.pdf?ts=1607507933694&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fsequencers%252Fproducts.html" H 8850 6650 60  0001 L CNN
 F 4 "Texas Instruments" H 8650 6737 60  0000 C CNN "Manufacturer"
 F 5 "LM3881MME/NOPB" H 8650 6631 60  0000 C CNN "MPN"
@@ -1891,12 +1891,12 @@ VCC_AUX_EN
 Text Label 9325 6450 0    50   ~ 0
 VCC_IO_EN
 $Comp
-L antmicroResistors0402:R_0R_0402 R55
+L lpddr4-test-board:R_0R_0402 R55
 U 1 1 5FEBD15D
 P 8050 6750
 F 0 "R55" V 8005 6820 60  0000 L CNN
 F 1 "R_0R_0402" H 8050 6600 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8250 6950 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 8250 6950 60  0001 L CNN
 F 3 "" H 8050 6750 50  0001 C CNN
 F 4 "PANASONIC" H 8250 7150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8250 7050 60  0001 L CNN "MPN"
@@ -1926,12 +1926,12 @@ Enabled by default
 Text Notes 9275 6850 0    47   ~ 0
 STEP1 - VCCINT   (1.0V) for FPGA\nSTEP2 - VCCAUX (1.8V, 1.1V) for FPGA and DDR\nSTEP3 - VCCIO     (3.3V, 1.1V) for FPGA and DDR
 $Comp
-L antmicroCapacitors0603:C_10n_0603 C100
+L lpddr4-test-board:C_10n_0603 C100
 U 1 1 5FEE4E91
 P 7700 6700
 F 0 "C100" H 7585 6655 60  0000 R CNN
 F 1 "C_10n_0603" H 7700 6550 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 7900 6900 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0603-cap" H 7900 6900 60  0001 L CNN
 F 3 "" H 7700 6700 50  0001 C CNN
 F 4 "AVX" H 7900 7100 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 7900 7000 60  0001 L CNN "MPN"
