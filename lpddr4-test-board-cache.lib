@@ -19,6 +19,24 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroCapacitorsmisc_C_47u_16V_1206
+#
+DEF antmicroCapacitorsmisc_C_47u_16V_1206 C 0 0 Y Y 1 F N
+F0 "C" -55 135 60 H V L CNN
+F1 "antmicroCapacitorsmisc_C_47u_16V_1206" 0 -150 60 H I C CNN
+F2 "antmicro-footprints:1206-cap" 200 200 60 H I L CNN
+F3 "" 0 0 50 H I C CNN
+F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
+F5 "C3216X5R1C476M160AB" 200 300 60 H I L CNN "MPN"
+F6 "47u/16V" 0 -100 50 H V C CNN "Val"
+DRAW
+P 2 1 1 20 -80 -30 80 -30 N
+P 2 1 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 0 0 1 1 P
+X ~ 2 0 -150 110 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_9774050151
 #
 DEF antmicroMechanicalParts_9774050151 SP 0 40 Y Y 1 F N
@@ -49,6 +67,26 @@ DRAW
 S 100 -40 -100 40 1 1 10 N
 X ~ 1 -150 0 50 R 0 0 1 1 P
 X ~ 2 150 0 50 L 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# antmicroSlideSwitches_EG1218
+#
+DEF antmicroSlideSwitches_EG1218 S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "antmicroSlideSwitches_EG1218" 0 -210 50 H V C CNN
+F2 "antmicro-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
+F4 "EG1218" 200 500 60 H I L CNN "MPN"
+F5 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -1025,24 +1063,6 @@ F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402N270J500CT" 200 300 60 H I L CNN "MPN"
 F6 "27p" 0 -100 50 H V C CNN "Val"
-DRAW
-P 2 1 1 20 -80 -30 80 -30 N
-P 2 1 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 0 0 1 1 P
-X ~ 2 0 -150 110 U 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# lpddr4-test-board_C_2u2_0402
-#
-DEF lpddr4-test-board_C_2u2_0402 C 0 0 Y Y 1 F N
-F0 "C" -55 135 60 H V L CNN
-F1 "lpddr4-test-board_C_2u2_0402" 0 -150 60 H I C CNN
-F2 "lpddr4-test-board-footprints:0402-cap" 200 200 60 H I L CNN
-F3 "" 0 0 50 H I C CNN
-F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
-F5 "C1005X5R1A225K050BC" 200 300 60 H I L CNN "MPN"
-F6 "2u2" 0 -100 50 H V C CNN "Val"
 DRAW
 P 2 1 1 20 -80 -30 80 -30 N
 P 2 1 1 20 -80 30 80 30 N
