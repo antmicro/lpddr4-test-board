@@ -19,6 +19,22 @@ X ~ 2 0 -150 110 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMechanicalParts_9774050151
+#
+DEF antmicroMechanicalParts_9774050151 SP 0 40 Y Y 1 F N
+F0 "SP" -100 100 60 H V L BNN
+F1 "antmicroMechanicalParts_9774050151" -100 -200 60 H V L BNN
+F2 "antmicro-footprints:9774050151" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "Wurth Elektronik" 0 0 50 H I C CNN "Manufacturer"
+F5 "9774050151" 0 0 50 H I C CNN "MPN"
+DRAW
+S -100 -100 100 100 0 1 10 f
+S -50 -50 50 50 0 1 10 f
+X 1 1 -200 0 100 R 1 1 0 1 P
+ENDDRAW
+ENDDEF
+#
 # antmicroResistors0603_R_1k_0603
 #
 DEF antmicroResistors0603_R_1k_0603 R 0 0 Y Y 1 F N

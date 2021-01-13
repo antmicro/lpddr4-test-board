@@ -759,4 +759,19 @@ Wire Wire Line
 	6700 8300 6975 8300
 Wire Wire Line
 	6975 8400 6700 8400
+$Comp
+L antmicroMechanicalParts:9774050151 SP1
+U 1 1 602507EB
+P 1300 9475
+F 0 "SP1" H 1430 9528 60  0000 L CNN
+F 1 "9774050151" H 1430 9422 60  0000 L CNN
+F 2 "antmicro-footprints:9774050151" H 1300 9475 60  0001 C CNN
+F 3 "https://www.we-online.com/catalog/datasheet/9774050151.pdf" H 1300 9475 60  0001 C CNN
+F 4 "Wurth Elektronik" H 1300 9475 50  0001 C CNN "Manufacturer"
+F 5 "9774050151" H 1300 9475 50  0001 C CNN "MPN"
+	1    1300 9475
+	1    0    0    -1  
+$EndComp
+Text Notes 950  9075 0    79   ~ 16
+Mechanical protection
 $EndSCHEMATC
