@@ -53,6 +53,18 @@ X 1 1 -200 0 100 R 1 1 0 1 P
 ENDDRAW
 ENDDEF
 #
+# antmicroMechanicalParts_antmicro_logo
+#
+DEF antmicroMechanicalParts_antmicro_logo N 0 40 Y Y 1 F N
+F0 "N" 0 350 50 H V C CNN
+F1 "antmicroMechanicalParts_antmicro_logo" 0 -200 50 H V C CNN
+F2 "antmicro-footprints:antmicro-logo" -100 250 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+T 0 50 50 79 0 0 0 Logo Normal 0 C C
+ENDDRAW
+ENDDEF
+#
 # antmicroMechanicalParts_oshw_logo
 #
 DEF antmicroMechanicalParts_oshw_logo N 0 40 Y Y 1 F N

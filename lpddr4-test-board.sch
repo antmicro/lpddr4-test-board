@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 9
 Title "LPDDR4 Test Board"
@@ -14,43 +14,43 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2275 5375 750  500 
+S 5500 6425 750  500 
 U 5F96C515
 F0 "FPGA Banks" 50
 F1 "fpga-banks.sch" 50
 $EndSheet
 $Sheet
-S 4275 5375 750  500 
+S 7500 6425 750  500 
 U 5FD53C7D
 F0 "Config SPI flash" 50
 F1 "config-spi.sch" 50
 $EndSheet
 $Sheet
-S 5275 5375 750  500 
+S 8500 6425 750  500 
 U 600295C1
 F0 "FPGA power" 50
 F1 "fpga-power.sch" 50
 $EndSheet
 $Sheet
-S 6275 5375 750  500 
+S 9500 6425 750  500 
 U 5F982999
 F0 "Ethernet" 50
 F1 "ethernet.sch" 50
 $EndSheet
 $Sheet
-S 7275 5375 750  500 
+S 10500 6425 750  500 
 U 60225B0C
 F0 "Supply" 50
 F1 "supply.sch" 50
 $EndSheet
 $Sheet
-S 3275 5375 750  500 
+S 6500 6425 750  500 
 U 600E76D8
 F0 "Interfaces" 50
 F1 "interfaces.sch" 50
 $EndSheet
 $Sheet
-S 8275 5375 750  500 
+S 11500 6425 750  500 
 U 5F9FE97C
 F0 "SO-DIMM" 50
 F1 "sodimm.sch" 50
@@ -58,13 +58,13 @@ $EndSheet
 Text Notes 600  800  0    118  ~ 24
 LPDDR4 Test Board
 $Sheet
-S 1275 5375 750  500 
+S 4500 6425 750  500 
 U 5FEA2994
 F0 "HyperRAM" 50
 F1 "hyperram.sch" 50
 $EndSheet
 $Bitmap
-Pos 5900 2700
+Pos 8475 3750
 Scale 1.000000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 06 57 00 00 04 59 08 02 00 00 00 D8 5A C1 
@@ -2773,14 +2773,25 @@ C8 82 01 00 00 00 00 00 00 00 80 EA 43 16 0C 00 00 00 00 00 00 00 00 54 1F B2 60
 EndData
 $EndBitmap
 $Comp
-L antmicroMechanicalParts:oshw_logo N?
+L antmicroMechanicalParts:oshw_logo N1
 U 1 1 603B54EA
-P 1400 7000
-F 0 "N?" H 1594 7003 50  0000 L CNN
-F 1 "oshw_logo" H 1594 6912 50  0000 L CNN
-F 2 "antmicro-footprints:oshw-logo" H 1420 6760 50  0001 C CNN
-F 3 "" H 1400 7000 50  0001 C CNN
-	1    1400 7000
+P 3700 10500
+F 0 "N1" H 3894 10503 50  0000 L CNN
+F 1 "oshw_logo" H 3894 10412 50  0000 L CNN
+F 2 "antmicro-footprints:oshw-logo" H 3720 10260 50  0001 C CNN
+F 3 "" H 3700 10500 50  0001 C CNN
+	1    3700 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMechanicalParts:antmicro_logo N2
+U 1 1 60405260
+P 3675 10850
+F 0 "N2" H 3889 10943 50  0000 L CNN
+F 1 "antmicro_logo" H 3889 10852 50  0000 L CNN
+F 2 "antmicro-footprints:antmicro-logo" H 3575 11100 50  0001 C CNN
+F 3 "" H 3675 11200 50  0001 C CNN
+	1    3675 10850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
