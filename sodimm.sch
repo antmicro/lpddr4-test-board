@@ -381,10 +381,6 @@ Wire Wire Line
 	11750 4775 11350 4775
 Wire Wire Line
 	11350 5375 11750 5375
-Text GLabel 11750 5575 2    50   Input ~ 0
-IO_L5
-Wire Wire Line
-	11350 5575 11750 5575
 Text GLabel 11750 5875 2    50   Input ~ 0
 IO_K4
 Wire Wire Line

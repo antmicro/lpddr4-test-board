@@ -400,7 +400,7 @@ Wire Wire Line
 Wire Wire Line
 	15125 3225 15000 3225
 Wire Wire Line
-	15450 3325 15000 3325
+	15125 3325 15000 3325
 Wire Wire Line
 	7725 1475 7725 1350
 Wire Wire Line
@@ -669,10 +669,10 @@ Text GLabel 10525 4675 2    50   Input ~ 0
 USR_LED4
 Text GLabel 15175 2325 2    50   Input ~ 0
 CA_0A
-Text GLabel 15125 3425 2    50   Input ~ 0
+Text GLabel 15125 3325 2    50   Input ~ 0
 CA_1A
 Wire Wire Line
-	15000 2225 15450 2225
+	15000 2225 15175 2225
 Text GLabel 15125 3125 2    50   Input ~ 0
 CS0_A
 Text GLabel 15125 4025 2    50   Input ~ 0
@@ -701,10 +701,6 @@ Text GLabel 15450 4325 2    50   Input ~ 0
 IO_P4
 Text GLabel 15450 3925 2    50   Input ~ 0
 IO_M5
-Text GLabel 15450 3325 2    50   Input ~ 0
-IO_L5
-Text GLabel 15450 2225 2    50   Input ~ 0
-IO_K4
 NoConn ~ 15000 5325
 Text GLabel 15450 5425 2    50   Input ~ 0
 IO_U5
@@ -712,8 +708,6 @@ NoConn ~ 15000 5925
 NoConn ~ 15000 5825
 Text GLabel 15450 5725 2    50   Input ~ 0
 IO_N5
-NoConn ~ 15000 6025
-NoConn ~ 15000 7125
 Wire Wire Line
 	10225 4075 10525 4075
 Text GLabel 10525 4075 2    50   Input ~ 0
@@ -879,4 +873,90 @@ Wire Wire Line
 	7025 4775 7325 4775
 Wire Wire Line
 	7325 4575 7025 4575
+Text GLabel 15475 6025 2    50   Input ~ 0
+VREF_34
+Wire Wire Line
+	15000 6025 15475 6025
+Text GLabel 15125 3425 2    50   Input ~ 0
+VREF_34
+Text GLabel 15150 1200 2    50   Input ~ 0
+VREF_34
+$Comp
+L antmicroResistors0402:R_0R_0402 R62
+U 1 1 601CDE08
+P 14900 1200
+F 0 "R62" H 14900 1100 60  0000 C CNN
+F 1 "R_0R_0402" H 14900 1050 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 15100 1400 60  0001 L CNN
+F 3 "" H 14900 1200 50  0001 C CNN
+F 4 "PANASONIC" H 15100 1600 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 15100 1500 60  0001 L CNN "MPN"
+F 6 "0R" H 14900 1200 50  0000 C CNN "Val"
+	1    14900 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 14750 1200
+Wire Wire Line
+	15050 1200 15150 1200
+Text GLabel 15175 2225 2    50   Input ~ 0
+VRN
+Text GLabel 15500 7125 2    50   Input ~ 0
+VRP
+Wire Wire Line
+	15500 7125 15000 7125
+Text GLabel 12450 8075 0    50   Input ~ 0
+VRP
+Text GLabel 12475 7725 0    50   Input ~ 0
+VRN
+$Comp
+L antmicroResistors0603:R_120R_0603 R63
+U 1 1 602A22BC
+P 12800 7725
+F 0 "R63" H 12800 7938 60  0000 C CNN
+F 1 "R_120R_0603" H 12800 7575 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 13000 7925 60  0001 L CNN
+F 3 "" H 12800 7725 50  0001 C CNN
+F 4 "VISHAY" H 13000 8125 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 13000 8025 60  0001 L CNN "MPN"
+F 6 "120R" H 12800 7840 50  0000 C CNN "Val"
+	1    12800 7725
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistors0603:R_120R_0603 R64
+U 1 1 602A2807
+P 12800 8075
+F 0 "R64" H 12800 8288 60  0000 C CNN
+F 1 "R_120R_0603" H 12800 7925 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 13000 8275 60  0001 L CNN
+F 3 "" H 12800 8075 50  0001 C CNN
+F 4 "VISHAY" H 13000 8475 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 13000 8375 60  0001 L CNN "MPN"
+F 6 "120R" H 12800 8190 50  0000 C CNN "Val"
+	1    12800 8075
+	1    0    0    -1  
+$EndComp
+Text GLabel 13100 7725 2    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	12950 7725 13100 7725
+Wire Wire Line
+	12650 7725 12475 7725
+Wire Wire Line
+	12450 8075 12650 8075
+$Comp
+L lpddr4-test-board:GND #PWR024
+U 1 1 602F09F8
+P 13200 8175
+F 0 "#PWR024" H 13200 7925 50  0001 C CNN
+F 1 "GND" H 13205 8002 50  0000 C CNN
+F 2 "" H 13200 8175 50  0001 C CNN
+F 3 "" H 13200 8175 50  0001 C CNN
+	1    13200 8175
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 8075 13200 8075
+Wire Wire Line
+	13200 8075 13200 8175
 $EndSCHEMATC
