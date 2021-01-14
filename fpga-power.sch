@@ -676,22 +676,6 @@ F 6 "47u" H 14400 2450 50  0000 L CNN "Val"
 $EndComp
 $Comp
 L lpddr4-test-board:C_47u_0603 C?
-U 1 1 6061374A
-P 14625 2550
-AR Path="/5F96C515/6061374A" Ref="C?"  Part="1" 
-AR Path="/600295C1/6061374A" Ref="C21"  Part="1" 
-F 0 "C21" H 14650 2650 60  0000 L CNN
-F 1 "C_47u_0603" H 14625 2400 60  0001 C CNN
-F 2 "lpddr4-test-board-footprints:0603-cap" H 14825 2750 60  0001 L CNN
-F 3 "" H 14625 2550 50  0001 C CNN
-F 4 "MURATA" H 14825 2950 60  0001 L CNN "Manufacturer"
-F 5 "GRM188R60J476ME15D" H 14825 2850 60  0001 L CNN "MPN"
-F 6 "47u" H 14650 2450 50  0000 L CNN "Val"
-	1    14625 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:C_47u_0603 C?
 U 1 1 60613753
 P 775 7700
 AR Path="/5F96C515/60613753" Ref="C?"  Part="1" 
@@ -731,8 +715,6 @@ Wire Wire Line
 Wire Wire Line
 	14375 2400 14375 2200
 Wire Wire Line
-	14625 2400 14625 2200
-Wire Wire Line
 	775  7550 775  7425
 Wire Wire Line
 	1100 7550 1100 7425
@@ -744,8 +726,6 @@ Wire Wire Line
 	14125 2900 14125 2700
 Wire Wire Line
 	14375 2900 14375 2700
-Wire Wire Line
-	14625 2900 14625 2700
 Wire Wire Line
 	775  7900 775  7850
 Wire Wire Line
@@ -800,19 +780,6 @@ F 1 "GND" H 14380 2727 50  0000 C CNN
 F 2 "" H 14375 2900 50  0001 C CNN
 F 3 "" H 14375 2900 50  0001 C CNN
 	1    14375 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:GND #PWR?
-U 1 1 60613788
-P 14625 2900
-AR Path="/5F96C515/60613788" Ref="#PWR?"  Part="1" 
-AR Path="/600295C1/60613788" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 14625 2650 50  0001 C CNN
-F 1 "GND" H 14630 2727 50  0000 C CNN
-F 2 "" H 14625 2900 50  0001 C CNN
-F 3 "" H 14625 2900 50  0001 C CNN
-	1    14625 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1330,8 +1297,6 @@ Text GLabel 13875 2200 1    50   Input ~ 0
 Text GLabel 14125 2200 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 14375 2200 1    50   Input ~ 0
-3V3_SYS
-Text GLabel 14625 2200 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 1100 7425 1    50   Input ~ 0
 VDDQ
