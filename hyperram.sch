@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 9 9
 Title "LPDDR4 Test Board"
 Date ""
-Rev "1.0.1"
+Rev "1.0.3"
 Comp ""
 Comment1 ""
 Comment2 ""
