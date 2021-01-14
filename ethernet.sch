@@ -647,229 +647,8 @@ Text GLabel 8775 4650 0    50   Input ~ 0
 LED_SPD
 Text GLabel 8750 5150 0    50   Input ~ 0
 ETH_RSTN
-Text GLabel 8625 9400 0    50   Input ~ 0
-LED_SPD
 Text Notes 10225 6700 2    118  ~ 24
 RJ45 Connector
-$Comp
-L antmicroModularConnectorsJacksWithMagnetics:L834-1G1T-S7 J?
-U 1 1 6031434D
-P 10125 8650
-AR Path="/600427B4/6031434D" Ref="J?"  Part="1" 
-AR Path="/5F982999/6031434D" Ref="J2"  Part="1" 
-F 0 "J2" H 10455 8696 50  0000 L CNN
-F 1 "L834-1G1T-S7" H 10455 8605 50  0000 L CNN
-F 2 "artix-dc-scm-footprints:BEL_L834-1G1T-S7" H 10125 8650 50  0001 L BNN
-F 3 "" H 10125 8650 50  0001 L BNN
-F 4 "L834-1G1T-S7" H 10125 8650 50  0001 L BNN "MPN"
-F 5 "Bel Magnetic Solutions" H 10125 8650 50  0001 L BNN "Manufacturer"
-	1    10125 8650
-	1    0    0    -1  
-$EndComp
-Text Label 8975 7650 2    50   ~ 0
-ETH1_N
-Text Label 8975 7450 2    50   ~ 0
-ETH1_P
-Text Label 8975 7850 2    50   ~ 0
-ETH2_P
-Text Label 8975 8050 2    50   ~ 0
-ETH2_N
-Text Label 8975 8450 2    50   ~ 0
-ETH3_N
-Text Label 8975 8250 2    50   ~ 0
-ETH3_P
-Text Label 8975 8850 2    50   ~ 0
-ETH4_N
-Text Label 8975 8650 2    50   ~ 0
-ETH4_P
-Wire Wire Line
-	9075 9050 9625 9050
-Wire Wire Line
-	9075 9400 9625 9400
-$Comp
-L lpddr4-test-board:R_220R_0402 R?
-U 1 1 60314360
-P 8925 9050
-AR Path="/5FE270C1/60314360" Ref="R?"  Part="1" 
-AR Path="/60570C04/60314360" Ref="R?"  Part="1" 
-AR Path="/600427B4/60314360" Ref="R?"  Part="1" 
-AR Path="/5F982999/60314360" Ref="R62"  Part="1" 
-F 0 "R62" H 8925 9150 60  0000 C CNN
-F 1 "R_220R_0402" H 8925 8900 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9125 9250 60  0001 L CNN
-F 3 "" H 8925 9050 50  0001 C CNN
-F 4 "Panasonic" H 9125 9450 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ221X" H 9125 9350 60  0001 L CNN "MPN"
-F 6 "220R" H 8925 9050 50  0000 C CNN "Val"
-	1    8925 9050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L lpddr4-test-board:R_220R_0402 R?
-U 1 1 60314369
-P 8925 9400
-AR Path="/5FE270C1/60314369" Ref="R?"  Part="1" 
-AR Path="/60570C04/60314369" Ref="R?"  Part="1" 
-AR Path="/600427B4/60314369" Ref="R?"  Part="1" 
-AR Path="/5F982999/60314369" Ref="R67"  Part="1" 
-F 0 "R67" H 8925 9500 60  0000 C CNN
-F 1 "R_220R_0402" H 8925 9250 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-res" H 9125 9600 60  0001 L CNN
-F 3 "" H 8925 9400 50  0001 C CNN
-F 4 "Panasonic" H 9125 9800 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GEJ221X" H 9125 9700 60  0001 L CNN "MPN"
-F 6 "220R" H 8925 9400 50  0000 C CNN "Val"
-	1    8925 9400
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	8625 9050 8775 9050
-Text GLabel 8625 9050 0    50   Input ~ 0
-LED_LINK
-Wire Wire Line
-	8625 9400 8775 9400
-Wire Wire Line
-	9625 9150 9575 9150
-Wire Wire Line
-	9575 9150 9575 9500
-Wire Wire Line
-	9575 9500 9625 9500
-Wire Wire Line
-	9575 9500 9575 9850
-Connection ~ 9575 9500
-Wire Wire Line
-	9625 9850 9575 9850
-Connection ~ 9575 9850
-Wire Wire Line
-	9575 9850 9575 10150
-$Comp
-L lpddr4-test-board:C_100n_0402_16V C?
-U 1 1 60314383
-P 9475 8350
-AR Path="/626D078D/60314383" Ref="C?"  Part="1" 
-AR Path="/60570C04/60314383" Ref="C?"  Part="1" 
-AR Path="/60314383" Ref="C?"  Part="1" 
-AR Path="/5FF245C4/60314383" Ref="C?"  Part="1" 
-AR Path="/600427B4/60314383" Ref="C?"  Part="1" 
-AR Path="/5F982999/60314383" Ref="C145"  Part="1" 
-F 0 "C145" V 9525 8075 60  0000 L CNN
-F 1 "C_100n_0402" H 9475 8200 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 9675 8550 60  0001 L CNN
-F 3 "" H 9475 8350 50  0001 C CNN
-F 4 "Walsin" H 9675 8750 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9675 8650 60  0001 L CNN "MPN"
-F 6 "100n" V 9425 8100 50  0000 L CNN "Val"
-	1    9475 8350
-	0    1    1    0   
-$EndComp
-$Comp
-L lpddr4-test-board:C_100n_0402_16V C?
-U 1 1 6031439E
-P 9475 8750
-AR Path="/626D078D/6031439E" Ref="C?"  Part="1" 
-AR Path="/60570C04/6031439E" Ref="C?"  Part="1" 
-AR Path="/6031439E" Ref="C?"  Part="1" 
-AR Path="/5FF245C4/6031439E" Ref="C?"  Part="1" 
-AR Path="/600427B4/6031439E" Ref="C?"  Part="1" 
-AR Path="/5F982999/6031439E" Ref="C146"  Part="1" 
-F 0 "C146" V 9525 8475 60  0000 L CNN
-F 1 "C_100n_0402" H 9475 8600 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 9675 8950 60  0001 L CNN
-F 3 "" H 9475 8750 50  0001 C CNN
-F 4 "Walsin" H 9675 9150 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9675 9050 60  0001 L CNN "MPN"
-F 6 "100n" V 9425 8500 50  0000 L CNN "Val"
-	1    9475 8750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8725 7450 9625 7450
-Wire Wire Line
-	8725 7650 9625 7650
-Wire Wire Line
-	8725 7850 9625 7850
-Wire Wire Line
-	8725 8050 9625 8050
-Wire Wire Line
-	8725 8250 9625 8250
-Wire Wire Line
-	8725 8450 9625 8450
-Wire Wire Line
-	8725 8650 9625 8650
-Wire Wire Line
-	8725 8850 9625 8850
-Wire Wire Line
-	9325 7550 9175 7550
-Wire Wire Line
-	9175 7550 9175 7950
-Wire Wire Line
-	9175 9850 9575 9850
-Wire Wire Line
-	9325 8750 9175 8750
-Connection ~ 9175 8750
-Wire Wire Line
-	9175 8750 9175 9850
-Wire Wire Line
-	9325 8350 9175 8350
-Connection ~ 9175 8350
-Wire Wire Line
-	9175 8350 9175 8750
-Wire Wire Line
-	9325 7950 9175 7950
-Connection ~ 9175 7950
-Wire Wire Line
-	9175 7950 9175 8350
-$Comp
-L lpddr4-test-board:C_100n_0402_16V C?
-U 1 1 60336A07
-P 9475 7950
-AR Path="/626D078D/60336A07" Ref="C?"  Part="1" 
-AR Path="/60570C04/60336A07" Ref="C?"  Part="1" 
-AR Path="/60336A07" Ref="C?"  Part="1" 
-AR Path="/5FF245C4/60336A07" Ref="C?"  Part="1" 
-AR Path="/600427B4/60336A07" Ref="C?"  Part="1" 
-AR Path="/5F982999/60336A07" Ref="C144"  Part="1" 
-F 0 "C144" V 9525 7675 60  0000 L CNN
-F 1 "C_100n_0402" H 9475 7800 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 9675 8150 60  0001 L CNN
-F 3 "" H 9475 7950 50  0001 C CNN
-F 4 "Walsin" H 9675 8350 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9675 8250 60  0001 L CNN "MPN"
-F 6 "100n" V 9425 7700 50  0000 L CNN "Val"
-	1    9475 7950
-	0    1    1    0   
-$EndComp
-$Comp
-L lpddr4-test-board:C_100n_0402_16V C?
-U 1 1 60336EE8
-P 9475 7550
-AR Path="/626D078D/60336EE8" Ref="C?"  Part="1" 
-AR Path="/60570C04/60336EE8" Ref="C?"  Part="1" 
-AR Path="/60336EE8" Ref="C?"  Part="1" 
-AR Path="/5FF245C4/60336EE8" Ref="C?"  Part="1" 
-AR Path="/600427B4/60336EE8" Ref="C?"  Part="1" 
-AR Path="/5F982999/60336EE8" Ref="C143"  Part="1" 
-F 0 "C143" V 9525 7275 60  0000 L CNN
-F 1 "C_100n_0402" H 9475 7400 60  0001 C CNN
-F 2 "artix-dc-scm-footprints:0402-cap" H 9675 7750 60  0001 L CNN
-F 3 "" H 9475 7550 50  0001 C CNN
-F 4 "Walsin" H 9675 7950 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9675 7850 60  0001 L CNN "MPN"
-F 6 "100n" V 9425 7300 50  0000 L CNN "Val"
-	1    9475 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L lpddr4-test-board:GND #PWR042
-U 1 1 60339CA0
-P 9575 10150
-F 0 "#PWR042" H 9575 9900 50  0001 C CNN
-F 1 "GND" H 9580 9977 50  0000 C CNN
-F 2 "" H 9575 10150 50  0001 C CNN
-F 3 "" H 9575 10150 50  0001 C CNN
-	1    9575 10150
-	1    0    0    -1  
-$EndComp
 $Comp
 L lpddr4-test-board:C_4u7_0402 C?
 U 1 1 603610A3
@@ -1734,4 +1513,159 @@ Text GLabel 13925 2825 0    50   Input ~ 0
 LED_LINK
 Text GLabel 13925 2725 0    50   Input ~ 0
 LED_SPD
+$Comp
+L antmicroFerriteBeadsandChips:BLM18PG121SN1D FB?
+U 1 1 605850B5
+P 10450 9175
+AR Path="/5FF245C4/605850B5" Ref="FB?"  Part="1" 
+AR Path="/60570C04/605850B5" Ref="FB?"  Part="1" 
+AR Path="/600427B4/605850B5" Ref="FB?"  Part="1" 
+AR Path="/5F982999/605850B5" Ref="FB7"  Part="1" 
+F 0 "FB7" H 10450 9462 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 10450 9356 60  0000 C CNN
+F 2 "artix-dc-scm-footprints:0603-res" H 10650 9375 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 10650 9475 60  0001 L CNN
+F 4 "BLM18PG121SN1D" H 10650 9675 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 10650 10275 60  0001 L CNN "Manufacturer"
+	1    10450 9175
+	0    1    1    0   
+$EndComp
+$Comp
+L lpddr4-test-board:GND #PWR047
+U 1 1 605865F5
+P 10450 9375
+F 0 "#PWR047" H 10450 9125 50  0001 C CNN
+F 1 "GND" H 10455 9202 50  0000 C CNN
+F 2 "" H 10450 9375 50  0001 C CNN
+F 3 "" H 10450 9375 50  0001 C CNN
+	1    10450 9375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 8775 10450 8975
+Wire Wire Line
+	10450 8975 9300 8975
+Wire Wire Line
+	9300 8975 9300 8775
+Connection ~ 10450 8975
+$Comp
+L lpddr4-test-board:GND #PWR042
+U 1 1 605C5AB6
+P 9200 9125
+F 0 "#PWR042" H 9200 8875 50  0001 C CNN
+F 1 "GND" H 9205 8952 50  0000 C CNN
+F 2 "" H 9200 9125 50  0001 C CNN
+F 3 "" H 9200 9125 50  0001 C CNN
+	1    9200 9125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 8625 9200 8625
+Wire Wire Line
+	9200 8625 9200 9125
+Text Label 8875 7725 0    50   ~ 0
+ETH1_P
+Text Label 8875 7825 0    50   ~ 0
+ETH1_N
+Text Label 8875 7925 0    50   ~ 0
+ETH2_P
+Text Label 8875 8025 0    50   ~ 0
+ETH2_N
+Text Label 8875 8125 0    50   ~ 0
+ETH3_P
+Text Label 8875 8225 0    50   ~ 0
+ETH3_N
+Text Label 8875 8325 0    50   ~ 0
+ETH4_P
+Text Label 8875 8425 0    50   ~ 0
+ETH4_N
+$Comp
+L lpddr4-test-board:R_220R_0402 R?
+U 1 1 6060669D
+P 10750 7750
+AR Path="/5FE270C1/6060669D" Ref="R?"  Part="1" 
+AR Path="/60570C04/6060669D" Ref="R?"  Part="1" 
+AR Path="/600427B4/6060669D" Ref="R?"  Part="1" 
+AR Path="/5F982999/6060669D" Ref="R62"  Part="1" 
+F 0 "R62" H 10750 7850 60  0000 C CNN
+F 1 "R_220R_0402" H 10750 7600 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 10950 7950 60  0001 L CNN
+F 3 "" H 10750 7750 50  0001 C CNN
+F 4 "Panasonic" H 10950 8150 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ221X" H 10950 8050 60  0001 L CNN "MPN"
+F 6 "220R" H 10750 7750 50  0000 C CNN "Val"
+	1    10750 7750
+	0    1    -1   0   
+$EndComp
+Text GLabel 10750 7550 1    50   Input ~ 0
+3V3_SYS
+Wire Wire Line
+	10750 7550 10750 7600
+$Comp
+L lpddr4-test-board:R_220R_0402 R?
+U 1 1 60630E84
+P 11025 7750
+AR Path="/5FE270C1/60630E84" Ref="R?"  Part="1" 
+AR Path="/60570C04/60630E84" Ref="R?"  Part="1" 
+AR Path="/600427B4/60630E84" Ref="R?"  Part="1" 
+AR Path="/5F982999/60630E84" Ref="R67"  Part="1" 
+F 0 "R67" H 11025 7850 60  0000 C CNN
+F 1 "R_220R_0402" H 11025 7600 60  0001 C CNN
+F 2 "artix-dc-scm-footprints:0402-res" H 11225 7950 60  0001 L CNN
+F 3 "" H 11025 7750 50  0001 C CNN
+F 4 "Panasonic" H 11225 8150 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GEJ221X" H 11225 8050 60  0001 L CNN "MPN"
+F 6 "220R" H 11025 7750 50  0000 C CNN "Val"
+	1    11025 7750
+	0    1    -1   0   
+$EndComp
+Text GLabel 11025 7550 1    50   Input ~ 0
+3V3_SYS
+Wire Wire Line
+	11025 7550 11025 7600
+$Comp
+L antmicroModularConnectorsJacksWithMagnetics:WE-RJ45_7499111121A J?1
+U 1 1 605821B4
+P 9750 8225
+F 0 "J?1" H 9850 9090 50  0000 C CNN
+F 1 "WE-RJ45_7499111121A" H 9850 8999 50  0000 C CNN
+F 2 "antmicro-footprints:7499111121A" H 9750 8225 50  0001 L BNN
+F 3 "" H 9750 8225 50  0001 L BNN
+F 4 "7499111121A" H 9750 8225 50  0001 L BNN "MPN"
+F 5 "WURTH ELEKTRONIK" H 9750 8225 50  0001 C CNN "Manufacturer"
+	1    9750 8225
+	1    0    0    -1  
+$EndComp
+Text GLabel 11300 8125 2    50   Input ~ 0
+LED_LINK
+Text GLabel 11300 8325 2    50   Input ~ 0
+LED_SPD
+Wire Wire Line
+	10350 8025 10750 8025
+Wire Wire Line
+	10750 8025 10750 7900
+Wire Wire Line
+	10350 8225 11025 8225
+Wire Wire Line
+	11025 8225 11025 7900
+Wire Wire Line
+	10350 8125 11300 8125
+Wire Wire Line
+	10350 8325 11300 8325
+Wire Wire Line
+	9250 7725 8875 7725
+Wire Wire Line
+	9250 7825 8875 7825
+Wire Wire Line
+	9250 7925 8875 7925
+Wire Wire Line
+	9250 8025 8875 8025
+Wire Wire Line
+	9250 8125 8875 8125
+Wire Wire Line
+	9250 8225 8875 8225
+Wire Wire Line
+	9250 8325 8875 8325
+Wire Wire Line
+	9250 8425 8875 8425
 $EndSCHEMATC
