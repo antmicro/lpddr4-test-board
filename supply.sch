@@ -2395,7 +2395,7 @@ $EndComp
 Wire Wire Line
 	12300 2600 12300 2725
 Text GLabel 12125 2200 0    50   Input ~ 0
-VCC5V0
+VCC5V0_INT
 Wire Wire Line
 	12300 2200 12125 2200
 Wire Wire Line
@@ -2542,7 +2542,7 @@ $EndComp
 Wire Wire Line
 	12200 2750 12900 2750
 Wire Wire Line
-	11900 2750 11500 2750
+	11900 2750 11475 2750
 $Comp
 L lpddr4-test-board:IHLP1212AEERR47M11 L?
 U 1 1 600835CD
@@ -2591,7 +2591,7 @@ F 6 "100k" V 14650 2875 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 Text Label 11850 2750 2    50   ~ 0
-VCCIO_EN
+VCC_IO_EN
 $Comp
 L lpddr4-test-board:GND #PWR045
 U 1 1 6008D29B

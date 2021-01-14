@@ -346,8 +346,6 @@ F 3 "" H 12800 6225 50  0001 C CNN
 	1    12800 6225
 	1    0    0    -1  
 $EndComp
-Text GLabel 14900 1575 1    50   Input ~ 0
-VCC3V3
 Text Notes 13350 1150 0    118  ~ 24
 Pull up resistors
 $Comp
@@ -625,18 +623,10 @@ Text GLabel 8775 4450 0    50   Input ~ 0
 ETH_RX_CLK
 Text GLabel 8775 3950 0    50   Input ~ 0
 ETH_RX_DV
-Text GLabel 7050 3375 0    50   Input ~ 0
-ETH_RXERR
-Text GLabel 7050 2975 0    50   Input ~ 0
-ETH_COL
-Text GLabel 7050 3075 0    50   Input ~ 0
-ETH_CRS
 Text GLabel 8775 2950 0    50   Input ~ 0
 ETH_MDC
 Text GLabel 8775 3050 0    50   Input ~ 0
 ETH_MDIO
-Text Notes 6600 2750 0    118  ~ 24
-ORG
 Text GLabel 10075 2000 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 8750 5050 0    50   Input ~ 0
@@ -1668,4 +1658,6 @@ Wire Wire Line
 	9250 8325 8875 8325
 Wire Wire Line
 	9250 8425 8875 8425
+Text GLabel 14900 1575 1    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
