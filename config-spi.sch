@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 9
 Title "LPDDR4 Test Board"
 Date ""
-Rev "1.0.1"
+Rev "1.0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -943,19 +943,6 @@ F 6 "4k7" H 5650 3575 50  0000 L CNN "Val"
 	1    5700 3675
 	0    -1   1    0   
 $EndComp
-$Comp
-L lpddr4-test-board:62000311121 MODE2
-U 1 1 6148AC57
-P 8700 10050
-F 0 "MODE2" H 8622 10055 50  0000 R CNN
-F 1 "62000311121" H 8750 9850 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:62000311121" H 8800 10300 60  0001 L CNN
-F 3 "https://www.we-online.com/catalog/datasheet/62000311121.pdf" H 8900 10350 60  0001 L CNN
-F 4 "62000421121" H 8900 10550 60  0001 L CNN "MPN"
-F 5 "Wurth Elektronik" H 8900 11150 60  0001 L CNN "Manufacturer"
-	1    8700 10050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8550 8975 8650 8975
 Wire Wire Line
@@ -1152,4 +1139,19 @@ Text GLabel 6175 5750 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 5700 3150 1    50   Input ~ 0
 3V3_SYS
+$Comp
+L lpddr4-test-board:61300311121 J?
+U 1 1 6001B7F4
+P 8700 10150
+AR Path="/60225B0C/6001B7F4" Ref="J?"  Part="1" 
+AR Path="/5FD53C7D/6001B7F4" Ref="MODE2"  Part="1" 
+F 0 "MODE2" H 8925 10050 50  0000 R CNN
+F 1 "61300311121" V 8525 10325 50  0000 R CNN
+F 2 "lpddr4-test-board-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 8900 10350 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 8900 10450 60  0001 L CNN
+F 4 "61300311121" H 8900 10650 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 8900 11250 60  0001 L CNN "Manufacturer"
+	1    8700 10150
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

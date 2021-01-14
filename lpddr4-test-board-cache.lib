@@ -443,26 +443,6 @@ X ~ 3 200 150 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# lpddr4-test-board_62000311121
-#
-DEF lpddr4-test-board_62000311121 J 0 40 Y Y 1 F N
-F0 "J" -100 50 50 H V R CNN
-F1 "lpddr4-test-board_62000311121" 50 -200 50 H I C CNN
-F2 "lpddr4-test-board-footprints:62000311121" 100 250 60 H I L CNN
-F3 "" 200 300 60 H I L CNN
-F4 "62000421121" 200 500 60 H I L CNN "MPN"
-F5 "Wurth Elektronik" 200 1100 60 H I L CNN "Manufacturer"
-DRAW
-S -50 150 50 -150 1 1 0 f
-S -10 -95 10 -115 1 1 0 F
-S -10 5 10 -15 1 1 0 F
-S -10 105 10 85 1 1 0 F
-X ~ 1 150 100 100 L 50 50 1 1 P
-X ~ 2 150 0 100 L 50 50 1 1 P
-X ~ 3 150 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # lpddr4-test-board_685119134923
 #
 DEF lpddr4-test-board_685119134923 J 0 40 Y Y 1 F N
