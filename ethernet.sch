@@ -58,10 +58,6 @@ Text Label 12850 4750 2    50   ~ 0
 ETH1_P
 Wire Wire Line
 	8775 4650 9575 4650
-Text Label 8775 4650 0    50   ~ 0
-ETH_LED1
-Text Label 8775 4750 0    50   ~ 0
-ETH_LED2
 Wire Wire Line
 	9575 4750 8775 4750
 $Comp
@@ -193,32 +189,12 @@ Wire Wire Line
 Wire Wire Line
 	11275 5550 11275 5800
 NoConn ~ 12175 3150
-Text GLabel 8750 5200 0    50   Input ~ 0
-ETH_~RESET
-Wire Wire Line
-	9575 5150 9325 5150
 Wire Wire Line
 	8750 5050 9575 5050
 Wire Wire Line
 	9575 4850 8750 4850
 Text GLabel 8750 4850 0    50   Output ~ 0
 ETH_INT_N
-Text GLabel 8750 5050 0    50   Output ~ 0
-RGMII_REF_CLK
-Wire Wire Line
-	9325 5150 9325 5200
-Wire Wire Line
-	9325 5200 8750 5200
-Text GLabel 8775 4450 0    50   Output ~ 0
-RGMII_RX_CLK
-Text GLabel 8775 4350 0    50   Output ~ 0
-RGMII_RXD3
-Text GLabel 8775 4250 0    50   Output ~ 0
-RGMII_RXD2
-Text GLabel 8775 4150 0    50   Output ~ 0
-RGMII_RXD1
-Text GLabel 8775 4050 0    50   Output ~ 0
-RGMII_RXD0
 Wire Wire Line
 	8775 4350 9575 4350
 Wire Wire Line
@@ -231,18 +207,6 @@ Wire Wire Line
 	8775 3950 9575 3950
 Wire Wire Line
 	9575 4050 8775 4050
-Text GLabel 8775 3750 0    50   Input ~ 0
-RGMII_TX_CLK
-Text GLabel 8775 3650 0    50   Input ~ 0
-RGMII_TXD3
-Text GLabel 8775 3550 0    50   Input ~ 0
-RGMII_TXD2
-Text GLabel 8775 3450 0    50   Input ~ 0
-RGMII_TXD1
-Text GLabel 8775 3350 0    50   Input ~ 0
-RGMII_TXD0
-Text GLabel 8775 3250 0    50   Input ~ 0
-RGMII_TX_DV
 Wire Wire Line
 	8775 3650 9575 3650
 Wire Wire Line
@@ -255,10 +219,6 @@ Wire Wire Line
 	8775 3250 9575 3250
 Wire Wire Line
 	9575 3350 8775 3350
-Text GLabel 8775 3050 0    50   BiDi ~ 0
-ETH_MDIO
-Text GLabel 8775 2950 0    50   Input ~ 0
-ETH_MDC
 Wire Wire Line
 	8775 2950 9575 2950
 Wire Wire Line
@@ -306,8 +266,6 @@ Wire Wire Line
 	10275 2350 10275 2125
 Wire Wire Line
 	10275 2125 10175 2125
-Text GLabel 8775 3950 0    50   Output ~ 0
-RGMII_RX_DV
 $Comp
 L antmicroInterfaceControllers:KSZ9031RNXCA U?
 U 1 1 600D5C76
@@ -388,32 +346,8 @@ F 3 "" H 12800 6225 50  0001 C CNN
 	1    12800 6225
 	1    0    0    -1  
 $EndComp
-Text GLabel 13925 2125 0    50   UnSpc ~ 0
-RGMII_RX_DV
-Text GLabel 13925 2025 0    50   UnSpc ~ 0
-RGMII_RXD3
-Text GLabel 13925 1925 0    50   UnSpc ~ 0
-RGMII_RXD2
-Text GLabel 13925 1725 0    50   UnSpc ~ 0
-RGMII_RXD0
-Text GLabel 13925 1825 0    50   UnSpc ~ 0
-RGMII_RXD1
-Text GLabel 13925 2225 0    50   UnSpc ~ 0
-RGMII_RX_CLK
 Text GLabel 14900 1575 1    50   Input ~ 0
 VCC3V3
-Text GLabel 13925 2325 0    50   UnSpc ~ 0
-RGMII_REF_CLK
-Text GLabel 13925 2525 0    50   UnSpc ~ 0
-ETH_MDIO
-Text GLabel 13925 2425 0    50   UnSpc ~ 0
-ETH_MDC
-Text GLabel 13925 2625 0    50   UnSpc ~ 0
-ETH_~RESET
-Text Label 13125 2725 0    50   ~ 0
-ETH_LED1
-Text Label 13125 2825 0    50   ~ 0
-ETH_LED2
 Text Notes 13350 1150 0    118  ~ 24
 Pull up resistors
 $Comp
@@ -664,32 +598,32 @@ Wire Wire Line
 Wire Wire Line
 	13925 2625 14250 2625
 Wire Wire Line
-	14250 2725 13125 2725
+	14250 2725 13925 2725
 Wire Wire Line
-	13125 2825 14250 2825
-Text GLabel 7050 4075 0    50   Input ~ 0
+	13925 2825 14250 2825
+Text GLabel 8775 3350 0    50   Input ~ 0
 ETH_TXD0
-Text GLabel 7050 4175 0    50   Input ~ 0
+Text GLabel 8775 3450 0    50   Input ~ 0
 ETH_TXD1
-Text GLabel 7050 4275 0    50   Input ~ 0
+Text GLabel 8775 3550 0    50   Input ~ 0
 ETH_TXD2
-Text GLabel 7050 4375 0    50   Input ~ 0
+Text GLabel 8775 3650 0    50   Input ~ 0
 ETH_TXD3
-Text GLabel 7050 3875 0    50   Input ~ 0
+Text GLabel 8775 3750 0    50   Input ~ 0
 ETH_TX_CLK
-Text GLabel 7050 3975 0    50   Input ~ 0
+Text GLabel 8775 3250 0    50   Input ~ 0
 ETH_TX_EN
-Text GLabel 7050 3475 0    50   Input ~ 0
+Text GLabel 8775 4050 0    50   Input ~ 0
 ETH_RXD0
-Text GLabel 7050 3575 0    50   Input ~ 0
+Text GLabel 8775 4150 0    50   Input ~ 0
 ETH_RXD1
-Text GLabel 7050 3675 0    50   Input ~ 0
+Text GLabel 8775 4250 0    50   Input ~ 0
 ETH_RXD2
-Text GLabel 7050 3775 0    50   Input ~ 0
+Text GLabel 8775 4350 0    50   Input ~ 0
 ETH_RXD3
-Text GLabel 7050 3175 0    50   Input ~ 0
+Text GLabel 8775 4450 0    50   Input ~ 0
 ETH_RX_CLK
-Text GLabel 7050 3275 0    50   Input ~ 0
+Text GLabel 8775 3950 0    50   Input ~ 0
 ETH_RX_DV
 Text GLabel 7050 3375 0    50   Input ~ 0
 ETH_RXERR
@@ -697,21 +631,21 @@ Text GLabel 7050 2975 0    50   Input ~ 0
 ETH_COL
 Text GLabel 7050 3075 0    50   Input ~ 0
 ETH_CRS
-Text GLabel 6625 4500 2    50   Input ~ 0
+Text GLabel 8775 2950 0    50   Input ~ 0
 ETH_MDC
-Text GLabel 6625 4600 2    50   Input ~ 0
+Text GLabel 8775 3050 0    50   Input ~ 0
 ETH_MDIO
 Text Notes 6600 2750 0    118  ~ 24
 ORG
 Text GLabel 10075 2000 1    50   Input ~ 0
 3V3_SYS
-Text GLabel 6575 4725 2    50   Input ~ 0
+Text GLabel 8750 5050 0    50   Input ~ 0
 ETH_REF_CLK
-Text GLabel 6675 4875 2    50   Input ~ 0
+Text GLabel 8775 4750 0    50   Input ~ 0
 LED_LINK
-Text GLabel 6875 5000 0    50   Input ~ 0
+Text GLabel 8775 4650 0    50   Input ~ 0
 LED_SPD
-Text GLabel 6975 5175 0    50   Input ~ 0
+Text GLabel 8750 5150 0    50   Input ~ 0
 ETH_RSTN
 Text GLabel 8625 9400 0    50   Input ~ 0
 LED_SPD
@@ -1523,10 +1457,6 @@ Wire Wire Line
 	2775 6800 3025 6800
 Wire Wire Line
 	1425 3550 1425 3675
-Text GLabel 2025 6150 1    50   Input ~ 0
-VCC3V3
-Text GLabel 1875 4600 0    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	2575 5100 2825 5100
 Connection ~ 2825 5100
@@ -1574,7 +1504,7 @@ Wire Wire Line
 	2025 6800 2025 6950
 Connection ~ 2025 6800
 Wire Wire Line
-	2025 6150 2025 6300
+	1800 6300 2025 6300
 Connection ~ 2025 6300
 Text Notes 1950 5725 0    118  ~ 24
 DVDDH decoupling
@@ -1774,4 +1704,34 @@ F 3 "" H 2650 10225 50  0001 C CNN
 	1    2650 10225
 	1    0    0    -1  
 $EndComp
+Text GLabel 1875 4600 0    50   Input ~ 0
+3V3_SYS
+Text GLabel 1800 6300 0    50   Input ~ 0
+3V3_SYS
+Wire Wire Line
+	8750 5150 9575 5150
+Text GLabel 13925 1725 0    50   Input ~ 0
+ETH_RXD0
+Text GLabel 13925 1825 0    50   Input ~ 0
+ETH_RXD1
+Text GLabel 13925 1925 0    50   Input ~ 0
+ETH_RXD2
+Text GLabel 13925 2025 0    50   Input ~ 0
+ETH_RXD3
+Text GLabel 13925 2225 0    50   Input ~ 0
+ETH_RX_CLK
+Text GLabel 13925 2125 0    50   Input ~ 0
+ETH_RX_DV
+Text GLabel 13925 2425 0    50   Input ~ 0
+ETH_MDC
+Text GLabel 13925 2525 0    50   Input ~ 0
+ETH_MDIO
+Text GLabel 13925 2325 0    50   Input ~ 0
+ETH_REF_CLK
+Text GLabel 13925 2625 0    50   Input ~ 0
+ETH_RSTN
+Text GLabel 13925 2825 0    50   Input ~ 0
+LED_LINK
+Text GLabel 13925 2725 0    50   Input ~ 0
+LED_SPD
 $EndSCHEMATC
