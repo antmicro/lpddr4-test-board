@@ -1,4 +1,4 @@
-update=Thu Dec  3 17:06:38 2020
+update=Fri Jan 15 18:19:40 2021
 version=1
 last_client=kicad
 [general]
@@ -39,8 +39,8 @@ dPairWidth1=0.1
 dPairGap1=0.2
 dPairViaGap1=0.25
 SilkLineWidth=0.15
-SilkTextSizeV=1
-SilkTextSizeH=1
+SilkTextSizeV=0.7
+SilkTextSizeH=0.7
 SilkTextSizeThickness=0.15
 SilkTextItalic=0
 SilkTextUpright=1
@@ -241,17 +241,6 @@ dPairWidth=0.1
 dPairGap=0.2
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=HDMI
-Clearance=0.1
-TrackWidth=0.1
-ViaDiameter=0.5
-ViaDrill=0.2
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.15
-dPairGap=0.127
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
 Name=USB
 Clearance=0.13
 TrackWidth=0.15
@@ -261,4 +250,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.1
 dPairGap=0.2
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=Z=100
+Clearance=0.1
+TrackWidth=0.14
+ViaDiameter=0.5
+ViaDrill=0.2
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.14
+dPairGap=0.17
 dPairViaGap=0.25
