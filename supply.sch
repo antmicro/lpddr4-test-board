@@ -1835,16 +1835,14 @@ Wire Wire Line
 Wire Wire Line
 	9150 6550 9150 6900
 Wire Wire Line
-	9050 6250 9725 6250
-Text Label 9325 6250 0    50   ~ 0
+	9050 6250 9150 6250
+Text Label 9650 6250 0    50   ~ 0
 VCC_INT_EN
 Wire Wire Line
-	9050 6350 9725 6350
-Wire Wire Line
-	9050 6450 9725 6450
-Text Label 9325 6350 0    50   ~ 0
+	9050 6350 9325 6350
+Text Label 9650 6350 0    50   ~ 0
 VCC_AUX_EN
-Text Label 9325 6450 0    50   ~ 0
+Text Label 9650 6450 0    50   ~ 0
 VCC_IO_EN
 $Comp
 L lpddr4-test-board:R_0R_0402 R55
@@ -1915,34 +1913,34 @@ VCC_INT_EN
 $Comp
 L lpddr4-test-board:TP_SMD1MM TP8
 U 1 1 5FF04F72
-P 9825 6450
-F 0 "TP8" V 9800 6350 50  0000 C CNN
-F 1 "TP_SMD1MM" H 9825 6350 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 10025 6650 60  0001 L CNN
-F 3 "" H 10025 6750 60  0001 L CNN
-	1    9825 6450
+P 10200 6450
+F 0 "TP8" V 10175 6350 50  0000 C CNN
+F 1 "TP_SMD1MM" H 10200 6350 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 10400 6650 60  0001 L CNN
+F 3 "" H 10400 6750 60  0001 L CNN
+	1    10200 6450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L lpddr4-test-board:TP_SMD1MM TP7
 U 1 1 5FF061AA
-P 9825 6350
-F 0 "TP7" V 9800 6250 50  0000 C CNN
-F 1 "TP_SMD1MM" H 9825 6250 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 10025 6550 60  0001 L CNN
-F 3 "" H 10025 6650 60  0001 L CNN
-	1    9825 6350
+P 10200 6350
+F 0 "TP7" V 10175 6250 50  0000 C CNN
+F 1 "TP_SMD1MM" H 10200 6250 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 10400 6550 60  0001 L CNN
+F 3 "" H 10400 6650 60  0001 L CNN
+	1    10200 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L lpddr4-test-board:TP_SMD1MM TP6
 U 1 1 5FF0650C
-P 9825 6250
-F 0 "TP6" V 9800 6150 50  0000 C CNN
-F 1 "TP_SMD1MM" H 9825 6150 50  0001 C CNN
-F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 10025 6450 60  0001 L CNN
-F 3 "" H 10025 6550 60  0001 L CNN
-	1    9825 6250
+P 10200 6250
+F 0 "TP6" V 10175 6150 50  0000 C CNN
+F 1 "TP_SMD1MM" H 10200 6150 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:Testpoint_smd_1mm" H 10400 6450 60  0001 L CNN
+F 3 "" H 10400 6550 60  0001 L CNN
+	1    10200 6250
 	0    -1   -1   0   
 $EndComp
 Connection ~ 1875 2125
@@ -2616,4 +2614,79 @@ F 3 "" H 13800 3550 50  0001 C CNN
 $EndComp
 Text GLabel 5000 5650 1    50   Input ~ 0
 VCC5V0
+$Comp
+L antmicroResistors0402:R_10k_0402 R86
+U 1 1 605A4625
+P 9150 5850
+F 0 "R86" V 9000 5850 60  0000 L CNN
+F 1 "R_10k_0402" H 9150 5700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9350 6050 60  0001 L CNN
+F 3 "" H 9150 5850 50  0001 C CNN
+F 4 "VISHAY" H 9350 6250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9350 6150 60  0001 L CNN "MPN"
+F 6 "10k" V 9300 5850 50  0000 L CNN "Val"
+	1    9150 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 6000 9150 6250
+Connection ~ 9150 6250
+Wire Wire Line
+	9150 6250 10100 6250
+$Comp
+L antmicroResistors0402:R_10k_0402 R87
+U 1 1 605B87F5
+P 9325 5850
+F 0 "R87" V 9175 5850 60  0000 L CNN
+F 1 "R_10k_0402" H 9325 5700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9525 6050 60  0001 L CNN
+F 3 "" H 9325 5850 50  0001 C CNN
+F 4 "VISHAY" H 9525 6250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9525 6150 60  0001 L CNN "MPN"
+F 6 "10k" V 9475 5850 50  0000 L CNN "Val"
+	1    9325 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0402:R_10k_0402 R88
+U 1 1 605B94B6
+P 9500 5850
+F 0 "R88" V 9350 5850 60  0000 L CNN
+F 1 "R_10k_0402" H 9500 5700 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 9700 6050 60  0001 L CNN
+F 3 "" H 9500 5850 50  0001 C CNN
+F 4 "VISHAY" H 9700 6250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 9700 6150 60  0001 L CNN "MPN"
+F 6 "10k" V 9650 5850 50  0000 L CNN "Val"
+	1    9500 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9325 6000 9325 6350
+Connection ~ 9325 6350
+Wire Wire Line
+	9325 6350 10100 6350
+Wire Wire Line
+	9500 6000 9500 6450
+Wire Wire Line
+	9050 6450 9500 6450
+Connection ~ 9500 6450
+Wire Wire Line
+	9500 6450 10100 6450
+Wire Wire Line
+	9500 5700 9500 5575
+Wire Wire Line
+	9500 5575 9325 5575
+Wire Wire Line
+	9150 5575 9150 5700
+Wire Wire Line
+	9325 5700 9325 5575
+Connection ~ 9325 5575
+Wire Wire Line
+	9325 5575 9150 5575
+Connection ~ 9150 5575
+Wire Wire Line
+	9050 5575 9150 5575
+Text GLabel 9050 5575 0    50   Input ~ 0
+VCC5V0_INT
 $EndSCHEMATC
