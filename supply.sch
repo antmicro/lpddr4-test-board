@@ -2614,4 +2614,6 @@ F 3 "" H 13800 3550 50  0001 C CNN
 	1    13800 3550
 	1    0    0    -1  
 $EndComp
+Text GLabel 5000 5650 1    50   Input ~ 0
+VCC5V0
 $EndSCHEMATC
