@@ -2,7 +2,7 @@
 LPDDR4 test board
 =================
 
-.. figure:: img/lpddr4-test-board.png
+.. figure:: img/lpddr4-test-board.jpg
 
 Overview
 --------
