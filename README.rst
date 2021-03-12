@@ -2,6 +2,8 @@
 LPDDR4 test board
 =================
 
+Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+
 .. figure:: img/lpddr4-test-board.jpg
 
 Overview
@@ -42,3 +44,7 @@ Block diagram
 
 .. figure:: img/lpddr4-test-board-diagram.png
 
+License
+=======
+
+`Apache-2.0 <LICENSE>`_
