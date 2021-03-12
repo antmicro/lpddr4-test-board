@@ -2421,7 +2421,7 @@ Connection ~ 12300 3050
 Wire Wire Line
 	12300 3050 12300 3525
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C?
+L lpddr4-test-board:C_120p_0402 C?
 U 1 1 60083586
 P 14250 2800
 AR Path="/6004278D/60083586" Ref="C?"  Part="1" 
@@ -2487,7 +2487,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 3150 14900 3400
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C?
+L lpddr4-test-board:C_10u_0402 C?
 U 1 1 600835AA
 P 15200 3000
 AR Path="/6004278D/600835AA" Ref="C?"  Part="1" 
@@ -2615,12 +2615,12 @@ $EndComp
 Text GLabel 5000 5650 1    50   Input ~ 0
 VCC5V0
 $Comp
-L antmicroResistors0402:R_10k_0402 R86
+L lpddr4-test-board:R_10k_0402 R86
 U 1 1 605A4625
 P 9150 5850
 F 0 "R86" V 9000 5850 60  0000 L CNN
 F 1 "R_10k_0402" H 9150 5700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9350 6050 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9350 6050 60  0001 L CNN
 F 3 "" H 9150 5850 50  0001 C CNN
 F 4 "VISHAY" H 9350 6250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9350 6150 60  0001 L CNN "MPN"
@@ -2634,12 +2634,12 @@ Connection ~ 9150 6250
 Wire Wire Line
 	9150 6250 10100 6250
 $Comp
-L antmicroResistors0402:R_10k_0402 R87
+L lpddr4-test-board:R_10k_0402 R87
 U 1 1 605B87F5
 P 9325 5850
 F 0 "R87" V 9175 5850 60  0000 L CNN
 F 1 "R_10k_0402" H 9325 5700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9525 6050 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9525 6050 60  0001 L CNN
 F 3 "" H 9325 5850 50  0001 C CNN
 F 4 "VISHAY" H 9525 6250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9525 6150 60  0001 L CNN "MPN"
@@ -2648,12 +2648,12 @@ F 6 "10k" V 9475 5850 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R88
+L lpddr4-test-board:R_10k_0402 R88
 U 1 1 605B94B6
 P 9500 5850
 F 0 "R88" V 9350 5850 60  0000 L CNN
 F 1 "R_10k_0402" H 9500 5700 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 9700 6050 60  0001 L CNN
+F 2 "lpddr4-test-board-footprints:0402-res" H 9700 6050 60  0001 L CNN
 F 3 "" H 9500 5850 50  0001 C CNN
 F 4 "VISHAY" H 9700 6250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 9700 6150 60  0001 L CNN "MPN"

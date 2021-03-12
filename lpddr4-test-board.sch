@@ -2784,12 +2784,12 @@ F 3 "" H 3700 10500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMechanicalParts:antmicro_logo N2
+L lpddr4-test-board:antmicro_logo N2
 U 1 1 6003C9B5
 P 3675 10800
 F 0 "N2" H 3889 10893 50  0000 L CNN
 F 1 "antmicro_logo" H 3889 10802 50  0000 L CNN
-F 2 "antmicro-footprints:antmicro-logo_scaled_20mm" H 3575 11050 50  0001 C CNN
+F 2 "lpddr4-test-board-footprints:antmicro-logo_scaled_20mm" H 3575 11050 50  0001 C CNN
 F 3 "" H 3675 11150 50  0001 C CNN
 	1    3675 10800
 	1    0    0    -1  
