@@ -161,6 +161,8 @@ F 0 "J5" H 10850 8742 50  0000 C CNN
 F 1 "2309409-1" H 10850 8651 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:TE_2309409-1" H 10550 1675 50  0001 L BNN
 F 3 "" H 11850 5375 50  0001 L BNN
+F 4 "2309409-1" H 10850 5275 50  0001 C CNN "MPN"
+F 5 "TE Connectivity" H 10850 5275 50  0001 C CNN "Manufacturer"
 	2    10850 5275
 	1    0    0    -1  
 $EndComp
@@ -413,6 +415,8 @@ F 0 "J5" H 7475 8867 50  0000 C CNN
 F 1 "2309409-1" H 7475 8776 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:TE_2309409-1" H 7175 1700 50  0001 L BNN
 F 3 "" H 8475 5400 50  0001 L BNN
+F 4 "TE Connectivity" H 7475 5300 50  0001 C CNN "Manufacturer"
+F 5 "2309409-1" H 7475 5300 50  0001 C CNN "MPN"
 	1    7475 5300
 	1    0    0    -1  
 $EndComp

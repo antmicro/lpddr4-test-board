@@ -548,6 +548,8 @@ F 0 "U4" H 3650 1840 50  0000 C CNN
 F 1 "TPS65296" H 3650 1749 50  0000 C CNN
 F 2 "lpddr4-test-board-footprints:VQFN-HR" H 3200 1775 50  0001 C CNN
 F 3 "" H 3200 1775 50  0001 C CNN
+F 4 "TPS65296RJER" H 3200 1775 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 3200 1775 50  0001 C CNN "Manufacturer"
 	1    3200 1775
 	1    0    0    -1  
 $EndComp
