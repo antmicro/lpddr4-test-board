@@ -2912,4 +2912,70 @@ F 6 "100u" H 5900 4775 50  0000 L CNN "Val"
 	1    5875 4925
 	1    0    0    -1  
 $EndComp
+$Comp
+L lpddr4-test-board:C_100n_0201 C?
+U 1 1 60DDB800
+P 4625 7700
+F 0 "C?" H 4650 7800 60  0000 L CNN
+F 1 "C_100n_0201" H 4625 7550 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 4825 7900 60  0001 L CNN
+F 3 "" H 4625 7700 50  0001 C CNN
+F 4 "YAGEO" H 4825 8100 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 4825 8000 60  0001 L CNN "MPN"
+F 6 "100n" H 4675 7600 50  0000 L CNN "Val"
+	1    4625 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:GND #PWR?
+U 1 1 60DDB806
+P 4625 7925
+AR Path="/5F96C515/60DDB806" Ref="#PWR?"  Part="1" 
+AR Path="/600295C1/60DDB806" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4625 7675 50  0001 C CNN
+F 1 "GND" H 4630 7752 50  0000 C CNN
+F 2 "" H 4625 7925 50  0001 C CNN
+F 3 "" H 4625 7925 50  0001 C CNN
+	1    4625 7925
+	1    0    0    -1  
+$EndComp
+Text GLabel 4625 7425 1    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	4625 7425 4625 7550
+Wire Wire Line
+	4625 7850 4625 7925
+$Comp
+L lpddr4-test-board:C_100n_0201 C?
+U 1 1 60DDB812
+P 4975 7700
+F 0 "C?" H 5000 7800 60  0000 L CNN
+F 1 "C_100n_0201" H 4975 7550 60  0001 C CNN
+F 2 "lpddr4-test-board-footprints:0201-res" H 5175 7900 60  0001 L CNN
+F 3 "" H 4975 7700 50  0001 C CNN
+F 4 "YAGEO" H 5175 8100 60  0001 L CNN "Manufacturer"
+F 5 "CC0201KRX6S5BB104" H 5175 8000 60  0001 L CNN "MPN"
+F 6 "100n" H 5025 7600 50  0000 L CNN "Val"
+	1    4975 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lpddr4-test-board:GND #PWR?
+U 1 1 60DDB818
+P 4975 7925
+AR Path="/5F96C515/60DDB818" Ref="#PWR?"  Part="1" 
+AR Path="/600295C1/60DDB818" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4975 7675 50  0001 C CNN
+F 1 "GND" H 4980 7752 50  0000 C CNN
+F 2 "" H 4975 7925 50  0001 C CNN
+F 3 "" H 4975 7925 50  0001 C CNN
+	1    4975 7925
+	1    0    0    -1  
+$EndComp
+Text GLabel 4975 7425 1    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	4975 7425 4975 7550
+Wire Wire Line
+	4975 7850 4975 7925
 $EndSCHEMATC
