@@ -2,7 +2,7 @@
 LPDDR4 test board
 =================
 
-Copyright (c) 2020-2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2020-2022 `Antmicro <https://www.antmicro.com>`_
 
 .. figure:: img/lpddr4-test-board.jpg
 
