@@ -4,7 +4,11 @@ LPDDR4 test board
 
 Copyright (c) 2020-2022 `Antmicro <https://www.antmicro.com>`_
 
+.. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
+	:target: https://opensource.antmicro.com/projects/lpddr4-test-board
+
 .. figure:: img/lpddr4-test-board.jpg
+	:width: 800
 
 Overview
 --------
@@ -45,7 +49,8 @@ Block diagram
 -------------
 
 .. figure:: img/lpddr4-test-board-diagram.png
-
+	:width: 800
+	
 License
 =======
 
