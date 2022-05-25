@@ -1,17 +1,12 @@
-=================
-LPDDR4 test board
-=================
+#LPDDR4 test board
 
-Copyright (c) 2020-2022 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2021-2022 [Antmicro](https://antmicro.com)
 
-.. image:: https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square
-	:target: https://opensource.antmicro.com/projects/lpddr4-test-board
+[![LPDDR4 test board @ opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/lpddr4-test-board)
 
-.. figure:: img/lpddr4-test-board.jpg
-	:width: 800
+![LPDDR4 test board](img/lpddr4-test-board.jpg)
 
-Overview
---------
+## Overview
 
 This repository contains open hardware design files for an experimental platform built around Xilinx Kintex-7 FPGA.
 The main purpose of this platform is to develop and customize RAM controllers supporting LPDDR4 ICs.
@@ -21,16 +16,15 @@ The usage instructions for this board are also provided in the `LiteX Row Hammer
 
 The design files for this board were prepared in KiCad.
 
-Repository structure
---------------------
+## Repository structure
+
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* ``lib`` - contains the component libraries
-* ``img`` - contains graphics for this README
+* `lib` - contains the component libraries
+* `img` - contains graphics for this README
 
-Key features
-------------
+## Key features
 
 * Kintex-7 FPGA - XC7K70T-FBG484
 * Modular design with custom DDR4 SO-DIMM connector
@@ -45,13 +39,11 @@ Key features
 * 5 user LEDs
 * 4 user buttons
 
-Block diagram
--------------
+## Block diagram
 
 .. figure:: img/lpddr4-test-board-diagram.png
 	:width: 800
 	
-License
-=======
+## License
 
-`Apache-2.0 <LICENSE>`_
+[Apache-2.0](LICENSE)
