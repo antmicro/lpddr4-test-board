@@ -2933,9 +2933,6 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006034544d"
       (reference "D11") (unit 1) (value "PDS760-13") (footprint "lpddr4-test-board-footprints:PDS760-13")
     )
-    (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000061237446"
-      (reference "EMCCLK1") (unit 1) (value "test") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603611f2"
       (reference "FB1") (unit 1) (value "BLM18PG121SN1D") (footprint "lpddr4-test-board-footprints:0603-res")
     )
@@ -3022,9 +3019,6 @@
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000060f9f4e1"
       (reference "PROG_B1") (unit 1) (value "B3U-1000P") (footprint "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P")
-    )
-    (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000061236e26"
-      (reference "PUDC_B1") (unit 1) (value "test") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000607f0796"
       (reference "PWR1") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-test-board-footprints:LED_0603")
@@ -3194,6 +3188,9 @@
     (path "/00000000-0000-0000-0000-000060225b0c/abadec2f-aad2-4b54-91b4-dd599c4bb513"
       (reference "R48") (unit 1) (value "R_0R_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/d2117eef-9d5a-4f24-8074-98e229428d8c"
+      (reference "R49") (unit 1) (value "R_4k99_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ff78200"
       (reference "R50") (unit 1) (value "R_330R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
@@ -3289,6 +3286,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601159c7"
       (reference "R81") (unit 1) (value "R_10k2_0402") (footprint "lpddr4-test-board-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/4e83f9b1-3edf-498c-80d9-cdd063ef1607"
+      (reference "R82") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/55a7f908-cce7-46c6-b591-d6f10d8b5130"
       (reference "R83") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
@@ -3416,12 +3416,6 @@
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601db312"
       (reference "R146") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/4e83f9b1-3edf-498c-80d9-cdd063ef1607"
-      (reference "R?") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
-    )
-    (path "/00000000-0000-0000-0000-000060225b0c/d2117eef-9d5a-4f24-8074-98e229428d8c"
-      (reference "R?") (unit 1) (value "R_4k99_0402") (footprint "antmicro-footprints:0402-res")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602873c2"
       (reference "S1") (unit 1) (value "EG1218") (footprint "lpddr4-test-board-footprints:Switch_Slide_11.6x4mm_EG1218")
     )
@@ -3454,6 +3448,15 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006c3554ed"
       (reference "TP9") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-0000600e76d8/834e02ea-3c24-40f3-8de3-c81383598526"
+      (reference "TP10") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fd53c7d/b06a1e87-4f83-4cf0-8370-2f902883cc10"
+      (reference "TP?") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-00005fd53c7d/d80c1e42-a4c5-4904-a2ed-5ed97a08be75"
+      (reference "TP?") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-00005fb5167e"
       (reference "U1") (unit 1) (value "XC7K70T-FBG484") (footprint "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N")
@@ -3493,9 +3496,6 @@
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601044e5"
       (reference "U7") (unit 1) (value "FT4232HQ") (footprint "lpddr4-test-board-footprints:FT4232HQ")
-    )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601e16f4"
-      (reference "U8") (unit 1) (value "SRST") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/df223a24-0bf8-4f1b-a956-d90e1e74d6b8"
       (reference "U9") (unit 1) (value "AP62301WU-7") (footprint "antmicro-footprints:TSOT23-6")
