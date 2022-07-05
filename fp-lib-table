@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name lpddr4-test-board-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/lpddr4-test-board-footprints)(options "")(descr ""))
+  (lib (name "lpddr4-test-board-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/lpddr4-test-board-footprints")(options "")(descr ""))
+  (lib (name "ddr5-testboard-footprints")(type "KiCad")(uri "/home/smroz/antmicro/projects/antmicro/antmicro-rdimm-ddr5-testboard-hw/lib/ddr5-testboard-footprints")(options "")(descr ""))
 )
