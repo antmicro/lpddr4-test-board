@@ -3668,6 +3668,9 @@
     (path "/00000000-0000-0000-0000-0000600e76d8/1d767903-2f2f-45e8-9472-604a9ea81528"
       (reference "U?") (unit 1) (value "FT4232H-56Q") (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
     )
+    (path "/00000000-0000-0000-0000-00005f96c515/b102d20f-ab93-45a6-a1ee-e941ac1ff514"
+      (reference "U?") (unit 1) (value "AMJMEFB-100.0000T") (footprint "antmicro-footprints:AMJMEFB")
+    )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fdd28f9"
       (reference "USR_BTN1") (unit 1) (value "B3U-1000P") (footprint "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P")
     )
