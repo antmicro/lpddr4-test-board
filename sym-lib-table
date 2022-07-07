@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name lpddr4-test-board)(type Legacy)(uri ${KIPRJMOD}/lib/lpddr4-test-board.lib)(options "")(descr ""))
+  (lib (name "lpddr4-test-board")(type "KiCad")(uri "${KIPRJMOD}/lib/lpddr4-test-board.kicad_sym")(options "")(descr ""))
 )
