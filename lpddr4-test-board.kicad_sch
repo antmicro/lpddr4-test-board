@@ -1853,9 +1853,6 @@
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006029573a"
       (reference "#PWR043") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000603b196d"
-      (reference "#PWR044") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00005fce9a21"
       (reference "#PWR045") (unit 1) (value "GND") (footprint "")
     )
@@ -2306,6 +2303,12 @@
     (path "/00000000-0000-0000-0000-000060225b0c/d54f0316-1e41-4d06-887a-0590faf46e80"
       (reference "#PWR0194") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000600e76d8/807ffe4f-f8cb-4bc3-a302-ee0cdc1b646f"
+      (reference "#PWR0195") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/d93a26c6-e193-4c18-9b01-174e83fc5e06"
+      (reference "#PWR0196") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/4aebab99-346f-445e-95e6-6d8b4ac92c42"
       (reference "#PWR0197") (unit 1) (value "GND") (footprint "")
     )
@@ -2449,21 +2452,6 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ed9e47c0-f304-498c-a22b-4066ea46f7ed"
       (reference "#PWR0254") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c27ec"
-      (reference "0V1") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c0646"
-      (reference "1V1") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c252d"
-      (reference "1V2") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006026c4d0"
-      (reference "3V1") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060212554"
-      (reference "5V1") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-0000600ef985"
       (reference "C1") (unit 1) (value "C_47u_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
@@ -3709,6 +3697,30 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005ff04f72"
       (reference "TP12") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060212554"
+      (reference "TP13") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006026c4d0"
+      (reference "TP14") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c27ec"
+      (reference "TP15") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c252d"
+      (reference "TP16") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c0646"
+      (reference "TP17") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/fce17ead-0057-47cf-b86c-178f501f9e22"
+      (reference "TP18") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/0d1cd144-fd20-412a-b105-12df40a4bb1b"
+      (reference "TP19") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/609786ab-9770-4636-ba5b-28377e2d8a40"
+      (reference "TP20") (unit 1) (value "TP_SMD1MM") (footprint "lpddr4-test-board-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-000060063bbd"
       (reference "U1") (unit 1) (value "S27KL0641DABHI023") (footprint "lpddr4-test-board-footprints:FBGA-24")
