@@ -3772,7 +3772,7 @@
       (reference "R165") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/774197f5-2c92-43cd-8c30-a77432bab549"
-      (reference "R?") (unit 1) (value "R_243k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
+      (reference "R166") (unit 1) (value "R_243k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602873c2"
       (reference "S1") (unit 1) (value "EG1218") (footprint "lpddr4-test-board-footprints:Switch_Slide_11.6x4mm_EG1218")
