@@ -394,6 +394,8 @@
         "microvia_drill": 0.1,
         "name": "50Ohm-se_LPDDR4_DQ",
         "nets": [
+          "DMI_0A",
+          "DMI_1A",
           "DQ00_A",
           "DQ01_A",
           "DQ02_A",
