@@ -1726,778 +1726,778 @@
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-0000601e96a8"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-00006011a26a"
-      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-0000601a48c8"
-      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-0000601a77a5"
-      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-0000606fdf8d"
-      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-000060a67b9c"
-      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-000060a48e0d"
-      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-0000602f09f8"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-0000600c5e4d"
-      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-000060186ef0"
-      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-00006018718b"
-      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ffca2ee"
-      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006000bb1e"
-      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060019a5e"
-      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006000c3df"
-      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f28"
-      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006000c7e8"
-      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fff8375"
-      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f2e"
-      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006000c9fd"
-      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ffd519e"
-      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000061e1a1a0"
-      (reference "#PWR022") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR022") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000061e026bc"
-      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fff8120"
-      (reference "#PWR024") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR024") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fff7ef0"
-      (reference "#PWR025") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR025") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fdd2900"
-      (reference "#PWR026") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR026") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ffe5862"
-      (reference "#PWR027") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR027") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fcebf89"
-      (reference "#PWR028") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR028") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fe766d8"
-      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fcb7e46"
-      (reference "#PWR030") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR030") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060049482"
-      (reference "#PWR031") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR031") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ff5de33"
-      (reference "#PWR032") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR032") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/65825817-c95c-435a-a704-6fc32a2ac594"
-      (reference "#PWR033") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR033") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/b8b13daf-8621-4169-af3c-3cab3cb6a96e"
-      (reference "#PWR034") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR034") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006002bab6"
-      (reference "#PWR035") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR035") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006002df17"
-      (reference "#PWR036") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR036") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060167195"
-      (reference "#PWR037") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR037") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060167834"
-      (reference "#PWR038") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR038") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/9836bb5c-a0fb-4981-95bc-0f6c2177b043"
-      (reference "#PWR039") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR039") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/96bf4bd5-fd33-4e66-a3cc-6b1f3eb5c56f"
-      (reference "#PWR040") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR040") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060167a92"
-      (reference "#PWR041") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR041") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000603b0a91"
-      (reference "#PWR042") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR042") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006029573a"
-      (reference "#PWR043") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR043") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00005fce9a21"
-      (reference "#PWR045") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR045") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000674b98a5"
-      (reference "#PWR046") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR046") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00005fd74251"
-      (reference "#PWR047") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR047") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00005ff9bc61"
-      (reference "#PWR048") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR048") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000621b7b7c"
-      (reference "#PWR049") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR049") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000061244228"
-      (reference "#PWR050") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR050") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000610aec04"
-      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000610aec21"
-      (reference "#PWR052") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR052") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000060091bbd"
-      (reference "#PWR053") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR053") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000600b5e32"
-      (reference "#PWR054") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR054") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000614bf10f"
-      (reference "#PWR055") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR055") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000610b7a4b"
-      (reference "#PWR056") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR056") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000061e5ec21"
-      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00006230d58f"
-      (reference "#PWR058") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR058") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606435e1"
-      (reference "#PWR059") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060cdc29f"
-      (reference "#PWR060") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR060") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006061378e"
-      (reference "#PWR061") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR061") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000602d28da"
-      (reference "#PWR062") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR062") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606435f3"
-      (reference "#PWR063") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR063") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060cdc2a6"
-      (reference "#PWR064") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR064") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060613794"
-      (reference "#PWR065") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR065") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006031b72e"
-      (reference "#PWR066") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR066") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060643605"
-      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR067") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060cdc2ad"
-      (reference "#PWR068") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR068") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005fd4dd8d"
-      (reference "#PWR069") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR069") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000603657ee"
-      (reference "#PWR070") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR070") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060643617"
-      (reference "#PWR071") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR071") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060cdc2b4"
-      (reference "#PWR072") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR072") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005fd4db2d"
-      (reference "#PWR073") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR073") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000603b1ec8"
-      (reference "#PWR074") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR074") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060643629"
-      (reference "#PWR075") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR075") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060cdc2bb"
-      (reference "#PWR076") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR076") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005fd4d775"
-      (reference "#PWR077") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR077") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606e4b7f"
-      (reference "#PWR078") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR078") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060575505"
-      (reference "#PWR079") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR079") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060400eb1"
-      (reference "#PWR080") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR080") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005fd4d4d8"
-      (reference "#PWR081") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR081") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606e4b90"
-      (reference "#PWR082") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR082") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605a9661"
-      (reference "#PWR083") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR083") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006044fdf6"
-      (reference "#PWR084") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR084") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005fd4d10a"
-      (reference "#PWR085") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR085") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606e4ba1"
-      (reference "#PWR086") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR086") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605b9f28"
-      (reference "#PWR087") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR087") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000604a502d"
-      (reference "#PWR088") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR088") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005feb2b36"
-      (reference "#PWR089") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR089") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606e4bb2"
-      (reference "#PWR090") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR090") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605da619"
-      (reference "#PWR091") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR091") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000604f7de7"
-      (reference "#PWR092") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR092") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606e4bc3"
-      (reference "#PWR093") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR093") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605da62b"
-      (reference "#PWR094") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR094") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005feef598"
-      (reference "#PWR095") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR095") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060709014"
-      (reference "#PWR096") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR096") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605da63d"
-      (reference "#PWR097") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR097") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060549a5c"
-      (reference "#PWR098") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR098") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005ff57291"
-      (reference "#PWR099") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR099") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060709025"
-      (reference "#PWR0100") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0100") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006064363b"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006059f296"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006007cb65"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060709036"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000608ffa52"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000605f5f35"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000600c342e"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060709047"
-      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000608ffa64"
-      (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0109") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060ddb806"
-      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006064dc4a"
-      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006024a970"
-      (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0112") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606a5a34"
-      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060ddb818"
-      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006545daef"
-      (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0115") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000606fed32"
-      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060d80261"
-      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060d80268"
-      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006075ec4e"
-      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060d8026f"
-      (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0120") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000607badd4"
-      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006094215d"
-      (reference "#PWR0122") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0122") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060817b67"
-      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006094216d"
-      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000608da7ed"
-      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0125") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006094217e"
-      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006081d53d"
-      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000600e3e40"
-      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006259b1a2"
-      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060613770"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0130") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060613776"
-      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0131") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006061377c"
-      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060613782"
-      (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0133") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603a7e94"
-      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0134") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603aece1"
-      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0135") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603ac096"
-      (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0136") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603aefe2"
-      (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0137") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603af568"
-      (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0138") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000605c5ab6"
-      (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0139") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000605865f5"
-      (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0140") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600e4dd4"
-      (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0141") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600e818f"
-      (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0142") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000607c5c08"
-      (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0143") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d3457e46-c088-4f5e-bbb4-c05d24e90f9c"
-      (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0144") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000607dac0b"
-      (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0145") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006080350c"
-      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0146") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005fcf2715"
-      (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0147") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/cac95ca0-b92c-4a9c-8ad5-2ec93be03846"
-      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0148") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/85c047b2-f6f1-4dfb-aa50-0da1d4c58ce8"
-      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ac58aaae-0003-43e2-9e4d-56cdf5e110a3"
-      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0150") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/07ddc097-b830-42fb-9347-12d058c2d798"
-      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0151") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/730007b0-b8e0-47da-863c-7e88a07e7b8c"
-      (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0152") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1e19bc85-d464-4f90-9702-1d040297aaf1"
-      (reference "#PWR0153") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0153") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bab49e31-8f5d-4d54-ab1f-55ee2bfd2b4c"
-      (reference "#PWR0154") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0154") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602a0b72"
-      (reference "#PWR0155") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0155") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/5be5dc3f-b950-4162-953c-bf8023302f21"
-      (reference "#PWR0156") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0156") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005fe7633a"
-      (reference "#PWR0157") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0157") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fe902d2e-0fa1-488b-b429-e0b687cdbb77"
-      (reference "#PWR0158") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0158") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/73871bc2-a715-4900-b000-935ab2bd20c5"
-      (reference "#PWR0159") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0159") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ee294641-29a5-499c-8be3-5c22da261028"
-      (reference "#PWR0160") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0160") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fba40456-a65a-4e1b-b296-17a77f382409"
-      (reference "#PWR0161") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0161") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005feebf8b"
-      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0162") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006001d232"
-      (reference "#PWR0163") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0163") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060370c6a"
-      (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0164") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005febd76a"
-      (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0165") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006002372f"
-      (reference "#PWR0166") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0166") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b7ab1515-1adc-45ad-b334-6a0bc3d63e84"
-      (reference "#PWR0167") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0167") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b285d8dc-47f2-488f-8331-8c2c29670275"
-      (reference "#PWR0168") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0168") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/908b71f4-6043-4ac2-b1ce-9b5e7cc190fd"
-      (reference "#PWR0169") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0169") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/352d42f3-9b12-4078-8f63-08be8aa9e12f"
-      (reference "#PWR0170") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0170") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060029be6"
-      (reference "#PWR0171") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0171") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4b9aa448-c8f8-46ce-84a2-e83bb1461db6"
-      (reference "#PWR0172") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0172") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060367db3"
-      (reference "#PWR0173") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0173") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ae0b7c3a-e730-42e7-b1fe-846b83bd09de"
-      (reference "#PWR0174") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0174") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005fe96a8e"
-      (reference "#PWR0175") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0175") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060050dbc"
-      (reference "#PWR0176") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0176") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000600519c7"
-      (reference "#PWR0177") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0177") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060057ff6"
-      (reference "#PWR0178") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0178") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006005e669"
-      (reference "#PWR0179") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0179") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9c0110af-290a-4243-b661-dc65930c02aa"
-      (reference "#PWR0180") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0180") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/356417b1-f502-4f8e-8920-c4773d7092bf"
-      (reference "#PWR0181") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0181") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/0c612782-025d-4a4c-a4ee-98b2debe8411"
-      (reference "#PWR0182") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0182") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9184c2bd-4f46-4e5b-b1fc-45fc0fd4896a"
-      (reference "#PWR0183") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0183") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/aacff962-58ba-411d-8600-deaa38384a68"
-      (reference "#PWR0184") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0184") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/5273aa3b-035c-4c7b-b9ae-67fd6c4d0134"
-      (reference "#PWR0185") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0185") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ebd9fdde-b3c4-4a46-9dd7-385529dbe9ff"
-      (reference "#PWR0186") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0186") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060003077"
-      (reference "#PWR0187") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0187") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/dd39035d-0c45-4e2a-b191-fd0358978bc5"
-      (reference "#PWR0188") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0188") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c0535c7b-da37-4e73-8452-977300355580"
-      (reference "#PWR0189") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0189") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9201be75-2e8a-443b-948d-9553c9094f3f"
-      (reference "#PWR0190") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0190") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4b4280a7-5383-4aca-989d-b55735b9e60f"
-      (reference "#PWR0191") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0191") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bf52d772-3758-49ff-a119-8239db82ebe6"
-      (reference "#PWR0192") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0192") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a04cf48d-b4fb-41e4-b4cd-0023789d5612"
-      (reference "#PWR0193") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0193") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d54f0316-1e41-4d06-887a-0590faf46e80"
-      (reference "#PWR0194") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0194") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/807ffe4f-f8cb-4bc3-a302-ee0cdc1b646f"
-      (reference "#PWR0195") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0195") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d93a26c6-e193-4c18-9b01-174e83fc5e06"
-      (reference "#PWR0196") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0196") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4aebab99-346f-445e-95e6-6d8b4ac92c42"
-      (reference "#PWR0197") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0197") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/8de6b785-c2a4-4868-8b1f-8e1fc3714598"
-      (reference "#PWR0198") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0198") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1cc6be21-cf18-4125-b1f6-af82f4ae7194"
-      (reference "#PWR0199") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0199") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e454b8e1-8e05-49ff-abc3-395752b0928d"
-      (reference "#PWR0200") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0200") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a5837c9f-2ec1-4212-bd2d-dd7a398558d9"
-      (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0201") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9791eb4e-b618-452f-b2a1-e61f5831175a"
-      (reference "#PWR0202") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0202") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c34024a4-367a-4ef1-af6f-bb67593a7983"
-      (reference "#PWR0203") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0203") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4cfb97da-18a5-4c92-ba6d-86dd779d68be"
-      (reference "#PWR0204") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0204") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/80a29349-7c45-4abb-a281-1beca544f202"
-      (reference "#PWR0205") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0205") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c5eba16b-1f46-4fce-b8c9-e21b2500a876"
-      (reference "#PWR0206") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0206") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/661f6c41-3525-439f-a4da-7746a8be0c68"
-      (reference "#PWR0207") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0207") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e8853be4-cf99-4806-9aef-a4fa2fb34627"
-      (reference "#PWR0208") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0208") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1bb205f5-0479-498d-ad78-3d916d9b63af"
-      (reference "#PWR0209") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0209") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e7d512de-655b-4ffd-a034-15935bbd726c"
-      (reference "#PWR0210") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0210") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/8c53eae2-3ec7-4f53-a4ec-6d5c7cb4f75f"
-      (reference "#PWR0211") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0211") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/7c0287f3-13de-49c1-bb00-c307591e7922"
-      (reference "#PWR0212") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0212") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1c11d72c-d69b-489b-9ea2-9b60f49c4dbf"
-      (reference "#PWR0213") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0213") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/28a2d54a-12a6-4737-a484-1caf0f6137e4"
-      (reference "#PWR0214") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0214") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c5053f80-4fbd-43a9-975a-c5f44d7e677b"
-      (reference "#PWR0215") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0215") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/54618475-1c0c-4e24-8682-071177527e77"
-      (reference "#PWR0216") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0216") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fba2f51c-3edd-40e1-add4-6d8e33ef9b7b"
-      (reference "#PWR0217") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0217") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bf7da62d-f113-4fc5-8597-0eb3cb95b595"
-      (reference "#PWR0218") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0218") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1675f02b-dacf-48f6-aa4c-1a4e6fe6dc80"
-      (reference "#PWR0219") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0219") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/0787df8f-d5b5-4e01-8afd-812bebaf4e8d"
-      (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0220") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9670f682-e5dd-4172-8ca7-e109fd27578a"
-      (reference "#PWR0221") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0221") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1ec22774-27cb-4bda-ace7-b5735889d28c"
-      (reference "#PWR0222") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0222") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f9fe97c/00000000-0000-0000-0000-00005fb9bbd7"
-      (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0223") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f9fe97c/00000000-0000-0000-0000-0000611f4fbc"
-      (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0224") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f9fe97c/00000000-0000-0000-0000-000060d2b1f7"
-      (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0225") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f9fe97c/00000000-0000-0000-0000-00005ff1892c"
-      (reference "#PWR0226") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0226") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005f9fe97c/00000000-0000-0000-0000-00005fdefed7"
-      (reference "#PWR0227") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0227") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/8b288858-5177-448f-8f8f-e7116ab741b1"
-      (reference "#PWR0228") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0228") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/8e347fe1-2e7e-4666-a5e1-4425ca7ee470"
-      (reference "#PWR0229") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0229") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/efed439b-29c8-4b19-9cda-9fc0ba2aadca"
-      (reference "#PWR0230") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0230") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b2948c24-a8c3-4175-aee0-6d9dbdbad431"
-      (reference "#PWR0231") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0231") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/76aa77d3-065f-4e67-bd36-6f799ad0cdf4"
-      (reference "#PWR0232") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0232") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/472f5d1d-730a-4058-a11d-5e71fb74640f"
-      (reference "#PWR0233") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0233") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bddeb703-5ec0-46bc-a82d-7188a0b0598a"
-      (reference "#PWR0234") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0234") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/0cce025f-0c71-440f-8912-4bd682989381"
-      (reference "#PWR0235") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0235") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1138ddd9-8540-4166-bded-edbfd1a2782a"
-      (reference "#PWR0236") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0236") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c0d96bf5-f158-4ee1-9ac1-c8759de33989"
-      (reference "#PWR0237") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0237") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d1489aea-12e8-4354-adf2-0362599e5687"
-      (reference "#PWR0238") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0238") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/310ccd85-3a46-45f7-bf7f-5d59d60a9f66"
-      (reference "#PWR0239") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0239") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/cb931c63-02b9-4fc9-85e9-5b9a5a07055c"
-      (reference "#PWR0240") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0240") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ff243770-e849-47bb-811b-49226aed8f4e"
-      (reference "#PWR0241") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0241") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/11294beb-eeea-49a1-8fd9-fc29f1fe8e59"
-      (reference "#PWR0242") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0242") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4bb4a4b9-b725-449d-9a18-99c416ea5df6"
-      (reference "#PWR0243") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0243") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602e456b"
-      (reference "#PWR0244") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0244") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bf957b0b-dce2-47f9-93e0-190bcf1b55f2"
-      (reference "#PWR0245") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0245") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fa5970f4-411f-48b5-8b4d-c3ff675bd899"
-      (reference "#PWR0246") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0246") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006000438b"
-      (reference "#PWR0247") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0247") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006003331b"
-      (reference "#PWR0248") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0248") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006003313c"
-      (reference "#PWR0249") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0249") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603d16ec"
-      (reference "#PWR0250") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0250") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602ed98b"
-      (reference "#PWR0251") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0251") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603e5d69"
-      (reference "#PWR0252") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0252") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603d117a"
-      (reference "#PWR0253") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0253") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ed9e47c0-f304-498c-a22b-4066ea46f7ed"
-      (reference "#PWR0254") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0254") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/7f41a3a0-15c1-4a5d-a353-5a5c26e54c1f"
-      (reference "#PWR0255") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0255") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/033ef24c-c7d2-4114-aebd-724d32bbf00e"
-      (reference "#PWR0256") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0256") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/335a094a-7caf-49d2-bb25-2fa222a6584e"
-      (reference "#PWR0257") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0257") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/3d3ebbe4-23da-4863-ba2e-44a2e9d925b1"
-      (reference "#PWR0258") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0258") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/6d7ba123-54fd-45a4-b714-a1ef9f6baecb"
-      (reference "#PWR0259") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0259") (unit 1) (value "GND") (footprint "lpddr4-test-board-footprints:")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-0000600ef985"
       (reference "C1") (unit 1) (value "C_47u_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
@@ -2866,22 +2866,22 @@
       (reference "C122") (unit 1) (value "C_22p_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f7fbd81d-7f81-4468-9e95-173fc016097e"
-      (reference "C123") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
+      (reference "C123") (unit 1) (value "C_22u_0805_16V") (footprint "lpddr4-test-board-footprints:0805-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a918e550-3b60-452a-b74d-71db0527e6eb"
-      (reference "C124") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
+      (reference "C124") (unit 1) (value "C_22u_0805_16V") (footprint "lpddr4-test-board-footprints:0805-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a6c928f5-510f-4959-858b-ad2b4cf388d1"
-      (reference "C125") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
+      (reference "C125") (unit 1) (value "C_22u_0805_16V") (footprint "lpddr4-test-board-footprints:0805-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/3b7efd32-0b2b-4499-947f-5b454a5f00c7"
-      (reference "C126") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
+      (reference "C126") (unit 1) (value "C_22u_0805_16V") (footprint "lpddr4-test-board-footprints:0805-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a873abce-69c3-4eb1-9be8-b23b0ea7faa9"
-      (reference "C127") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
+      (reference "C127") (unit 1) (value "C_22u_0805_16V") (footprint "lpddr4-test-board-footprints:0805-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a8c5f1c9-9523-495b-8a34-d01988de7294"
-      (reference "C128") (unit 1) (value "C_22u_0805_16V") (footprint "antmicro-footprints:0805-cap")
+      (reference "C128") (unit 1) (value "C_22u_0805_16V") (footprint "lpddr4-test-board-footprints:0805-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603a0e92"
       (reference "C129") (unit 1) (value "C_4n7_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
@@ -2902,10 +2902,10 @@
       (reference "C134") (unit 1) (value "C_10n_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/276f7d99-ceb5-4880-86fa-de9d60dc8512"
-      (reference "C135") (unit 1) (value "C_10u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C135") (unit 1) (value "C_10u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c3cb21b9-1dc0-4916-ac87-23a3c1bb6ee0"
-      (reference "C136") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C136") (unit 1) (value "C_100n_0402_6V3") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005fee4e91"
       (reference "C137") (unit 1) (value "C_10n_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
@@ -2935,7 +2935,7 @@
       (reference "C145") (unit 1) (value "C_47u_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/39129325-cdff-4219-ae36-1e4fe8b8d520"
-      (reference "C146") (unit 1) (value "C_1n8_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C146") (unit 1) (value "C_1n8_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060050a58"
       (reference "C147") (unit 1) (value "C_10n_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
@@ -2953,94 +2953,94 @@
       (reference "C151") (unit 1) (value "C_10n_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/805a4cb8-1f0a-40c7-8c21-1309d5635ad0"
-      (reference "C152") (unit 1) (value "C_10u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C152") (unit 1) (value "C_10u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/dc691dbb-4e89-4776-9c68-1cc6798061e4"
-      (reference "C153") (unit 1) (value "C_10u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C153") (unit 1) (value "C_10u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/52b87a56-ce51-4ab3-ac5a-47a9155a69cd"
-      (reference "C154") (unit 1) (value "C_10u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C154") (unit 1) (value "C_10u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/3ed5f576-1aa1-4562-98fa-f4aaef22d822"
-      (reference "C155") (unit 1) (value "C_10u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C155") (unit 1) (value "C_10u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/0ef6e2e8-0c11-437b-a08b-3c968256f623"
-      (reference "C156") (unit 1) (value "C_10u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C156") (unit 1) (value "C_10u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1cc00d7b-b82f-4161-95e2-1cc976addaf8"
-      (reference "C157") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C157") (unit 1) (value "C_100n_0402_6V3") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9a136298-abd3-43db-840c-d5aa653489c0"
-      (reference "C158") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C158") (unit 1) (value "C_100n_0402_6V3") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/efae52fa-edce-4a89-9024-ab6ce2b9d7dd"
-      (reference "C159") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C159") (unit 1) (value "C_100n_0402_6V3") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/70d0306b-2331-4212-9708-6e54a87db988"
-      (reference "C160") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C160") (unit 1) (value "C_100n_0402_6V3") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/3db51168-8706-4524-8d00-e005fe642243"
-      (reference "C161") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
+      (reference "C161") (unit 1) (value "C_100n_0402_6V3") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/62cb21fd-07f7-4768-810f-d120bb0b1929"
-      (reference "C162") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C162") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e3356436-bb3d-47b5-b690-4571064acc09"
-      (reference "C163") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C163") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b5b74db3-b1e1-4555-b5d4-35ddb5c0adda"
-      (reference "C164") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C164") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ddbb4581-e4db-48b6-9532-eeacae0f30b8"
-      (reference "C165") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C165") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e1135462-eb1b-4368-96d1-84c98a626d4d"
-      (reference "C166") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C166") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f42b271f-e8b2-452b-b766-073cd7b54154"
-      (reference "C167") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C167") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/419151b2-12b7-4971-ad0d-6053df66c81f"
-      (reference "C168") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C168") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c59404c0-5d2e-4898-a74c-392de944925c"
-      (reference "C169") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C169") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bb222c80-e053-4523-ac59-aa5a5bec7457"
-      (reference "C170") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C170") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/3faa7ac9-57ab-40f9-ae46-002ad88474e7"
-      (reference "C171") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C171") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4a0ff5e1-9ef1-44fc-bf79-d0748f75ba98"
-      (reference "C172") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C172") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/519bb11d-4fa4-43cc-8f9d-d3d258008208"
-      (reference "C173") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C173") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c3f575c7-5a8e-4423-80de-733a01d4692f"
-      (reference "C174") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C174") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d70cb395-8a38-4eff-93af-625bb78ebfbf"
-      (reference "C175") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C175") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/cb3b7cf8-60bb-4ee5-9482-76e3dab790c0"
-      (reference "C176") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C176") (unit 1) (value "C_22u_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1c6a750a-bab7-42b0-bade-f675bdfc5a62"
-      (reference "C177") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C177") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/2456e7ad-faeb-46f1-99c9-1f2849110d1a"
-      (reference "C178") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C178") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f1b4b9e4-7480-46e3-a5b4-6739446854ba"
-      (reference "C179") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C179") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/155dd83e-097a-438e-a912-9af03738038c"
-      (reference "C180") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C180") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bd8684df-b744-4e3a-9110-b264b3c4d0dd"
-      (reference "C181") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C181") (unit 1) (value "C_1u_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/753e6a39-ed99-41db-b055-7b98b5ce1302"
       (reference "C182") (unit 1) (value "C_10u_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
@@ -3094,7 +3094,7 @@
       (reference "C198") (unit 1) (value "C_22u_0603") (footprint "lpddr4-test-board-footprints:0603-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d3e595ed-b942-447b-a2d8-9c0751f35440"
-      (reference "C199") (unit 1) (value "C_1n8_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C199") (unit 1) (value "C_1n8_0402") (footprint "lpddr4-test-board-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ff856a4"
       (reference "D1") (unit 1) (value "KP-1608CGCK") (footprint "lpddr4-test-board-footprints:LED_0603")
@@ -3172,7 +3172,7 @@
       (reference "J6") (unit 1) (value "DC_SOCKET") (footprint "lpddr4-test-board-footprints:DC_SOCKET")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bb394074-fe5f-42d6-a5c5-d372c5845f97"
-      (reference "J7") (unit 1) (value "61300311021") (footprint "antmicro-footprints:PinHeader_1x03_P2.54mm_Horizontal")
+      (reference "J7") (unit 1) (value "61300311021") (footprint "lpddr4-test-board-footprints:PinHeader_1x03_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060001a7d"
       (reference "J8") (unit 1) (value "61300311121") (footprint "lpddr4-test-board-footprints:PinHeader_1x3_P2.54_Drill1.1mm")
@@ -3187,19 +3187,19 @@
       (reference "L1") (unit 1) (value "WE_7447798720") (footprint "lpddr4-test-board-footprints:WE_7447798720")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d68a05e2-23a1-4ad3-bc6f-1a63491e2dc7"
-      (reference "L2") (unit 1) (value "784383240047") (footprint "antmicro-footprints:L_Wuerth_MAIA-2512")
+      (reference "L2") (unit 1) (value "784383240047") (footprint "lpddr4-test-board-footprints:L_Wuerth_MAIA-2512")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4f67d931-a2d0-4d37-bff6-19489b70cff1"
-      (reference "L3") (unit 1) (value "784383240047") (footprint "antmicro-footprints:L_Wuerth_MAIA-2512")
+      (reference "L3") (unit 1) (value "784383240047") (footprint "lpddr4-test-board-footprints:L_Wuerth_MAIA-2512")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/924cdea2-8c77-4917-a08a-c9e7f439ab08"
-      (reference "L4") (unit 1) (value "784383350047") (footprint "antmicro-footprints:L_Wuerth_MAIA-3015")
+      (reference "L4") (unit 1) (value "784383350047") (footprint "lpddr4-test-board-footprints:L_Wuerth_MAIA-3015")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/366ffa63-e0e0-4e09-b52a-1c182ce520aa"
-      (reference "L5") (unit 1) (value "784383240047") (footprint "antmicro-footprints:L_Wuerth_MAIA-2512")
+      (reference "L5") (unit 1) (value "784383240047") (footprint "lpddr4-test-board-footprints:L_Wuerth_MAIA-2512")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/90ad34ad-956a-4c57-84fc-e953208ae4f1"
-      (reference "L6") (unit 1) (value "784383240047") (footprint "antmicro-footprints:L_Wuerth_MAIA-2512")
+      (reference "L6") (unit 1) (value "784383240047") (footprint "lpddr4-test-board-footprints:L_Wuerth_MAIA-2512")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/afdbdc4b-bb95-4ec9-8349-12f1f2279624"
       (reference "L7") (unit 1) (value "IHLP2020BZER4R7M01") (footprint "lpddr4-test-board-footprints:IHLP2020BZER4R7M01")
@@ -3259,22 +3259,22 @@
       (reference "Q7") (unit 1) (value "BSS138APW") (footprint "lpddr4-test-board-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/af55bb0e-d57a-4207-a1e7-5d88b269989f"
-      (reference "Q8") (unit 1) (value "DMG1012T-7") (footprint "antmicro-footprints:SOT-523")
+      (reference "Q8") (unit 1) (value "DMG1012T-7") (footprint "lpddr4-test-board-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/70319568-335e-41a3-bc2c-54357cef1978"
-      (reference "Q9") (unit 1) (value "DMG1012T-7") (footprint "antmicro-footprints:SOT-523")
+      (reference "Q9") (unit 1) (value "DMG1012T-7") (footprint "lpddr4-test-board-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/bd6bc74f-2e7d-4fde-bc37-f59e350d0d22"
-      (reference "Q10") (unit 1) (value "DMG1012T-7") (footprint "antmicro-footprints:SOT-523")
+      (reference "Q10") (unit 1) (value "DMG1012T-7") (footprint "lpddr4-test-board-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/52cf0b8f-346b-4d33-8ce7-923ac264e256"
-      (reference "Q11") (unit 1) (value "DMG1012T-7") (footprint "antmicro-footprints:SOT-523")
+      (reference "Q11") (unit 1) (value "DMG1012T-7") (footprint "lpddr4-test-board-footprints:SOT-523")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ded16c33-739c-4f89-9445-070dcdcc487f"
-      (reference "Q12") (unit 1) (value "SQS401EN-T1_BE3") (footprint "antmicro-footprints:Vishay_PowerPAK_1212-8_Single")
+      (reference "Q12") (unit 1) (value "SQS401EN-T1_BE3") (footprint "lpddr4-test-board-footprints:Vishay_PowerPAK_1212-8_Single")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/2c4fb6c4-fd46-4afb-9eab-8f476b7d7e84"
-      (reference "Q13") (unit 1) (value "BSS123") (footprint "antmicro-footprints:SOT-23-3")
+      (reference "Q13") (unit 1) (value "BSS123") (footprint "lpddr4-test-board-footprints:SOT-23-3")
     )
     (path "/00000000-0000-0000-0000-00005fea2994/00000000-0000-0000-0000-00006018e11b"
       (reference "R1") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3565,13 +3565,13 @@
       (reference "R96") (unit 1) (value "R_243k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/e58e59fd-54d8-4f33-bac5-c835d2f9dc4c"
-      (reference "R97") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R97") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/84f5e8ca-2be0-4378-bc14-7c9f64fece17"
-      (reference "R98") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R98") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4583068a-6f87-413a-a548-5fb0d3a7ec6d"
-      (reference "R99") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R99") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006039308e"
       (reference "R100") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3607,7 +3607,7 @@
       (reference "R110") (unit 1) (value "R_330R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/db0b7918-51a0-499b-bc2d-7e32dba79331"
-      (reference "R111") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R111") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d465b9a8-2fba-4ec4-8ab1-a92e09068795"
       (reference "R112") (unit 1) (value "R_330R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3616,7 +3616,7 @@
       (reference "R113") (unit 1) (value "R_330R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/afbb04c3-c032-4e86-b22e-c2720449ff80"
-      (reference "R114") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R114") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/acceb877-0072-48b6-abbe-1c7b964be0d6"
       (reference "R115") (unit 1) (value "R_5R1_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3625,10 +3625,10 @@
       (reference "R116") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/2098def7-5620-4069-8ceb-badd841e3b6b"
-      (reference "R117") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R117") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b73aadf5-cfd7-412a-96bc-8edcb5ad9b7c"
-      (reference "R118") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R118") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f56f7c3b-b3a6-4913-8f44-b9e04f72c83f"
       (reference "R119") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3640,7 +3640,7 @@
       (reference "R121") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/60cc3a79-6584-4f05-a626-13785ab5c6ca"
-      (reference "R122") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R122") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/1bb7b080-ea6a-488f-9bb8-ebcba2e30c1b"
       (reference "R123") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3652,7 +3652,7 @@
       (reference "R125") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/395fb63b-eae4-4df7-ae94-a13f437528cf"
-      (reference "R126") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R126") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/45ad8845-79f5-4a41-bb55-99b490b0ef7d"
       (reference "R127") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3664,7 +3664,7 @@
       (reference "R129") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d1595303-5a41-422f-aecf-d3f325a233d8"
-      (reference "R130") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R130") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9af1a2ba-c7c2-4e57-874e-1a0b3387d202"
       (reference "R131") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3676,49 +3676,49 @@
       (reference "R133") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b2c2e01e-f002-4713-9830-90b41936d698"
-      (reference "R134") (unit 1) (value "R_31k6_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R134") (unit 1) (value "R_31k6_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/eafc74c5-1422-4e35-8ebd-da472541cd5a"
-      (reference "R135") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R135") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ca04c0b8-d29e-4fd1-9f98-ced295ea388f"
-      (reference "R136") (unit 1) (value "R_31k6_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R136") (unit 1) (value "R_31k6_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/8716ae20-9d80-4cfd-86d2-20bc1451f551"
-      (reference "R137") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R137") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9cbb59f8-a635-46ec-910c-73981ffb725d"
-      (reference "R138") (unit 1) (value "R_31k6_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R138") (unit 1) (value "R_31k6_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f348c363-85d8-493c-b11d-6099d5ec4475"
-      (reference "R139") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R139") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/102bdeab-eed7-4e01-89db-87e5597dcc7f"
-      (reference "R140") (unit 1) (value "R_31k6_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R140") (unit 1) (value "R_31k6_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f5c9c91c-1885-4e1a-9226-6d0ee6888c5d"
-      (reference "R141") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R141") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/cc4ea897-1325-4453-8185-c43c70213650"
-      (reference "R142") (unit 1) (value "R_31k6_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R142") (unit 1) (value "R_31k6_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/8a11ddf2-9ab3-43ef-bd2e-8a5b71f203aa"
-      (reference "R143") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R143") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c362533d-bf7b-4dda-bd40-c33e8ca7aad0"
-      (reference "R144") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R144") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f0397c15-7264-43da-82f6-ec24b78e53ea"
-      (reference "R145") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R145") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c2f75e47-c755-479e-b74d-7756c890ea50"
-      (reference "R146") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R146") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/46cebe4e-7f97-41dd-bc5e-d2cff3dd91e4"
-      (reference "R147") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R147") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/38d9032f-d663-4ba8-8716-6e1e96733182"
-      (reference "R148") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R148") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b7cba929-ffe0-4320-88ad-dd22e75f9f55"
       (reference "R149") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3733,19 +3733,19 @@
       (reference "R152") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/90fe7524-ecc0-404c-8fd0-237f41cb65e4"
-      (reference "R153") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
+      (reference "R153") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f23616ea-4e29-4135-b221-0fac68b9b2ed"
-      (reference "R154") (unit 1) (value "R_10R_1%_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R154") (unit 1) (value "R_10R_1%_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/15db75f7-57f0-4600-b851-71bfde73dd92"
       (reference "R155") (unit 1) (value "R_49R9_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/553ec5de-a065-4820-b754-37e91e7a89e8"
-      (reference "R156") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R156") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fa7afd4f-5e11-46ea-97e0-9a1aac80cb95"
-      (reference "R157") (unit 1) (value "R_100k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R157") (unit 1) (value "R_100k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d6809951-b663-4b57-8851-116df3f01916"
       (reference "R158") (unit 1) (value "R_0R_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3766,10 +3766,10 @@
       (reference "R163") (unit 1) (value "R_10k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9960fa19-e324-48a7-ad06-fb021ab05709"
-      (reference "R164") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R164") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c43a48e6-1b17-4536-95ec-ed0e7ba20d0d"
-      (reference "R165") (unit 1) (value "R_0R_0805") (footprint "antmicro-footprints:0805-res")
+      (reference "R165") (unit 1) (value "R_0R_0805") (footprint "lpddr4-test-board-footprints:0805-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/774197f5-2c92-43cd-8c30-a77432bab549"
       (reference "R166") (unit 1) (value "R_243k_0402") (footprint "lpddr4-test-board-footprints:0402-res")
@@ -3844,7 +3844,7 @@
       (reference "U1") (unit 1) (value "S27KL0641DABHI023") (footprint "lpddr4-test-board-footprints:FBGA-24")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/38bbf3dd-ccdc-4ebe-bc24-27a8bb64e7a1"
-      (reference "U2") (unit 1) (value "ASFL1-100.000MHZ-L-T") (footprint "antmicro-footprints:Oscillator_SMD_Abracon_ASFL1-4Pin_5.0x3.2mm")
+      (reference "U2") (unit 1) (value "ASFL1-100.000MHZ-L-T") (footprint "lpddr4-test-board-footprints:Oscillator_SMD_Abracon_ASFL1-4Pin_5.0x3.2mm")
     )
     (path "/00000000-0000-0000-0000-00005f96c515/00000000-0000-0000-0000-00005fb5167e"
       (reference "U3") (unit 1) (value "XC7K70T-FBG484") (footprint "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N")
@@ -3868,10 +3868,10 @@
       (reference "U3") (unit 7) (value "XC7K70T-FBG484") (footprint "lpddr4-test-board-footprints:BGA484C100P22X22_2300X2300X244N")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/1d767903-2f2f-45e8-9472-604a9ea81528"
-      (reference "U4") (unit 1) (value "FT4232H-56Q") (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
+      (reference "U4") (unit 1) (value "FT4232H-56Q") (footprint "lpddr4-test-board-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/7b43dfb9-a09d-47d0-8f06-d25f55a05a7c"
-      (reference "U5") (unit 1) (value "S25FL128LAGNFA010") (footprint "antmicro-footprints:S25FL128SAGNFI000")
+      (reference "U5") (unit 1) (value "S25FL128LAGNFA010") (footprint "lpddr4-test-board-footprints:S25FL128SAGNFI000")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600d5c76"
       (reference "U6") (unit 1) (value "KSZ9031RNXCA") (footprint "lpddr4-test-board-footprints:QFN-48-Microchip-QFN77-48LD-PL-2")
@@ -3880,31 +3880,31 @@
       (reference "U7") (unit 1) (value "LM3881MME_NOPB") (footprint "lpddr4-test-board-footprints:VSSOP8-Texas_Instruments-DGK0008A")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/4ff6b2d4-a81f-401a-ba89-0e9feccf4a09"
-      (reference "U8") (unit 1) (value "AP62600SJ-7") (footprint "antmicro-footprints:V-QFN2030-12")
+      (reference "U8") (unit 1) (value "AP62600SJ-7") (footprint "lpddr4-test-board-footprints:V-QFN2030-12")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/0dfa9f5d-1fce-4e65-86b2-e9a79c6ee448"
-      (reference "U9") (unit 1) (value "AP62600SJ-7") (footprint "antmicro-footprints:V-QFN2030-12")
+      (reference "U9") (unit 1) (value "AP62600SJ-7") (footprint "lpddr4-test-board-footprints:V-QFN2030-12")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/9ff0c2f0-e3ac-4db0-b228-d72fae255c12"
-      (reference "U10") (unit 1) (value "AP62600SJ-7") (footprint "antmicro-footprints:V-QFN2030-12")
+      (reference "U10") (unit 1) (value "AP62600SJ-7") (footprint "lpddr4-test-board-footprints:V-QFN2030-12")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/a83f0a7c-994f-4501-96ee-1ed880cf0e3c"
-      (reference "U11") (unit 1) (value "AP62600SJ-7") (footprint "antmicro-footprints:V-QFN2030-12")
+      (reference "U11") (unit 1) (value "AP62600SJ-7") (footprint "lpddr4-test-board-footprints:V-QFN2030-12")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/fbf1ed8f-2c45-416f-9371-c50fc2e10d58"
-      (reference "U12") (unit 1) (value "AP62600SJ-7") (footprint "antmicro-footprints:V-QFN2030-12")
+      (reference "U12") (unit 1) (value "AP62600SJ-7") (footprint "lpddr4-test-board-footprints:V-QFN2030-12")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/c39e3401-219b-4ae1-8fdc-0f978860e141"
-      (reference "U13") (unit 1) (value "TPS65296") (footprint "antmicro-footprints:VQFN-HR")
+      (reference "U13") (unit 1) (value "TPS65296") (footprint "lpddr4-test-board-footprints:VQFN-HR")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d2fed9c2-a0d6-42e3-a186-9517d2ab9e62"
-      (reference "U14") (unit 1) (value "MIC61300YML") (footprint "antmicro-footprints:DFN-10-1EP_3x3mm")
+      (reference "U14") (unit 1) (value "MIC61300YML") (footprint "lpddr4-test-board-footprints:DFN-10-1EP_3x3mm")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/b4869c33-2799-46cd-8999-8d294cac99ce"
-      (reference "U15") (unit 1) (value "SLG59M1457V") (footprint "antmicro-footprints:RENESAS-TDFN-8-1.5x2.0mm_P0.5mm")
+      (reference "U15") (unit 1) (value "SLG59M1457V") (footprint "lpddr4-test-board-footprints:RENESAS-TDFN-8-1.5x2.0mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f3fc9fa5-0cf5-4a68-bb34-a06f0a4cef5d"
-      (reference "U16") (unit 1) (value "SLG59M1457V") (footprint "antmicro-footprints:RENESAS-TDFN-8-1.5x2.0mm_P0.5mm")
+      (reference "U16") (unit 1) (value "SLG59M1457V") (footprint "lpddr4-test-board-footprints:RENESAS-TDFN-8-1.5x2.0mm_P0.5mm")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fdd28f9"
       (reference "USR_BTN1") (unit 1) (value "B3U-1000P") (footprint "lpddr4-test-board-footprints:Switch_Tactile_SMD_B3U-1000P")
