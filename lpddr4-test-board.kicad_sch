@@ -3207,6 +3207,9 @@
     (path "/00000000-0000-0000-0000-000060225b0c/30095bc5-df03-4a0f-b45c-062f2c12d4e9"
       (reference "L8") (unit 1) (value "DFE322512F-R68M=P2") (footprint "lpddr4-test-board-footprints:INDC3225X120N")
     )
+    (path "/00000000-0000-0000-0000-00005f9fe97c/61a16c36-1f9c-45d9-bdd0-74ebed63fb7c"
+      (reference "M1") (unit 1) (value "ddr5-testbed") (footprint "lpddr4-test-board-footprints:DDR5-testbed")
+    )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00006001b7f4"
       (reference "MODE1") (unit 1) (value "61300311121") (footprint "lpddr4-test-board-footprints:PinHeader_1x3_P2.54_Drill1.1mm")
     )
