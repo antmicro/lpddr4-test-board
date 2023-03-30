@@ -1,6 +1,6 @@
 # LPDDR4 test board
 
-Copyright (c) 2021-2022 [Antmicro](https://antmicro.com)
+Copyright (c) 2021-2023 [Antmicro](https://antmicro.com)
 
 [![LPDDR4 test board @ opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/lpddr4-test-board)
 
@@ -29,7 +29,7 @@ The remaining files are stored in the following directories:
 ## Key features
 
 * Kintex-7 FPGA - XC7K70T-FBG484
-* Modular design with custom DDR4 SO-DIMM connector
+* Modular design with custom DDR4 SO-DIMM connector for various testbeds
 * HDMI output connector
 * Ethernet RJ45 connector with 1GbE transceiver
 * Micro USB debug connector with FT4232HQ FTDI USB controller
@@ -40,6 +40,11 @@ The remaining files are stored in the following directories:
 * External 7-12V power input
 * 5 user LEDs
 * 4 user buttons
+
+The LPDDR4 test board is electrically compatible with the following testbeds:
+
+* [LPDDR4 Testbed](https://github.com/antmicro/lpddr4-testbed) with a single LPDDR4 IC
+* [DDR5 Testbed](https://github.com/antmicro/ddr5-testbed) with a signle DDR5 IC
 
 ## Block diagram
 
