@@ -45,6 +45,6 @@ The remaining files are stored in the following directories:
 
 ![Block diagram](img/lpddr4-test-board-diagram.png)
 
-## License
+## Licensing
 
-[Apache-2.0](LICENSE)
+This project is published under the [Apache-2.0](LICENSE) license.
