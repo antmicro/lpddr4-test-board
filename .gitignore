@@ -11,6 +11,7 @@
 *.sch-bak
 *~
 _autosave-*
+\#auto*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -27,6 +28,8 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-
 *.swp
 *-cache.lib
+
+# Script output files
+*.log 
