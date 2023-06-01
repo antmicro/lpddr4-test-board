@@ -11,10 +11,10 @@ Copyright (c) 2021-2023 [Antmicro](https://antmicro.com)
 This repository contains open hardware design files for an experimental platform built around Xilinx Kintex-7 FPGA.
 The main purpose of this platform is to develop and customize RAM controllers supporting LPDDR4 ICs.
 
-This hardware platform is supported by the [LiteX Rowhammer Tester](https://github.com/antmicro/litex-rowhammer-tester) gateware.
+This hardware platform is supported by the [Rowhammer Tester](https://github.com/antmicro/rowhammer-tester) gateware.
 It can be used to investigate Rowhammer DRAM attacks.
 You can learn more about Rowhammer attacks from this blog [note](https://antmicro.com/blog/2021/08/open-source-ddr-test-framework-for-rowhammer/).
-The usage instructions for this board are also provided in the [LiteX Row Hammer Tester documentation](https://litex-rowhammer-tester.readthedocs.io/en/latest/).
+The usage instructions for this board are also provided in the [Row Hammer Tester documentation](https://rowhammer-tester.readthedocs.io/en/latest/).
 
 The design files for this board were prepared in KiCad.
 
