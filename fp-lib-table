@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name lpddr4-test-board-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/lpddr4-test-board-footprints)(options "")(descr ""))
+  (lib (name "lpddr4-test-board-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/lpddr4-test-board-footprints")(options "")(descr ""))
 )
