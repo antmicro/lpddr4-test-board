@@ -61,7 +61,7 @@
   (fp_line (start 2.709 2.717) (end -2.711 2.717) (layer "User.9") (width 0.02) (tstamp d8255f6b-43e8-40f5-8038-6416fbb37d8d))
   (pad "1" smd rect (at -2.032 0 90) (size 2.794 1.9812) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 54fe622c-2722-4935-a242-67b512dbf1b6))
   (pad "2" smd rect (at 2.031 0 90) (size 2.794 1.9812) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d8d3d4a7-effd-4aa3-97b5-91ce15119b44))
-  (model "${KIPRJMOD}/lib/3d-models/L_2020_5252Metric.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/L_2020_5252Metric.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

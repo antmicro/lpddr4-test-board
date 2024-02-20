@@ -220,7 +220,7 @@
   (pad "9" smd roundrect (at 1.426 -0.5 270) (size 0.25 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 6245ee54-11fa-42b4-ac0d-39e5170bdc60))
   (pad "10" smd roundrect (at 1.426 -1 270) (size 0.25 0.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 484c36c7-2a43-4fa8-b5ad-a1a5d073df34))
   (pad "11" smd roundrect (at 0 0 270) (size 2.38 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp a10e6fcd-391c-4575-8a1b-6400afbff370))
-  (model "${KIPRJMOD}/lib/3d-models/DFN-10-1EP_3x3mm_P0.5mm.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/DFN-10-1EP_3x3mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

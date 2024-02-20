@@ -747,7 +747,7 @@
   (fp_line (start -2.543 -3.085) (end -2.689 -2.959) (layer "User.9") (width 0.02) (tstamp feba639b-fa1a-429e-a6b4-4ff2b6792adf))
   (pad "1" smd rect (at -4.1 0 90) (size 3.4 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df75a25e-5509-443b-bdff-722358f21a4d))
   (pad "2" smd rect (at 4.099 0 90) (size 3.4 2.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2e96f18b-5cd6-460c-8fcf-f0cdd0ec9a97))
-  (model "${KIPRJMOD}/lib/3d-models/L_4141_WE_PDF.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/L_4141_WE_PDF.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

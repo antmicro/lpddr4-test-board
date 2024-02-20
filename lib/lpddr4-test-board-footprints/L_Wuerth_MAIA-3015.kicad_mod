@@ -1162,7 +1162,7 @@
   (fp_line (start 0.279 -0.147) (end 0.281 -0.146) (layer "User.9") (width 0.02) (tstamp ffc9273b-5eb6-48c6-ae20-de8ccf2de789))
   (pad "1" smd rect (at -1.075 0.05) (size 1.35 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 75299599-bd89-4b7d-aebc-c01b3fc32cc5))
   (pad "2" smd rect (at 1.074 0.05) (size 1.35 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a406ccac-0e93-4522-bf71-ff724cb96901))
-  (model "${KIPRJMOD}/lib/3d-models/L_Wuerth_MAIA-3015.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/L_Wuerth_MAIA-3015.step"
     (offset (xyz 0 0 1.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))

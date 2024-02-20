@@ -292,7 +292,7 @@
   (fp_line (start 1.215 2.241) (end 1.322 2.18) (layer "User.9") (width 0.02) (tstamp ff2f6b9d-563a-4046-b686-c0d2aa02ed46))
   (pad "1" thru_hole circle (at 0 0) (size 6 6) (drill 3.7) (layers *.Cu *.Mask)
     (solder_paste_margin -1.2) (tstamp 9a1fdf24-68f8-4f62-b9b1-6f7cc5c171d2))
-  (model "${KIPRJMOD}/lib/3d-models/9774050151R.stp"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/9774050151R.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

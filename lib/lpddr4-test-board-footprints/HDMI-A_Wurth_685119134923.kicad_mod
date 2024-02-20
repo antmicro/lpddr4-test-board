@@ -823,7 +823,7 @@
   (pad "SH" thru_hole oval (at 7.2 4.424) (size 1.5 3.3) (drill oval 0.9 2.7) (layers *.Cu *.Mask) (tstamp 13ee1b12-0c0f-4e2d-a48b-f87c05813f0d))
   (pad "SH" thru_hole oval (at -7.3 4.424) (size 1.5 3.3) (drill oval 0.9 2.7) (layers *.Cu *.Mask) (tstamp 39ad9df8-4810-4076-af17-33eac0e855d8))
   (pad "SH" thru_hole oval (at 7.2 -1.577) (size 1.5 2.7) (drill oval 0.9 2.1) (layers *.Cu *.Mask) (tstamp 3d44482b-91a3-4dab-a2f2-2bf231ddb021))
-  (model "${KIPRJMOD}/lib/3d-models/685119134923.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/685119134923.step"
     (offset (xyz -0.05 -2.925 4.1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

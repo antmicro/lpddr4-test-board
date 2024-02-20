@@ -218,7 +218,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp af5ab0c3-51f6-4976-9bbe-516878ba8a01))
   (pad "2" thru_hole circle (at 2.499 0) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp c7faa3fa-83df-48bf-81f2-78c36d4d9dad))
   (pad "3" thru_hole circle (at 4.998 0) (size 1.9 1.9) (drill 0.9) (layers *.Cu *.Mask) (tstamp d4ece323-f919-419c-8d62-255178aff1e4))
-  (model "${KIPRJMOD}/lib/3d-models/SW_Slide_E-Switch_EG1218.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/SW_Slide_E-Switch_EG1218.step"
     (offset (xyz 2.5 0 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

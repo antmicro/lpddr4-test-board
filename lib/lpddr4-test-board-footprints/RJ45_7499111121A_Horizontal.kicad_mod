@@ -1455,7 +1455,7 @@
   (pad "14" thru_hole circle (at 12.346 12.971 180) (size 1.53 1.53) (drill 1.02) (layers *.Cu *.Mask) (tstamp f8d1aadc-23a5-4169-b20a-7a64e378840b))
   (pad "SH" thru_hole circle (at -2.03 5.842 180) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask) (tstamp 524f6bc2-8516-469b-a9b2-1f4a2f754d1a))
   (pad "SH" thru_hole circle (at 13.462 5.842 180) (size 2.4 2.4) (drill 1.6) (layers *.Cu *.Mask) (tstamp d07d9d04-3e2d-48fd-96d3-14caba24423a))
-  (model "${KIPRJMOD}/lib/3d-models/RJ45_7499111121A_Horizontal.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/RJ45_7499111121A_Horizontal.step"
     (offset (xyz 5.75 -8.9 7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))

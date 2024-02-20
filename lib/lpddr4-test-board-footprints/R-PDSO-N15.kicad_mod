@@ -224,7 +224,7 @@
   (pad "13" smd roundrect (at 0.901 1.499 270) (size 0.3 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 793de5d8-296a-4695-8c8a-7f4372a51644))
   (pad "14" smd roundrect (at 0.901 0 270) (size 0.3 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9f1ffdca-b353-4452-9a8f-ae27f5dd1900))
   (pad "15" smd roundrect (at 0.901 -1.5 270) (size 0.3 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 3a06eb7f-0d41-40aa-84e3-5e69839e61c6))
-  (model "${KIPRJMOD}/lib/3d-models/R-PDSO-N15.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/R-PDSO-N15.step"
     (offset (xyz -0.82 2.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

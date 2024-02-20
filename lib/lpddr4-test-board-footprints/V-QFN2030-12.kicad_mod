@@ -50,7 +50,7 @@
   (pad "10" smd rect (at 1.449 0.248 90) (size 0.35 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9cb6aea4-ec4a-41fb-b015-c15d55ea4442))
   (pad "11" smd rect (at 1.449 -0.25 90) (size 0.35 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9c2c1957-8233-460d-8f7a-ae3a1fd0bbc6))
   (pad "12" smd rect (at 1.449 -0.75 90) (size 0.35 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7f3b1797-4d67-4a50-af5b-b4505647d7ee))
-  (model "${KIPRJMOD}/lib/3d-models/V-QFN2030-12.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/V-QFN2030-12.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

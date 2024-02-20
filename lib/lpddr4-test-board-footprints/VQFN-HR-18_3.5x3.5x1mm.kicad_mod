@@ -121,7 +121,7 @@
           (xy -0.125 -0.3)
           (xy -0.125 0.3)
         ) (width 0.001) (fill yes))
-          (gr_poly (pts
+      (gr_poly (pts
           (xy 0.4548 0.3)
           (xy 0.454997 0.016207)
           (xy 0.124997 0.016207)
@@ -145,7 +145,7 @@
           (xy 0.125 -0.3)
           (xy 0.125 0.3)
         ) (width 0.001) (fill yes))
-          (gr_poly (pts
+      (gr_poly (pts
           (xy -0.4548 0.3)
           (xy -0.454997 0.016207)
           (xy -0.124997 0.016207)
@@ -168,7 +168,7 @@
           (xy -0.125 -0.3)
           (xy -0.125 0.3)
         ) (width 0.001) (fill yes))
-          (gr_poly (pts
+      (gr_poly (pts
           (xy 0.4548 0.3)
           (xy 0.454997 0.016207)
           (xy 0.124997 0.016207)
@@ -192,7 +192,7 @@
           (xy 0.125 -0.3)
           (xy 0.125 0.3)
         ) (width 0.001) (fill yes))
-          (gr_poly (pts
+      (gr_poly (pts
           (xy -0.4548 0.3)
           (xy -0.454997 0.016207)
           (xy -0.124997 0.016207)
@@ -204,7 +204,7 @@
   (pad "16" smd rect (at 0.65 -1.401) (size 0.2 0.6096) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0c60aa64-900f-4f43-9945-e3f86b5fda40))
   (pad "17" smd rect (at 0 -0.585) (size 0.2 2.243) (layers "F.Cu" "F.Mask") (tstamp 3c186616-52d4-48e9-bc86-22bcd16fe105))
   (pad "18" smd rect (at -0.652 -1.401) (size 0.2 0.6096) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7b813023-aa7a-452f-9133-995cf80bc3ee))
-  (model "${KIPRJMOD}/lib/3d-models/TPS65296RJER.stp"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/TPS65296RJER.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

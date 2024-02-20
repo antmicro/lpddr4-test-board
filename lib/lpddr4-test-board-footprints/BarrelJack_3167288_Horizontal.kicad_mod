@@ -1070,7 +1070,7 @@
   (pad "1" thru_hole oval (at 0 0 270) (size 2 4.5) (drill oval 1 3.5) (layers *.Cu *.Mask) (tstamp c0552c1e-388f-4aa8-a24e-d6a24fd615a6))
   (pad "2" thru_hole oval (at 4.879 2.948 180) (size 1.99 4) (drill oval 1 3) (layers *.Cu *.Mask) (tstamp 4fbe3337-dd18-45d6-8d28-e9397eafe690))
   (pad "3" thru_hole oval (at 0 5.999 90) (size 2 4) (drill oval 1 3) (layers *.Cu *.Mask) (tstamp 4020934b-8f83-4223-a561-345d58cd3ac0))
-  (model "${KIPRJMOD}/lib/3d-models/BarrelJack_3167288_Horizontal.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/BarrelJack_3167288_Horizontal.step"
     (offset (xyz -88.65 17.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

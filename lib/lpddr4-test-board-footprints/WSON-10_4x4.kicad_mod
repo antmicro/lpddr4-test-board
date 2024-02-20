@@ -79,7 +79,7 @@
   (pad "9" smd roundrect (at 1.961 -0.804 90) (size 0.356 0.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8a96b4c3-afc5-497e-9963-c857db47198a))
   (pad "10" smd roundrect (at 1.961 -1.603 90) (size 0.356 0.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d334bedf-9ede-4dd8-8e03-3a0a23e7fb8b))
   (pad "11" smd roundrect (at -0.038 -0.003 180) (size 2.6 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp fe4035be-cbcf-409c-b366-789e98e62f9d))
-  (model "${KIPRJMOD}/lib/3d-models/WSON-10_4x4.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/WSON-10_4x4.step"
     (offset (xyz 5.96 17.04 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

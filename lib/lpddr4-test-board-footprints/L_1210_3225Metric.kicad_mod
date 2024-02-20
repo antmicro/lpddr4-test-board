@@ -178,7 +178,7 @@
   (fp_line (start -1.527 1.249) (end -1.524 1.249) (layer "User.9") (width 0.02) (tstamp ff3d9574-b8c1-4ced-95a7-2aef6b0a0605))
   (pad "1" smd rect (at -1.439 0) (size 1.24 2.72) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a2862954-805d-465a-b806-b97198d0ab8b))
   (pad "2" smd rect (at 1.439 0) (size 1.24 2.72) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b2a144a5-5ad5-498d-af36-4132cb8f6bc8))
-  (model "${KIPRJMOD}/lib/3d-models/L_1210_3225Metric.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/L_1210_3225Metric.step"
     (offset (xyz 0.0015 -0.0005 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

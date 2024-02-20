@@ -1090,7 +1090,7 @@
   (fp_line (start 0.904 0.81) (end 0.904 0.806) (layer "User.9") (width 0.02) (tstamp ff66734e-cd83-4aaa-9ab3-925e58b0fbcd))
   (pad "1" smd rect (at -1.7 -0.349) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6a47e245-955f-4139-a79d-977f5b462fb9))
   (pad "2" smd rect (at 1.7 -0.349) (size 0.8 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3f5d3204-94d2-4cae-a49e-219dc8fe5af1))
-  (model "${KIPRJMOD}/lib/3d-models/B3U-3000P.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/B3U-3000P.step"
     (offset (xyz 0.0005 0.3485 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

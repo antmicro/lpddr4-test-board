@@ -916,7 +916,7 @@
   (pad "Y20" smd circle (at 8.5 8.5) (size 0.51 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ecb09439-962f-47fc-80ba-7f3bd4300fb2))
   (pad "Y21" smd circle (at 9.5 8.5) (size 0.51 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b537e933-e4e8-4bc8-9012-de3a6896de32))
   (pad "Y22" smd circle (at 10.5 8.5) (size 0.51 0.51) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 99f72314-6100-4cb1-99ce-ffcb21194a43))
-  (model "${KIPRJMOD}/lib/3d-models/BGA484C100P22X22_2300X2300X244N.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/BGA484C100P22X22_2300X2300X244N.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

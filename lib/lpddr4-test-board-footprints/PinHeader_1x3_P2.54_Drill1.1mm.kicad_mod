@@ -98,7 +98,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp bc83deb9-f795-4806-a7a6-e33cbad170c8))
   (pad "2" thru_hole circle (at 2.539 0) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp 88c4d874-c988-4af4-be12-82f592095e29))
   (pad "3" thru_hole circle (at 5.078 0) (size 1.7 1.7) (drill 1.1) (layers *.Cu *.Mask) (tstamp f1d640ed-7b4a-4e9a-a3de-dc81721d19d4))
-  (model "${KIPRJMOD}/lib/3d-models/61300311121.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/61300311121.step"
     (offset (xyz 2.5 0 1.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

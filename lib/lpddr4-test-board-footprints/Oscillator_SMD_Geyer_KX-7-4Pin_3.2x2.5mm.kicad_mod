@@ -875,7 +875,7 @@
   (pad "2" smd rect (at 1.199 0.949) (size 1.3 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d1b64e2d-1620-4cd6-9742-db684e99eb21))
   (pad "3" smd rect (at 1.199 -0.85) (size 1.3 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0bdcc34b-f453-4f20-9412-db1263c0e609))
   (pad "4" smd rect (at -1.101 -0.85) (size 1.3 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1a42a0cf-2415-49f3-9cd2-21dfaf637429))
-  (model "${KIPRJMOD}/lib/3d-models/Geyer_KX7.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/Geyer_KX7.step"
     (offset (xyz 0 0 -0.1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

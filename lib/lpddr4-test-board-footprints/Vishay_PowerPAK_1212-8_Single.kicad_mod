@@ -1003,7 +1003,7 @@
           (xy 1.3725 0.1275)
         ) (width 0) (fill yes))
     ) (tstamp c753f7c3-aa95-43f8-a87a-4f322cc52189))
-  (model "${KIPRJMOD}/lib/3d-models/Vishay_PowerPAK_1212-8_Single.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/Vishay_PowerPAK_1212-8_Single.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -180 0))

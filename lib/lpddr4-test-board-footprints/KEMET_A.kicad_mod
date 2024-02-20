@@ -69,7 +69,7 @@
   (fp_arc (start -1.278 -0.13) (mid -1.145 -0.165439) (end -1.012 -0.13) (layer "User.9") (width 0.02) (tstamp 852c7685-0602-4f44-825f-e881de73a6e7))
   (pad "1" smd rect (at -1.2 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3cfabc91-591f-465e-9a83-d4f7a186ef75))
   (pad "2" smd rect (at 1.2 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4e880128-4e6c-40b2-b662-d59f47f8810c))
-  (model "${KIPRJMOD}/lib/3d-models/CAP_A.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/CAP_A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

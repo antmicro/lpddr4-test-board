@@ -331,7 +331,7 @@
   (pad "6" smd roundrect (at 2.105 0.325) (size 1.556504 0.457986) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 475c98da-98c3-43c7-b84c-ec7b8207a17a))
   (pad "7" smd roundrect (at 2.105 -0.326) (size 1.556504 0.457986) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp 68ec5b42-aa4e-483e-accc-006eca77aaa0))
   (pad "8" smd roundrect (at 2.105 -0.975) (size 1.556504 0.457986) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.5) (tstamp e1203ed6-99ea-4567-a6b9-b7731d28a5d9))
-  (model "${KIPRJMOD}/lib/3d-models/VSSOP8-TI-DGK.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/VSSOP8-TI-DGK.step"
     (offset (xyz 0 -0.04 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

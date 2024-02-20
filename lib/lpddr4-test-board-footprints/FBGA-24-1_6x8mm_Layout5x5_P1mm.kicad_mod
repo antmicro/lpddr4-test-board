@@ -338,7 +338,7 @@
   (pad "E3" smd circle (at 0 1.999) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0748c11d-5304-4595-ac89-f65a7b1ab082))
   (pad "E4" smd circle (at 0.999 1.999) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2e71e178-8c09-433d-b2bf-7d8c4923a7ee))
   (pad "E5" smd circle (at 1.999 1.999) (size 0.4 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 87ffd31f-02c1-4b31-8fc5-1bc25145cda4))
-  (model "${KIPRJMOD}/lib/3d-models/FBGA-24-1_6x8mm_Layout5x5_P1mm.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/FBGA-24-1_6x8mm_Layout5x5_P1mm.step"
     (offset (xyz 0 0 0.15))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))

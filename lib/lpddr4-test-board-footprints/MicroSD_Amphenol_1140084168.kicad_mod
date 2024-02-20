@@ -1082,7 +1082,7 @@
   (pad "SH" smd rect (at 5.575 5.129) (size 1.5 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0f9e9dc7-cd2d-404e-a269-7fc320646245))
   (pad "SH" smd rect (at 5.874 -3.13 90) (size 1.5 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 410322e8-b200-46b5-96ef-71a908f16051))
   (pad "SH" smd rect (at -5.976 -2.48 90) (size 1.5 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp eb2b29b8-20a8-4148-b47e-175291f07f7b))
-  (model "${KIPRJMOD}/lib/3d-models/114-00841-68.step"
+  (model "/media/HDD/prjs/antmicro-lpddr4-test-board-hw/lib/3d-models/114-00841-68.step"
     (offset (xyz 0 0.05 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
