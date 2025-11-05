@@ -1,6 +1,6 @@
 # LPDDR4 test board
 
-Copyright (c) 2021-2023 [Antmicro](https://antmicro.com)
+Copyright (c) 2021-2025 [Antmicro](https://antmicro.com)
 
 [![LPDDR4 test board @ opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/lpddr4-test-board)
 
@@ -16,14 +16,13 @@ It can be used to investigate Rowhammer DRAM attacks.
 You can learn more about Rowhammer attacks from this blog [note](https://antmicro.com/blog/2021/08/open-source-ddr-test-framework-for-rowhammer/).
 The usage instructions for this board are also provided in the [Row Hammer Tester documentation](https://rowhammer-tester.readthedocs.io/en/latest/).
 
-The design files for this board were prepared in KiCad.
+The design files for this board were prepared in KiCad 9.x.
 
 ## Repository structure
 
 The main repository directory contains KiCad PCB project files, a LICENSE and README.
 The remaining files are stored in the following directories:
 
-* `lib` - contains the component libraries
 * `img` - contains graphics for this README
 
 ## Key features
