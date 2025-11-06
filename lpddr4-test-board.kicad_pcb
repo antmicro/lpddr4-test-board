@@ -1593711,7 +1593711,7 @@
 			)
 		)
 	)
-	(footprint "lpddr4-test-board-footprints:KEMET_A"
+	(footprint "antmicro-footprints:C_Pol_EIA-A"
 		(layer "F.Cu")
 		(uuid "b6e536bc-f2bc-447a-97e3-956f2b3f4c16")
 		(at 151.84 84.21 180)
@@ -1594305,7 +1594305,7 @@
 			(uuid "54530378-b20f-4792-b25d-417574317581")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/lib/3d-models/CAP_A.step"
+		(model "${ANT3DMDL}/C_Pol_EIA-A.step"
 			(offset
 				(xyz 0 0 0)
 			)
